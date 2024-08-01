@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Welcome!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This webpage contains guides for setting up various carts we commonly encounter over on the r/flashcarts subreddit. Carts are grouped by the hardware family they belong to. Find your cart and click on it to get taken to it's corresponding instructions page.
 
-## Commands
+If you'd like to improve this resource or add new carts, feel free to create a pull request in the GitHub repository!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Cart Guides
 
-## Project layout
+###DSTT/i Family
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [R4i-SDHC (Timebomb carts)](cart-guides/r4i-sdhc.md)
+- DSTT/i and Clones
+
+###R4iTT Family
+
+- BL2CK Carts
+
+###Acekard Family
+
+- Acekard 2/2.1/2i
+- R4 Ultra
+
+###R4 and R4SDHC Family
+
+- Ace3DS+/R4iLS
+- Original R4
+- Original R4SDHC

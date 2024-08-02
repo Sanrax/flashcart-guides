@@ -1,3 +1,7 @@
+---
+title: Timebomb Clones
+---
+
 # DSTTi Timebomb Clones (AKA DEMON HW carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 

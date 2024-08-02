@@ -1,6 +1,11 @@
 site_name: Flashcart Guides
-site_url: https://sanrax.github.io
+site_url: https://sanrax.github.io/flashcart-guides
+repo_name: Sanrax/flashcart-guides
+repo_url: https://github.com/Sanrax/flashcart-guides
 theme:
+  icon:
+    repo: fontawesome/brands/github
+    logo: simple/nodemon
   name: material
   palette:
 
@@ -14,6 +19,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default 
       primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -22,8 +28,15 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html

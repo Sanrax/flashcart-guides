@@ -2,7 +2,7 @@
 title: Original R4
 ---
 
-![Image title](https://dummyimage.com/120x120/eee/aaa){ align=right }
+![Image title](../images/r4ds.jpg){ align=right }
 # Original R4
 ## r4ds.com
 

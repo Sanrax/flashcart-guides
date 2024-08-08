@@ -2,6 +2,7 @@
 title: Original R4SDHC
 ---
 
+![Image title](../images/r4sdhc.jpg){ align=right }
 # Original R4SDHC
 ## r4sdhc.com
 

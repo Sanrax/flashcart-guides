@@ -2,6 +2,7 @@
 title: R4 DS Pro
 ---
 
+![Image title](../images/r4dspro.jpg){ align=right }
 # R4 DS Pro
 ## r4dspro.com
 

@@ -2,6 +2,7 @@
 title: R4-III / R4 Upgrade
 ---
 
+![R4 Upgrade](../images/r4upgrade.jpg){ align=right }
 # R4-III / R4 Upgrade
 ## r4dsl.net
 

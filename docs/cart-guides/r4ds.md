@@ -9,6 +9,10 @@ title: Original R4
 
     These carts are limited to SD-class cards, meaning only up to 2GB size cards will work. **SDHC and SDXC (cards above 2GB) will not work.**
 
+!!! info
+
+    The M3 Simply has identical hardware to an original R4. Therefore, it can use the same WoodR4 kernel!
+
 ### Setup Guide:
 
 1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)

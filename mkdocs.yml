@@ -6,9 +6,10 @@ theme:
   features:
     - navigation.tabs
     - content.tooltips
+  favicon: images/favicon.png
+  logo: images/web-icon.png
   icon:
     repo: fontawesome/brands/github
-    logo: simple/nodemon
   name: material
   palette:
 

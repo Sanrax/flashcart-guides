@@ -2,7 +2,7 @@
 title: DSTT/i & Clones
 ---
 
-![Image title](../images/dstt.jpg){ align=right }
+![DSTT](../images/dstt.jpg){ align=right width="115"}
 # DSTT/i & Clones
 ## ndstt.com (and many clones)
 

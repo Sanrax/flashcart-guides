@@ -1,9 +1,9 @@
 ---
-title: R4 DS Pro
+title: R4DS Pro
 ---
 
-![Image title](../images/r4dspro.jpg){ align=right }
-# R4 DS Pro
+![R4DS Pro](../images/r4dspro.jpg){ align=right width="115"}
+# R4DS Pro
 ## r4dspro.com
 
 !!! warning "Known Issues"

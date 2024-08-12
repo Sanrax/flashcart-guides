@@ -2,7 +2,7 @@
 title: Acekard 2/2.1/2i
 ---
 
-![Image title](../images/acekard.jpg){ align=right }
+![Acekard 2i](../images/acekard.png){ align=right width="115"}
 # Acekard 2/2.1/2i
 ## acekard.com
 

@@ -2,7 +2,7 @@
 title: R4 SDHC DS Happybox
 ---
 
-![Image title](../images/happybox.jpg){ align=right }
+![R4SDHC DS Happybox](../images/happybox.png){ align=right width="115"}
 # R4 SDHC DS Happybox
 ## r4isdhc.com
 

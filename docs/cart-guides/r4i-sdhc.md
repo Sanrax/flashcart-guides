@@ -2,7 +2,7 @@
 title: Timebomb Clones
 ---
 
-![Image title](../images/r4i-sdhc.jpg){ align=right }
+![r4isdhc.com 2014+](../images/r4i-sdhc.jpg){ align=right width="115"}
 # DSTTi Timebomb Clones (AKA DEMON HW carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 

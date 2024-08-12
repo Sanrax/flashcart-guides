@@ -2,7 +2,7 @@
 title: M3 DS Real
 ---
 
-![Image title](../images/m3dsreal.jpg){ align=right }
+![M3 DS Real](../images/m3dsreal.png){ align=right width="115"}
 # M3 DS Real and M3i Zero (Not GMP-Z003)
 ## m3adapter.com
 

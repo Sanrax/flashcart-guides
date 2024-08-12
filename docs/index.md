@@ -55,7 +55,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 <div class="annotate" markdown>
 
 - [**BL2CK Carts**](cart-guides/bl2ck.md) - See cart list (1)
-- [**R4 DS Pro**](cart-guides/r4dspro.md) - r4dspro.com
+- [**R4DS Pro**](cart-guides/r4dspro.md) - r4dspro.com
 
 </div>
 

@@ -2,7 +2,7 @@
 title: R4 Deluxe
 ---
 
-![Image title](../images/r4deluxe.jpg){ align=right }
+![R4 Deluxe](../images/r4deluxe.png){ align=right width="115"}
 # R4 Deluxe
 ## r4deluxe.com
 

@@ -2,7 +2,7 @@
 title: R4 Ultra/R4i Ultra
 ---
 
-![Image title](../images/r4ultra.jpg){ align=right }
+![R4 Ultra](../images/r4ultra.jpg){ align=right width="115"}
 # R4 Ultra/R4i Ultra
 ## r4ultra.com
 

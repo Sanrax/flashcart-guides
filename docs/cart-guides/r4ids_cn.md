@@ -2,7 +2,7 @@
 title: R4i+ Gold & R4i 3DS RTS 
 ---
 
-![Image title](../images/r4ids_cn.jpg){ align=right }
+![r4ids.cn](../images/r4ids_cn.png){ align=right width="115"}
 # R4i+ 3DS/DS Gold & R4i 3DS RTS 
 ## r4ids.cn
 

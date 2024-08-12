@@ -8,6 +8,8 @@ This webpage contains guides for setting up various carts we commonly encounter 
 
 If you'd like to improve this resource or add new carts, feel free to create a pull request in the GitHub repository!
 
+[Hover me](https://example.com "<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"> ")
+
 ## Cart Guides
 
 ---

@@ -2,7 +2,7 @@
 title: Original R4
 ---
 
-![Image title](../images/r4ds.jpg){ align=right }
+![Image title](../images-full/r4ds.png){ align=right width="115"}
 # Original R4
 ## r4ds.com
 

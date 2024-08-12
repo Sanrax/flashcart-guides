@@ -5,6 +5,7 @@ repo_url: https://github.com/Sanrax/flashcart-guides
 theme:
   features:
     - navigation.tabs
+    - content.tooltips
   icon:
     repo: fontawesome/brands/github
     logo: simple/nodemon

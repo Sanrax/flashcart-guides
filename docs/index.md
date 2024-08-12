@@ -4,11 +4,9 @@ title: Home
 
 # Welcome!
 
-This webpage contains guides for setting up various carts we commonly encounter over on the r/flashcarts subreddit. Carts are grouped by the hardware family they belong to. Find your cart and click on it to get taken to its corresponding instructions page.
+This webpage contains guides for setting up various carts we commonly encounter over on the r/flashcarts subreddit. Carts are grouped by the hardware family they belong to. Find your cart and click on it to get taken to its corresponding instructions page. You can also hover over links to see a cart preview.
 
 If you'd like to improve this resource or add new carts, feel free to create a pull request in the GitHub repository!
-
-[Hover me](https://example.com "<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"> ")
 
 ## Cart Guides
 
@@ -16,24 +14,24 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ### DSTT/i Family
 
-- [**Timebomb Carts**](cart-guides/r4i-sdhc.md) - r4isdhc.com 2014+, r4i-sdhc.com, and more
-- [**DSTT/i and Clones**](cart-guides/dstti.md) - [See YSMenu Compatibility List](https://www.flashcarts.net/ysmenu-compat-ext)
-- [**R4i SDHC Renovation V2.10T & V2.20T**](cart-guides/v2_10T.md) - r4sdhc.com
-- [**R4i SDHC Brand New V2.0**](cart-guides/v2_0.md) - r4isdhc.com
+- [**Timebomb Carts**](cart-guides/r4i-sdhc.md "<img src="images/r4i-sdhc.jpg" alt="r4isdhc.com 2014+" width="100">") - r4isdhc.com 2014+, r4i-sdhc.com, and more
+- [**DSTT/i and Clones**](cart-guides/dstti.md "<img src="images/dstt.jpg" alt="DSTT" width="100">") - [See YSMenu Compatibility List](https://www.flashcarts.net/ysmenu-compat-ext)
+- [**R4i SDHC Renovation V2.10T & V2.20T**](cart-guides/v2_10T.md "<img src="images/v2_10T.jpg" alt="R4i SDHC Renovation V2.10T & V2.20T" width="100">") - r4sdhc.com
+- [**R4i SDHC Brand New V2.0**](cart-guides/v2_0.md "<img src="images/v2_0.png" alt="R4i SDHC Brand New V2.0" width="100">") - r4isdhc.com
 
 ### R4 and R4SDHC Family
 
 <div class="annotate" markdown>
 
 - [**Ace3DS+/R4iLS**](cart-guides/ace3ds_r4ils.md) - See cart list (1)
-- [**Original R4**](cart-guides/r4ds.md) - r4ds.com
-- [**M3 Simply**](cart-guides/r4ds.md) - m3adapter.com
-- [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md) - r4ids.cn
-- [**Original R4SDHC**](cart-guides/r4sdhc.md) - r4sdhc.com
-- [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md) - r4dsl.net
-- [**N5**](cart-guides/n5.md) - dsn5.com
-- [**R4 Deluxe**](cart-guides/r4deluxe.md) - r4deluxe.com
-- [**R4DS Happybox**](cart-guides/happybox.md) - r4isdhc.com
+- [**Original R4**](cart-guides/r4ds.md "<img src="images/r4ds.png" alt="R4DS" width="100">") - r4ds.com
+- [**M3 Simply**](cart-guides/r4ds.md "<img src="images/m3simply.jpg" alt="M3 Simply" width="100">") - m3adapter.com
+- [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
+- [**Original R4SDHC**](cart-guides/r4sdhc.md "<img src="images/r4sdhc.png" alt="Original R4SDHC" width="100">") - r4sdhc.com
+- [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
+- [**N5**](cart-guides/n5.md "<img src="images/n5.jpg" alt="N5" width="100">") - dsn5.com
+- [**R4 Deluxe**](cart-guides/r4deluxe.md "<img src="images/r4deluxe.png" alt="R4 Deluxe" width="100">") - r4deluxe.com
+- [**R4DS Happybox**](cart-guides/happybox.md "<img src="images/happybox.png" alt="R4 SDHC Happybox" width="100">") - r4isdhc.com
 
 </div>
 
@@ -55,7 +53,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 <div class="annotate" markdown>
 
 - [**BL2CK Carts**](cart-guides/bl2ck.md) - See cart list (1)
-- [**R4DS Pro**](cart-guides/r4dspro.md) - r4dspro.com
+- [**R4DS Pro**](cart-guides/r4dspro.md "<img src="images/r4dspro.jpg" alt="R4DS Pro" width="100">") - r4dspro.com
 
 </div>
 
@@ -88,9 +86,9 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ### Acekard Family
 
-- [**Acekard 2/2.1/2i**](cart-guides/acekard.md) - acekard.com
-- [**R4 Ultra**](cart-guides/r4ultra.md) - r4ultra.com
+- [**Acekard 2/2.1/2i**](cart-guides/acekard.md "<img src="images/acekard.png" alt="Acekard 2i" width="100">") - acekard.com
+- [**R4 Ultra**](cart-guides/r4ultra.md "<img src="images/r4ultra.jpg" alt="R4 Ultra" width="100">") - r4ultra.com
 
 ### M3 Family
 
-- [**M3 DS Real**](cart-guides/m3dsreal.md) - m3adapter.com
+- [**M3 DS Real**](cart-guides/m3dsreal.md "<img src="images/m3dsreal.png" alt="M3 DS Real" width="100">") - m3adapter.com

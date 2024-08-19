@@ -10,7 +10,11 @@ title: Setting Up TWiLight Menu++ On Flashcarts
 
     !!! info
     
-        This tab applies to you if your cart is compatible with YSMenu. It will setup YSMenu as well as TWiLight, so that you can choose to use YSMenu as your game loader in TWiLight Menu++.
+        This tab applies to you if your cart is [compatible with YSMenu.](https://www.flashcarts.net/ysmenu-compat-ext) It will setup YSMenu as well as TWiLight, so that you can choose to use YSMenu as your game loader in TWiLight Menu++.
+
+    !!! note
+    
+        This guide assumes your cart is listed under `DSTTi-Clone YSMenu`, `R4i-SDHC YSMenu`, or `DSOnei SDHC YSMenu` in the [compatibility list.](https://www.flashcarts.net/ysmenu-compat-ext) **All of these carts can use the guide below without modification.** If you're using an M3 or R4SDHC cart, use their respective folders to source files from instead of `DSTTi-Clone YSMenu` in step 3/4.
 
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 

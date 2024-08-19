@@ -43,7 +43,10 @@ title: Setting Up TWiLight Menu++ On Flashcarts
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into TWiLight.
 
-    1. *[Optional - Skip this to use nds-bootstrap loader]* - Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so that YSMenu is used instead of TWiLight's NDS-Bootstrap.
+    !!! info "Switching Loaders between YSMenu and Bootstrap"
+        
+        TWiLight Menu++ defaults to using nds-bootstrap for all games. If you'd like to boot a title with YSMenu instead, click `Y` with the game selected, and set the game loader to "Kernel".
+
 
 === "All Other Carts"
 
@@ -68,4 +71,6 @@ title: Setting Up TWiLight Menu++ On Flashcarts
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into TWiLight.
 
-    1. *[Optional - Skip this to use nds-bootstrap loader]* - Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so that your flashcart's native loader is used instead of TWiLight's NDS-Bootstrap.
+    !!! info "Switching Loaders between YSMenu and Bootstrap"
+        
+        TWiLight Menu++ defaults to using nds-bootstrap for all games. If you'd like to boot a title with YSMenu instead, click `Y` with the game selected, and set the game loader to "Kernel".

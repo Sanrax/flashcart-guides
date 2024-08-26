@@ -1,8 +1,8 @@
 ---
-title: Setting Up TWiLight Menu++ On Flashcarts
+title: Setting Up TWiLight Menu++ As Primary Kernel
 ---
 
-# Setting Up TWiLight Menu++ On Flashcarts
+# Setting Up TWiLight Menu++ As Primary Kernel
 
 ### Setup Guide:
 
@@ -43,9 +43,11 @@ title: Setting Up TWiLight Menu++ On Flashcarts
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into TWiLight.
 
-    !!! info "Switching Loaders between YSMenu and Bootstrap"
-        
+    !!! info "Switching Loaders Between YSMenu and NDS-Bootstrap"
+    
         TWiLight Menu++ defaults to using nds-bootstrap for all games. If you'd like to boot a title with YSMenu instead, click `Y` with the game selected, and set the game loader to "Kernel".
+    
+        You can also set YSMenu as the default TWiLight loader to use it for all games rather than specific ones. If you'd prefer this behavior, do the following: Open TWLMenu++ Settings, switch to the `Games and Apps Settings` page, then set `Game Loader` to `Kernel`.
 
 
 === "All Other Carts"
@@ -64,13 +66,16 @@ title: Setting Up TWiLight Menu++ On Flashcarts
 
     1. Next navigate to the `Flashcart Loader` folder. Inside you will find a `README.txt` file. Open this file and locate your cart. This will tell you what folder corresponds to your cart.
 
-    !!! note
-        If you are unable to find your cart in the list, it doesn't have a loader that is compatible with TWiLight. Therefore, you will only be able to use NDS-Bootstrap to load games. Skip this and the following step.
+        !!! note
+            
+            If you are unable to find your cart in the list, it doesn't have a loader that is compatible with TWiLight. Therefore, you will only be able to use NDS-Bootstrap to load games. Skip this, and the following step.
 
     1. After identifying the correct folder for your particular cart, open that folder and copy its contents to your SD card root.
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into TWiLight.
 
-    !!! info "Switching Loaders between YSMenu and Bootstrap"
+    !!! info "Switching Loaders Between Flashcart Kernel and NDS-Bootstrap"
         
-        TWiLight Menu++ defaults to using nds-bootstrap for all games. If you'd like to boot a title with YSMenu instead, click `Y` with the game selected, and set the game loader to "Kernel".
+        TWiLight Menu++ defaults to using nds-bootstrap for all games. If you'd like to boot a title with your flashcart kernel instead, click `Y` with the game selected, and set the game loader to "Kernel".
+
+        You can also set your native kernel as the default TWiLight loader to use it for all games rather than specific ones. If you'd prefer this behavior, do the following: Open TWLMenu++ Settings, switch to the `Games and Apps Settings` page, then set `Game Loader` to `Kernel`.

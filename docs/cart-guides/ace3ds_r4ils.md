@@ -13,7 +13,7 @@ title: Ace3DS+/X & R4iLS
 
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
     
-    1. Download the [Ace3DS+/R4iLS WoodR4 1.62 kernel.](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+    1. Download the [Ace3DS+/R4iLS WoodR4 1.62 kernel.](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
     
     1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
     

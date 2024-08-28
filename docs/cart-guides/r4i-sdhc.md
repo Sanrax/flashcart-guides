@@ -34,7 +34,7 @@ title: Timebomb Clones
 
 !!! note
 
-    **If after following the steps above,** you end up at a `MENU?` screen, your cart requires the [flashcard-bootstrap version `R4.dat`.](https://flashcard-archive.ds-homebrew.com/YSMenu/DEMON_common/R4.dat)
+    **If after following the steps above,** you end up at a `MENU?` screen, your cart requires the [flashcard-bootstrap version `R4.dat`.](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat)
     
     Copy the new `R4.dat` file into SD card root, and replace the existing one.
 

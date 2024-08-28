@@ -12,7 +12,7 @@ title: Acekard 2/2.1/2i
 
 1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 
-1. Download the [AKAIO 1.9.0 kernel.](https://flashcard-archive.ds-homebrew.com/acekard.com/AceKard_2i/AKAIO_1.9.0-20121129.zip)
+1. Download the [AKAIO 1.9.0 kernel.](https://archive.flashcarts.net/acekard.com/AceKard_2i/AKAIO_1.9.0-20121129.zip)
 
 1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
 

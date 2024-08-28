@@ -46,7 +46,7 @@ title: M3 DS Real
     
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
     
-    1. Download the [Sakura 1.49a kernel.](https://flashcard-archive.ds-homebrew.com/m3adapter.com/m3adapter.com_GMP-Z003_Sakura_1.49a.zip)
+    1. Download the [Sakura 1.49a kernel.](https://archive.flashcarts.net/m3adapter.com/m3adapter.com_GMP-Z003_Sakura_1.49a.zip)
     
     1. Extract *the contents* of the Sakura zip to your SD card's root. (It should just be a single `SYSTEM` folder)
     

@@ -19,7 +19,7 @@ title: BL2CK Carts
 
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
     
-    1. Download the [BL2CK 1.31.0 kernel.](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
+    1. Download the [BL2CK 1.31.0 kernel.](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0.zip)
     
     1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
     
@@ -35,7 +35,7 @@ title: BL2CK Carts
 
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
     
-    1. Download the [BL2CK 1.31.0 Amaze3DS kernel.](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0_Amaze3DS.zip)
+    1. Download the [BL2CK 1.31.0 Amaze3DS kernel.](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0_Amaze3DS.zip)
     
     1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
     

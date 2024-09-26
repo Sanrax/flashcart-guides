@@ -12,11 +12,15 @@ title: R4DS Pro
     
     1. The SD access on this cart is fairly slow due to being limited to single-block writes. (If a multi-block DLDI is used, the SD card filesystem gets corrupted)
     
-    1. Like the EZ-Flash Parallel, sleep mode on this cart is broken. Closing the DS lid causes the screen to turn off, but the game continues to run.
+    2. Like the EZ-Flash Parallel, sleep mode on this cart is broken. Closing the DS lid causes the screen to turn off, but the game continues to run.
 
-    1. BL2CK on this cart also has a few minor issues with some games, that don't occur on other BL2CK-supported carts. For example in New Super Mario Bros, the minigames do not work.
+    3. BL2CK on this cart also has a few minor issues with some games, that don't occur on other BL2CK-supported carts. For example in New Super Mario Bros, the minigames do not work.
 
-    1. Attempting to use the WFC settings panel (Found in games that support online multiplayer), can cause the console to crash.
+    4. Attempting to use the WFC settings panel (Found in games that support online multiplayer), can cause the console to crash.
+
+!!! danger "Warning"
+
+    Never attempt to use YSMenu on the R4DS Pro! You will **brick** the cart!
 
 ### Setup Guide:
 

@@ -37,8 +37,10 @@ title: Timebomb Clones
     **If after following the steps above,** you end up at a `MENU?` screen, your cart requires the [flashcard-bootstrap version `R4.dat`.](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat)
     
     Copy the new `R4.dat` file into SD card root, and replace the existing one.
-
----
+    
+    ---
+    
+    Note that the **bootstrap requires a 4GB or larger SD card** to work. 2GB and smaller cards will cause a `FAT init fail` error.
 
 !!! info "Timebombs"
 

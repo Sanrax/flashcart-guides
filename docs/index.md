@@ -93,7 +93,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 - [**M3 DS Real**](cart-guides/m3dsreal.md "<img src="images/m3dsreal.png" alt="M3 DS Real" width="100">") - m3adapter.com
 - [**iTouchDS**](cart-guides/itouchds.md "<img src="images/itouchds.png" alt="M3 DS Real" width="100">") - m3adapter.com
-- [**R4iSDHC RTS Black**](cart-guides/rts_black.md "<img src="images/r4rts.jpg" alt="M3 DS Real" width="100">") - r4isdhc.com
-- [**R4i SDHC RTS**](cart-guides/r4rts.md "<img src="images/rts_black.jpg" alt="M3 DS Real" width="100">") - r4rts.com
+- [**R4iSDHC RTS Black**](cart-guides/rts_black.md "<img src="images/rts_black.jpg" alt="M3 DS Real" width="100">") - r4isdhc.com
+- [**R4i SDHC RTS**](cart-guides/r4rts.md "<img src="images/r4rts.jpg" alt="M3 DS Real" width="100">") - r4rts.com
 
 &nbsp;

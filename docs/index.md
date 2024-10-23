@@ -24,6 +24,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 <div class="annotate" markdown>
 
 - [**Ace3DS+/R4iLS**](cart-guides/ace3ds_r4ils.md) - See cart list (1)
+- [**Gateway Blue**](cart-guides/gwblue.md "<img src="images/gwblue.png" alt="Gateway Blue" width="100">") - gateway-3ds.com
 - [**Original R4**](cart-guides/r4ds.md "<img src="images/r4ds.png" alt="R4DS" width="100">") - r4ds.com
 - [**M3 Simply**](cart-guides/r4ds.md "<img src="images/m3simply.jpg" alt="M3 Simply" width="100">") - m3adapter.com
 - [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn

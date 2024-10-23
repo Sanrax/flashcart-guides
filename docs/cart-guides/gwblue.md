@@ -2,6 +2,7 @@
 title: Gateway Blue
 ---
 
+![Gateway Blue](../images/gwblue.png){ align=right width="115"}
 # Gateway Blue
 ## gateway-3ds.com
 

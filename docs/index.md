@@ -91,6 +91,10 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**Acekard 2/2.1/2i**](cart-guides/acekard.md "<img src="images/acekard.png" alt="Acekard 2i" width="100">") - acekard.com
 - [**R4 Ultra**](cart-guides/r4ultra.md "<img src="images/r4ultra.jpg" alt="R4 Ultra" width="100">") - r4ultra.com
 
+### SuperCard Family
+
+- [**DSOne SDHC**](cart-guides/dsone.md "<img src="images/dsone.png" alt="DSOne" width="100">") - supercard.sc
+
 ### M3 Family
 
 - [**M3 DS Real**](cart-guides/m3dsreal.md "<img src="images/m3dsreal.png" alt="M3 DS Real" width="100">") - m3adapter.com

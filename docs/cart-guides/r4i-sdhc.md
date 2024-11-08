@@ -12,36 +12,69 @@ title: Timebomb Clones
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+=== "YSMenu"
 
-1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
+    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 
-1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `R4i-SDHC YSMenu` folder.
+    1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
 
-1. From this folder, copy the following files/folders to your SD card root:
+    1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `R4i-SDHC YSMenu` folder.
 
-    - `Games` folder
+    1. From this folder, copy the following files/folders to your SD card root:
 
-    - `TTMenu` folder
+        - `Games` folder
 
-    - `R4.dat`
+        - `TTMenu` folder
 
-    - `TTMenu.dat`
+        - `R4.dat`
 
-1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+        - `TTMenu.dat`
 
-1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 
-!!! note
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-    **If after following the steps above,** you end up at a `MENU?` screen, your cart requires the [flashcard-bootstrap version `R4.dat`.](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat)
+    !!! note
+
+        **If after following the steps above,** you end up at a `MENU?` screen, your cart requires the [flashcard-bootstrap version `R4.dat`.](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat)
     
-    Copy the new `R4.dat` file into SD card root, and replace the existing one.
+        Copy the new `R4.dat` file into SD card root, and replace the existing one.
     
-    ---
+        ---
     
-    Note that the **bootstrap requires a 4GB or larger SD card** to work. 2GB and smaller cards will cause a `FAT init fail` error.
+        Note that the **bootstrap requires a 4GB or larger SD card** to work. 2GB and smaller cards will cause a `FAT init fail` error.
 
-!!! info "Timebombs"
+=== "MultiMenuDS"
 
-    Setting up YSMenu also bypasses the timebomb these carts usually have, as the timebomb is built into the stock kernel, downloaded from the cart manufacturer's official website. YSMenu doesn't have one.
+    !!! info
+
+        MultiMenuDS is a kernel that provides an AKMenu/Wood style frontend while using the TTMenu game loader. It supports Acekard themes & cheats and is also able to make use of nds-bootstrap.
+
+    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+
+    1. Download the [MultiMenu R4i SDHC DEMON Package.](https://github.com/coderkei/MultiMenuDS/releases/latest/download/DEMON_MultiMenu.zip)
+
+    1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
+
+    1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `TTMenu/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+
+    1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
+
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    1. (Optional) Download the [nds-bootstrap package](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip) and extract it. Copy `nds-bootstrap-release.nds` to the `_nds` folder on your SD card.
+
+    !!! tip
+
+        This kernel uses the TTMenu game loader which some ROM Hacks are not compatible with. If you get an error code when loading a ROM Hack, Follow Step 8 above. Afterwards highlight the game and press `Y` and then press `Y` again for Game Settings. Change option under `Use ROM loader` from `default` to `nds-bootstrap`. Press `A` to save.
+
+
+!!! info "Timebombs & RTS Firmware"
+
+    Setting up these firmwares also bypasses the timebomb these carts usually have, as the timebomb is built into the stock kernel, downloaded from the cart manufacturer's official website.
+
+    If you'd like to use RTS (Real-Time-Save), you can also use a modified version of cart's stock kernel with the timebomb removed, provided below. Do keep in mind though that game compatibility won't be as good as YSMenu or MultiMenuDS, and the RTS feature itself can be hit-or-miss.
+
+    - [Download r4i-sdhc.com_DEMON_1.85b-notimebomb](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)

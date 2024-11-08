@@ -48,10 +48,10 @@ title: R4i SDHC RTS
 
     !!! tip
 
-        This kernel uses the TTMenu game loader which some ROM Hacks are not compatible with. If you get an error code when loading a ROM Hack, Follow Step 8 above. Afterwards highlight the game and press `Y` and then press `Y` again for Game Settings. Change option under `Use ROM loader` from `default` to `nds-bootstrap`. Press `A` to save.
+        This kernel uses the TTMenu game loader which some ROM Hacks are not compatible with. If you get an error code when loading a ROM Hack, follow Step 8 above. Afterwards, highlight the game and press `Y`, then press `Y` again for Game Settings. Change option under `Use ROM loader` from `default` to `nds-bootstrap`. Press `A` to save.
 
 !!! tip
 
     If you'd like to use RTS (Real-Time-Save), you can also use the cart's stock kernel, provided below. Do keep in mind though that game compatibility won't be as good as YSMenu, and the RTS feature itself can be hit-or-miss.
 
-    - [Download r4rts.com Kernel 2.8a](https://archive.flashcarts.net/r4rts.com/old/r4rts.com_Kernel_2.8a.zip)
+     - [Download r4rts.com Kernel 2.8a](https://archive.flashcarts.net/r4rts.com/old/r4rts.com_Kernel_2.8a.zip)

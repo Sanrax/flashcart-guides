@@ -48,7 +48,7 @@ title: Timebomb Clones
 
     !!! info
 
-        MultiMenuDS is a kernel that provides an AKMenu/Wood style frontend while using the TTMenu game loader. It supports Acekard themes & cheats and is also able to make use of nds-bootstrap.
+        MultiMenuDS is a kernel that provides an AKMenu/Wood style frontend while using the TTMenu game loader. It supports Acekard/WoodR4 themes & cheats and is also able to make use of nds-bootstrap.
 
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 
@@ -68,15 +68,14 @@ title: Timebomb Clones
 
     !!! tip
 
-        This kernel uses the TTMenu game loader which some ROM Hacks are not compatible with. If you get an error code when loading a ROM Hack, Follow Step 8 above. Afterwards highlight the game and press `Y` and then press `Y` again for Game Settings. Change option under `Use ROM loader` from `default` to `nds-bootstrap`. Press `A` to save.
+        This kernel uses the TTMenu game loader which some ROM Hacks are not compatible with. If you get an error code when loading a ROM Hack, follow Step 8 above. Afterwards, highlight the game and press `Y`, then press `Y` again for Game Settings. Change option under `Use ROM loader` from `default` to `nds-bootstrap`. Press `A` to save.
 
+!!! info "Timebombs & RTS Kernel"
 
-!!! info "Timebombs & RTS Firmware"
+    Setting up YSMenu or MultiMenu also bypasses the timebomb these carts usually have, as the timebomb is built into the stock kernel, downloaded from the cart manufacturer's official website.
 
-    Setting up these firmwares also bypasses the timebomb these carts usually have, as the timebomb is built into the stock kernel, downloaded from the cart manufacturer's official website.
+    If you'd like to use RTS (Real-Time-Save), you can use the stock kernel, provided below. Do keep in mind though that the RTS feature itself can be hit-or-miss and this kernel has a timebomb set to September 3rd, 2024. If you use this kernel, set your console to an earlier date to avoid the timebomb error.
 
-    If you'd like to use RTS (Real-Time-Save), you can use the stock kernel, provided below. Do keep in mind though the RTS feature itself can be hit-or-miss and this kernel has a timebomb set to September 3rd 2024. If you use this kernel please set your console's date to an earlier date.
+     - For carts with `R4i-SDHC.COM` written on them, [download the 1.85b kernel.](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b.zip)
 
-    - For carts with `R4I-SDHC.COM` written on them [Download the 1.85b firmware.](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b.zip)
-
-    - For carts with `r4isdhc.com` written on them and a year of 2014 or newer, [Download the 4.0b firmware.](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2023_DEMON_4.0b.zip)
+     - For carts with `r4isdhc.com` written on them (year 2014+), [download the 4.0b kernel.](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2023_DEMON_4.0b.zip)

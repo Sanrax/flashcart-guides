@@ -75,6 +75,8 @@ title: Timebomb Clones
 
     Setting up these firmwares also bypasses the timebomb these carts usually have, as the timebomb is built into the stock kernel, downloaded from the cart manufacturer's official website.
 
-    If you'd like to use RTS (Real-Time-Save), you can also use a modified version of cart's stock kernel with the timebomb removed, provided below. Do keep in mind though that game compatibility won't be as good as YSMenu or MultiMenuDS, and the RTS feature itself can be hit-or-miss.
+    If you'd like to use RTS (Real-Time-Save), you can use the stock kernel, provided below. Do keep in mind though that game compatibility won't be as good as YSMenu or MultiMenuDS, and the RTS feature itself can be hit-or-miss. This kernel has a timebomb set to September 3rd 2024. If you use this kernel please set your console's date to an earlier date.
 
-    - [Download r4i-sdhc.com_DEMON_1.85b-notimebomb](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
+    - For carts with `R4I-SDHC.COM` written on them [Download the 1.85b firmware.](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b.zip)
+
+    - For carts with `r4isdhc.com` written on them and a year of 2014 or newer, [Download the 4.0b firmware.](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2023_DEMON_4.0b.zip)

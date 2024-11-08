@@ -40,4 +40,4 @@ title: MultiMenuDS Bootstrap
 
 !!! warning
 
-    MultiMenuDS currently does not have support for the apfix.pack file that Twilightmenu++ or NTR Forwarder uses, therefore some games may required being AP Patched to work correctly. You can use RetroGameFan NDS Rom Tool to patch games that may need it: [RetroGameFan NDS ROM Tool](https://gbatemp.net/download/35735/)
+    MultiMenuDS currently does not have support for the apfix.pack file that Twilightmenu++ or NTR Forwarder uses, therefore some games may required being AP Patched to work correctly. You can use RetroGameFan NDS Rom Tool to patch games that may need it: [Download RetroGameFan NDS ROM Tool](https://gbatemp.net/download/35735/)

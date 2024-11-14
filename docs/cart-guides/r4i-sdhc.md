@@ -16,7 +16,7 @@ title: Timebomb Clones
 
 1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
 
-1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `R4i-SDHC YSMenu` folder.
+1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `DSTTi-Clone YSMenu` folder.
 
 1. From this folder, copy the following files/folders to your SD card root:
 
@@ -24,23 +24,13 @@ title: Timebomb Clones
 
     - `TTMenu` folder
 
-    - `R4.dat`
-
     - `TTMenu.dat`
+
+1. Download [this R4.dat](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat), and place it in SD card root as well.
 
 1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-!!! note
-
-    **If after following the steps above,** you end up at a `MENU?` screen, your cart requires the [flashcard-bootstrap version `R4.dat`.](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat)
-    
-    Copy the new `R4.dat` file into SD card root, and replace the existing one.
-    
-    ---
-    
-    Note that the **bootstrap requires a 4GB or larger SD card** to work. 2GB and smaller cards will cause a `FAT init fail` error.
 
 !!! info "Timebombs"
 

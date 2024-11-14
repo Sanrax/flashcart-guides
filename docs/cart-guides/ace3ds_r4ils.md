@@ -37,6 +37,6 @@ title: Ace3DS+/X & R4iLS
     
         AceOS is a version of the kernel that includes a custom start menu allowing you to boot into various preloaded emulators, apps, and hypervisors; GBARunner2 and 3, GameYob, NesDS, Moonshell2, and others.
     
-    To set it up, follow the [AOS readme.](https://github.com/flashcarts/AOS/#setup)
+    To set up AceOS on your cart, follow the instructions found in the [AOS README.](https://github.com/flashcarts/AOS/#setup)
 
-    All carts that are supported by Ace WoodR4 will be able to AceOS as well.
+    All carts that are supported by Ace WoodR4 will be able to run AceOS as well.

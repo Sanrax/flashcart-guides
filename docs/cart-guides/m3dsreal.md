@@ -6,9 +6,11 @@ title: M3 DS Real
 # M3 DS Real and M3i Zero (Not GMP-Z003)
 ## m3adapter.com
 
-!!! info "Sakura Kernel"
+!!! info
 
-    If you'd like to dual boot YSMenu and the cart's stock kernel (Sakura), then follow this guide. To use YSMenu as primary kernel, follow the guide below.
+    The M3 DS Real is the second Slot-1 flashcart from the M3 Adapter team. The M3 team disappeared around 2011, and the Sakura kernel hasn't been updated since then. That means some games released later on in the DS lifecycle don't actually boot in the Sakura/Touchpod kernel, due to missing compatibility patches. To fix this issue, it's recommended to have either run YSMenu as replacement kernel, or Sakura with YSMenu as fallback, if you choose to keep Sakura as the primary kernel.
+
+    While this cart does support SDHC SD cards, Sakura/TouchPod has issues with cards that are 64GB or larger. The nds loader will simply refuse to load games, or load the game but crash/freeze soon after. However, YSMenu handles 64GB and larger cards just fine on the M3 DS Real, when configured as primary kernel.
 
 ### Setup Guide:
 
@@ -40,9 +42,7 @@ title: M3 DS Real
 
     !!! info "Sakura Kernel"
     
-        Sakura is the official kernel of the M3 DS Real and M3i Zero. It's based on Moonshell 2, with a custom NDS loader. It also offers a couple unique features like RTS (Real-Time-Save), not found in YSMenu.
-        
-        The M3 team disappeared around 2011, and the Sakura kernel hasn't been updated since then. That means some games released later on in the DS lifecycle don't actually boot in the Sakura/Touchpod kernel, due to missing compatibility patches. To fix this issue, it's recommended to have YSMenu alongside Sakura, if you choose to keep Sakura as primary kernel.
+        Sakura is the official kernel of the M3 DS Real and M3i Zero. It's based on Moonshell 2, with a custom NDS loader. It also offers a couple unique features like RTS (Real-Time-Save), not found in YSMenu. Because it's based on Moonshell2, it also provides media playback directly in the kernel menu, which can be pretty convenient. This tab will help you setup Sakura with YSMenu, so that you can use Sakura as primary and fallback to YSMenu when necessary, for games that don't load in Sakura.
     
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
     

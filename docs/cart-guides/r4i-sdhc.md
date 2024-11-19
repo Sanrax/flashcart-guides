@@ -26,7 +26,7 @@ title: Timebomb Clones
 
     - `TTMenu.dat`
 
-1. Download [this R4.dat](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat), and place it in SD card root as well.
+1. Download [this `R4.dat`](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat), and place it in SD card root as well.
 
 1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 

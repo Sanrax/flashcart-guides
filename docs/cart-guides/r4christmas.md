@@ -14,7 +14,7 @@ title: R4SDHC Christmas
 
 1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 
-1. Download the [R4SDHC Christmas YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_Original_1.19B_YSMenu_7.06-R3.zip)
+1. Download the [R4SDHC Christmas YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/R4SDHC_Christmas_YSMenu_7.06.zip)
 
 1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
 

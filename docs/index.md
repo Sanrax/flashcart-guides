@@ -30,6 +30,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**M3 Simply**](cart-guides/r4ds.md "<img src="images/m3simply.jpg" alt="M3 Simply" width="100">") - m3adapter.com
 - [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
 - [**Original R4SDHC**](cart-guides/r4sdhc.md "<img src="images/r4sdhc.png" alt="Original R4SDHC" width="100">") - r4sdhc.com
+- [**R4SDHC Christmas**](cart-guides/r4christmas.md "<img src="images/r4christmas.jpg" alt="R4SDHC Christmas" width="100">") - r4isdhc.com
 - [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
 - [**N5**](cart-guides/n5.md "<img src="images/n5.jpg" alt="N5" width="100">") - dsn5.com
 - [**R4 Deluxe**](cart-guides/r4deluxe.md "<img src="images/r4deluxe.png" alt="R4 Deluxe" width="100">") - r4deluxe.com

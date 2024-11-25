@@ -48,15 +48,15 @@ title: DSTTi DEMON-HW Carts
 
     1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
 
-    1. Download the appropriate kernel for your cart:
+    1. Download the appropriate kernel for your cart below:
 
-        - r4isdhc.com v4.3b kernel
+        - [**r4isdhc.com** v4.3b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_DEMON_4.3b.zip)
 
-        - r4i-sdhc.com v1.87b kernel
+        - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
 
     1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
 
-    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
 
     1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 

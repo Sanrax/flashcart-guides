@@ -40,9 +40,9 @@ title: Setting up Emulators
     
     === "GBARunner3"
         
-        1. Download the [GBARunner3 zip file.](https://files.deletecat.com/GBARunner3.zip)
+        1. Download the [GBARunner3 zip file.](https://files.deletecat.com/GBARunner3-hicode.zip)
         
-        1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
+        1. Open/extract `GBARunner3-hicode.zip`, and copy *the contents* into the root of your SD card.
         
         1. Download the [GBARunner3 frontend.](https://github.com/flashcarts/gbar3-frontend/releases/download/v0.9.0-fcnet3/gbar3-frontend.nds)
        

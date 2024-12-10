@@ -30,7 +30,7 @@ title: EZ-Flash Parallel
 
 1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
 
-1. A cheat database is included, but if you want to use a different, one download the DSJ [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
+1. A cheat database is included, but if you want to use a different one, download the DSJ [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
 
 1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `__ezds/cheats/` on your SD card and overwrite the old one.
 

@@ -29,6 +29,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**Original R4**](cart-guides/r4ds.md "<img src="images/r4ds.png" alt="R4DS" width="100">") - r4ds.com
 - [**M3 Simply**](cart-guides/r4ds.md "<img src="images/m3simply.jpg" alt="M3 Simply" width="100">") - m3adapter.com
 - [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
+- [**R4i Gold (Non-3DS)**](cart-guides/r4ids_cn_non_3ds.md "<img src="images/r4idscn_non3ds.png" alt="r4ids.cn" width="100">") - r4ids.cn
 - [**Original R4SDHC**](cart-guides/r4sdhc.md "<img src="images/r4sdhc.png" alt="Original R4SDHC" width="100">") - r4sdhc.com
 - [**R4SDHC Christmas**](cart-guides/r4christmas.md "<img src="images/r4christmas.jpg" alt="R4SDHC Christmas" width="100">") - r4isdhc.com
 - [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
@@ -102,5 +103,9 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**iTouchDS**](cart-guides/itouchds.md "<img src="images/itouchds.png" alt="M3 DS Real" width="100">") - m3adapter.com
 - [**R4iSDHC RTS Black**](cart-guides/rts_black.md "<img src="images/rts_black.jpg" alt="M3 DS Real" width="100">") - r4isdhc.com
 - [**R4i SDHC RTS**](cart-guides/r4rts.md "<img src="images/r4rts.jpg" alt="M3 DS Real" width="100">") - r4rts.com
+
+### Other Flashcarts
+
+- [**EZ Flash Parallel**](cart-guides/ezflash_parallel.md "<img src="images/ez_flash_parallel.png" alt="DSOne" width="100">") - ezflash.cn
 
 &nbsp;

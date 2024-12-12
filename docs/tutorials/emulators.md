@@ -28,7 +28,7 @@ title: Setting up Emulators
             
                 If you are unable to obtain a GBA BIOS .bin file, you may skip the two steps above. Keep in mind however, that GBARunner2 will fallback to the built in open-source BIOS, which will lead to worse game compatibility.
         
-        1. Create a `GBA ROMs` folder on your SD card root, and place your `.gba` game ROMs inside. 
+        1. On your SD card root, create a `ROMs` folder, and then create a `GBA` folder inside it. Place your `.gba` game ROMs inside.
         
         1. Place the SD card back into your cart, and boot into the menu.
         
@@ -52,11 +52,11 @@ title: Setting up Emulators
         
         1. Place the `bios.bin` file in the `_gba` folder.
         
-        1. On your SD card root, create a `ROMs` folder, and then create a  `GBA` folder inside it. Place your `.gba` game ROMs inside.
+        1. On your SD card root, create a `ROMs` folder, and then create a `GBA` folder inside it. Place your `.gba` game ROMs inside.
         
         1. Place the SD card back into your cart, and boot into the menu.
         
-        1. To play GBA games, navigate to the `Emulators` folder, launch the GBARunner3 Frontend NDS file, and select a GBA ROM in the menu.
+        1. To play GBA games, navigate to the `Emulators` folder, launch `gbar3-frontend.nds`, and select a GBA ROM in the menu.
 
 === "GB/C"
 
@@ -66,7 +66,7 @@ title: Setting up Emulators
     
     1. Open/extract `gameyob.zip`, and locate `gameyob.nds` inside. Copy this file to the `Emulators` folder on your SD card.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a  `GB` folder inside it. Place your `.gb` or `.gbc` game ROMs inside.
+    1. On your SD card root, create a `ROMs` folder, and then create a `GB` folder inside it. Place your `.gb` or `.gbc` game ROMs inside.
      
     1. Obtain a GameBoy Color BIOS dump. Rename the file to `gbc_bios.bin` if it isn't named that already.
     
@@ -78,7 +78,7 @@ title: Setting up Emulators
     
     1. Place the SD card back into your cart, and boot into the menu.
     
-    1. To play GB/C games, navigate to the `Emulators` folder, launch `gameyob.nds`, and select a GBC ROM in the GameYob menu.
+    1. To play GB/C games, navigate to the `Emulators` folder, launch `gameyob.nds`, and select a GB/C ROM in the GameYob menu.
 
 === "SNES"
 
@@ -94,7 +94,7 @@ title: Setting up Emulators
     
     1. Copy `snemul.cfg` to your SD card root, then open the file with Notepad. Change the `ROMPath = /SNES` line to `ROMPath = /ROMs/SNES`, and save the file.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a  `SNES` folder inside it. Place your `.sfc` game ROMs inside.
+    1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` game ROMs inside.
     
     1. Place the SD card back into your cart, and boot into the menu.
     
@@ -108,7 +108,7 @@ title: Setting up Emulators
     
     1. Open/extract `nesDS.7z` using 7-Zip, and locate `nesDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a  `NES` folder inside it. Place your `.nes` game ROMs inside.
+    1. On your SD card root, create a `ROMs` folder, and then create a `NES` folder inside it. Place your `.nes` game ROMs inside.
     
     1. Place the SD card back into your cart, and boot into the menu.
     
@@ -124,7 +124,7 @@ title: Setting up Emulators
     
     1. Copy `StellaDS.nds` to the `Emulators` folder on your SD card.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a  `2600` folder inside it. Place your Atari 2600 game ROMs inside.
+    1. On your SD card root, create a `ROMs` folder, and then create a `2600` folder inside it. Place your Atari 2600 game ROMs inside.
     
     1. Place the SD card back into your cart, and boot into the menu.
     
@@ -138,7 +138,9 @@ title: Setting up Emulators
     
     1. Copy `A5200DS.nds` to the `Emulators` folder on your SD card.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a  `5200` folder, as well as a `BIOS` folder inside it. Place your `.a52` game ROMs inside the `5200` folder.
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `5200` and `BIOS`.
+    
+    1. Place your `.a52` game ROMs inside the `5200` folder.
     
     1. Obtain an Atari 5200 BIOS dump. Rename the file to `5200.rom` if it isn't named that already.
     
@@ -160,7 +162,9 @@ title: Setting up Emulators
     
     1. Copy `A7800DS.nds` to the `Emulators` folder on your SD card.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a  `7800` folder, as well as a `BIOS` folder inside it. Place your `.a78` or `.bin` game ROMs inside the `7800` folder.
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `7800` and `BIOS`.
+    
+    1. Place your `.a78` or `.bin` game ROMs inside the `7800` folder.
     
         !!! note
         
@@ -177,3 +181,47 @@ title: Setting up Emulators
     1. Place the SD card back into your cart, and boot into the menu.
     
     1. To play Atari 7800 games, navigate to the `Emulators` folder, launch `A7800DS.nds`, and select a ROM in the menu.
+
+### Miscellaneous Consoles
+
+=== "Sega Genesis/MegaDrive"
+
+    1. Download the [jEnesisDS zip file.](https://dlhb.gamebrew.org/dshomebrew2/jenesisds_0.7.4.zip)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Open/extract `jenesisds_0.7.4.zip`, and locate `jEnesisDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your Genesis game ROMs inside.
+
+        !!! warning "Supported File Types"
+
+            jEnesisDS **requires** ROMs to be in `.gen`, `.bin`, or `.smd` format to be recognized in the file browser. If you have `.md` ROMs, rename them to `.gen` or `.bin` before placing them on your SD card.
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play Sega Genesis games, navigate to the `Emulators` folder, launch `jEnesisDS.nds`, and select a ROM in the menu.
+
+=== "ColecoVision"
+
+    1. Download the [ColecoDS NDS file.](https://github.com/wavemotion-dave/ColecoDS/releases/latest/download/ColecoDS.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Copy `ColecoDS.nds` to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `Coleco` and `BIOS`.
+    
+    1. Place your ColecoVision game ROMs inside the `Coleco` folder.
+            
+    1. Obtain a ColecoVision BIOS dump. Rename the file to `coleco.rom` if it isn't named that already.
+    
+    1. Place the `coleco.rom` file in `/ROMs/BIOS`.
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play ColecoVision games, navigate to the `Emulators` folder, launch `ColecoDS.nds`, and select a ROM in the menu.
+
+    !!! tip
+
+        More consoles than just ColecoVision are supported by ColecoDS - similar architecture devices are also emulated. See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for more information, and a full list of supported BIOSes.

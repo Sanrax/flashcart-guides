@@ -49,16 +49,18 @@ title: Setting Up akmenu-next
 
     1. Extract the downloaded `akmenu-next-dsi.zip` file with 7-Zip.
 
-    !!! info
+    !!! warning
 
-        If you are using Twilightmenu++, you may want to rename the akmenu-next version of BOOT.NDS so that you do not overwrite the boot file for Twilightmenu++
+        If you are using Twilightmenu++ and want to dual boot akmenu-next, do not copy over `BOOT.NDS` as this will overwrite the one Twilightmenu++ uses.
+        You can instead launch `akmenu-next.dsi` with Twilightmenu++ or Unlaunch.
 
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
         - `_nds` folder
-        - `BOOT.NDS`
+        - `BOOT.NDS` (Please read the warning above)
+        - `akmenu-next.dsi`
 
-    1. Load `BOOT.NDS` with your desired entrypoint method, or use Unlaunch to boot it.
+    1. Load `BOOT.NDS` with your desired entrypoint method, or use Unlaunch or Twilightmenu++ to boot `akmenu-next.dsi`
 
     #### Autobooting akmenu-next
 
@@ -66,7 +68,7 @@ title: Setting Up akmenu-next
 
     1. In the Unlaunch menu, go to OPTIONS
 
-    1. Set NO BUTTON or a button of your choice to the akmenu-next that says BOOT.NDS (or what you renamed it to if applicable) on the bottom screen
+    1. Set NO BUTTON or a button of your choice to the akmenu-next that says `BOOT.NDS` (or `akmenu-next.dsi` applicable) on the bottom screen
 
 
 === "Nintendo 3DS"
@@ -81,14 +83,9 @@ title: Setting Up akmenu-next
 
     1. Extract the downloaded `akmenu-next-3ds.zip` file with 7-Zip.
 
-    !!! info
-
-        If you have Twilightmenu++ installed, you may want to rename the akmenu-next version of BOOT.NDS so that you do not overwrite the boot file for Twilightmenu++
-
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
         - `_nds` folder
-        - `BOOT.NDS`
         - `akmenu-next.cia`
 
     1. Open the FBI app, go to your SD card, find and install the `akmenu-next.cia` file.

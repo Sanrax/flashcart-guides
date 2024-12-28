@@ -12,10 +12,6 @@ title: Setting Up akmenu-next
 
 === "Flashcarts"
 
-    !!! warning
-    
-        The flashcart version of akmenu-next currently does not have audio when played on a Nintendo DSi & 3DS system. This is a known issue and it is currently advised to use the seperate DSi or 3DS version for those consoles.
-
     #### Installing akmenu-next flashcart version
 
     1. Download the latest release of [akmenu-next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.7z)
@@ -38,6 +34,8 @@ title: Setting Up akmenu-next
     1. Open the `Autoboot` folder within the akmenu-next files. Find the folder that corresponds to your flashcart.
     
     1. Copy the contents of the folder that corresponds with your flashcart to the root of your SD card.
+
+    1. If your flashcart is a DSTTi clone that requires additional boot files, check the `Supplementary DSTTi Clone Files` folder. You can check the [YSMenu compatibility list](https://www.flashcarts.net/ysmenu-compat-ext) to check which one you need.
 
 === "Nintendo DSi"
 

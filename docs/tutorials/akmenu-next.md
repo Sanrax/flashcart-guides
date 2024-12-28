@@ -14,7 +14,7 @@ title: Setting Up akmenu-next
 
     #### Installing akmenu-next flashcart version
 
-    1. Download the latest release of [akmenu-next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.7z)
+    1. Download the latest release of [akmenu-next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
 
     1. Extract the downloaded `akmenu-next-flashcart.zip` file with 7-Zip.
 
@@ -45,7 +45,7 @@ title: Setting Up akmenu-next
 
     #### Installing akmenu-next Nintendo DSi version
 
-    1. Download the latest release of [akmenu-next DSi Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-dsi.7z)
+    1. Download the latest release of [akmenu-next DSi Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-dsi.zip)
 
     1. Extract the downloaded `akmenu-next-dsi.zip` file with 7-Zip.
 
@@ -79,7 +79,7 @@ title: Setting Up akmenu-next
 
     #### Installing akmenu-next Nintendo 3DS version
 
-    1. Download the latest release of [akmenu-next 3DS Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-3ds.7z)
+    1. Download the latest release of [akmenu-next 3DS Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-3ds.zip)
 
     1. Extract the downloaded `akmenu-next-3ds.zip` file with 7-Zip.
 

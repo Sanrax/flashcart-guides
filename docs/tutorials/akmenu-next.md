@@ -7,6 +7,7 @@ title: Setting Up akmenu-next
 !!! info
     
     akmenu-next is a frontend for nds-bootstrap based on a fork of akmenu4. It supports cheats along with support for Acekard themes.
+    For controls such as soft-reset and quitting games, please see [nds-bootstrap controls](https://wiki.ds-homebrew.com/nds-bootstrap/controls)
 
 ### Setup Guide:
 

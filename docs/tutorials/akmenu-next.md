@@ -17,7 +17,7 @@ title: Setting Up akmenu-next
 
     1. Download the latest release of [akmenu-next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
 
-    1. Extract the downloaded `akmenu-next-flashcart.zip` file with 7-Zip.
+    1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
 
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
@@ -25,6 +25,12 @@ title: Setting Up akmenu-next
         - `BOOT.NDS`
 
     1. Load `BOOT.NDS` with your flashcart's kernel, or alternatively follow the autoboot steps.
+
+    #### Cheats
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
+    
+    1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
     #### Autobooting akmenu-next
 
@@ -48,7 +54,7 @@ title: Setting Up akmenu-next
 
     1. Download the latest release of [akmenu-next DSi Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-dsi.zip)
 
-    1. Extract the downloaded `akmenu-next-dsi.zip` file with 7-Zip.
+    1. Extract the downloaded `akmenu-next-dsi.zip` file with [7-Zip](https://www.7-zip.org/).
 
     !!! warning
 
@@ -62,6 +68,12 @@ title: Setting Up akmenu-next
         - `akmenu-next.dsi`
 
     1. Load `BOOT.NDS` with your desired entrypoint method, or use Unlaunch or Twilightmenu++ to boot `akmenu-next.dsi`
+
+    #### Cheats
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
+    
+    1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
     #### Autobooting akmenu-next
 
@@ -82,7 +94,7 @@ title: Setting Up akmenu-next
 
     1. Download the latest release of [akmenu-next 3DS Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-3ds.zip)
 
-    1. Extract the downloaded `akmenu-next-3ds.zip` file with 7-Zip.
+    1. Extract the downloaded `akmenu-next-3ds.zip` file with [7-Zip](https://www.7-zip.org/).
 
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
@@ -92,3 +104,9 @@ title: Setting Up akmenu-next
     1. Open the FBI app, go to your SD card, find and install the `akmenu-next.cia` file.
 
     1. Launch the `akmenu-next` application from the 3DS home screen. If it does not appear, restart your 3DS.
+
+    #### Cheats
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
+    
+    1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)

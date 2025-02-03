@@ -1,5 +1,5 @@
 ---
-title: Setting up Emulators
+title: Setting Up Emulators
 ---
 
 # Setting up Emulators

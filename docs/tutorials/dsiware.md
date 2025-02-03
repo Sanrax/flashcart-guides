@@ -1,5 +1,5 @@
 ---
-title: Running DSiWare on Flashcarts
+title: Running DSiWare On Flashcarts
 ---
 
 ![DSiWare](../images/dsiware.png){ align=right width="115"}

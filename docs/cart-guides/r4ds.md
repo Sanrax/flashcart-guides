@@ -16,7 +16,7 @@ title: Original R4
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download the [R4DS WoodR4 1.62 kernel.](http://archive.flashcarts.net/R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip)
 

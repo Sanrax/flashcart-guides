@@ -17,7 +17,7 @@ title: BL2CK Carts
 
 === "Standard"
 
-    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
     1. Download the [BL2CK 1.31.0 kernel.](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0.zip)
     
@@ -33,7 +33,7 @@ title: BL2CK Carts
 
 === "Amaze3DS"
 
-    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
     1. Download the [BL2CK 1.31.0 Amaze3DS kernel.](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0_Amaze3DS.zip)
     

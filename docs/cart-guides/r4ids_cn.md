@@ -10,7 +10,7 @@ title: R4i+ Gold & R4i 3DS RTS
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download the [R4iDS WoodR4 1.64 kernel.](https://archive.flashcarts.net/r4ids.cn/r4ids.cn_Wood_R4_1.64.zip)
 

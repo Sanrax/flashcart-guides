@@ -12,7 +12,7 @@ title: EX4DS
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download [EX4DS AceOS 2.13.](https://github.com/flashcarts/AOS/releases/latest/download/AOS_EX4DS.zip)
 

@@ -10,7 +10,7 @@ title: Formatting a microSD Card
 
     **ChromeOS/Android/iOS are NOT reliable devices to format your SD card with!**
 
-### Setup Guide:
+### Operating System:
 
 === "Windows"
 

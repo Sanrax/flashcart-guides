@@ -16,7 +16,7 @@ title: R4 SDHC DS Happybox
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download the [r4isdhc.com Original YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_R4SDHC_Happybox-Original_YSMenu_7.06.zip)
 

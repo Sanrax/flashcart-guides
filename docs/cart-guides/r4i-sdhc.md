@@ -6,6 +6,32 @@ title: DSTTi DEMON-HW Carts
 # DSTTi DEMON-HW Carts (AKA Timebomb Carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 
+=== "R4iMenu"
+
+    !!! info "Kernel Info"
+
+        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts can use YSMenu instead.***
+
+        Since the timebomb previously found in R4iMenu has been removed, it has become a good option for users that own supported carts, as it has better game compatibility than YSMenu, and supports Real-Time-Save. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
+
+        YSMenu runs on all DEMON-HW carts. If you prefer the look and feel of YSMenu, you can choose to use it over R4iMenu, even if you have an R4iMenu-supported cart.
+
+    ### Setup Guide:
+
+    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+
+    1. Download the appropriate kernel for your cart below:
+
+        - [**r4isdhc.com** v4.3b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_DEMON_4.3b.zip)
+
+        - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
+
+    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
+
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+
+    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
 === "YSMenu"
 
     !!! info "Kernel Info"
@@ -35,30 +61,6 @@ title: DSTTi DEMON-HW Carts
     1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-=== "R4iMenu"
-
-    !!! info "Kernel Info"
-
-        R4iMenu is compatible with r4i-sdhc.com and r4isdhc.com (2014+) carts.
-
-        Since the timebomb previously found in this kernel has been removed, it has become a good option for users that are looking to use RTS. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
-
-    ### Setup Guide:
-
-    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
-
-    1. Download the appropriate kernel for your cart below:
-
-        - [**r4isdhc.com** v4.3b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_DEMON_4.3b.zip)
-
-        - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
-
-    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
-
-    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
-
-    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
 !!! info "Timebombs"
 

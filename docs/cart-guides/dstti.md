@@ -20,12 +20,20 @@ title: DSTT/i & Clones
 
 1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `DSTTi-Clone YSMenu` folder.
 
-1. Copy *the contents* of this folder into the root of your SD card.
+1. From this folder, copy the following files/folders to your SD card root:
+
+    - `Games` folder
+
+    - `TTMenu` folder
+
+    - `TTMenu.dat`
+
+1. Some DSTTi clones load from a boot file other than `TTMenu.dat`. Find your flashcart in the [YSMenu compatibility list](https://www.flashcarts.net/ysmenu-compat-ext){target="_blank"} by searching the page (`CTRL`+`F`) for the URL listed on your cart's label.
+
+    - If your cart is listed as needing an extra boot file, make copies of the `TTMenu.dat` file on your SD card root, then rename the copy appropriately.
+
+    - Note that in all cases, `TTMenu.dat` still needs to be on your SD for soft-reset to function. Do not remove it.
 
 1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-!!! warning "Extra Menu File Carts"
-
-    If your cart is listed in YSMenu Compatibility List as needing an extra boot file, remember to make a copy (or copies) of `TTMenu.dat` and rename appropriately.

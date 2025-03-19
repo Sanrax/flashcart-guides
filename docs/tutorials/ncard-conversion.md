@@ -63,6 +63,6 @@ On some units, usually due to age, this battery may not hold much of a charge, o
 
 1. Download [nrioSaveTester](https://github.com/ApacheThunder/nrioSaveTester/releases/download/1.1/nrioSaveTester.nds) and copy it to the internal storage of your N-Card.
 
-1. Boot the N-Card and launch the `nrioSaveTester.nds` file. Press `B` to write a new save file. Press `A` to power off your console.
+1. Boot the N-Card and highlight the the `nrioSaveTester.nds` file. Use the D-Pad left or right to select the "4 KBit" save option on the top screen, then press `A` to load it. Press `B` to write a new save file. Press `A` to power off your console.
 
 1. You can now choose how long to wait before testing the save again. To test the save, Power on your console and boot the N-Card and launch the `nrioSaveTester.nds` file. Press `A` to test the save, then press `A` to power off your console. An example can be waiting an hour then testing, then a day and then a week. When the save test fails, the time difference between last testing the save and now should indicate roughly how long the SRAM battery can hold a charge for.

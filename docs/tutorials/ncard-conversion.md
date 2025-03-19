@@ -1,15 +1,15 @@
 ---
-title: Converting Bootleg Games into a N-Card Flashcart
+title: Converting Bootleg Games into an N-Card Flashcart
 ---
 
 ![NCard](../images/ncardbootlegback.jpg){ align=right width="115"}
-# Converting Bootleg Games into a N-Card Flashcart
+# Converting Bootleg Games into an N-Card Flashcart
 
 ---
 
 !!! warning "N-Card Carts"
 
-    This tutorial only applies to N-Card based hardware. The best way to verify this is to check the back of the cart where the pins are located and look for text saying "**ASIC**" or "**ASNAND**".
+    This tutorial only applies to N-Card based hardware. The best way to verify this is to check the back of the cart where the pins are located and look for text saying "**ASIC**" or "**ASNAND**". The label is not a reliable way to determine this as some bootleg games are not based on the N-Card hardware and cannot be modified.
 
     This tutorial requires a Nintendo DSi with Unlaunch. This guide cannot be performed on a Nintendo 3DS.
 
@@ -17,19 +17,19 @@ title: Converting Bootleg Games into a N-Card Flashcart
 
 1. Ensure your Nintendo DSi system has Unlaunch installed, as it is a requirement for this guide to work. [Follow this guide](https://dsi.cfw.guide/installing-unlaunch.html) on installing Unlaunch on your Nintendo DSi.
 
-1. Download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.nds) and place it on the root of your DSi/3DS SD card.
+1. Download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.nds) and place it on the root of your DSi SD card.
 
-1. Download the [N-Card Conversion Package](../assets/N-Card-Conversion.zip) and extract it. Place the extracted `N-Card Conversion` folder on to the root of your DSi/3DS SD Card.
+1. Download the [N-Card Conversion Package](../assets/N-Card-Conversion.zip) and extract it. Place the extracted `N-Card Conversion` folder on to the root of your DSi SD Card.
 
-1. Insert your Game into the console and power it on. If you are using a 3DS, its normal for the 3DS to not recognise the inserted cartridge.
+1. Insert your Game into the console and power it on.
 
-1. Launch Unlaunch's file browser by holding `A` + `B` while powering on your console. Navigate to the `N-Card Conversion` folder. Launch the `uDisk.nds` file while holding `Start` + `Select`. Unlaunch lists .nds files in alphabetical order, so if you have many .nds files, you may have to scroll until you find it.
+1. Launch Unlaunch's file browser by holding `A` + `B` while powering on your console. Navigate to the `N-Card Conversion` folder. Launch the `uDisk.nds` file while holding `Start` + `Select`. Unlaunch lists .nds files in alphabetical order by folder, so if you have many .nds files, you may have to scroll until you find it. This is the only file that must be loaded via Unlaunch.
 
-1. You will now be shown a formatting screen. Select the `FULL FORMAT` option. It will check the N-Card for bad blocks and then perform a full format.
+1. You will now be shown a formatting screen. Select the `FULL FORMAT` option. It will check the N-Card for bad blocks and perform a full format.
 
     !!! warning
 
-        Do not power off your console while the uDisk is formatting the cart, this may cause your game cart to become bricked!
+        Do not power off your console while uDisk is formatting the cart, this may cause your game cart to become bricked!
 
 1. The formatting process is complete once it says `please copy xmenu.dat to card!`. Power off your console.
 
@@ -43,7 +43,7 @@ title: Converting Bootleg Games into a N-Card Flashcart
 
         At this stage you may now continue using a Slot 2 USB adapter on a DS/DS Lite system if you prefer, as the cartridge now has a working uDisk installed. You can follow the below steps but instead copying & deleting the required files from a computer.
 
-1. Power on your console and launch GodMode9i via Unlaunch or Twilightmenu++. Enter the `[sd:]` drive and nagivate to the `N-Card Conversion` folder. Highlight `DSYSTEM` and press `L`, then highlight `xmenu.dat` and press `L`. Press Y to copy the two files to the clipboard.
+1. Power on your console and launch GodMode9i via Unlaunch or Twilightmenu++. Enter the `[sd:]` drive and nagivate to the `N-Card Conversion` folder. Highlight `DSYSTEM` and press the `L` trigger, then highlight `xmenu.dat` and press the `L` trigger. Press `Y` to copy the two files to the clipboard.
 
 1. Back out to the drive screen and enter the `[fat:]` drive. Press `Y` to paste and select the `Copy files` option.
 
@@ -53,11 +53,11 @@ title: Converting Bootleg Games into a N-Card Flashcart
 
     !!! tip
 
-        You may now copy .NDS files to the N-Card via GodMode9i on a DSi or 3DS, or via a Slot 2 USB Adapter with a DS/DS Lite. Bear in mind that the N-Card xmenu does not contain any anti-piracy patches so you may wish to patch your ROMs where necessary or use an alternative loader such as Twilightmenu++.
+        You may now copy .NDS files to the N-Card via GodMode9i on a DSi or 3DS, or via a Slot 2 USB Adapter with a DS/DS Lite. Bear in mind that the N-Card xmenu does not contain any anti-piracy patches so you may wish to patch your ROMs where necessary, and ROMs larger than 256MB cannot be played on xmenu, for both these issues you may use an alternative loader instead such as Twilightmenu++.
 
 ### Testing the SRAM Battery
 
-The N-Card and it's clone typically use an SRAM chip with a small coin cell in order to hold save data of currently running game. When the console is powered off or rebooted back into the N-Card, this save data is then written back to the N-Card's internal flash storage.
+The N-Card and it's clones typically use an SRAM chip with a small coin cell in order to hold save data of currently running game. When the console powered off and then powered back on, this save data is then written back to the N-Card's internal flash storage from the SRAM.
 
 On some units, usually due to age, this battery may not hold much of a charge, or sometimes no charge at all, leading to the contents of the SRAM being lost if the console is powered off, or powered off for too long. This usually results in a corrupted or lost save file. In order to test the battery on your N-Card, you can use nrioSaveTester.
 

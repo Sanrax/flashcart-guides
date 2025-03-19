@@ -37,7 +37,7 @@ title: Converting Bootleg Games into an N-Card Flashcart
 
 1. Back out to the drive screen and enter the `[fat:]` drive. Press `Y` to paste and select the `Copy files` option.
 
-1. Power off your console while holding `A` + `B` to boot into Unlaunch. Load up the `uDisk.nds` file again, this time without holding any buttons. You will be asked if you would like to update uDisk, press `A` to continue. The update process will stop at 88%; this is normal. Once it reaches 88%, power off the console.
+1. Power off your console while holding `A` + `B` to boot into Unlaunch. Load up the `uDisk.nds` file again, this time without holding any buttons. You will be asked if you would like to update uDisk, press `A` to continue. The update process will stop at 88%; this is normal. Once it reaches 88%, wait a few seconds, then power off the console.
 
     !!! tip
 

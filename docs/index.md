@@ -107,6 +107,6 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 ### Other Flashcarts
 
 - [**EZ Flash Parallel**](cart-guides/ezflash_parallel.md "<img src="images/ez_flash_parallel.png" alt="EZ Flash Parallel" width="100">") - ezflash.cn
-- [**N-Card and Clones**](cart-guides/ncard.md "<img src="images/ncard.jpg" alt="N-Card"> width="100">") - dsgba.com
+- [**N-Card and Clones**](cart-guides/ncard.md "<img src="images/ncard.png" alt="N-Card" width="100">") - dsgba.com
 
 &nbsp;

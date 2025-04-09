@@ -27,3 +27,7 @@ title: R4i+ Gold & R4i 3DS RTS
 !!! tip
 
     If you are unable to get any games to load in WoodR4, you may have one of the last-batch carts with faulty DS mode. If that's the case, you'll need to setup [BL2CK](bl2ck.md) instead.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

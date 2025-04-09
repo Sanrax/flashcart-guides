@@ -23,3 +23,7 @@ title: Acekard 2/2.1/2i
 1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

@@ -41,3 +41,7 @@ title: Ace3DS+/X & R4iLS
     To set up AceOS on your cart, follow the instructions found in the [AOS README.](https://github.com/flashcarts/AOS/#setup)
 
     All carts that are supported by Ace WoodR4 will be able to run AceOS as well.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

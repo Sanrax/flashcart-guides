@@ -18,7 +18,7 @@ title: Original R4 & M3 Simply
 
 1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-1. Download the [R4DS WoodR4 1.62 kernel.](http://archive.flashcarts.net/R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip)
+1. Download the [R4DS WoodR4 1.62 kernel.](https://archive.flashcarts.net/R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip)
 
 1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
 

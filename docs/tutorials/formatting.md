@@ -140,12 +140,30 @@ title: Formatting a microSD Card
 
         1. Run `sudo umount /dev/<device name>*` (do not replace the `*`)
 
-        1. Install [sdFormatLinux](https://github.com/profi200/sdFormatLinux/) using your package manager or compile it from source:
-           ```
-           git clone https://github.com/profi200/sdFormatLinux.git
-           cd sdFormatLinux
-           make
-           ```
+        1. sdFormatLinux is not available in repositories, so it has to be installed using one of the following methods:
+
+            === "Precompiled Binary"
+
+                1. Download the latest release from [https://github.com/profi200/sdFormatLinux/releases](https://github.com/profi200/sdFormatLinux/releases){target="_blank"}
+                
+                1. Install the 7zip utility if you don't have it already.
+                
+                1. Extract the downloaded archive:
+                    ```
+                    7z x sdFormatLinux_vX.X.X.7z
+                    ```
+                    Replace X.X.X with the version number you downloaded.
+                
+                1. Navigate to the extracted directory if needed.
+
+            === "Compile from Source"
+
+                1. Clone the repository and compile:
+                    ```
+                    git clone https://github.com/profi200/sdFormatLinux.git
+                    cd sdFormatLinux
+                    make
+                    ```
 
         1. For SD cards 64GB or larger (SDXC), run the following command to format to FAT32:
            ```

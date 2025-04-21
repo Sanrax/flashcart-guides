@@ -136,7 +136,7 @@ title: Formatting a microSD Card
             - If `RO` is set to `1`, make sure the lock switch is not slid down.
             - Device name is **not** the partition name. In the example above, the device name is `mmcblk0`, and the partition name is `mmcblk0p1`.
         
-        1. Hit CTRL + C to exit the menu.
+        1. Hit `CTRL` + `C` to exit the menu.
 
         1. Run `sudo umount /dev/<device name>*` (do not replace the `*`)
 
@@ -154,7 +154,7 @@ title: Formatting a microSD Card
                     ```
                     Replace X.X.X with the version number you downloaded.
                 
-                1. Navigate to the extracted directory if needed.
+                1. Navigate into the extracted directory with `cd`.
 
             === "Compile from Source"
 
@@ -166,11 +166,13 @@ title: Formatting a microSD Card
                     ```
 
         1. For SD cards 64GB or larger (SDXC), run the following command to format to FAT32:
-           ```
-           sudo ./sdFormatLinux -f -e trim /dev/<device name>
-           ```
-           - The `-f` option forces FAT32 format for SDXC cards
-           - The `-e trim` option will erase the card before formatting (improves performance)
+             ```
+             sudo ./sdFormatLinux -f -e trim /dev/<device name>
+             ```
+             
+             - The `-f` option forces FAT32 format for SDXC cards
+             - The `-e trim` option will erase the card before formatting (improves performance)
+             - You can optionally add the `-v` option to get verbose status updates during formatting
 
         1. For SD cards 32GB or smaller, the `-f` flag is not needed:
            ```
@@ -178,16 +180,16 @@ title: Formatting a microSD Card
            ```
 
         1. If you want to add a volume label to your SD card, use the `-l` option:
-           ```
-           sudo ./sdFormatLinux -l 'MY LABEL' -e trim -f /dev/<device name>
-           ```
-           - For FAT32, labels are limited to 11 uppercase characters
+             ```
+             sudo ./sdFormatLinux -l 'MY LABEL' -e trim -f /dev/<device name>
+             ```
+             - Labels are limited to 11 uppercase characters
 
-        1. Wait for the format to complete. If you used the `-v` (verbose) option, you'll see details about the formatting process.
+        1. Wait for the format to complete. If you added the `-v` (verbose) option, you'll see details about the formatting process.
 
         1. Run `sudo eject /dev/<device name>`, then remove the SD card. You're done!
 
-        !!! note "Why use sdFormatLinux?"
+        !!! info "Why use sdFormatLinux?"
             
             sdFormatLinux formats SD cards according to SD Association specifications, optimizing them for flash-based media. This provides better performance and longevity compared to generic formatting tools. When using the `-f` option for SDXC cards, it creates a FAT32 filesystem with 64 KiB clusters, which is optimal for performance while maintaining compatibility with devices that don't support exFAT.
     
@@ -211,7 +213,7 @@ title: Formatting a microSD Card
             - If `RO` is set to `1`, make sure the lock switch is not slid down.
             - Device name is **not** the partition name. In the example above, the device name is `mmcblk0`, and the partition name is `mmcblk0p1`.
         
-        1. Hit CTRL + C to exit the menu.
+        1. Hit `CTRL` + `C` to exit the menu.
 
         1. Run `sudo umount /dev/<device name>*` (do not replace the `*`)
 
@@ -266,7 +268,7 @@ title: Formatting a microSD Card
             - If `RO` is set to `1`, make sure the lock switch is not slid down.
             - Device name is **not** the partition name. In the example above, the device name is `mmcblk0`, and the partition name is `mmcblk0p1`.
         
-        1. Hit CTRL + C to exit the menu.
+        1. Hit `CTRL` + `C` to exit the menu.
 
         1. Install the `parted` and `dosfstools` packages using your package manager of choice, if they are not already installed.
 

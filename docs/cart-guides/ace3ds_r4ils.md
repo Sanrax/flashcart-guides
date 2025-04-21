@@ -2,6 +2,7 @@
 title: Ace3DS+/X & R4iLS
 ---
 
+![R4iLS Clone](../images/r4ils.png){ align=right width="115"}
 # Ace3DS+/X & R4iLS Clones
 ## r4isdhc.hk 2020+, r4isdhc.com.cn, ace3ds.com, XXX in 1
 
@@ -11,7 +12,7 @@ title: Ace3DS+/X & R4iLS
 
 === "Ace WoodR4 1.62"
 
-    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
     1. Download the [Ace3DS+/R4iLS WoodR4 1.62 kernel.](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
     
@@ -40,3 +41,7 @@ title: Ace3DS+/X & R4iLS
     To set up AceOS on your cart, follow the instructions found in the [AOS README.](https://github.com/flashcarts/AOS/#setup)
 
     All carts that are supported by Ace WoodR4 will be able to run AceOS as well.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

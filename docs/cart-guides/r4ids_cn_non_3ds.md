@@ -1,9 +1,9 @@
 ---
-title: R4i+ Gold & R4i 3DS RTS 
+title: R4i Gold 
 ---
 
-![r4ids.cn](../images/r4ids_cn.png){ align=right width="115"}
-# R4i+ 3DS/DS Gold & R4i 3DS RTS 
+![r4ids.cn](../images/r4idscn_non3ds.png){ align=right width="115"}
+# R4i Gold (Non-3DS Version)
 ## r4ids.cn
 
 ---
@@ -12,7 +12,7 @@ title: R4i+ Gold & R4i 3DS RTS
 
 1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-1. Download the [R4iDS WoodR4 1.64 kernel.](https://archive.flashcarts.net/r4ids.cn/r4ids.cn_Wood_R4_1.64.zip)
+1. Download the [R4iDS WoodR4 1.54 kernel.](https://archive.flashcarts.net/r4ids.cn/r4ids.cn_non-3DS_Wood_R4_1.54.zip)
 
 1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
 
@@ -23,10 +23,6 @@ title: R4i+ Gold & R4i 3DS RTS
 1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-!!! tip
-
-    If you are unable to get any games to load in WoodR4, you may have one of the last-batch carts with faulty DS mode. If that's the case, you'll need to setup [BL2CK](bl2ck.md) instead.
 
 !!! tip "Themes"
 

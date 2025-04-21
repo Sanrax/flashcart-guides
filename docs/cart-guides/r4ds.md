@@ -1,10 +1,10 @@
 ---
-title: Original R4
+title: Original R4 & M3 Simply
 ---
 
 ![R4DS](../images/r4ds.png){ align=right width="115"}
-# Original R4
-## r4ds.com
+# Original R4 & M3 Simply
+## r4ds.com / m3adapter.com
 
 !!! warning
 
@@ -16,9 +16,9 @@ title: Original R4
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-1. Download the [R4DS WoodR4 1.62 kernel.](http://archive.flashcarts.net/R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip)
+1. Download the [R4DS WoodR4 1.62 kernel.](https://archive.flashcarts.net/R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip)
 
 1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
 
@@ -33,3 +33,7 @@ title: Original R4
 !!! tip
 
     Since this cart is fairly size-constrained with the 2GB limitation, you may want to consider trimming your NDS roms with [NDSTokyoTrim](https://www.gamebrew.org/wiki/NDSTokyoTrim). This will trim off the extra unused data from your NDS ROMs, saving you SD card space at no cost!
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

@@ -1,14 +1,10 @@
 ---
-title: R4 SDHC DS Happybox
+title: R4SDHC Christmas
 ---
 
-![R4SDHC DS Happybox](../images/happybox.png){ align=right width="115"}
-# R4 SDHC DS Happybox
+![R4SDHC Christmas](../images/r4christmas.jpg){ align=right width="115"}
+# R4SDHC Christmas
 ## r4isdhc.com
-
-!!! note
-
-    These instructions should apply to any r4isdhc.com cart using the 1.19B kernel, not just the one shown in the image.
 
 !!! warning
 
@@ -18,7 +14,7 @@ title: R4 SDHC DS Happybox
 
 1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-1. Download the [r4isdhc.com Original YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_R4SDHC_Happybox-Original_YSMenu_7.06.zip)
+1. Download the [R4SDHC Christmas YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/R4SDHC_Christmas_YSMenu_7.06.zip)
 
 1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
 

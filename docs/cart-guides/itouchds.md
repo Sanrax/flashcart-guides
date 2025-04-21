@@ -12,7 +12,7 @@ title: iTouchDS
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download the [iTouchDS YSMenu 7.06 package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/iTouchDS_YSMenu_7.06.zip)
 

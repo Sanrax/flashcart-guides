@@ -10,9 +10,13 @@ title: R4iSDHC RTS Black
 
     These carts are clones of the M3 DS Real cart. They advertised RTS support in their stock kernel, similar to the M3's RTS support in its Sakura kernel. As the cart is M3 hardware at the end of the day, it's compatible with M3 YSMenu after being booted with Lifehackerhansol's flashcart-bootstrap. A package containing the bootstrap and YSMenu for this cart is provided in the setup instructions below.
 
+!!! warning
+
+    This does not apply to the 2025 r4isdhc.com Black RTS cart! Those carts are regular DEMON-HW DSTTi clones, like the rest of the 2014+ r4isdhc.com carts. If you have this cart, please see [this page](r4i-sdhc.md) for setup instead.
+
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download the [r4isdhc.com RTS Black YSMenu 7.06 package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_RTS_Black_YSMenu_7.06.zip)
 

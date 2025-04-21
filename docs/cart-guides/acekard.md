@@ -10,7 +10,7 @@ title: Acekard 2/2.1/2i
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
 1. Download the [AKAIO 1.9.0 kernel.](https://archive.flashcarts.net/acekard.com/AceKard_2i/AKAIO_1.9.0-20121129.zip)
 
@@ -23,3 +23,7 @@ title: Acekard 2/2.1/2i
 1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

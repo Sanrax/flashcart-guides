@@ -14,7 +14,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ### DSTT/i Family
 
-- [**Timebomb Carts**](cart-guides/r4i-sdhc.md "<img src="images/r4i-sdhc.jpg" alt="r4isdhc.com 2014+" width="100">") - r4isdhc.com 2014+, r4i-sdhc.com, and more
+- [**Timebomb [DEMON-HW] Carts**](cart-guides/r4i-sdhc.md "<img src="images/r4i-sdhc.jpg" alt="r4isdhc.com 2014+" width="100">") - r4isdhc.com 2014+, r4i-sdhc.com, and more
 - [**DSTT/i and Clones**](cart-guides/dstti.md "<img src="images/dstt.jpg" alt="DSTT" width="100">") - [See YSMenu Compatibility List](https://www.flashcarts.net/ysmenu-compat-ext)
 - [**R4i SDHC Renovation V2.10T & V2.20T**](cart-guides/v2_10T.md "<img src="images/v2_10T.jpg" alt="R4i SDHC Renovation V2.10T & V2.20T" width="100">") - r4sdhc.com
 - [**R4i SDHC Brand New V2.0**](cart-guides/v2_0.md "<img src="images/v2_0.png" alt="R4i SDHC Brand New V2.0" width="100">") - r4isdhc.com
@@ -23,13 +23,15 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 <div class="annotate" markdown>
 
-- [**Ace3DS+/R4iLS**](cart-guides/ace3ds_r4ils.md) - See cart list (1)
+- [**Ace3DS+/R4iLS**](cart-guides/ace3ds_r4ils.md "<img src="images/r4ils.png" alt="R4iLS Clone" width="100">") - See cart list (1)
 - [**Gateway Blue**](cart-guides/gwblue.md "<img src="images/gwblue.png" alt="Gateway Blue" width="100">") - gateway-3ds.com
 - [**EX4DS**](cart-guides/ex4ds.md "<img src="images/ex4ds.png" alt="EX4DS" width="100">") - ex4ds.com
 - [**Original R4**](cart-guides/r4ds.md "<img src="images/r4ds.png" alt="R4DS" width="100">") - r4ds.com
 - [**M3 Simply**](cart-guides/r4ds.md "<img src="images/m3simply.jpg" alt="M3 Simply" width="100">") - m3adapter.com
 - [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
+- [**R4i Gold (Non-3DS)**](cart-guides/r4ids_cn_non_3ds.md "<img src="images/r4idscn_non3ds.png" alt="r4ids.cn" width="100">") - r4ids.cn
 - [**Original R4SDHC**](cart-guides/r4sdhc.md "<img src="images/r4sdhc.png" alt="Original R4SDHC" width="100">") - r4sdhc.com
+- [**R4SDHC Christmas**](cart-guides/r4christmas.md "<img src="images/r4christmas.jpg" alt="R4SDHC Christmas" width="100">") - r4isdhc.com
 - [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
 - [**N5**](cart-guides/n5.md "<img src="images/n5.jpg" alt="N5" width="100">") - dsn5.com
 - [**R4 Deluxe**](cart-guides/r4deluxe.md "<img src="images/r4deluxe.png" alt="R4 Deluxe" width="100">") - r4deluxe.com
@@ -101,5 +103,10 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**iTouchDS**](cart-guides/itouchds.md "<img src="images/itouchds.png" alt="M3 DS Real" width="100">") - m3adapter.com
 - [**R4iSDHC RTS Black**](cart-guides/rts_black.md "<img src="images/rts_black.jpg" alt="M3 DS Real" width="100">") - r4isdhc.com
 - [**R4i SDHC RTS**](cart-guides/r4rts.md "<img src="images/r4rts.jpg" alt="M3 DS Real" width="100">") - r4rts.com
+
+### Other Flashcarts
+
+- [**EZ Flash Parallel**](cart-guides/ezflash_parallel.md "<img src="images/ez_flash_parallel.png" alt="EZ Flash Parallel" width="100">") - ezflash.cn
+- [**N-Card and Clones**](cart-guides/ncard.md "<img src="images/ncard.png" alt="N-Card" width="100">") - dsgba.com
 
 &nbsp;

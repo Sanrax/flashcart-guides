@@ -10,13 +10,13 @@ title: Gateway Blue
     
     Gateway3DS was a bundle of two flashcarts; one blue DS mode cart, and one red 3DS mode cart. The main goal of this product was to launch 3DS ROMs from the red cart. This was achieved by running a DS mode exploit from the blue cart to load into Gateway emuNAND, where the red cart could then be used.
 
-    Noawdays, Luma3DS has replaced the need for the red cart, but the blue cart can be used as a standard DS flashcart to run NDS roms and homebrew on any DS family system. The setup guides below will cover setting up the blue cart for this use case. As this cart is related to the R4iLS, it uses the same AceWood kernel, but with a different header.
+    Nowadays, Luma3DS has replaced the need for the red cart, but the blue cart can be used as a standard DS flashcart to run NDS roms and homebrew on any DS family system. The setup guides below will cover setting up the blue cart for this use case. As this cart is related to the R4iLS, it uses the same AceWood kernel, but with a different header.
 
 ### Setup Guide:
 
 === "Gateway Blue WoodR4 1.62"
 
-    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
     1. Download the [Gateway Blue WoodR4 1.62 kernel.](https://archive.flashcarts.net/Gateway_Blue/Gateway_Blue_Wood_R4_1.62.zip)
     
@@ -42,7 +42,7 @@ title: Gateway Blue
     
         AceOS is a version of the kernel that includes a custom start menu allowing you to boot into various preloaded emulators, apps, and hypervisors; GBARunner2 and 3, GameYob, NesDS, Moonshell2, and others.
     
-    1. Format the SD card you are using by following [this guide.](https://wiki.hacks.guide/wiki/Formatting_an_SD_card)
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
     1. Download [Gateway Blue AceOS 2.13.](https://github.com/flashcarts/AOS/releases/latest/download/AOS_Gateway.zip)
     
@@ -65,3 +65,7 @@ title: Gateway Blue
         Gateway Blue WoodR4 1.62 is known to have issues with anti-piracy checks in a few newer games, notably with clean roms of Pokemon Black & White 2, where EXP gain gets disabled by AP detection.
         
         To fix this issue, tap the Y button in the WoodR4 menu with the game highlighted, open the cheats menu, and enable the `Bypass Anti-Piracy` cheat before starting the game.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

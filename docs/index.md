@@ -28,8 +28,6 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**EX4DS**](cart-guides/ex4ds.md "<img src="images/ex4ds.png" alt="EX4DS" width="100">") - ex4ds.com
 - [**Original R4**](cart-guides/r4ds.md "<img src="images/r4ds.png" alt="R4DS" width="100">") - r4ds.com
 - [**M3 Simply**](cart-guides/r4ds.md "<img src="images/m3simply.jpg" alt="M3 Simply" width="100">") - m3adapter.com
-- [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
-- [**R4i Gold (Non-3DS)**](cart-guides/r4ids_cn_non_3ds.md "<img src="images/r4idscn_non3ds.png" alt="r4ids.cn" width="100">") - r4ids.cn
 - [**Original R4SDHC**](cart-guides/r4sdhc.md "<img src="images/r4sdhc.png" alt="Original R4SDHC" width="100">") - r4sdhc.com
 - [**R4SDHC Christmas**](cart-guides/r4christmas.md "<img src="images/r4christmas.jpg" alt="R4SDHC Christmas" width="100">") - r4isdhc.com
 - [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
@@ -92,6 +90,8 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 - [**Acekard 2/2.1/2i**](cart-guides/acekard.md "<img src="images/acekard.png" alt="Acekard 2i" width="100">") - acekard.com
 - [**R4 Ultra**](cart-guides/r4ultra.md "<img src="images/r4ultra.jpg" alt="R4 Ultra" width="100">") - r4ultra.com
+- [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
+- [**R4i Gold (Non-3DS)**](cart-guides/r4ids_cn_non_3ds.md "<img src="images/r4idscn_non3ds.png" alt="r4ids.cn" width="100">") - r4ids.cn
 
 ### SuperCard Family
 

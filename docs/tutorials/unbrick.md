@@ -62,18 +62,18 @@ title: Unbricking Flashcarts
 
 1. Choose the correct `.bin` flashrom backup for your cart in the archive. You can reference the photos to find a matching or similar PCB, and check the file size to make sure it's the correct size for your flashrom.
     - For the example, `R4iGold.cc Flash Backups` -> `R4iGold.cc_3DS_2013_imagedump.bin` would be a good fit.
-    - If you can't find an exact match for your cart, try to find a PCB with the same flashrom size, and the same ASIC chip, then use its backup.
+    - If you can't find an exact match for your cart, try to find a PCB with the same flashrom size, and the same ASIC chip, then use that backup.
 
 #### Preparing the Chip for Flashing
 
 1. Now we will need to get the SPI flash chip off the flashcart PCB and mounted onto the CH341A flasher.
     - A hot air gun will be the easiest way to remove the chip if you have one. Put some flux on the pins, then rotate the air around the chip until the solder liquefies, and then take the chip off with tweezers.
-    - If a hot air gun isn't available, you can also use a soldering iron as these chips have a fairly small amount of mount points.
+    - If a hot air gun isn't available, you can also use a soldering iron as these chips have a fairly small number of mount points.
         1. Add some leaded solder to the pins with your iron.
         1. Wedge your tweezers underneath the pins of the cart and gently pull upward while running the iron across all four pins. This will allow you to lift one side of the chip upward and away from the pads on the PCB.
         1. Once one side is lifted, repeat the step above for the second row of four pins to remove the chip from the board.
 
-1. Clean up the chip with your iron if there are any bridged pins or too much solder on the pins. [You should be left with a clean chip that looks like this.](../images/SPI_Chip.jpg "<img src="../../images/SPI_Chip.jpg" alt="SPI Flash" width="200">")
+1. Clean up the chip with your iron if any pins are bridged or if there's excess solder on the pins. [You should be left with a clean chip that looks like this.](../images/SPI_Chip.jpg "<img src="../../images/SPI_Chip.jpg" alt="SPI Flash" width="200">")
 
 1. Next, it needs to be mounted to the CH341A for flashing. You have a couple options for doing so, depending on which accessories/clips you were sent with your CH341A.
 
@@ -109,7 +109,7 @@ title: Unbricking Flashcarts
 
 6. AsProgrammer is now setup to read/write the chip. First, attempt a read on the chip to make sure everything is working properly. In AsProgrammer, click the `Read IC` button to read the data off the chip.
 
-7. If you'd like, you can save the read data to a `.bin` file on your PC by clicking the save icon.
+7. If you'd like, you can save the read data to a `.bin` file on your PC by clicking the Save icon.
 
 8. If the read operation was successful, you can proceed to flashing the chip with the downloaded backup. Click on `Erase IC` to wipe all data on the chip.
 
@@ -126,10 +126,10 @@ title: Unbricking Flashcarts
 
 1. The chip is now ready to go back on the flashcart PCB.
 
-1. Remove the chip the from the CH341A adapter, and then solder it back onto the PCB.
+1. Remove the chip from the CH341A adapter, and then solder it back onto the PCB.
     - You may find it helpful to wick up leftover solder on the PCB pads with a solder wick, so that you can set the chip down flat on the board's pads before soldering.
 
-1. Re-assemble the cart and test it in your DS. If it shows up properly, you're done!
+1. Reassemble the cart and test it in your DS. If it shows up properly, you're done!
 
 ### Troubleshooting
 

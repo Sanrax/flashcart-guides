@@ -12,6 +12,8 @@ title: Unbricking Flashcarts
 
 !!! note "Bricked DEMON/DSTT Flashcarts"
 
+    ![NOR](../images/NOR_Cart.jpg){align=right width="100"}
+
     If you're aiming to unbrick a DEMON or DSTT based flashcart, first make sure that it uses an SPI chip for the flashrom, not a NOR chip. NOR chip reflashing is not supported by this guide.
 
     Also note that if a flashcart with a NOR chip is bricked, it's more likely to have bad solder joints on the NOR chip rather than being corrupt. Reflowing the NOR chip with a soldering iron and flux is very likely to fix these carts if they are bricked.

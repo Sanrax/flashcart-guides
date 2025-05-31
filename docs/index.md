@@ -106,6 +106,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ### Other Flashcarts
 
+- [**Stargate 3DS**](cart-guides/stargate.md "<img src="images/stargate.jpg" alt="Stargate 3DS" width="100">") - stargate-3ds.com
 - [**EZ Flash Parallel**](cart-guides/ezflash_parallel.md "<img src="images/ez_flash_parallel.png" alt="EZ Flash Parallel" width="100">") - ezflash.cn
 - [**N-Card and Clones**](cart-guides/ncard.md "<img src="images/ncard.png" alt="N-Card" width="100">") - dsgba.com
 

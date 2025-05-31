@@ -47,3 +47,7 @@ title: Stargate 3DS
     Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
 
     For Stargate, themes go inside `sg_system/ui` on your SD, since this kernel uses `sg_system` instead of `__rpg` as the kernel folder.
+
+!!! tip "NTRBoot"
+
+    The Stargate comes with built-in NTRBoot support, no flashing necessary. If you want to use NTRBoot to install CFW on your console with the Stargate, simply follow [this guide.](https://3ds.hacks.guide/installing-boot9strap-(ntrboot).html) Treat the Stargate as a regular pre-flashed NTRBoot cartridge.

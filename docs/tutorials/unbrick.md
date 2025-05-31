@@ -49,6 +49,7 @@ title: Unbricking Flashcarts
 
 1. To check the chip type and capacity, you will need to find the SPI chip on your cart.
     - [Here's an example PCB from an r4igold.cc 2013 cart.](../images/r4igold.cc_pcb.jpg "<img src="../../images/r4igold.cc_pcb.jpg" alt="R4iGold.cc" width="300">")
+    - Note that some carts have multiple 8-pin chips on the board. In these cases, remember that if the chip doesn't start with `25`, then it IS NOT an SPI chip. If the cart has a NOR chip, then it does not use an 8-pin SPI flash at all.
 
 1. In the example above, we see a WinBond `25Q16CVY05` chip on the PCB. The `25` at the front means this is a `25XX` chip, therefore we will use the `25XX` port on the CH341A.
 

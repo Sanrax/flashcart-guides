@@ -38,43 +38,46 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 </div>
 
 1.  **Compatibility List**
-    - Ace3DS+ (ace3ds.com)
-    - Ace3DS X (ace3ds.com)
+    - Ace3DS+
+    - Ace3DS X
     - \### in 1 combo cart
-    - ge.ndsi.in GEi HOT
     - r4azure.com carts
+    - r4inp.com carts
     - r4isdhc.com.cn carts
-    - r4isdhc.hk 2020+ carts with a star-shaped year number - [(Image)](https://preview.redd.it/8fzy9qyb8w5c1.jpg?auto=webp&s=b2cb57b5df8b125c97e623acf6297799d99c0a97)
+    - r4iwood.cn carts
+    - r4isdhc.hk 2020+ carts
     - r4li.com carts
     - r4infinity.com 2
     - r4ixds.com 2014 white version
     - woodr4isdhc.com carts
+    - ge.ndsi.in GEi HOT
 
 ### R4iTT Family
 
 <div class="annotate" markdown>
 
 - [**BL2CK Carts**](cart-guides/bl2ck.md) - See cart list (1)
-- [**R4DS Pro**](cart-guides/r4dspro.md "<img src="images/r4dspro.jpg" alt="R4DS Pro" width="100">") - r4dspro.com
+- [**R4DS Pro**](cart-guides/r4dspro.md "<img src="images/r4dspro.jpg" alt="R4DS Pro" width="100">") - See cart list (2)
 
 </div>
 
 1.  **Compatibility List**
     - *Default Version:*
         - Acekard 2/2.1/2i clone carts that can't boot AKAIO 1.9.0
-        - R4i Gold 3DS Plus with faulty DS mode
+        - R4i Gold 3DS Plus (r4ids.cn) with faulty DS mode
+        - R4i Infinity A.C. Kard
         - r4i3d.com NEW, 2012+
         - r4igold.cc 3DS, New
-        - r4infinity.com Dual-Core
+        - r4infinity.com Dual-Core, V1.6
         - r4isdhc.com Dual-Core (no year number)
         - r4isdhc.com NEW/2013 carts
         - r4isdhc.hk carts with no year number, or before 2020
-        - r4isdhc.in 2014
+        - r4isdhc.in carts
         - R4iTT 3DS NEW, RTS
         - r4ixds.com 2014-2016 non-white
         - r4i-3dsnew.com carts
         - r4i-drive.com carts
-        - r4i-gold.com 3DS Gold Pro
+        - r4i-gold.com 3DS Gold Pro, 2013 carts
         - r4i-gold.me 2013-2015
         - r4sdhc.com R4i SDHC Renovation V3DSU
         - r4ultra.com carts that can't boot R4 Ultra AKAIO 1.8.6a
@@ -85,6 +88,12 @@ If you'd like to improve this resource or add new carts, feel free to create a p
     - *Amaze3DS Version:*
         - r4igold.cc Wood carts
         - Amaze3DS carts
+
+2.  **Compatibility List**
+    - AliExpress R4DS Pro carts
+    - r4iplat.com carts
+    - r4i-d.com carts
+    - r4i-3dsnew.com carts
 
 ### Acekard Family
 

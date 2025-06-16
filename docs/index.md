@@ -3,8 +3,11 @@ title: Home
 ---
 
 # Welcome!
+![Wave](images/Ryuuko_Wave.png){style="float:right; margin:0 0 1rem 1rem; width:clamp(80px,40vw,270px);"}
 
-This webpage contains guides for setting up various carts we commonly encounter over on the r/flashcarts subreddit. Carts are grouped by the hardware family they belong to. Find your cart and click on it to get taken to its corresponding instructions page. You can also hover over links to see a cart preview.
+Meet Ryuuko, our cute flashcart expert who will help you set up your flashcart!
+
+This page contains guides for setting up various carts we commonly encounter over on the r/flashcarts subreddit. Carts are grouped by the hardware family they belong to. Find your cart and click on it to get taken to its corresponding instructions page. You can also hover over links to see a cart preview.
 
 If you'd like to improve this resource or add new carts, feel free to create a pull request in the GitHub repository!
 

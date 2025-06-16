@@ -2,7 +2,7 @@
 title: Unbricking Flashcarts
 ---
 
-![No DS Card](../images/NoDSCard.png){ align=right width="200"}
+![No DS Card](../images/NoDSCard.png){ align=right width="160"}
 # Unbricking Flashcarts
 ## All carts with SPI-type flash
 

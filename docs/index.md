@@ -36,7 +36,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
 - [**N5**](cart-guides/n5.md "<img src="images/n5.jpg" alt="N5" width="100">") - dsn5.com
 - [**R4 Deluxe**](cart-guides/r4deluxe.md "<img src="images/r4deluxe.png" alt="R4 Deluxe" width="100">") - r4deluxe.com
-- [**R4DS Happybox**](cart-guides/happybox.md "<img src="images/happybox.png" alt="R4 SDHC Happybox" width="100">") - r4isdhc.com
+- [**R4DS Happybox**](cart-guides/r4christmas.md "<img src="images/happybox.png" alt="R4 SDHC Happybox" width="100">") - r4isdhc.com
 
 </div>
 

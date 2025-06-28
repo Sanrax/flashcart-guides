@@ -182,6 +182,38 @@ title: Setting Up Emulators
     
     1. To play Atari 7800 games, navigate to the `Emulators` folder, launch `A7800DS.nds`, and select a ROM in the menu.
 
+=== "Atari 800/400"
+
+    1. Download the [A8DS NDS file.](https://github.com/wavemotion-dave/A8DS/releases/latest/download/A8DS.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Copy `A8DS.nds` to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `800` and `BIOS`.
+    
+    1. Place your 8-bit Atari game game ROMs inside the `800` folder.
+    
+        - The following game types are supported by A8DS:
+            - `CAR` and `ROM` cartridge-based games up to 1MB in size
+            - `XEX` Atari 8-bit executable images
+            - `ATR` and `ATX` disk-based games
+            - Atari 5200 cartridge based games (up to 128K Super Carts)
+    
+    1. A8DS optionally supports Atari BIOSes for more accurate emulation. An open source "Altirra" BIOS is built-in, but official Atari BIOSes will provide the best performance, if you are able to obtain them.
+        
+        - The following optional BIOSes are supported by A8DS:
+            - `atarixl.rom` - Atari 16k XL/XE BIOS (NTSC Rev 02 - BB 01.02, 10.May.1983)
+            - `atariosb.rom` - 12k Atari 800 OS-B revision BIOS (NTSC OS-B version 2) - for older games
+            - `ataribas.rom` - 8k Atari BASIC cartridge (Rev C)
+            - `a5200.rom` - 2k Atari 5200 BIOS ROM (Rev 1)
+
+    1. Place all BIOS files you have obtained and want to use in `/ROMs/BIOS`.
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play Atari 8-bit games, navigate to the `Emulators` folder, launch `A8DS.nds`, and select a ROM in the menu.
+
 ### Miscellaneous Consoles
 
 === "Sega Genesis/MegaDrive"
@@ -225,3 +257,25 @@ title: Setting Up Emulators
     !!! tip
 
         More consoles than just ColecoVision are supported by ColecoDS - similar architecture devices are also emulated. See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for more information, and a full list of supported BIOSes.
+
+=== "NeoGeo"
+
+    1. Download the [NeoDS NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NeoDS.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Copy `NeoDS.nds` to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create a `NeoGeo` folder inside.
+    
+    1. Also on the SD card root, create a `data` folder, and then create a `NeoDS` folder inside.
+
+    1. Download [this `_NeoDS.ini` file](../assets/_NeoDS.ini), and place it inside `/data/NeoDS`.
+
+    1. NeoDS requires ROMs to be converted to `.neo` format before they can be used with the emulator. Follow the documentation [found here](https://github.com/flashcarts/AOS/blob/master/extras/NeoDS-ReadMe.md) to convert your ROMs.
+    
+    1. Once your ROMs are converted, place them in `/ROMs/NeoGeo` on your SD card. 
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play NeoGeo games, navigate to the `Emulators` folder, launch `NeoDS.nds`, and select a ROM in the menu.

@@ -279,3 +279,23 @@ title: Setting Up Emulators
     1. Place the SD card back into your cart, and boot into the menu.
     
     1. To play NeoGeo games, navigate to the `Emulators` folder, launch `NeoDS.nds`, and select a ROM in the menu.
+
+=== "PC-Engine/TurboGrafx-16"
+
+    1. Download the [NitroGrafx NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NitroGrafx.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Copy `NitroGrafx.nds` to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create a `TurboGrafx` folder inside it.
+    
+    1. Place your TurboGrafx/PC-Engine game ROMs inside the `TurboGrafx` folder.
+
+     1. On your SD card root, create a `NitroGrafx` folder. 
+     
+         - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
+
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play TurboGrafx games, navigate to the `Emulators` folder, launch `NitroGrafx.nds`, and select a ROM in the menu.

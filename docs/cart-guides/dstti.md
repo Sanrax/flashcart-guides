@@ -36,4 +36,8 @@ title: DSTT/i & Clones
 
 1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 
+1. The files on your SD card should now look like this:
+
+    - ![DSTTi](../images/SD_Files/DSTTi/DSTTi.png){ align=left width="600"}
+
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.

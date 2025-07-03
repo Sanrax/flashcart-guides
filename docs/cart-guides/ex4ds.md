@@ -24,6 +24,10 @@ title: EX4DS
 
 1. Navigate to `/roms` and place your `.nds` game ROMs inside the `nds` folder. Place other console roms supported by AceOS emulators in their respective folders.
 
+1. The files on your SD card should now look like this:
+
+    - ![EX4DS](../images/SD_Files/EX4DS/EX4DS.png){ align=left width="600"}
+
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
 !!! tip

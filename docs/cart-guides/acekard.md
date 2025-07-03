@@ -14,13 +14,17 @@ title: Acekard 2/2.1/2i
 
 1. Download the [AKAIO 1.9.0 kernel.](https://archive.flashcarts.net/acekard.com/AceKard_2i/AKAIO_1.9.0-20121129.zip)
 
-1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
+1. Open/extract the zip file, then copy `__aio` and `akmenu4.nds` into the root of your SD card.
 
 1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
 
 1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `__aio/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
 1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
+
+1. The files on your SD card should now look like this:
+
+    - ![AK2](../images/SD_Files/AKAIO/AKAIO.png){ align=left width="600"}
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 

@@ -24,4 +24,8 @@ title: R4 Deluxe
 
 1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
 
+1. The files on your SD card should now look like this:
+
+     - ![R4 Deluxe](../images/SD_Files/R4_Deluxe/R4_Deluxe.png){ align=left width="600"}
+
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.

@@ -30,13 +30,17 @@ title: DSTTi DEMON-HW Carts
 
     1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
 
+    1. The files on your SD card should now look like this:
+    
+         - ![R4i-SDHC](../images/SD_Files/DEMON_R4iMenu/R4iMenu.png){ align=left width="600"}
+
     1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
 === "YSMenu"
 
     !!! info "Kernel Info"
 
-        See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext.html#r4i-sdhc-ysmenu-folder) `R4i-SDHC YSMenu` section for a full list of compatible carts.
+        See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext#demon-dstti-clones) `DEMON DSTTi Clones` section for a full list of compatible carts.
 
         YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. However, it does lack RTS (Real Time Save), so check out the R4iMenu tab if that is something you're interested in.
 
@@ -59,6 +63,10 @@ title: DSTTi DEMON-HW Carts
     1. Download [this `R4.dat`](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat), and place it in SD card root as well.
 
     1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+
+    1. The files on your SD card should now look like this:
+    
+         - ![R4i-SDHC](../images/SD_Files/DEMON_YSMenu/Demon_YS.png){ align=left width="600"}
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 

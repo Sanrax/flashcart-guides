@@ -132,3 +132,39 @@ title: Setting Up AKMenu-Next
     1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
     
     1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+
+=== "Updating"
+
+    !!! info
+
+        AKMenu-Next and nds-bootstrap must be updated seperately of each other.
+        If you wish to check for the latest version of AKMenu-Next and nds-bootstrap, you can view the latest versions & changelog from the Github releases linked here: [AKMenu-Next Releases](https://github.com/coderkei/akmenu-next/releases/latest) - [nds-bootstrap Releases](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest)
+
+    #### Updating AKMenu-Next
+
+    1. Go to the tab above for your applicable console/flashcart and  Download the latest release of AKMenu-Next from there.
+
+    1. Extract the downloaded `akmenu-next-flashcart/dsi/3ds.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the AKMenu-Next files, copy the `_nds` folder to your SD card root, clicking `Replace files` if on Windows or Linux, or `Merge` if on MacOS:
+
+    #### If you are on a flashcart
+
+    - Copy & replace the `BOOT.NDS` file to your SD card root.
+
+    #### If you are on a Nintendo DSi
+
+    - Copy & replace the `akmenu-next.dsi` file to your SD card root.
+    - If you **do not** also use Twilightmenu++, copy & replace the `BOOT.NDS` file to your SD card root. If you use Twilightmenu++, skip this file.
+
+    #### If you are on a Nintendo 3DS
+
+    - Copy & replace the `akmenu-next.cia` file to your SD card root. Install this file with FBI, you may need to restart your 3DS console afterwards to use the new version.
+
+    #### Updating nds-bootstrap
+
+    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+
+    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the `nds-bootstrap-release.nds` file from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.

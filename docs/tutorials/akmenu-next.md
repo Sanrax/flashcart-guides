@@ -24,6 +24,12 @@ title: Setting Up AKMenu-Next
         - `_nds` folder
         - `BOOT.NDS`
 
+    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+
+    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the `nds-bootstrap-release.nds` file from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
     1. Load `BOOT.NDS` with your flashcart's kernel, or alternatively follow the autoboot steps below.
 
     #### Cheats
@@ -67,7 +73,13 @@ title: Setting Up AKMenu-Next
         - `BOOT.NDS` (Please read the warning above)
         - `akmenu-next.dsi`
 
-    1. Load `BOOT.NDS` with your desired entrypoint method. Alternatively, use Unlaunch or TWiLight Menu++ to boot `akmenu-next.dsi`
+    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+
+    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the `nds-bootstrap-release.nds` file from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+    1. Load `BOOT.NDS` with your desired entrypoint method (e.g. Memory Pit, stylehax or Flipnote Lenny). Alternatively, use Unlaunch or TWiLight Menu++ to boot `akmenu-next.dsi`
 
     #### Cheats
 
@@ -81,14 +93,14 @@ title: Setting Up AKMenu-Next
 
     1. In the Unlaunch menu, go to OPTIONS
 
-    1. Set NO BUTTON or a button of your choice to the akmenu-next that says `BOOT.NDS` (or `akmenu-next.dsi` applicable) on the bottom screen
+    1. Set NO BUTTON or a button of your choice to the akmenu-next that says `BOOT.NDS` (or `akmenu-next.dsi` if applicable) on the bottom screen
 
 
 === "Nintendo 3DS"
 
     !!! note
 
-        This requires a modded Nintendo 3DS system. If your Nintendo 3DS is not modded, please follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it.
+        This requires a modded Nintendo 3DS system. If your Nintendo 3DS is not modded, please follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it. This guide is also applicable to the Nintendo 2DS & New 2DS XL but will be referenced as a 3DS in the steps below.
 
     #### Installing AKMenu-Next Nintendo 3DS Edition
 
@@ -101,13 +113,19 @@ title: Setting Up AKMenu-Next
         - `_nds` folder
         - `akmenu-next.cia`
 
-    1. Open the FBI app, go to your SD card, and find the `akmenu-next.cia` file. Select the cia, then choose "Install and Delete CIA".
+    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+
+    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the `nds-bootstrap-release.nds` file from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+    1. Boot up your Nintendo 3DS. Open the FBI app, go to your SD card, and find the `akmenu-next.cia` file. Select the cia, then choose "Install and Delete CIA".
 
     1. Launch the `akmenu-next` application from the 3DS home screen.
     
     !!! tip
     
-        If AKMenu-Next does not appear on your 3DS home screen after installing the cia, restart your 3DS.
+        If you are upgrading from an older version of AKMenu-Next, or if AKMenu-Next does not appear on your 3DS home screen after installing the cia, restart your 3DS.
 
     #### Cheats
 

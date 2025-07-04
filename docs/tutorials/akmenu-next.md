@@ -65,7 +65,7 @@ title: Setting Up AKMenu-Next
         !!! warning
 
             If you are using TWiLight Menu++ and want to dual boot akmenu-next, do not copy over `BOOT.NDS` as this will overwrite the one TWiLight Menu++ uses.
-            You can instead launch `akmenu-next.dsi` with TWiLight Menu++ or Unlaunch.
+            You can instead launch `akmenu-next.dsi` with TWiLight Menu++ or Unlaunch. This however, will mean quitting a game using the nds-bootstrap hotkey menu will boot back into TWiLight Menu++ instead.
 
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
@@ -108,9 +108,14 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `akmenu-next-3ds.zip` file with [7-Zip](https://www.7-zip.org/).
 
+        !!! warning
+
+            If you are using TWiLight Menu++ on your Nintendo 3DS and want to also use akmenu-next, do not copy over `BOOT.NDS` as this will overwrite the one TWiLight Menu++ uses. This however, will mean quitting a game using the nds-bootstrap hotkey menu will boot back into TWiLight Menu++ instead.
+
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
         - `_nds` folder
+        - `BOOT.NDS` (Please read the warning above)
         - `akmenu-next.cia`
 
     1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
@@ -146,7 +151,9 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `akmenu-next-flashcart/dsi/3ds.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. From within the AKMenu-Next files, copy the `_nds` folder to your SD card root, clicking `Replace files` if on Windows or Linux, or `Merge` if on MacOS:
+    1. From within the AKMenu-Next files, copy the `_nds` folder to your SD card root, clicking `Replace files` if on Windows or Linux, or `Merge` if on MacOS.
+
+    **Please follow the below according to the system you are using:**
 
     #### If you are on a flashcart
 
@@ -159,7 +166,9 @@ title: Setting Up AKMenu-Next
 
     #### If you are on a Nintendo 3DS
 
-    - Copy & replace the `akmenu-next.cia` file to your SD card root. Install this file with FBI, you may need to restart your 3DS console afterwards to use the new version.
+    - Copy & replace the `akmenu-next.cia` file to your SD card root.
+    - If you **do not** also use Twilightmenu++, copy & replace the `BOOT.NDS` file to your SD card root. If you use Twilightmenu++, skip this file.
+    - Install the `akmenu-next.cia` file with FBI, you may need to restart your 3DS console afterwards to use the new version.
 
     #### Updating nds-bootstrap
 

@@ -105,6 +105,8 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**R4 Ultra**](cart-guides/r4ultra.md "<img src="images/r4ultra.jpg" alt="R4 Ultra" width="100">") - r4ultra.com
 - [**R4i+ 3DS/DS Gold & R4i 3DS RTS**](cart-guides/r4ids_cn.md "<img src="images/r4ids_cn.png" alt="r4ids.cn" width="100">") - r4ids.cn
 - [**R4i Gold (Non-3DS)**](cart-guides/r4ids_cn_non_3ds.md "<img src="images/r4idscn_non3ds.png" alt="r4ids.cn" width="100">") - r4ids.cn
+- [**R4iDS.com Original**](cart-guides/r4ids_com.md "<img src="images/r4ids_com_original.jpg" alt="r4ids.com original" width="100">") - r4ids.com
+- [**R4i Gold 2.0**](cart-guides/r4ids_com_2_0.md "<img src="images/r4ids_com_2.0.jpg" alt="r4ids.com Gold 2.0" width="100">") - r4ids.com
 
 ### SuperCard Family
 

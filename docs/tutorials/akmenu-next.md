@@ -28,7 +28,7 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. Copy the *contents* of the files from from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
     1. Load `BOOT.NDS` with your flashcart's kernel, or alternatively follow the autoboot steps below.
 
@@ -77,7 +77,7 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. Copy the *contents* of the files from from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
     1. Load `BOOT.NDS` with your desired entrypoint method (e.g. Memory Pit, stylehax or Flipnote Lenny). Alternatively, use Unlaunch or TWiLight Menu++ to boot `akmenu-next.dsi`
 
@@ -126,7 +126,7 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. Copy the *contents* of the files from from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
     1. Boot up your Nintendo 3DS. Open the FBI app, go to your SD card, and find the `akmenu-next.cia` file. Select the cia, then choose "Install CIA".
 
@@ -182,4 +182,4 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. Copy the *contents* of the files from from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.

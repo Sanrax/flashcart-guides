@@ -34,6 +34,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**Original R4SDHC**](cart-guides/r4sdhc.md "<img src="images/r4sdhc.png" alt="Original R4SDHC" width="100">") - r4sdhc.com
 - [**R4SDHC Christmas**](cart-guides/r4christmas.md "<img src="images/r4christmas.jpg" alt="R4SDHC Christmas" width="100">") - r4isdhc.com
 - [**R4i SDHC Christmas**](cart-guides/r4i_christmas.md "<img src="images/r4i_christmas.png" alt="R4i SDHC Christmas" width="100">") - r4isdhc.com
+- [**R4i SDHC V1.4**](cart-guides/r4i_sdhc_v1.4.md "<img src="images/r4i_sdhc_v1.4.jpg" alt="R4i SDHC v1.4" width="100">") - r4sdhc.com
 - [**R4DS Happybox**](cart-guides/r4christmas.md "<img src="images/happybox.png" alt="R4 SDHC Happybox" width="100">") - r4isdhc.com
 - [**R4 Upgrade/R4-III**](cart-guides/r4upgrade.md "<img src="images/r4upgrade.jpg" alt="R4 Upgrade" width="100">") - r4dsl.net
 - [**N5**](cart-guides/n5.md "<img src="images/n5.jpg" alt="N5" width="100">") - dsn5.com

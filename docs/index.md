@@ -80,7 +80,6 @@ If you'd like to improve this resource or add new carts, feel free to create a p
         - r4isdhc.in carts
         - R4iTT 3DS NEW, RTS
         - r4ixds.com 2014-2016 non-white
-        - r4i-3dsnew.com carts
         - r4i-drive.com carts
         - r4i-gold.com 3DS Gold Pro, 2013 carts
         - r4i-gold.me 2013-2015

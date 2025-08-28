@@ -1,14 +1,14 @@
 ---
-title: Galaxy Eagle
+title: Original R4iGold.cc
 ---
 
-![Galaxy Eagle](../images/gei.jpg){ align=right width="115"}
-# Galaxy Eagle
-## ge.ndsi.in
+![r4igold.cc](../images/r4igold_cc.png){ align=right width="115"}
+# Original R4iGold.cc
+## r4igold.cc
 
 !!! info
 
-    The Galaxy Eagle is a clone of the Acekard 2i. Unfortunately, it's not a very good clone, and neither AKAIO nor BL2CK work properly on it. While BL2CK boots, it will freeze on a white screen when attempting to load any commercial ROM file. Therefore, AKMenu-Next is the recommended primary kernel for it, so that nds-bootstrap can be used to load games. As an alternative option, the stock kernel is also provided, but it will likely be able to run less games than AKMenu-Next.
+    The original r4igold.cc cart is a clone of the Galaxy Eagle. Unfortunately, the Galaxy Eagle itself is a bad clone of the Acekard 2i, and neither AKAIO nor BL2CK work properly on it. While BL2CK boots, it will freeze on a white screen when attempting to load any commercial ROM file. Therefore, AKMenu-Next is the recommended primary kernel for Galaxy Eagle and related carts, so that nds-bootstrap can be used to load games. As an alternative option, the stock kernel is also provided, but it will likely be able to run less games than AKMenu-Next.
 
 ### Setup Guide:
 
@@ -41,7 +41,7 @@ title: Galaxy Eagle
     
     1. The files on your SD card should now look like this:
     
-        - ![GEi AKMenu-Next](../images/SD_Files/Galaxy_Eagle/GEi_AKMenu_Next.png){ align=left width="600"}
+        - ![GEi AKMenu-Next](../images/SD_Files/R4iGold_cc/R4iGold_cc_AKMenu_Next.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
@@ -49,7 +49,7 @@ title: Galaxy Eagle
 
         Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
 
-=== "Stock GEi v4.2"
+=== "R4iGold.cc v2.6"
 
     !!! warning "Kernel Info"
 
@@ -57,7 +57,7 @@ title: Galaxy Eagle
     
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
-    1. Download the [GEi 4.2 kernel.](https://archive.flashcarts.net/ge.ndsi.in/ge.ndsi.in_GEi_Kernel_4.2.zip)
+    1. Download the [R4iGold.cc v2.6 kernel.](https://archive.flashcarts.net/r4igold.cc/r4igold.cc_Kernel_2.6.zip)
     
     1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
     
@@ -73,6 +73,6 @@ title: Galaxy Eagle
     
     1. The files on your SD card should now look like this:
     
-        - ![GEi 4.2](../images/SD_Files/Galaxy_Eagle/GEi.png){ align=left width="600"}
+        - ![R4iGold.cc v2.6](../images/SD_Files/R4iGold_cc/R4iGold_cc.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.

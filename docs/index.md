@@ -111,6 +111,8 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ### Galaxy Eagle Family
 - [**Galaxy Eagle**](cart-guides/galaxy_eagle.md "<img src="images/gei.jpg" alt="Galaxy Eagle" width="100">") - ge.ndsi.in
+- [**Galaxy Eagle Pro**](cart-guides/galaxy_eagle_pro.md "<img src="images/geipro.jpg" alt="Galaxy Eagle Pro" width="100">") - ge.ndsi.in
+- [**Original R4iGold.cc**](cart-guides/r4igold_cc.md "<img src="images/r4igold_cc.png" alt="R4iGold.cc" width="100">") - r4igold.cc
 
 ### SuperCard Family
 

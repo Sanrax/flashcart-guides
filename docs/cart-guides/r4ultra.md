@@ -28,4 +28,8 @@ title: R4 Ultra/R4i Ultra
 
     - ![R4 Ultra](../images/SD_Files/AKAIO_Ultra/AKAIO_Ultra.png){ align=left width="600"}
 
-2. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

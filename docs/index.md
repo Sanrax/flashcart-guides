@@ -109,6 +109,9 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 - [**R4iDS.com Original**](cart-guides/r4ids_com.md "<img src="images/r4ids_com_original.jpg" alt="r4ids.com original" width="100">") - r4ids.com
 - [**R4i Gold 2.0**](cart-guides/r4ids_com_2_0.md "<img src="images/r4ids_com_2.0.jpg" alt="r4ids.com Gold 2.0" width="100">") - r4ids.com
 
+### Galaxy Eagle Family
+- [**Galaxy Eagle**](cart-guides/galaxy_eagle.md "<img src="images/gei.jpg" alt="Galaxy Eagle" width="100">") - ge.ndsi.in
+
 ### SuperCard Family
 
 - [**DSOne SDHC**](cart-guides/dsone.md "<img src="images/dsone.png" alt="DSOne" width="100">") - supercard.sc

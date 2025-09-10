@@ -102,7 +102,7 @@ title: Setting Up Emulators
 
 === "NES"
 
-    1. Download the [NesDS NDS file.](/docs/assets/nesDS.nds)
+    1. Download the [NesDS NDS file.](../assets/nesDS.nds)
     
     1. Create an `Emulators` folder on your SD card root.
     

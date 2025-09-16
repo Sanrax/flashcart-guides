@@ -67,6 +67,14 @@ title: Unbricking Flashcarts
     - For the example, `R4iGold.cc Flash Backups` -> `R4iGold.cc_3DS_2013_imagedump.bin` would be a good fit.
     - If you can't find an exact match for your cart, try to find a PCB with the same flashrom size, and the same ASIC chip, then use that backup.
 
+!!! info "Cross-Flashing"
+
+    Some flashroms can be flashed onto similar hardware, even if it does not look identical.
+    
+    Currently, it is known that R4i3D carts can successfully be flashed with r4igold.cc 2MB flashrom, as long as the PCB does *NOT* have `PD901A` written on it. Carts with PD901A PCBs can use the r4dspro flashrom. R4iPlat is also compatible with the r4dspro flashrom.
+    
+    This technique can also be used to make carts that don't boot on stock DSi/3DS boot on stock consoles again, by using a flashrom from another cart that IS compatible with stock DSi/3DS. r4igold.cc FW7 is known to be compatible with all consoles on stock FW.
+
 #### Preparing the Chip for Flashing
 
 1. Now we will need to get the SPI flash chip off the flashcart PCB and mounted onto the CH341A flasher.

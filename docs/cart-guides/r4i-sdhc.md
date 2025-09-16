@@ -70,6 +70,47 @@ title: DSTTi DEMON-HW Carts
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+=== "AKMenu-Next"
+
+    !!! info "Kernel Info"
+
+        AKMenu-Next is an alternative kernel based on akmenu4 (used in Wood R4 and AKAIO) and uses nds-bootstrap to load games. This is an option if you have games, ROM hacks or fan translations that do not work on YSMenu or R4iMenu, and is also an option if you want a Wood R4 style interface.
+
+    1. Download the latest release of [AKMenu-Next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
+
+    1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the akmenu-next files, copy the following files/folders to your SD card root:
+
+        - `_nds` folder
+        - `BOOT.NDS`
+
+    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+
+    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
+    
+    1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+
+    1. Open the `Autoboot` folder within the AKMenu-Next files.
+    
+    1. Copy the *contents* of the `R4i-SDHC` folder (do not copy the folder itself) to the root of your SD card.
+
+    1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4i-SDHC AKMenu-Next](../images/SD_Files/DEMON_AKMenu/AKMenu.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Themes"
+
+        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+
 !!! info "Timebombs"
 
     While some old versions of the stock kernel have timebombs (error that triggers past a certain date), neither YSMenu nor the versions of R4iMenu provided in this guide have one.

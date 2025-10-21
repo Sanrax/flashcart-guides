@@ -63,6 +63,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 - [**BL2CK Carts**](cart-guides/bl2ck.md) - See cart list (1)
 - [**R4DS Pro**](cart-guides/r4dspro.md "<img src="images/r4dspro.jpg" alt="R4DS Pro" width="100">") - See cart list (2)
+- [**R4iGold.cc Wood**](cart-guides/r4igold_cc_wood.md "<img src="images/r4igold_cc_wood.jpeg" alt="R4iGold.cc Wood" width="100">") - r4igold.cc
 
 </div>
 
@@ -90,7 +91,6 @@ If you'd like to improve this resource or add new carts, feel free to create a p
         - r4-pro.com carts
         - super4i.com R4i Super
     - *Amaze3DS Version:*
-        - r4igold.cc Wood carts
         - Amaze3DS carts
 
 2.  **Compatibility List**

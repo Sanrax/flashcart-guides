@@ -102,11 +102,11 @@ title: Setting Up Emulators
 
 === "NES"
 
-    1. Download the [NesDS NDS file.](../assets/nesDS.nds)
+    1. Download the [NesDS 7z file.](https://github.com/DS-Homebrew/NesDS/releases/latest/download/nesDS.7z)
     
     1. Create an `Emulators` folder on your SD card root.
     
-    1. Copy the `nesDS.nds` file to the `Emulators` folder on your SD card.
+    1. Open/extract `nesDS.7z` using 7-Zip, and locate `nesDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
     
     1. On your SD card root, create a `ROMs` folder, and then create a `NES` folder inside it. Place your `.nes` game ROMs inside.
     

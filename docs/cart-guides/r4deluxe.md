@@ -29,3 +29,7 @@ title: R4 Deluxe
      - ![R4 Deluxe](../images/SD_Files/R4_Deluxe/R4_Deluxe.png){ align=left width="600"}
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!

@@ -31,3 +31,7 @@ title: R4i SDHC V1.4
      - ![R4i SDHC V1.4](../images/SD_Files/R4i_SDHC_V1.4/r4i_sdhc_v1.4.png){ align=left width="600"}
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!

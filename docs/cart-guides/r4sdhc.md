@@ -26,6 +26,10 @@ title: Original R4SDHC
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+
 ---
 
 !!! info "Info and Credits"

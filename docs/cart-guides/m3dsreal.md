@@ -38,6 +38,10 @@ title: M3 DS Real
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+    !!! tip "Themes"
+
+        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+
 === "Sakura + YSMenu"
 
     !!! info "Sakura Kernel"

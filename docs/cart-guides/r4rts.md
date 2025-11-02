@@ -22,6 +22,10 @@ title: R4i SDHC RTS
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+
 !!! tip
 
     If you'd like to use RTS (Real-Time-Save), you can also use the cart's stock kernel, provided below. Do keep in mind though that game compatibility won't be as good as YSMenu, and the RTS feature itself can be hit-or-miss.

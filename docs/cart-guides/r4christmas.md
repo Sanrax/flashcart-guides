@@ -25,3 +25,7 @@ title: R4SDHC Christmas
     - ![R4 Christmas](../images/SD_Files/R4_Christmas/R4_Christmas.png){ align=left width="600"}
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
+!!! tip "Themes"
+
+    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!

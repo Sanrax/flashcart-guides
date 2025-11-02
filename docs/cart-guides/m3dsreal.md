@@ -50,9 +50,9 @@ title: M3 DS Real
     
     1. Extract *the contents* of the Sakura zip to your SD card's root. (It should just be a single `SYSTEM` folder)
     
-    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/latest)
-    
-    1. You will need the `usrcheat.7z` file. Extract it using [7-Zip](https://www.7-zip.org/), inside you will find a `usrcheat.dat` file. Rename this file to `cheat_EN.db`. Copy the `cheat_EN.db` file into the `SYSTEM` folder on your SD card.
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711/)
+
+    1. You will need the `cheat_EN.db` file from the download link in the post. Copy the `cheat_EN.db` file into the `SYSTEM` folder on your SD card.
     
     1. Next, we'll be adding YSMenu 7.06 to the setup.
     

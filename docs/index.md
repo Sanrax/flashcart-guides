@@ -48,6 +48,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
     - \### in 1 combo cart
     - r4azure.com carts
     - r4inp.com carts
+    - r4xmp.com carts
     - r4isdhc.com.cn carts
     - r4iwood.cn carts
     - r4isdhc.hk 2020+ carts
@@ -56,6 +57,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
     - r4ixds.com 2014 white version
     - woodr4isdhc.com carts
     - ge.ndsi.in GEi HOT
+    - Unlabeled carts with a red PCB
 
 ### R4iTT Family
 

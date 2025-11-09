@@ -4,7 +4,7 @@ title: Ace3DS+/X & R4iLS
 
 ![R4iLS Clone](../images/r4ils.png){ align=right width="115"}
 # Ace3DS+/X & R4iLS Clones
-## r4isdhc.hk 2020+, r4isdhc.com.cn, ace3ds.com, XXX in 1
+## r4isdhc.hk 2020+, r4isdhc.com.cn, ace3ds.com, XXX in 1, Unlabeled carts with red PCB
 
 ---
 

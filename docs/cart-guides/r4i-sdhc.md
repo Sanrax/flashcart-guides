@@ -6,6 +6,42 @@ title: DSTTi DEMON-HW Carts
 # DSTTi DEMON-HW Carts (AKA Timebomb Carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 
+=== "Pico-Launcher"
+
+    !!! info "Kernel Info"
+
+        Pico-Launcher is compatible with **ALL** DSTT hardware, including all DEMON carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+
+    !!! warning "Cheats, Soft-Reset, and RTS"
+
+        Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, considering using R4iMenu or YSMenu. Note that if cheats are a primary concern, YSMenu is the best choice. R4iMenu can have issues with some cheat codes.
+        
+        Real-Time-Save (save states), are only supported in R4iMenu. Use the R4iMenu tab if this is a feature you'd like to use.
+
+    ### Setup Guide:
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the latest [Pico Package for DSTT](https://picoarchive.cdn.blobfrii.com/pico_package_DSTT.zip).
+
+    1. Extract the `pico_package_DSTT.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.
+
+    1. From within the extracted files, copy the following files/folders to your SD card root:
+
+        - `_pico` folder
+
+        - `_picoboot.nds`
+
+        - `r4.dat`
+
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+
+    1. The files on your SD card should now look like this:
+    
+         - ![R4i-SDHC](../images/SD_Files/DEMON_Pico/pico.png){ align=left width="600"}
+
+    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
 === "R4iMenu"
 
     !!! info "Kernel Info"
@@ -135,6 +171,6 @@ title: DSTTi DEMON-HW Carts
 
 !!! info "Timebombs"
 
-    While some old versions of the stock kernel have timebombs (error that triggers past a certain date), neither YSMenu nor the versions of R4iMenu provided in this guide have one.
+    While some old versions of the stock kernel have timebombs (error that triggers past a certain date), none of the kernels provided in this guide have one.
 
     If you'd like to learn more about flashcart timebombs and what they do, check out the [Timebomb Misconceptions](https://www.flashcarts.net/ds-timebomb) page on Flashcarts.net!

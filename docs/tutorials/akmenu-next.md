@@ -2,11 +2,12 @@
 title: Setting Up AKMenu-Next
 ---
 
+![AKMenu-Next](../images/akmenu.png){ align=right width="200"}
 # Setting Up AKMenu-Next
 
 !!! info
     
-    [AKMenu-Next](https://github.com/coderkei/akmenu-next) is a frontend for nds-bootstrap based on a fork of [akmenu4](https://github.com/lifehackerhansol/akmenu4) for running Nintendo DS Software & Homebrew. It supports cheats along with support for Acekard themes.
+    [AKMenu-Next](https://github.com/coderkei/akmenu-next) is a frontend for nds-bootstrap & Pico-Loader based on a fork of [akmenu4](https://github.com/lifehackerhansol/akmenu4) for running Nintendo DS Software & Homebrew. It supports cheats along with support for Acekard themes.
     For controls such as soft-reset and quitting games, please see [nds-bootstrap controls](https://wiki.ds-homebrew.com/nds-bootstrap/controls)
 
 ### Setup Guide:
@@ -22,6 +23,7 @@ title: Setting Up AKMenu-Next
     1. From within the akmenu-next files, copy the following files/folders to your SD card root:
 
         - `_nds` folder
+        - `_pico` folder
         - `BOOT.NDS`
 
     1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
@@ -30,7 +32,24 @@ title: Setting Up AKMenu-Next
 
     1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
-    1. Load `BOOT.NDS` with your flashcart's kernel, or alternatively follow the autoboot steps below.
+    #### Pico-Loader (Experimental)
+
+    If you would like to also use the experimental [Pico-Loader](https://github.com/LNH-team/pico-loader/) please follow the below steps, otherwise skip this section.
+    Please bear in mind that Pico-Loader is still experimental and lacks soft-reset and cheat support. Any bugs should be reported on the [Pico-Loader Issues Page](https://github.com/LNH-team/pico-loader/issues).
+
+    !!! warning
+        Using the wrong version of Pico-Loader could damage your flashcard!
+        If you are unsure which version to use, check the [Supported Platforms section](https://github.com/LNH-team/pico-loader?tab=readme-ov-file#supported-platforms).
+
+    1. Download the latest release of [Pico-Loader](https://github.com/LNH-team/pico-loader/releases/latest). Choose the version that corresponds with your flashcart.
+
+    1. Extract the downloaded `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card.
+
+    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled "Game Loader".
+
+    You can now load `BOOT.NDS` with your flashcart's kernel, or alternatively follow the autoboot steps below.
 
     #### Cheats
 
@@ -183,3 +202,11 @@ title: Setting Up AKMenu-Next
     1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
 
     1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+    #### Updating Pico-Loader (Flashcarts Only)
+
+    1. Download the latest release of [Pico-Loader](https://github.com/LNH-team/pico-loader/releases/latest). Choose the version that corresponds with your flashcart.
+
+    1. Extract the downloaded `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card.

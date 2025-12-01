@@ -45,7 +45,7 @@ title: DSOne SDHC
 
     !!! warning "Cheats, Soft-Reset, and RTS"
 
-         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, considering using YSMenu. RTS is only available on EvolutionOS.
+         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using YSMenu. RTS is only available on EvolutionOS.
 
     ### Setup Guide:
 

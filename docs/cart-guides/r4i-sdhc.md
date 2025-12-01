@@ -14,9 +14,9 @@ title: DSTTi DEMON-HW Carts
 
     !!! warning "Cheats, Soft-Reset, and RTS"
 
-        Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, considering using R4iMenu or YSMenu. Note that if cheats are a primary concern, YSMenu is the best choice. R4iMenu can have issues with some cheat codes.
+        Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using R4iMenu or YSMenu. Note that if cheats are a primary concern, YSMenu is the best choice. R4iMenu can have issues with some cheat codes.
         
-        Real-Time-Save (save states), are only supported in R4iMenu. Use the R4iMenu tab if this is a feature you'd like to use.
+        Real-Time-Save (save states), are only supported in R4iMenu. Follow the R4iMenu guide if this is a feature you'd like to use.
 
     ### Setup Guide:
 

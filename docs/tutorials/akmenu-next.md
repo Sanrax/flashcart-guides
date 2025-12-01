@@ -9,7 +9,6 @@ title: Setting Up AKMenu-Next
     
     [AKMenu-Next](https://github.com/coderkei/akmenu-next) is a frontend for nds-bootstrap & Pico-Loader based on a fork of [akmenu4](https://github.com/lifehackerhansol/akmenu4) for running Nintendo DS Software & Homebrew. It supports cheats along with support for Acekard themes.
     For controls such as soft-reset and quitting games, please see [nds-bootstrap controls](https://wiki.ds-homebrew.com/nds-bootstrap/controls)
-    Need help or want to discuss AKMenu-Next, check out the [AKMenu-Next GBATemp Thread](https://gbatemp.net/threads/ds-i-3ds-akmenu-next-wood-frontend-for-nds-bootstrap-pico-loader.665743/)
 
 ### Setup Guide:
 
@@ -46,17 +45,11 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card.
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card. Create this folder if it does not exist.
 
-    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled "Game Loader".
+    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled `Game Loader` and changing the setting to `Pico Loader`.
 
     You can now load `BOOT.NDS` with your flashcart's kernel, or alternatively follow the autoboot steps below.
-
-    #### Cheats
-
-    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
-    
-    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
     #### Autobooting AKMenu-Next
 
@@ -69,6 +62,12 @@ title: Setting Up AKMenu-Next
     1. Copy the *contents* of the folder (do not copy the folder itself) that corresponds with your flashcart to the root of your SD card.
 
     1. If your flashcart is a DSTTi clone that requires additional boot files, check the `Supplementary DSTTi Clone Files` folder. You can check the [YSMenu compatibility list](https://www.flashcarts.net/ysmenu-compat-ext) to check which one you need. If the file you need is not there, you can make copies of the `TTMenu.dat` file from the `DSTT & DSTTi` folder and rename them accordingly.
+
+    #### Cheats
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
 === "Nintendo DSi"
 
@@ -188,7 +187,7 @@ title: Setting Up AKMenu-Next
 
     - Copy & replace the `akmenu-next.dsi` file to your SD card root.
     - If you **do not** also use Twilightmenu++, copy & replace the `BOOT.NDS` file to your SD card root. If you use Twilightmenu++, skip this file.
-    - If you have AKMenu-Next installed as an app on HiyaCFW, you will need to install the updated `akmenu-next.dsi` file with [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
+    - If you have AKMenu-Next installed as an app on HiyaCFW, you will need to re-install the updated `akmenu-next.dsi` file with [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
     #### If you are on a Nintendo 3DS
 
@@ -210,4 +209,8 @@ title: Setting Up AKMenu-Next
 
     1. Extract the downloaded `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file with [7-Zip](https://www.7-zip.org/).
 
-    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card.
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card. Create this folder if it does not exist.
+
+!!! info
+
+    Need help or want to discuss AKMenu-Next? Check out the [AKMenu-Next GBATemp Thread](https://gbatemp.net/threads/ds-i-3ds-akmenu-next-wood-frontend-for-nds-bootstrap-pico-loader.665743/)

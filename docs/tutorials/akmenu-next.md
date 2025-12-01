@@ -9,6 +9,7 @@ title: Setting Up AKMenu-Next
     
     [AKMenu-Next](https://github.com/coderkei/akmenu-next) is a frontend for nds-bootstrap & Pico-Loader based on a fork of [akmenu4](https://github.com/lifehackerhansol/akmenu4) for running Nintendo DS Software & Homebrew. It supports cheats along with support for Acekard themes.
     For controls such as soft-reset and quitting games, please see [nds-bootstrap controls](https://wiki.ds-homebrew.com/nds-bootstrap/controls)
+    Need help or want to discuss AKMenu-Next, check out the [AKMenu-Next GBATemp Thread](https://gbatemp.net/threads/ds-i-3ds-akmenu-next-wood-frontend-for-nds-bootstrap-pico-loader.665743/)
 
 ### Setup Guide:
 
@@ -165,8 +166,8 @@ title: Setting Up AKMenu-Next
 
     !!! info
 
-        AKMenu-Next and nds-bootstrap must be updated seperately of each other.
-        If you wish to check for the latest version of AKMenu-Next and nds-bootstrap, you can view the latest versions & changelog from the Github releases linked here: [AKMenu-Next Releases](https://github.com/coderkei/akmenu-next/releases/latest) - [nds-bootstrap Releases](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest)
+        AKMenu-Next, nds-bootstrap and Pico-Loader must be updated seperately of each other.
+        If you wish to check for the latest version of AKMenu-Next, nds-bootstrap and Pico-Loader, you can view the latest versions & changelog from the Github releases linked here: [AKMenu-Next Releases](https://github.com/coderkei/akmenu-next/releases/latest) - [nds-bootstrap Releases](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) - [Pico-Loader Releases](https://github.com/LNH-team/pico-loader/releases/latest)
 
     #### Updating AKMenu-Next
 
@@ -210,7 +211,3 @@ title: Setting Up AKMenu-Next
     1. Extract the downloaded `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file with [7-Zip](https://www.7-zip.org/).
 
     1. Copy the *contents* of the files from the extracted `Pico_Loader_for_YOUR_FLASHCART_HERE.zip` file to the `_pico` folder on your SD card.
-
-!!! info
-
-    Need help or want to discuss AKMenu-Next, check out the [AKMenu-Next GBATemp Thread](https://gbatemp.net/threads/ds-i-3ds-akmenu-next-wood-frontend-for-nds-bootstrap-pico-loader.665743/)

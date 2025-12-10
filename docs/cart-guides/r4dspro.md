@@ -48,7 +48,7 @@ title: R4DS Pro
     
     1. The files on your SD card should now look like this:
     
-        - ![BL2CK](../images/SD_Files/BL2CK/pico.png){ align=left width="600"}
+        - ![BL2CK](../images/SD_Files/BL2CK/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 

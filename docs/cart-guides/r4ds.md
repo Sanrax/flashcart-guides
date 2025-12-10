@@ -36,10 +36,6 @@ title: Original R4 & M3 Simply
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
     
-    !!! tip
-    
-        Since this cart is fairly size-constrained with the 2GB limitation, you may want to consider trimming your NDS roms with [NDSTokyoTrim](https://www.gamebrew.org/wiki/NDSTokyoTrim). This will trim off the extra unused data from your NDS ROMs, saving you SD card space at no cost!
-    
     !!! tip "Themes"
     
         Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
@@ -66,6 +62,10 @@ title: Original R4 & M3 Simply
     
     1. The files on your SD card should now look like this:
     
-        - ![R4DS](../images/SD_Files/R4DS/pico.png){ align=left width="600"}
+        - ![R4DS](../images/SD_Files/R4DS/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+!!! tip
+
+    Since this cart is fairly size-constrained with the 2GB limitation, you may want to consider trimming your NDS roms with [NDSTokyoTrim](https://www.gamebrew.org/wiki/NDSTokyoTrim). This will trim off the extra unused data from your NDS ROMs, saving you SD card space at no cost!

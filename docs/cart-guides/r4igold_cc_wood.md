@@ -8,7 +8,7 @@ title: R4iGold.cc Wood
 
 !!! info
 
-    The R4iGold.cc Wood cart is a clone of the Amaze3DS which itself is a clone of the R4iTT. This cart is not compatible with the Amaze3DS version of BL2CK, however it's stock kernel still has a good game compatibility.
+    The R4iGold.cc Wood cart is a clone of the Amaze3DS which itself is a clone of the R4iTT. This cart is not compatible with the Amaze3DS version of BL2CK, however it's stock kernel still has decent game compatibility.
 
 ### Setup Guide:
 

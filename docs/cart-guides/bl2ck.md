@@ -77,7 +77,7 @@ title: BL2CK Carts
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-    1. Download the latest [Pico Package for R4iTT.](https://picoarchive.cdn.blobfrii.com/pico_package_AK2.zip)
+    1. Download the latest [Pico Package for AK2.](https://picoarchive.cdn.blobfrii.com/pico_package_AK2.zip)
 
     1. Extract the `pico_package_AK2.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.
 
@@ -93,6 +93,6 @@ title: BL2CK Carts
     
     1. The files on your SD card should now look like this:
     
-        - ![BL2CK](../images/SD_Files/BL2CK/pico.png){ align=left width="600"}
+        - ![BL2CK](../images/SD_Files/BL2CK/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.

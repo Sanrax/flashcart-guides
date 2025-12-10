@@ -66,7 +66,7 @@ title: Gateway Blue
     
     1. The files on your SD card should now look like this:
     
-        - ![GWBlue](../images/SD_Files/GWBlue/pico.png){ align=left width="600"}
+        - ![GWBlue](../images/SD_Files/GWBlue/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 

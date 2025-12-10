@@ -26,7 +26,7 @@ title: Acekard 2/2.1/2i
     
     1. The files on your SD card should now look like this:
     
-        - ![AK2](../images/SD_Files/AKAIO/AKAIO.png){ align=left width="600"}
+        - ![AK2](../images/SD_Files/AK2/AKAIO.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
     
@@ -64,6 +64,6 @@ title: Acekard 2/2.1/2i
     
     1. The files on your SD card should now look like this:
     
-        - ![AK2](../images/SD_Files/AKAIO/pico.png){ align=left width="600"}
+        - ![AK2](../images/SD_Files/AK2/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.

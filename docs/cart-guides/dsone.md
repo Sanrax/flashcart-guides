@@ -30,7 +30,7 @@ title: DSOne SDHC
 
     1. The files on your SD card should now look like this:
     
-        - ![DSONE](../images/SD_Files/DSONE/DSONE.png){ align=left width="600"}
+        - ![DSONE](../images/SD_Files/DSONE/EOS.png){ align=left width="600"}
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
@@ -67,12 +67,12 @@ title: DSOne SDHC
     
     1. The files on your SD card should now look like this:
     
-        - ![DSONE](../images/SD_Files/DSONE/pico.png){ align=left width="600"}
+        - ![DSONE](../images/SD_Files/DSONE/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
 
-=== "YSMenu - Broken PSRAM Carts"
+=== "YSMenu"
     
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
@@ -91,6 +91,10 @@ title: DSOne SDHC
         - `TTMenu.dat`
     
     1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+
+    1. The files on your SD card should now look like this:
+    
+        - ![DSONE YS](../images/SD_Files/DSONE/YSMenu.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 

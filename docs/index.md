@@ -17,7 +17,7 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ### DSTT/i Family
 
-- [**Timebomb [DEMON-HW] Carts**](cart-guides/r4i-sdhc.md "<img src="images/r4i-sdhc.jpg" alt="r4isdhc.com 2014+" width="100">") - r4isdhc.com 2014+, r4i-sdhc.com, and more
+- [**DSTTi DEMON-HW Carts**](cart-guides/r4i-sdhc.md "<img src="images/r4i-sdhc.jpg" alt="r4isdhc.com 2014+" width="100">") - r4isdhc.com 2014+, r4i-sdhc.com, and more
 - [**DSTT/i and Clones**](cart-guides/dstti.md "<img src="images/dstt.jpg" alt="DSTT" width="100">") - [See YSMenu Compatibility List](https://www.flashcarts.net/ysmenu-compat-ext)
 - [**R4i SDHC Renovation V2.10T & V2.20T**](cart-guides/v2_10T.md "<img src="images/v2_10T.jpg" alt="R4i SDHC Renovation V2.10T & V2.20T" width="100">") - r4sdhc.com
 - [**R4i SDHC Brand New V2.0**](cart-guides/v2_0.md "<img src="images/v2_0.png" alt="R4i SDHC Brand New V2.0" width="100">") - r4isdhc.com

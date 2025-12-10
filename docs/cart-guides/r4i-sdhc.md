@@ -38,7 +38,7 @@ title: DSTTi DEMON-HW Carts
 
     1. The files on your SD card should now look like this:
     
-         - ![R4i-SDHC](../images/SD_Files/DEMON_Pico/pico.png){ align=left width="600"}
+         - ![R4i-SDHC](../images/SD_Files/DEMON/Pico.png){ align=left width="600"}
 
     1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
@@ -68,7 +68,7 @@ title: DSTTi DEMON-HW Carts
 
     1. The files on your SD card should now look like this:
     
-         - ![R4i-SDHC](../images/SD_Files/DEMON_R4iMenu/R4iMenu.png){ align=left width="600"}
+         - ![R4i-SDHC](../images/SD_Files/DEMON/R4iMenu.png){ align=left width="600"}
 
     1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
@@ -102,7 +102,7 @@ title: DSTTi DEMON-HW Carts
 
     1. The files on your SD card should now look like this:
     
-         - ![R4i-SDHC](../images/SD_Files/DEMON_YSMenu/Demon_YS.png){ align=left width="600"}
+         - ![R4i-SDHC](../images/SD_Files/DEMON/YSMenu.png){ align=left width="600"}
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
@@ -161,7 +161,7 @@ title: DSTTi DEMON-HW Carts
     
     1. The files on your SD card should now look like this:
     
-        - ![R4i-SDHC AKMenu-Next](../images/SD_Files/DEMON_AKMenu/AKMenu.png){ align=left width="600"}
+        - ![R4i-SDHC AKMenu-Next](../images/SD_Files/DEMON/AKMenu.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 

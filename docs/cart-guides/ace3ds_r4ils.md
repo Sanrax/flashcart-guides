@@ -35,6 +35,36 @@ title: Ace3DS+/X & R4iLS
         Ace WoodR4 1.62 is known to have issues with anti-piracy checks in a few newer games, notably with clean roms of Pokemon Black & White 2, where EXP gain gets disabled by AP detection.
         
         To fix this issue, tap the Y button in the WoodR4 menu with the game highlighted, open the cheats menu, and enable the `Bypass Anti-Piracy` cheat before starting the game.
+    
+    !!! tip "Themes"
+
+        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+
+=== "Pico-Launcher"
+
+    !!! info "Kernel Info"
+
+        Pico-Launcher is the game menu for the DS-Pico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+
+    !!! warning "Cheats and Soft-Reset"
+
+        Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using WoodR4 or AceOS.
+
+    ### Setup Guide:
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the latest [Pico Package for Ace3DS+/R4iLS.](https://picoarchive.cdn.blobfrii.com/pico_package_ACE3DS.zip)
+
+    1. Extract the `pico_package_ACE3DS.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app. Then, copy *the contents* into the root of your SD card.
+    
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4iLS](../images/SD_Files/R4iLS/Pico.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
 === "AceOS 2.13"
 
@@ -46,6 +76,6 @@ title: Ace3DS+/X & R4iLS
 
     All carts that are supported by Ace WoodR4 will be able to run AceOS as well.
 
-!!! tip "Themes"
+    !!! tip "Themes"
 
-    Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

@@ -6,11 +6,17 @@ title: Acekard 2/2.1/2i
 # Acekard 2/2.1/2i
 ## acekard.com
 
----
+!!! info
+
+    One of the original DS flashcarts, the successor to the Acekard team's Acekard R.P.G and Acekard+. The Acekard 2i is a revision of the AK2 and 2.1 carts, which are NDS and DS Lite compatible versions.
 
 ### Setup Guide:
 
 === "AKAIO 1.9.0"
+
+    !!! info "Kernel Info"
+
+        AKAIO is a kernel developed by Normmatt, forked from the Acekard team's AKMenu4 kernel. It's up to date to the very last DS games, and has a high game compatibility.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     

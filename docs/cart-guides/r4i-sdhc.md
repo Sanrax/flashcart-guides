@@ -6,13 +6,19 @@ title: DSTTi DEMON-HW Carts
 # DSTTi DEMON-HW Carts (AKA Timebomb Carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 
+!!! info
+
+    This is a vast family of DSTTi-based carts from the r4i-sdhc.com team. Unlike other DSTT clones, DEMON carts have a heavily customized DSTT firmware, with different behavior from regular DSTT carts. The most notable difference is that these carts expect an encrypted `R4.dat` boot file, and a regular NDS file renamed to `R4.dat` will not suffice. This is why booting other kernels than R4iMenu requires a bootstrap binary like nds-miniboot.
+
+    RTS is another feature exclusive to the DEMON family and it's R4iMenu kernel. No other DSTTi hardware supports Real-Time-Save.
+
 ### Setup Guide:
 
 === "R4iMenu"
 
     !!! info "Kernel Info"
 
-        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts can use YSMenu instead.***
+        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts should use YSMenu or Pico-Loader instead.***
 
         Since the timebomb previously found in R4iMenu has been removed, it has become a good option for users that own supported carts, as it has better game compatibility than YSMenu, and supports Real-Time-Save. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
 
@@ -20,15 +26,12 @@ title: DSTTi DEMON-HW Carts
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-    1. Download the appropriate kernel for your cart below:
+    1. Download the appropriate kernel for your cart below, by checking the URL listed at the bottom of your cart's label:
 
         - [**r4isdhc.com** v4.3b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_DEMON_4.3b.zip)
 
         - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
-
-        !!! info "Kernel Info"
-
-            Please note that if your R4i-SDHC.COM cart has an "(i)" but no "Wi-Fi" or "V1.4" or "3DS" mark, it must use YSMenu instead
+            - *Please note that if your R4i-SDHC.COM cart has an "(i)" but no "Wi-Fi" or "V1.4" or "3DS" mark, it must use YSMenu instead!*
 
     1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
 

@@ -8,9 +8,9 @@ title: DSTTi DEMON-HW Carts
 
 !!! info
 
-    This is a vast family of DSTTi-based carts from the r4i-sdhc.com team. Unlike other DSTT clones, DEMON carts have a heavily customized DSTT firmware, with different behavior from regular DSTT carts. The most notable difference is that these carts expect an encrypted `R4.dat` boot file, and a regular NDS file renamed to `R4.dat` will not suffice. This is why booting other kernels than R4iMenu requires a bootstrap binary like nds-miniboot.
+    DEMON carts are DSTT clones with a customized DSTT firmware. The most notable difference is that these carts expect an encrypted `R4.dat` boot file. This is why booting other kernels than R4iMenu requires a bootstrap binary like nds-miniboot. RTS is another feature exclusive to the DEMON family and it's R4iMenu kernel, something not found in any other DSTT hardware.
 
-    RTS is another feature exclusive to the DEMON family and it's R4iMenu kernel. No other DSTTi hardware supports Real-Time-Save.
+    A list of all known DEMON carts can be found [here.](https://www.flashcarts.net/ysmenu-compat-ext#demon-dstti-clones)
 
 ### Setup Guide:
 

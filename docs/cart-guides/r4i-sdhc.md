@@ -26,6 +26,10 @@ title: DSTTi DEMON-HW Carts
 
         - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
 
+        !!! info "Kernel Info"
+
+            Please note that if your R4i-SDHC.COM cart has an "(i)" but no "Wi-Fi" or "V1.4" or "3DS" mark, it must use YSMenu instead
+
     1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
 
     1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.

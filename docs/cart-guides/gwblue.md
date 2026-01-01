@@ -54,8 +54,6 @@ title: Gateway Blue
 
         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using WoodR4 or AceOS.
 
-    ### Setup Guide:
-
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
     1. Download the latest [Pico Package for Gateway Blue.](https://picoarchive.cdn.blobfrii.com/pico_package_GWBLUE.zip)

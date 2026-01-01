@@ -20,8 +20,6 @@ title: EZ-Flash Parallel
 
     Do not run the game `Casper's Scare School: Spooky Sports Day` on any stock kernel below 1.06, this will **brick** the cart due to an oversight with the save patch system on previous kernel versions!
 
----
-
 ### Setup Guide:
 
 1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}

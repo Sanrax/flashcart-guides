@@ -50,8 +50,6 @@ title: Original R4 & M3 Simply
 
         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using WoodR4.
 
-    ### Setup Guide:
-
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
     1. Download the latest [Pico Package for Original R4.](https://picoarchive.cdn.blobfrii.com/pico_package_R4.zip)

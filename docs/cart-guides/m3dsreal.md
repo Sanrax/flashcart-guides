@@ -14,40 +14,6 @@ title: M3 DS Real
 
 ### Setup Guide:
 
-=== "Pico-Launcher"
-
-    !!! info "Kernel Info"
-
-        Pico-Launcher is the game menu for the DS-Pico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
-
-    !!! warning "Cheats and Soft-Reset"
-
-         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using YSMenu or Sakura.
-
-    ### Setup Guide:
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-
-    1. Download the latest [Pico Package for M3DS Real.](https://picoarchive.cdn.blobfrii.com/pico_package_M3DS.zip)
-
-    1. Extract the `pico_package_M3DS.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.
-
-    1. From within the extracted files, copy the following files/folders to your SD card root:
-
-        - `_pico` folder
-
-        - `SYSTEM` folder
-
-        - `_picoboot.nds`
-    
-    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
-    
-    1. The files on your SD card should now look like this:
-    
-        - ![M3DS](../images/SD_Files/M3DS_Real/Pico.png){ align=left width="600"}
-    
-    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
 === "YSMenu"
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
@@ -79,6 +45,38 @@ title: M3 DS Real
     !!! tip "Themes"
 
         Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+
+=== "Pico-Launcher"
+
+    !!! info "Kernel Info"
+
+        Pico-Launcher is the game menu for the DS-Pico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+
+    !!! warning "Cheats and Soft-Reset"
+
+         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using YSMenu or Sakura.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the latest [Pico Package for M3DS Real.](https://picoarchive.cdn.blobfrii.com/pico_package_M3DS.zip)
+
+    1. Extract the `pico_package_M3DS.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.
+
+    1. From within the extracted files, copy the following files/folders to your SD card root:
+
+        - `_pico` folder
+
+        - `SYSTEM` folder
+
+        - `_picoboot.nds`
+    
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![M3DS](../images/SD_Files/M3DS_Real/Pico.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
 === "Sakura + YSMenu"
 

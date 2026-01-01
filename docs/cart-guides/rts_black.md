@@ -16,6 +16,26 @@ title: R4iSDHC RTS Black
     
 ### Setup Guide:
 
+=== "YSMenu"
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+    
+    1. Download the [r4isdhc.com RTS Black YSMenu 7.06 package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_RTS_Black_YSMenu_7.06.zip)
+    
+    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
+    
+    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![M3DS](../images/SD_Files/R4_RTS_Black/YSMenu.png){ align=left width="600"}
+    
+    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+    
+    !!! tip "Themes"
+    
+        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+
 === "Pico-Launcher"
 
     !!! info "Kernel Info"
@@ -27,8 +47,6 @@ title: R4iSDHC RTS Black
          Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using YSMenu.
 
          RTS is only supported on the stock kernel, provided at the bottom of the page.
-
-    ### Setup Guide:
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
@@ -52,26 +70,6 @@ title: R4iSDHC RTS Black
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-=== "YSMenu"
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-    
-    1. Download the [r4isdhc.com RTS Black YSMenu 7.06 package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_RTS_Black_YSMenu_7.06.zip)
-    
-    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
-    
-    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
-    
-    1. The files on your SD card should now look like this:
-    
-        - ![M3DS](../images/SD_Files/R4_RTS_Black/YSMenu.png){ align=left width="600"}
-    
-    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
-    
-    !!! tip "Themes"
-    
-        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
-    
 ---
 
 !!! tip

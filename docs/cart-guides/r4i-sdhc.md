@@ -6,6 +6,8 @@ title: DSTTi DEMON-HW Carts
 # DSTTi DEMON-HW Carts (AKA Timebomb Carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 
+### Setup Guide:
+
 === "R4iMenu"
 
     !!! info "Kernel Info"
@@ -15,8 +17,6 @@ title: DSTTi DEMON-HW Carts
         Since the timebomb previously found in R4iMenu has been removed, it has become a good option for users that own supported carts, as it has better game compatibility than YSMenu, and supports Real-Time-Save. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
 
         YSMenu runs on all DEMON-HW carts. If you prefer the look and feel of YSMenu, you can choose to use it over R4iMenu, even if you have an R4iMenu-supported cart.
-
-    ### Setup Guide:
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
@@ -43,8 +43,6 @@ title: DSTTi DEMON-HW Carts
         See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext#demon-dstti-clones) `DEMON DSTTi Clones` section for a full list of compatible carts.
 
         YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. However, it does lack RTS (Real Time Save), so check out the R4iMenu tab if that is something you're interested in.
-
-    ### Setup Guide:
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
@@ -85,8 +83,6 @@ title: DSTTi DEMON-HW Carts
         Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using R4iMenu or YSMenu. Note that if cheats are a primary concern, YSMenu is the best choice. R4iMenu can have issues with some cheat codes.
         
         Real-Time-Save (save states), are only supported in R4iMenu. Follow the R4iMenu guide if this is a feature you'd like to use.
-
-    ### Setup Guide:
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 

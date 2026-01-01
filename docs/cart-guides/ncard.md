@@ -20,7 +20,7 @@ title: N-Card & Clones
     !!! tip
         If the N-Card's filesystem is from a uDisk version earlier than 1.45, XuluMenu is likely freeze. However, the N-Card has a recovery menu you can use to resolve this problem - Hold the `L` + `R` shoulder buttons while booting the cart, which will bring up the recovery menu. In the menu, press `A` to boot into the built-in uDisk 1.45 while holding `START` + `SELECT` to bring up a format menu where you can perform a full format. Note that this will **erase all files** on your N-Card! Ensure your games and saves have been backed up beforehand.
 
- 1. Download the [XuluMenu Package](https://github.com/ApacheThunder/XuluMenu/releases/latest/download/xulumenu.zip) and extract it to a location on your computer.
+1. Download the [XuluMenu Package](https://github.com/ApacheThunder/XuluMenu/releases/latest/download/xulumenu.zip) and extract it to a location on your computer.
 1. Turn on the DS and boot the cart while holding [L] + [R] + [A] + [B] + [DPad Up] at the same time until you see "USB SAFE BLOCK" text on the bottom screen.
 1. Navigate into the extracted XuluMenu files on your PC and enter the `USB` folder. Run the included `UpdateCart.cmd` batch script to have `USBNDS.exe` flash the new SRL onto your cart.
 1. After the process is complete, reboot and you will see your changes live! The file browser will come up if `boot.nds` is not present, or if the cart is booted with the `B` button held.

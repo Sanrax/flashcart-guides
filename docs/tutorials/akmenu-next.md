@@ -84,13 +84,14 @@ title: Setting Up AKMenu-Next
         !!! warning
 
             If you are using TWiLight Menu++ and want to dual boot AKMenu-Next, do not copy over `BOOT.NDS` as this will overwrite the one TWiLight Menu++ uses.
-            You can instead launch `akmenu-next.dsi` with TWiLight Menu++ or Unlaunch. This however, will mean quitting a game using the nds-bootstrap hotkey menu will boot back into TWiLight Menu++ instead (except if you are using HiyaCFW which will always return to the HiyaCFW Homescreen).
+            You can instead launch `akmenu-next.dsi` with TWiLight Menu++ or Unlaunch.
 
     1. From within the AKMenu-Next files, copy the following files/folders to your SD card root:
 
         - `_nds` folder
         - `BOOT.NDS` (Please read the warning above)
         - `akmenu-next.dsi`
+        - `title` folder (if using HiyaCFW)
 
     1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
 
@@ -98,11 +99,7 @@ title: Setting Up AKMenu-Next
 
     1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
-    1. Load `BOOT.NDS` with your desired entrypoint method (e.g. Memory Pit, stylehax or Flipnote Lenny). Alternatively, use Unlaunch or TWiLight Menu++ to boot `akmenu-next.dsi`
-
-    !!! tip
-
-        If you are using HiyaCFW, you can install `akmenu-next.dsi` using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) and have it as a launchable app on your homescreen!
+    1. Load `BOOT.NDS` with your desired entrypoint method (e.g. Memory Pit, stylehax or Flipnote Lenny). Alternatively, use Unlaunch or TWiLight Menu++ to boot `akmenu-next.dsi`. If you are using HiyaCFW, it will appear as an app on your home screen, provding that you copied the `title` folder.
 
     #### Cheats
 
@@ -187,7 +184,7 @@ title: Setting Up AKMenu-Next
 
     - Copy & replace the `akmenu-next.dsi` file to your SD card root.
     - If you **do not** also use Twilightmenu++, copy & replace the `BOOT.NDS` file to your SD card root. If you use Twilightmenu++, skip this file.
-    - If you have AKMenu-Next installed as an app on HiyaCFW, you will need to re-install the updated `akmenu-next.dsi` file with [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
+    - If you have AKMenu-Next installed as an app on HiyaCFW, copy over the `title` folder.
 
     #### If you are on a Nintendo 3DS
 

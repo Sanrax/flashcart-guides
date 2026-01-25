@@ -130,7 +130,7 @@ title: Setting Up AKMenu-Next
 
         !!! warning
 
-            If you are using TWiLight Menu++ on your Nintendo 3DS and want to also use AKMenu-Next, do not copy over `BOOT.NDS` as this will overwrite the one TWiLight Menu++ uses. This however, will mean quitting a game using the nds-bootstrap hotkey menu will boot back into TWiLight Menu++ instead.
+            If you are using TWiLight Menu++ on your Nintendo 3DS and want to also use AKMenu-Next, do not copy over `BOOT.NDS` as this will overwrite the one TWiLight Menu++ uses.
 
     1. From within the AKMenu-Next files, copy the following files/folders to your SD card root:
 

@@ -56,7 +56,7 @@ title: Setting Up AKMenu-Next
 
     !!! note
 
-        If you don't see your flashcart in the Autoboot folder or the corresponding one in the `README.TXT` file, skip this section as you will need to use your flashcart kernel to load AKMenu-Next instead. In some cases you can make a copy of `BOOT.NDS` and rename it to `default.nds` to make it chainload autoboot on some flashcart kernels. If you are using a DSPico, you only need the _picoboot.nds file to autoboot AKMenu-Next.
+         If you are using a DSPico, you only need the _picoboot.nds file to autoboot AKMenu-Next and can skip this section. If you don't see your flashcart in the Autoboot folder or the corresponding one in the `README.TXT` file, skip this section as you will need to use your flashcart kernel to load AKMenu-Next instead. In some cases you can make a copy of `BOOT.NDS` and rename it to `default.nds` to make it chainload autoboot on some flashcart kernels.
 
     1. Open the `Autoboot` folder within the AKMenu-Next files. Find the folder that corresponds to your flashcart. Check the `README.TXT` inside the folder if you are unsure.
     

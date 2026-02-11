@@ -15,6 +15,10 @@ If you'd like to improve this resource or add new carts, feel free to create a p
 
 ---
 
+### DSpico Family
+
+- [**DSpico**](cart-guides/dspico.md "<img src="images/dspico.png" alt="DSpico" width="100">") - lnh-team.org
+
 ### DSTT/i Family
 
 - [**DSTTi DEMON-HW Carts**](cart-guides/r4i-sdhc.md "<img src="images/r4i-sdhc.jpg" alt="r4isdhc.com 2014+" width="100">") - r4isdhc.com 2014+, r4i-sdhc.com, and more

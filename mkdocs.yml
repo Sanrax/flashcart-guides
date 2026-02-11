@@ -36,9 +36,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-
+plugins:
+  - macros
 copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/kaikun97)
 extra:
+  pico_versions:
+    loader: "v1.5.0"
+    launcher: "v1.1.0"
+    fcnetrev: "0"
   generator: false
   social:
     - icon: fontawesome/brands/reddit

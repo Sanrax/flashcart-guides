@@ -44,7 +44,7 @@ title: Setting Up Emulators
         
         1. Open/extract `GBARunner3-hicode.zip`, and copy *the contents* into the root of your SD card.
         
-        1. Download the [GBARunner3 frontend.](https://github.com/flashcarts/gbar3-frontend/releases/download/v0.9.0-fcnet3/gbar3-frontend.nds)
+        1. Download the [GBARunner3 frontend.](https://github.com/flashcarts/gbar3-frontend/releases/download/v0.10.0-fcnet2/gbar3-frontend.nds)
        
         1. Create an `Emulators` folder on your SD card root, and place `gbar3-frontend.nds` inside.
          

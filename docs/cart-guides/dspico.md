@@ -46,6 +46,10 @@ Reasons why you may wish to reflash your DSpico even if it is already flashed:(1
 
         The DSpico hybrid firmware supports only the original DS, DS Lite, and modded DSi and 3DS consoles. It does not function on stock, unmodified DSi or 3DS systems, as the required security bypass components cannot be included due to copyright restrictions linked to those components.
 
+    !!! info "Unofficial Build"
+    
+        This precompiled firmware ("hybrid bootloader") is built by the authors of this page and is not hosted, maintained, or officially endorsed by the LNH Team. The LNH Team only provides the open-source tools and source code, any files containing additional binaries are distributed independently by the community.
+
     1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid.uf2) and extract it to a folder on your computer. The file should be called `DSpico_hybrid.uf2`.
 
     1. Remove any MicroSD card inserted into the DSpico if one is inserted and remove the DSpico from your console if it is inserted into one. Connect a USB cable to your DSpico and plug it into your computer.

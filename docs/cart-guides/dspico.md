@@ -8,65 +8,66 @@ title: DSpico
 
 ---
 
+### Checking For Existing Firmware
+
 !!! note "Your DSpico may already be flashed!"
 
     Most DSpico flashcarts from Aliexpress are typically pre-flashed with the required firmware and do not require flashing. Please check below to confirm if your DSpico is flashed. **It is normal for the DSpico to not be detected if a MicroSD is not inserted**, this is a built in mechanism to ensure BOOTSEL mode is always available.
 
-### Checking if your DSpico is already flashed:
+1. Insert a **FAT32** formatted MicroSD card into your DSpico. This step is required, the DSpico will not be detected by your console if one is not inserted. You can follow the [formatting tutorial](../tutorials/formatting.md){target="_blank"} to ensure it is formatted correctly.
 
-1. Insert a **FAT32 Formatted** MicroSD card into your DSpico. This step is required, the DSpico will not be detected by your console if one is not inserted. You can follow the [formatting tutorial](../tutorials/formatting.md){target="_blank"} to ensure it is formatted correctly.
+1. Power off your console, insert the DSpico, then turn it back on.
 
-1. Switch off your console and insert the DSpico, then switch it back on.
+1. Check for the following:
 
-1. Check for one of the below:
+    - **Nintendo DSi/3DS Users:**
+    
+        - If your console automatically boots to a red screen after flashing `*** WRFU Tester v0.60 ***` on the bottom screen, or gets detected as "Nintendo DS Demonstration" on a Nintendo 3DS, your DSpico has WRFUxxed firmware flashed, which works on all stock DS, DSi, and 3DS consoles.
+    
+        - If your DSpico shows up as "DSpico LNH Team" on a Nintendo DSi or Nintendo 3DS, it has Hybrid firmware flashed and will only work on the original DS, DS Lite and modded DSi/3DS consoles.
+    
+    - **Nintendo DS and DS Lite users:**
 
-    - If you are on a Nintendo DSi and your console automatically boots to a screen saying `*** WRFU Tester v0.60 ***` on the bottom screen, or gets detected as "Nintendo DS Demonstration" on a Nintendo 3DS, your DSpico has the WRFUxxed firmware which works on all stock DS & 3DS consoles.
+        - Both WRFUxxed and Hybrid FW will show up as "DSpico LNH Team" on these consoles. If you see the cart in the menu, it is flashed with WRFUxxed OR Hybrid FW, but there's no way to check which one.
 
-    - If your DSpico shows up as "DSpico LNH Team" on a Nintendo DSi or Nintendo 3DS, it has the Hybrid firmware and will only work on the Original DS, DS Lite and modded DSi & 3DS consoles
+1. If your DSpico is not recognised by the console in any way, it does not have a firmware flashed. In this case, follow the [flashing firmware section](#flashing-dspico-firmware) below.
 
-    - In both cases, on an original DS or DS Lite, it will always show as "DSpico LNH Team".
+1. **[Optional]** If your DSPico is pre-flashed, you may want to reflash it anyway. **Possible reasons include:**
 
-1. If either of the above occur, your DSpico is already flashed and you may skip to to the "Pico-Launcher" section.
-
-1. If your DSpico is not recognised by the console in any way, it has not been flashed and you should following the flashing guide below.
-
-Reasons why you may wish to reflash your DSpico even if it is already flashed:(1)
-{ .annotate }
-
-1.  - Your DSpico may have shipped with an outdated firmware not containing the fixes for certain MicroSD card models.
+    - Your DSpico may have shipped with an outdated firmware not containing the fixes for certain MicroSD card models.
     - Your DSpico may have WRFUxxed firmware but you want the Hybrid firmware, or vice versa.
-    - Your Nintendo DSi or 3DS has CFW and you want the "DSpico LNH Team" banner instead.
-    - If you have a Nintendo DSi with HiyaCFW and a large SD card in the DSi's SD card slot, your DSpico may stay on the WRFUxxed screen for longer, making the Hybrid firmware more suitable.
+    - Your Nintendo DSi or 3DS has CFW and you want the "DSpico LNH Team" banner instead of "Nintendo DS Demonstration"
+    - If you have a Nintendo DSi with HiyaCFW and a high-capacity SD card in the DSi's SD slot, WRFUxxed FW will take a longer time to boot, making Hybrid FW a better choice.
 
-### Flashing the DSpico firmware:
+1. If you are happy with the existing firmware on your DSPico, you may [skip to the main setup guide.](#setup-guide)
+
+### Flashing DSpico Firmware:
 
 === "Hybrid Firmware"
 
     !!! warning "DSpico Hybrid Firmware Limitations"
 
-        The DSpico hybrid firmware supports only the original DS, DS Lite, and modded DSi and 3DS consoles. It does not function on stock, unmodified DSi or 3DS systems, as the required security bypass components cannot be included due to copyright restrictions linked to those components.
+         The DSpico hybrid firmware only supports the original DS, DS Lite, and modded DSi/3DS consoles. It does not function on stock, unmodified DSi or 3DS systems - firmware with the WRFUxxed exploit enabled is required for these consoles.
 
     !!! info "Unofficial Build"
     
         This precompiled firmware ("hybrid bootloader") is built by the authors of this page and is not hosted, maintained, or officially endorsed by the LNH Team. The LNH Team only provides the open-source tools and source code, any files containing additional binaries are distributed independently by the community.
 
-    1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid.uf2) and extract it to a folder on your computer. The file should be called `DSpico_hybrid.uf2`.
+    1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid.uf2) UF2 file.
 
-    1. Remove any MicroSD card inserted into the DSpico if one is inserted and remove the DSpico from your console if it is inserted into one. Connect a USB cable to your DSpico and plug it into your computer.
+    1. Remove the DSpico from your console, and remove any MicroSD card in the cart. Next, connect a USB cable to your DSpico and plug it into your computer.
 
-    1. A drive called "RPI-RP2" will appear. Drag & drop the `DSpico_hybrid.uf2` file to this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds. Your DSpico is now flashed and you can follow the Pico-Launcher setup guide below.
+    1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_hybrid.uf2` file to this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds. Your DSpico is now flashed and you can follow the Pico-Launcher setup guide below.
 
 === "WRFUxxed Firmware"
 
     !!! warning "DSpico WRFUxxed firmware"
 
-        The DSpico WRFUxxed firmware supports all stock & unmodified DS, DSi & 3DS consoles. It however must be built from source with user-provided components due to the WRFUxxed firmware requiring a copy of WRFU Tester v0.60 and a DSi BIOS dump/TWL Blowfish keys. This firmware also autoboots on a Nintendo DSi due to the way WRFUxxed works (Does not apply to the 3DS or Original DS/DS lite). You may consider to use the Hybrid firmware instead if your Nintendo DSi has Unlaunch installed.
+         The WRFUxxed firmware supports all DS, DSi & 3DS consoles, on any version. However, it must be built from source with user-provided components due to the WRFUxxed exploit requiring a copy of WRFU Tester v0.60 and NTR/TWL blowfish keys. This firmware also autoboots on a Nintendo DSi due to the way WRFUxxed works (Does not apply to the 3DS or NDS/DS Lite). You might want to consider using the Hybrid firmware instead if your DSi or 3DS console has CFW installed.
 
     - Follow the [LNH-Team DSpico setup guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md) which contains all the steps needed to build the WRFUxxed firmware.
 
-    - If you would prefer a video guide, you may follow [this youtube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e). This video guide should result in an up to date firmware due to building it from the latest source.
-
-    - *Please note that r/flashcarts are unable to provide assistance with building the WRFUxxed firmware or obtaining the required components.*
+    - If you would prefer a video guide, you may follow [this YouTube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e). This video guide should result in an up to date firmware due to building it from the latest source.
 
 ### Setup Guide:
 
@@ -94,21 +95,20 @@ Reasons why you may wish to reflash your DSpico even if it is already flashed:(1
 
 #### *Games lag or randomly freeze on my DSpico, or the DSpico does not load reliably. I have confirmed my MicroSD card is a name-brand and is genuine.*
 
-- Your DSpico may be on an older firmware before fixes for some MicroSD card models were added. Please flash the latest firmware by following the firmware flashing guide at the top of this page.
+- Your DSpico may be on an older firmware before fixes for some microSD card models were added. Please flash the latest firmware by following the [firmware flashing guide.](#flashing-dspico-firmware)
 
 #### *I have a Nintendo DSi with HiyaCFW and it stays on the WRFU Tester screen for a long time.*
 
-- This is a known issue when using the WRFUxxed firmware and your DSi has HiyaCFW with a large SD card inserted into the DSi's SD card slot. Considering using a smaller SD card in the DSi or switch to the DSpico hybrid firmware.
+- When using a DSi with HiyaCFW on a large SD card, the WRFUxxed exploit slows down due to a quirk of the base WRFU Tester ROM. Switch the DSi console SD to a smaller one, or [install Hybrid FW](#flashing-dspico-firmware) to avoid WRFU Tester.
 
 #### *The DSpico is not detected by my DS, DSi or 3DS system or hangs at the DS(i) splash screen.*
 
-- Check that a MicroSD card is inserted and that you have flashed the firmware to the DSpico if applicable.
+- Check that a MicroSD card is inserted and that you have flashed the firmware to the DSpico if applicable. If it still does not show up, try using some compressed air to blow out your console's cartridge slot.
 
 #### *I get "Error: Failed to mount SD card.", or a blue screen after booting the DSpico with the WRFUxxed firmware.*
 
-- Mounting your micro SD card failed. Check if there's anything wrong with it, try reformatting it or try a different micro SD card. If all else fails, You may need to flash an updated firmware with MicroSD fixes as mentioned above.
+- Mounting your microSD card failed. Try reformatting it or try a different micro SD card. Also confirm that it is a genuine. If all else fails, You may need to flash an updated firmware with MicroSD fixes as mentioned above.
 
 #### *I get "ERROR: Failed to open Pico Loader file.", or a red screen after booting the DSpico with the WRFUxxed firmware.*
 
-- The `/_pico/picoLoader9.bin` or `/_pico/picoLoader7.bin` files could not be opened. Check that you copied all necessary files to the micro SD card (see "Pico-Launcher" guide above).
-
+- The `/_pico/picoLoader9.bin` or `/_pico/picoLoader7.bin` files could not be opened. Check that you copied all necessary files to the micro SD card, see [setup guide](#setup-guide) above.

@@ -6,10 +6,6 @@ title: DSTTi DEMON-HW Carts
 # DSTTi DEMON-HW Carts (AKA Timebomb Carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 
-!!! warning
-
-    There have been reports of users buying DSTTi “DEMON” carts from AliExpress and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. If your cart says "Cannot find _dsmenu.dat" when loading the kernel, you need to use follow the [Ace3DS+/R4iLS guide](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/) instead.
-
 !!! info
 
     DEMON carts are DSTTi clones with a customized firmware. The most notable difference is that these carts expect a specially padded `R4.dat` boot file. This is why booting other kernels than R4iMenu requires a bootstrap binary like nds-miniboot. Real-Time-Save is another feature exclusive to the DEMON family and it's R4iMenu kernel, which isn't found in any other DSTT/DSTTi based hardware.
@@ -175,6 +171,10 @@ title: DSTTi DEMON-HW Carts
     !!! tip "Themes"
 
         Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+
+!!! warning
+
+    There have been reports of users buying DSTTi DEMON carts from AliExpress and instead receiving an Ace3DS+/R4iLS clone, but still labeled to look like a DEMON cart. If your cart says `Can't open _dsmenu.dat` or `Couldn't find _DS_MENU.DAT` after setting up the kernel, you need to follow the [Ace3DS+/R4iLS guide](./ace3ds_r4ils.md) instead.
 
 !!! info "Timebombs"
 

@@ -42,11 +42,11 @@ By following either method, nds-bootstrap will be installed in order to run DSiW
 
 === "Flashcart Kernels"
 
-    1. Download [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds) to the flashcart's SD card root
+    1. Download [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds) to the flashcart's SD card root.
 
-    1. Download the [nds-bootstrap forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
+    1. Download the [nds-bootstrap forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z).
 
-    1. Extract the contents of the `for SD Card root` folder to the root of your flashcart's SD card
+    1. Extract the contents of the `for SD Card root` folder to the root of your flashcart's SD card.
 
     1. After setting up the nds-bootstrap forwarder pack, you will need to place your DSiWare (with `.nds` extension) in `/roms/dsi` on your SD card.
 
@@ -62,9 +62,9 @@ By following either method, nds-bootstrap will be installed in order to run DSiW
 
     === "Setting a Donor ROM"
 
-        1. Launch `NDSForwarder.nds`
+        1. Launch `NDSForwarder.nds`.
 
-        1. Press `A` on `Install`
+        1. Press `A` on `Install`.
 
         1. Navigate to the donor game's location, press `A`, and select `Install`.
 
@@ -74,9 +74,9 @@ By following either method, nds-bootstrap will be installed in order to run DSiW
 
     === "Adding a DSiWare title"
 
-        1. Launch `NDSForwarder.nds`
+        1. Launch `NDSForwarder.nds`.
 
-        1. Press `A` on `Install`
+        1. Press `A` on `Install`.
 
         1. Navigate to the DSiWare's location, press `A`, and select `Install`.
 

@@ -55,19 +55,49 @@ title: DSpico
 
     1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid.uf2) UF2 file.
 
-    1. Remove the DSpico from your console, and remove any MicroSD card in the cart. Next, connect a USB cable to your DSpico and plug it into your computer.
+    1. Remove the DSpico from your console, and remove any MicroSD card in the cart.
+    
+    1. Connect a USB cable to your DSpico and plug it into your computer, then open your file manager.
 
-    1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_hybrid.uf2` file to this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds. Your DSpico is now flashed and you can follow the Pico-Launcher setup guide below.
+    1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_hybrid.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
+
+    1. Your DSpico is now flashed! Follow the Pico-Launcher setup guide below to prepare the SD card.
 
 === "WRFUxxed Firmware"
 
     !!! warning "DSpico WRFUxxed firmware"
 
-         The WRFUxxed firmware supports all DS, DSi & 3DS consoles, on any version. However, it must be built from source with user-provided components due to the WRFUxxed exploit requiring a copy of WRFU Tester v0.60 and NTR/TWL blowfish keys. This firmware also autoboots on a Nintendo DSi due to the way WRFUxxed works (Does not apply to the 3DS or NDS/DS Lite). You might want to consider using the Hybrid firmware instead if your DSi or 3DS console has CFW installed.
+         The WRFUxxed firmware supports all DS, DSi & 3DS consoles, on any version. However, it must be built with user-provided components due to the WRFUxxed exploit requiring a copy of WRFU Tester v0.60. This firmware also autoboots on a Nintendo DSi due to WRFU Tester having the autoboot flag set (Does not apply to the 3DS or NDS/DS Lite). You might want to consider using the Hybrid firmware instead if your DSi or 3DS console has CFW installed.
 
-    - Follow the [LNH-Team DSpico setup guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md) which contains all the steps needed to build the WRFUxxed firmware.
+    === "Patch a Precompiled UF2"
 
-    - If you would prefer a video guide, you may follow [this YouTube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e). This video guide should result in an up to date firmware due to building it from the latest source.
+        !!! info
+            Full builds of WRFUxxed firmware can't be legally distributed due to needing the WRFU Tester v0.60 ROM to be embedded. As such, we don't provide any WRFUxxed firmware UF2 that is ready-to-flash. However, thanks to user @Prozaks, we can instead distribute a WRFUxxed-enabled build that is missing the actual WRFU Tester binary, and let the user inject their own copy of WRFU Tester to create a complete firmware build.
+
+            Just like our precompiled Hybrid FW, we will update the WRFUxxed UF2 whenever a new change to the firmware/bootloader is published by the LNH Team. To update in the future, just redo the patching process.
+
+        1. Obtain a copy of WRFU Tester v0.60 (Build Date 20080821).
+            - SHA-1 hash for this file is `2d65fb7a0c62a4f08954b98c95f42b804fccfd26`
+
+        1. Open the [firmware patcher website](https://asaduji.github.io/DSpico-firmware-patcher/){target="_blank"}, and click on "Browse...".
+
+        1. In the file upload window that pops up, select your WRFU Tester v0.60 ROM file and click "Open".
+
+        1. The website will inject your WRFU Tester binary and provide the completed `DSpico_wrfuxxed.uf2` file for download. Save it to your PC.
+
+        1. Remove the DSpico from your console, and remove any MicroSD card in the cart.
+        
+        1. Connect a USB cable to your DSpico and plug it into your computer, then open your file manager.
+    
+        1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_wrfuxxed.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
+        
+        1. Your DSpico is now flashed! Follow the Pico-Launcher setup guide below to prepare the SD card.
+
+    === "Compile from Source"
+    
+        - Follow the [LNH-Team DSpico setup guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md) which contains all the steps needed to build the WRFUxxed firmware.
+    
+        - If you would prefer a video guide, you may follow [this YouTube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e). This video guide should result in an up to date firmware due to building it from the latest source.
 
 ### Setup Guide:
 

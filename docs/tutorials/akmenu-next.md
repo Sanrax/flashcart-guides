@@ -117,9 +117,9 @@ title: Setting Up AKMenu-Next
 
     When running a DSpico on a DSi or 3DS and you have Pico-Loader, you can run DSiWare with AKMenu-Next. Follow the below steps to run DSiWare.
 
-    1. You need to acquire a copy of the DSi EmuNAND files. If you have a DSi with HiyaCFW, you can copy the files from your DSi's SD card for this.
+    1. You need to acquire a copy of the DSi NAND files. If you have a DSi with HiyaCFW, you can copy the files from your DSi's SD card for this. If you do not have HiyaCFW, you can use GodMode9i booted on your DSpico to copy the files needed from the `nand:/` drive on it.
 
-    1. From your DSi EmuNAND files, copy the below folders & files to the DSpico SD card:
+    1. From your DSi NAND files, copy the below folders & files to the DSpico SD card:
 
         - `photo`
         - `shared1`

@@ -121,6 +121,10 @@ title: DSpico
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+### Running DSiWare on a DSpico (DSi & 3DS only)
+
+Please see [this guide](/flashcart-guides/tutorials/dsiware/#__tabbed_1_3) for running DSiWare on a DSpico.
+
 ### Troubleshooting:
 
 #### *Games lag or randomly freeze on my DSpico, or the DSpico does not load reliably. I have confirmed my MicroSD card is a name-brand and is genuine.*

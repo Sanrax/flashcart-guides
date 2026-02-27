@@ -113,6 +113,22 @@ title: Setting Up AKMenu-Next
     
     1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
+    #### Running DSiWare (DSi & 3DS only)
+
+    When running a DSpico on a DSi or 3DS and you have Pico-Loader, you can run DSiWare with AKMenu-Next. Follow the below steps to run DSiWare.
+
+    1. You need to acquire a copy of the DSi EmuNAND files. If you have a DSi with HiyaCFW, you can copy the files from your DSi's SD card for this.
+
+    1. From your DSi EmuNAND files, copy the below folders & files to the DSpico SD card:
+
+        - `photo`
+        - `shared1`
+        - `shared2`
+        - `sys`
+        - A copy of the Nintendo DS ARM7 BIOS Dump inside the `_pico` folder named as `biosnds7.rom`. (You may need to rename it to this). [Follow this guide](https://wiki.ds-homebrew.com/ds-index/ds-bios-firmware-dump) for obtaining a BIOS dump.
+
+    1. After doing the above, ensure that the `Game Loader` inside the settings is set to `Pico-Loader` and that you have your DSpico booted on a DSi or 3DS. You can now run DSiWare in `.nds` format.
+
 === "Nintendo DSi"
 
     !!! note

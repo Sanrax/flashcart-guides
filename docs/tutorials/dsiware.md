@@ -13,8 +13,6 @@ title: Running DSiWare On Flashcarts
 
 ### Setup Guide:
 
-By following either method, nds-bootstrap will be installed in order to run DSiWare.
-
 === "TWiLight Menu++"
 
     1. First setup TWiLight as either [primary](twilight.md) or [secondary](twilight-dualboot.md) kernel on your flashcart.
@@ -46,7 +44,9 @@ By following either method, nds-bootstrap will be installed in order to run DSiW
 
     1. Download the [nds-bootstrap forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z).
 
-    1. Extract the contents of the `for SD Card root` folder to the root of your flashcart's SD card.
+    1. Extract the forwarder pack .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the extracted files.
+    
+    1. Copy the *contents* of the `for SD Card root` folder to the root of your flashcart's SD card.
 
     1. After setting up the nds-bootstrap forwarder pack, you will need to place your DSiWare (with `.nds` extension) in `/roms/dsi` on your SD card.
 
@@ -58,31 +58,31 @@ By following either method, nds-bootstrap will be installed in order to run DSiW
 
     1. You will now need to find a DS game built with SDK 5.x to use as a donor ROM for DSiWare. Place the donor ROM in `/roms/nds`.
 
-        DSi-Enhanced games, such as *Pokémon: Black Version* are usually built with SDK5.x, which makes them a good candidate for usage as a donor ROM.
+        - DSi-Enhanced games, such as *Pokémon: Black Version* are usually built with SDK5.x, which makes them a good candidate for usage as a donor ROM.
 
-    === "Setting a Donor ROM"
+    #### Setting a Donor ROM
 
-        1. Launch `NDSForwarder.nds`.
+    1. Launch `NDSForwarder.nds`.
 
-        1. Press `A` on `Install`.
+    1. Press `A` on `Install`.
 
-        1. Navigate to the donor game's location, press `A`, and select `Install`.
+    1. Navigate to the donor game's location, press `A`, and select `Install`.
 
-        1. In the flashcart kernel, head to `/forwarders` and choose the donor game to launch.
+    1. In the flashcart kernel, head to `/forwarders` and choose the donor game to launch.
 
-        1. Hold the `Y` button to open a menu where you can then set the game as a donor ROM.
+    1. Hold the `Y` button to open a menu where you can then set the game as a donor ROM.
 
-    === "Adding a DSiWare title"
+    #### Adding a DSiWare title
 
-        1. Launch `NDSForwarder.nds`.
+    1. Launch `NDSForwarder.nds`.
 
-        1. Press `A` on `Install`.
+    1. Press `A` on `Install`.
 
-        1. Navigate to the DSiWare's location, press `A`, and select `Install`.
+    1. Navigate to the DSiWare's location, press `A`, and select `Install`.
 
-        1. You are now ready to play DSiWare! Head to `/forwarders` in the flashcart kernel and choose a game to launch.
+    1. You are now ready to play DSiWare! Head to `/forwarders` in the flashcart kernel and choose a game to launch.
 
-        1. **[Optional]** - To improve compatibility, insert a Slot-2 Memory Expansion Pak if you are using a DS Lite or NDS.
+    1. **[Optional]** - To improve compatibility, insert a Slot-2 Memory Expansion Pak if you are using a DS Lite or NDS.
 
 === "DSpico with Pico-Launcher"
 

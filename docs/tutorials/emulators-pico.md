@@ -36,29 +36,26 @@ title: Setting Up Emulators on Pico-Launcher
                 }
             ```
 
-            !!! tip "Example Structure"
+            !!! tip "Adding Keys to `fileAssociations`"
 
-                Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
-                ``` json title="settings.json"
-                {
-                  "language": "english",
-                  "romBrowserLayout": "HorizontalIconGrid",
-                  "romBrowserSortMode": "NameAscending",
-                  "theme": "material",
-                  "lastUsedFilePath": "",
-                  "fileAssociations": {
+                Here's a demonstration of how to add keys to the `fileAssociations` key:
+
+                ![settings.json](../images/Pico-Associations.gif)
+
+                !!! note
+
+                    If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
+                
+                    ``` json
                     "abc": {
                       "appPath": "/path/to/program.nds"
-                    },
+                    },// (1)!
                     "xyz": {
                       "appPath": "/path/to/app.nds"
                     }
-                  }
-                }
-                ```
-                In this example, we have two keys inside the `fileAssocations` key - An `abc` key and an `xyz` key. Note that when multiple keys exist, they need to be separated by a comma.
+                    ```
 
-                If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma, like shown above.
+                    1. This comma separates the `abc` key from the `xyz` key in this example.
 
         1. Create a `_gba` folder on your SD card root. (**NOT** inside `_pico`!)
          

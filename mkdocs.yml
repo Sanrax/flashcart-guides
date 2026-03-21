@@ -7,6 +7,7 @@ theme:
     - navigation.tabs
     - content.tooltips
     - content.code.copy
+    - content.code.annotate
   favicon: images/favicon.png
   logo: images/web-icon.png
   icon:

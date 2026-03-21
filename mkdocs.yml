@@ -6,6 +6,7 @@ theme:
   features:
     - navigation.tabs
     - content.tooltips
+    - content.code.copy
   favicon: images/favicon.png
   logo: images/web-icon.png
   icon:
@@ -59,9 +60,15 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true

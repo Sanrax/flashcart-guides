@@ -30,16 +30,16 @@ title: Setting Up Emulators on Pico-Launcher
             - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
 
         1. Add (copy/paste) this GBA association key into the `fileAssociations` key in `settings.json`:
-            ```
-              "gba": {
-                "appPath": "/_pico/emulators/GBARunner2_arm9dldi_ds.nds"
-              }
+            ``` json
+                "gba": {
+                  "appPath": "/_pico/emulators/GBARunner2_arm9dldi_ds.nds"
+                }
             ```
 
             !!! tip "Example Structure"
 
                 Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
-                ```
+                ``` json title="settings.json"
                 {
                   "language": "english",
                   "romBrowserLayout": "HorizontalIconGrid",
@@ -97,7 +97,7 @@ title: Setting Up Emulators on Pico-Launcher
             - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
 
         1. Add (copy/paste) this GBA association key into the `fileAssociations` key in `settings.json`:
-            ```
+            ``` json
               "gba": {
                 "appPath": "/_pico/emulators/GBARunner3.nds"
               }
@@ -106,7 +106,7 @@ title: Setting Up Emulators on Pico-Launcher
             !!! tip "Example Structure"
 
                 Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
-                ```
+                ``` json title="settings.json"
                 {
                   "language": "english",
                   "romBrowserLayout": "HorizontalIconGrid",
@@ -144,39 +144,39 @@ title: Setting Up Emulators on Pico-Launcher
     1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
             - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
 
-        1. Add (copy/paste) these GB/C association keys into the `fileAssociations` key in `settings.json`:
-            ```
-              "gb": {
-                "appPath": "/_pico/emulators/gameyob.nds"
-              },
-              "gbc": {
-                "appPath": "/_pico/emulators/gameyob.nds"
-              }
-            ```
+    1. Add (copy/paste) these GB/C association keys into the `fileAssociations` key in `settings.json`:
+        ``` json
+          "gb": {
+            "appPath": "/_pico/emulators/gameyob.nds"
+          },
+          "gbc": {
+            "appPath": "/_pico/emulators/gameyob.nds"
+          }
+        ```
 
-            !!! tip "Example Structure"
+        !!! tip "Example Structure"
 
-                Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
-                ```
-                {
-                  "language": "english",
-                  "romBrowserLayout": "HorizontalIconGrid",
-                  "romBrowserSortMode": "NameAscending",
-                  "theme": "material",
-                  "lastUsedFilePath": "",
-                  "fileAssociations": {
-                    "abc": {
-                      "appPath": "/path/to/program.nds"
-                    },
-                    "xyz": {
-                      "appPath": "/path/to/app.nds"
-                    }
-                  }
+            Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
+            ``` json title="settings.json"
+            {
+              "language": "english",
+              "romBrowserLayout": "HorizontalIconGrid",
+              "romBrowserSortMode": "NameAscending",
+              "theme": "material",
+              "lastUsedFilePath": "",
+              "fileAssociations": {
+                "abc": {
+                  "appPath": "/path/to/program.nds"
+                },
+                "xyz": {
+                  "appPath": "/path/to/app.nds"
                 }
-                ```
-                In this example, we have two keys inside the `fileAssocations` key - An `abc` key and an `xyz` key. Note that when multiple keys exist, they need to be separated by a comma.
+              }
+            }
+            ```
+            In this example, we have two keys inside the `fileAssocations` key - An `abc` key and an `xyz` key. Note that when multiple keys exist, they need to be separated by a comma.
 
-                If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma, like shown above.
+            If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma, like shown above.
 
     1. On your SD card root, create a `ROMs` folder, and then create a `GB` folder inside it. Place your `.gb` or `.gbc` game ROMs inside.
      

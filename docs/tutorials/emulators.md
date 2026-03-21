@@ -218,7 +218,7 @@ title: Setting Up Emulators
 
 === "Sega Genesis/MegaDrive"
 
-    1. Download the [jEnesisDS zip file.](https://dlhb.gamebrew.org/dshomebrew2/jenesisds_0.7.4.zip)
+    1. Download the [jEnesisDS zip file.](../assets/jenesisds_0.7.4.zip)
     
     1. Create an `Emulators` folder on your SD card root.
     

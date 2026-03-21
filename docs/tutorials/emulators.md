@@ -4,6 +4,10 @@ title: Setting Up Emulators
 
 # Setting up Emulators
 
+!!! warning "DSPico & Pico-Launcher Users"
+
+    If you intend to use this page to setup emulators on Pico-Launcher, you may be better served by reading the [Pico-Launcher emulators page](./emulators-pico.md), which details how to integrate emulator support directly into the Pico-Launcher menu, using Pico-Launcher's file association feature.
+
 ### Nintendo Consoles
 
 === "GBA"

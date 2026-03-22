@@ -90,7 +90,7 @@ title: Setting Up Emulators
     
         SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
 
-    1. Download the [SNEmulDS zip file.](https://dlhb.gamebrew.org/dshomebrew2/snemulds_0.6a.zip)
+    1. Download the [SNEmulDS zip file.](../assets/snemulds_0.6a.zip)
     
     1. Create an `Emulators` folder on your SD card root.
     
@@ -222,7 +222,7 @@ title: Setting Up Emulators
 
 === "Sega Genesis/MegaDrive"
 
-    1. Download the [jEnesisDS zip file.](https://dlhb.gamebrew.org/dshomebrew2/jenesisds_0.7.4.zip)
+    1. Download the [jEnesisDS zip file.](../assets/jenesisds_0.7.4.zip)
     
     1. Create an `Emulators` folder on your SD card root.
     

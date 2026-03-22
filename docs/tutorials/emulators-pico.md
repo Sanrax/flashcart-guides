@@ -71,7 +71,7 @@ title: Setting Up Emulators on Pico-Launcher
         
         1. Place the SD card back into your cart, and boot into Pico-Launcher.
         
-        1. To play GBA games, navigate to `/ROMs/GBA`, then select a GBA ROM to play.
+        1. To play GBA games, navigate to `/ROMs/GBA`, then select a GBA ROM.
     
     === "GBARunner3"
         
@@ -95,40 +95,37 @@ title: Setting Up Emulators on Pico-Launcher
 
         1. Add (copy/paste) this GBA association key into the `fileAssociations` key in `settings.json`:
             ``` json
-              "gba": {
-                "appPath": "/_pico/emulators/GBARunner3.nds"
-              }
+                "gba": {
+                  "appPath": "/_pico/emulators/GBARunner3.nds"
+                }
             ```
 
-            !!! tip "Example Structure"
+            !!! tip "Adding Keys to `fileAssociations`"
 
-                Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
-                ``` json title="settings.json"
-                {
-                  "language": "english",
-                  "romBrowserLayout": "HorizontalIconGrid",
-                  "romBrowserSortMode": "NameAscending",
-                  "theme": "material",
-                  "lastUsedFilePath": "",
-                  "fileAssociations": {
+                Here's a demonstration of how to add keys to the `fileAssociations` key:
+
+                ![settings.json](../images/Pico-Associations.gif)
+
+                !!! note
+
+                    If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
+                
+                    ``` json
                     "abc": {
                       "appPath": "/path/to/program.nds"
-                    },
+                    },// (1)!
                     "xyz": {
                       "appPath": "/path/to/app.nds"
                     }
-                  }
-                }
-                ```
-                In this example, we have two keys inside the `fileAssocations` key - An `abc` key and an `xyz` key. Note that when multiple keys exist, they need to be separated by a comma.
+                    ```
 
-                If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma, like shown above.
+                    1. This comma separates the `abc` key from the `xyz` key in this example.
         
         1. On your SD card root, create a `ROMs` folder, and then create a `GBA` folder inside it. Place your `.gba` game ROMs inside.
         
         1. Place the SD card back into your cart, and boot into Pico-Launcher.
         
-        1. To play GBA games, navigate to `/ROMs/GBA`, then select a GBA ROM to play.
+        1. To play GBA games, navigate to `/ROMs/GBA`, then select a GBA ROM.
 
 === "GB/C"
 
@@ -139,41 +136,38 @@ title: Setting Up Emulators on Pico-Launcher
     1. Open/extract `gameyob.zip`, and locate `gameyob.nds` inside. Copy this file into the `emulators` folder.
 
     1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
-            - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
 
-    1. Add (copy/paste) these GB/C association keys into the `fileAssociations` key in `settings.json`:
+    1. Add (copy/paste) these GB and GBC association keys into the `fileAssociations` key in `settings.json`:
         ``` json
-          "gb": {
-            "appPath": "/_pico/emulators/gameyob.nds"
-          },
-          "gbc": {
-            "appPath": "/_pico/emulators/gameyob.nds"
-          }
+            "gb": {
+              "appPath": "/_pico/emulators/gameyob.nds"
+            },
+            "gbc": {
+              "appPath": "/_pico/emulators/gameyob.nds"
+            }
         ```
 
-        !!! tip "Example Structure"
+        !!! tip "Adding Keys to `fileAssociations`"
 
-            Here's an example `settings.json` structure to demonstrate how keys are added to `fileAssocations`:
-            ``` json title="settings.json"
-            {
-              "language": "english",
-              "romBrowserLayout": "HorizontalIconGrid",
-              "romBrowserSortMode": "NameAscending",
-              "theme": "material",
-              "lastUsedFilePath": "",
-              "fileAssociations": {
+            Here's a demonstration of how to add keys to the `fileAssociations` key:
+
+            ![settings.json](../images/Pico-Associations.gif)
+
+            !!! note
+
+                If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
+            
+                ``` json
                 "abc": {
                   "appPath": "/path/to/program.nds"
-                },
+                },// (1)!
                 "xyz": {
                   "appPath": "/path/to/app.nds"
                 }
-              }
-            }
-            ```
-            In this example, we have two keys inside the `fileAssocations` key - An `abc` key and an `xyz` key. Note that when multiple keys exist, they need to be separated by a comma.
+                ```
 
-            If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma, like shown above.
+                1. This comma separates the `abc` key from the `xyz` key in this example.
 
     1. On your SD card root, create a `ROMs` folder, and then create a `GB` folder inside it. Place your `.gb` or `.gbc` game ROMs inside.
      
@@ -185,43 +179,106 @@ title: Setting Up Emulators on Pico-Launcher
         
             If you are unable to obtain a GBC BIOS .bin file, you may skip the two steps above. However, GameYob will not be able to run games in color without the BIOS file, so you will only be able to emulate games in grayscale.
     
-        1. Place the SD card back into your cart, and boot into Pico-Launcher.
-        
-        1. To play GB/C games, navigate to `/ROMs/GB`, then select a GB or GB/C ROM to play.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
+    
+    1. To play GB/C games, navigate to `/ROMs/GB`, then select a GB or GB/C ROM.
 
 === "SNES"
 
-    !!! warning
-    
-        SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
+    !!! warning "Not ARGV Compatible"
 
-    1. Download the [SNEmulDS zip file.](https://dlhb.gamebrew.org/dshomebrew2/snemulds_0.6a.zip)
+        Unlike other emulators on this page, SNEmulDS is currently not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch SNEmulDS from Pico-Launcher menu first before selecting a ROM file to play.
+
+    === "SNEmulDS 0.6a"
+
+        !!! warning
+        
+            SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
     
-    1. Create an `Emulators` folder on your SD card root.
+        1. Download the [SNEmulDS 0.6a zip file.](../assets/snemulds_0.6a.zip)
+        
+        1. Create an `Emulators` folder on your SD card root.
+        
+        1. Open/extract `snemulds_0.6a.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+        
+        1. Copy `snemul.cfg` to your SD card root, then open the file with Notepad. Change the `ROMPath = /SNES` line to `ROMPath = /ROMs/SNES`, and save the file.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into the menu.
+        
+        1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
     
-    1. Open/extract `snemulds_0.6a.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+    === "SNEmulDS 0.6d"
+
+        !!! note
+
+            This is Coto's fork of SNEmulDS. It's more up to date and has some compatibility fixes for games and aims to fix bugs. However, it can also have some regressions in the overall user experience, so 0.6a is also available for download in the other tab. Try both and choose which one you like best.
+
+            See [Coto's README](https://github.com/cotodevel/snemulds/blob/master/README.md) for more info on this fork.
+        
+        !!! warning
+        
+            SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
     
-    1. Copy `snemul.cfg` to your SD card root, then open the file with Notepad. Change the `ROMPath = /SNES` line to `ROMPath = /ROMs/SNES`, and save the file.
-    
-    1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` game ROMs inside.
-    
-    1. Place the SD card back into your cart, and boot into the menu.
-    
-    1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
+        1. Download the [SNEmulDS 0.6d zip file.](../assets/SNEmulDS-0.6d-NTR-TGDS1.65.zip)
+        
+        1. Create an `Emulators` folder on your SD card root.
+        
+        1. Open/extract `SNEmulDS-0.6d-NTR-TGDS1.65.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+        
+        1. From the extracted files, copy `snemul.cfg` to your SD card root.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into the menu.
+        
+        1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
 
 === "NES"
 
     1. Download the [NesDS NDS file.](https://github.com/DS-Homebrew/NesDS/releases/latest/download/nesDS.nds)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+
+    1. Copy `nesDS.nds` into the `emulators` folder.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
     
-    1. Copy `nesDS.nds` to the `Emulators` folder on your SD card.
+    1. Add (copy/paste) this NES association key into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "nes": {
+              "appPath": "/_pico/emulators/nesDS.nds"
+            }
+        ```
+
+        !!! tip "Adding Keys to `fileAssociations`"
+
+            Here's a demonstration of how to add keys to the `fileAssociations` key:
+
+            ![settings.json](../images/Pico-Associations.gif)
+
+            !!! note
+
+                If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
+            
+                ``` json
+                "abc": {
+                  "appPath": "/path/to/program.nds"
+                },// (1)!
+                "xyz": {
+                  "appPath": "/path/to/app.nds"
+                }
+                ```
+
+                1. This comma separates the `abc` key from the `xyz` key in this example.
     
     1. On your SD card root, create a `ROMs` folder, and then create a `NES` folder inside it. Place your `.nes` game ROMs inside.
     
-    1. Place the SD card back into your cart, and boot into the menu.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play NES games, navigate to the `Emulators` folder, launch `nesDS.nds`, and select a NES ROM in the menu.
+    1. To play NES games, navigate to `/ROMs/NES`, then select an NES ROM.
 
 ### Atari Consoles
 
@@ -229,27 +286,51 @@ title: Setting Up Emulators on Pico-Launcher
 
     1. Download the [StellaDS NDS file.](https://github.com/wavemotion-dave/StellaDS/releases/latest/download/StellaDS.nds)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
     
-    1. Copy `StellaDS.nds` to the `Emulators` folder on your SD card.
+    1. Copy `StellaDS.nds` to the `emulators` folder.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a `2600` folder inside it. Place your Atari 2600 game ROMs inside.
+    1. Add (copy/paste) this Atari 2600 association key into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "a26": {
+              "appPath": "/_pico/emulators/StellaDS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
     
-    1. Place the SD card back into your cart, and boot into the menu.
+    1. On your SD card root, create a `ROMs` folder, and then create a `2600` folder inside it. Place your `.a26` game ROMs inside.
+        - (You can rename `.bin` Atari 2600 ROMs to `.a26` if necessary)
     
-    1. To play Atari 2600 games, navigate to the `Emulators` folder, launch `StellaDS.nds`, and select a ROM in the menu.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
+    
+    1. To play Atari 2600 games, navigate to `/ROMs/2600`, then select an Atari 2600 ROM.
 
 === "Atari 5200"
 
     1. Download the [A5200DS NDS file.](https://github.com/wavemotion-dave/A5200DS/releases/latest/download/A5200DS.nds)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
     
-    1. Copy `A5200DS.nds` to the `Emulators` folder on your SD card.
+    1. Copy `A5200DS.nds` to the `emulators` folder.
     
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) this Atari 5200 association key into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "a52": {
+              "appPath": "/_pico/emulators/A5200DS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
+
     1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `5200` and `BIOS`.
     
     1. Place your `.a52` game ROMs inside the `5200` folder.
+         - (You can rename `.bin` Atari 5200 ROMs to `.a52` if necessary)
     
     1. Obtain an Atari 5200 BIOS dump. Rename the file to `5200.rom` if it isn't named that already.
     
@@ -259,22 +340,34 @@ title: Setting Up Emulators on Pico-Launcher
         
             If you are unable to obtain an Atari 5200 BIOS file, you may skip the two steps above. A built-in open-source BIOS is provided by the emulator, but some games don't have full compatibility with the built-in BIOS.
     
-    1. Place the SD card back into your cart, and boot into the menu.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play Atari 5200 games, navigate to the `Emulators` folder, launch `A5200DS.nds`, and select a ROM in the menu.
+    1. To play Atari 5200 games, navigate to `/ROMs/5200`, then select an Atari 5200 ROM.
 
 === "Atari 7800"
 
     1. Download the [A7800DS NDS file.](https://github.com/wavemotion-dave/A7800DS/releases/latest/download/A7800DS.nds)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
     
-    1. Copy `A7800DS.nds` to the `Emulators` folder on your SD card.
+    1. Copy `A7800DS.nds` to the `emulators` folder.
     
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) this Atari 7800 association key into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "a78": {
+              "appPath": "/_pico/emulators/A7800DS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
+
     1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `7800` and `BIOS`.
     
-    1. Place your `.a78` or `.bin` game ROMs inside the `7800` folder.
-    
+    1. Place your `.a78` game ROMs inside the `7800` folder.
+        - (You can rename `.bin` Atari 7800 ROMs to `.a78` if necessary)
+
         !!! note
         
             NTSC ROMs are strongly recommended by the developer. PAL ROMs have more scanlines and render more slowly, causing the sound to be wrong. All testing was also done with only NTSC ROMs.
@@ -287,21 +380,41 @@ title: Setting Up Emulators on Pico-Launcher
         
             If you are unable to obtain an Atari 7800 highscore.rom file, you may skip the two steps above. The emulator will work without it, but your high scores won't be saved.
     
-    1. Place the SD card back into your cart, and boot into the menu.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play Atari 7800 games, navigate to the `Emulators` folder, launch `A7800DS.nds`, and select a ROM in the menu.
+    1. To play Atari 7800 games, navigate to `/ROMs/7800`, then select an Atari 7800 ROM.
 
 === "Atari 800/400"
 
     1. Download the [A8DS NDS file.](https://github.com/wavemotion-dave/A8DS/releases/latest/download/A8DS.nds)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
     
-    1. Copy `A8DS.nds` to the `Emulators` folder on your SD card.
+    1. Copy `A8DS.nds` to the `emulators` folder.
+    
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) this Atari 800/400 association key into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "car": {
+              "appPath": "/_pico/emulators/A8DS.nds"
+            },
+            "xex": {
+              "appPath": "/_pico/emulators/A8DS.nds"
+            },
+            "atr": {
+              "appPath": "/_pico/emulators/A8DS.nds"
+            },
+            "atx": {
+              "appPath": "/_pico/emulators/A8DS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
     
     1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `800` and `BIOS`.
     
-    1. Place your 8-bit Atari game game ROMs inside the `800` folder.
+    1. Place your 8-bit Atari game ROMs inside the `800` folder.
     
         - The following game types are supported by A8DS:
             - `CAR` and `ROM` cartridge-based games up to 1MB in size
@@ -319,9 +432,9 @@ title: Setting Up Emulators on Pico-Launcher
 
     1. Place all BIOS files you have obtained and want to use in `/ROMs/BIOS`.
     
-    1. Place the SD card back into your cart, and boot into the menu.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play Atari 8-bit games, navigate to the `Emulators` folder, launch `A8DS.nds`, and select a ROM in the menu.
+    1. To play Atari 800/400 games, navigate to `/ROMs/800`, then select a ROM.
 
 ### Miscellaneous Consoles
 

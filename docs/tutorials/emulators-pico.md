@@ -309,7 +309,7 @@ title: Setting Up Emulators on Pico-Launcher
     
     1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play Atari 2600 games, navigate to `/ROMs/2600`, then select an Atari 2600 ROM.
+    1. To play Atari 2600 games, navigate to `/ROMs/2600`, then select a ROM.
 
 === "Atari 5200"
 
@@ -345,7 +345,7 @@ title: Setting Up Emulators on Pico-Launcher
     
     1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play Atari 5200 games, navigate to `/ROMs/5200`, then select an Atari 5200 ROM.
+    1. To play Atari 5200 games, navigate to `/ROMs/5200`, then select a ROM.
 
 === "Atari 7800"
 
@@ -385,7 +385,7 @@ title: Setting Up Emulators on Pico-Launcher
     
     1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. To play Atari 7800 games, navigate to `/ROMs/7800`, then select an Atari 7800 ROM.
+    1. To play Atari 7800 games, navigate to `/ROMs/7800`, then select a ROM.
 
 === "Atari 800/400"
 
@@ -458,7 +458,7 @@ title: Setting Up Emulators on Pico-Launcher
         1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
             - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
         
-        1. Add (copy/paste) this MegaDrive/Genesis association key into the `fileAssociations` key in `settings.json`:
+        1. Add (copy/paste) these MegaDrive/Genesis association keys into the `fileAssociations` key in `settings.json`:
             ``` json
                 "gen": {
                   "appPath": "/_pico/emulators/PicoDriveTWL.nds"
@@ -476,7 +476,7 @@ title: Setting Up Emulators on Pico-Launcher
         
         1. Place the SD card back into your cart, and boot into Pico-Launcher.
         
-        1. To play Sega Genesis games, navigate to `/ROMs/Genesis`, then select an Sega Genesis ROM.
+        1. To play Sega Genesis games, navigate to `/ROMs/Genesis`, then select a ROM.
 
     === "jEnesisDS"
 
@@ -504,25 +504,121 @@ title: Setting Up Emulators on Pico-Launcher
 
     1. Download the [ColecoDS NDS file.](https://github.com/wavemotion-dave/ColecoDS/releases/latest/download/ColecoDS.nds)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+        
+    1. Copy `ColecoDS.nds` to the `emulators` folder.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
     
-    1. Copy `ColecoDS.nds` to the `Emulators` folder on your SD card.
+    1. Add (copy/paste) these ColecoVision association keys into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "col": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "cas": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "com": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "cv": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "ddp": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "dsk": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "mtx": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "msx": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "m5": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "pen": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "pv": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            },
+            "pv1": {
+              "appPath": "/_pico/emulators/ColecoDS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
     
     1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `Coleco` and `BIOS`.
     
     1. Place your ColecoVision game ROMs inside the `Coleco` folder.
+        
+        !!! note "Supported ROM Types"
+        
+            ColecoDS supports *lots* of similar hardware games. The following file extensions are supported:
+
+            `.cas`, `.col`, `.com`, `.cv`, `.ddp`, `.dsk`, `.mtx`, `.msx`, `.m5`, `.pen`, `.pv`, `.pv1`
+
+            See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for more information.
             
     1. Obtain a ColecoVision BIOS dump. Rename the file to `coleco.rom` if it isn't named that already.
     
     1. Place the `coleco.rom` file in `/ROMs/BIOS`.
-    
-    1. Place the SD card back into your cart, and boot into the menu.
-    
-    1. To play ColecoVision games, navigate to the `Emulators` folder, launch `ColecoDS.nds`, and select a ROM in the menu.
 
-    !!! tip
+        !!! tip "Supported BIOS Files"
 
-        More consoles than just ColecoVision are supported by ColecoDS - similar architecture devices are also emulated. See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for more information, and a full list of supported BIOSes.
+            As ColecoDS supports lots of similar architecture devices as well, it also has support for many more BIOSes.
+            
+            See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for a full list of supported BIOSes.
+    
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
+    
+    1. To play ColecoVision games, navigate to `/ROMs/Coleco`, then select a ROM.
+
+=== "IntelliVision"
+
+    1. Download the [NintelliVision NDS file.](https://github.com/wavemotion-dave/NINTV-DS/releases/latest/download/NINTV-DS.nds)
+    
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+        
+    1. Copy `NINTV-DS.nds` to the `emulators` folder.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) this IntelliVision association key into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "int": {
+              "appPath": "/_pico/emulators/NINTV-DS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `INTV` and `BIOS`.
+    
+    1. Place your IntelliVision `.int` game ROMs inside the `INTV` folder.
+            
+    1. Obtain at minimum, the two required BIOS dumps for NintelliVision: `grom.bin` and `exec.bin`.
+
+        !!! note "Supported BIOS Files"
+        
+            NintelliVision supports extra BIOS files for maximum game compatibility, and the developer advises users to obtain copies of all supported BIOSes to get the best experience with NintelliVision. Below is a list of supported BIOSes and their hashes:
+
+            - `grom.bin` - **[REQUIRED]** 2KB, CRC32: `683A4158`
+            - `exec.bin` - **[REQUIRED]** 8KB, CRC32: `CBCE86F7`
+            - `ivoice.bin` - [Optional] For Intellivoice games - 2KB, CRC32: `0DE7579D`
+            - `ecs.bin` - [Optional] For ECS games - 24KB, CRC32: `EA790A06`
+            - `wbexec.bin` - [Optional] For full Tutorvision mode - 16KB, CRC32: `7558A4CF`
+            - `wbgrom.bin` - [Optional] For full Tutorvision mode - 2KB, CRC32 `82736456`
+    
+    1. Place your IntelliVision BIOS files in `/ROMs/BIOS`.
+    
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
+    
+    1. To play IntelliVision games, navigate to `/ROMs/INTV`, then select a ROM.
 
 === "NeoGeo"
 

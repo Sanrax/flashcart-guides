@@ -622,6 +622,10 @@ title: Setting Up Emulators on Pico-Launcher
 
 === "NeoGeo"
 
+    !!! warning
+
+            Unlike other emulators on this page, NeoDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch NeoDS from Pico-Launcher's menu first before selecting a ROM file to play.
+
     1. Download the [NeoDS NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NeoDS.nds)
     
     1. Create an `Emulators` folder on your SD card root.
@@ -644,20 +648,36 @@ title: Setting Up Emulators on Pico-Launcher
 
 === "PC-Engine/TurboGrafx-16"
 
-    1. Download the [NitroGrafx NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NitroGrafx.nds)
+    1. Download the [NitroGrafx zip file.](https://github.com/FluBBaOfWard/NitroGrafx/releases/download/v0.9.0/NitroGrafx0_9_0.zip)
     
-    1. Create an `Emulators` folder on your SD card root.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
     
-    1. Copy `NitroGrafx.nds` to the `Emulators` folder on your SD card.
+    1. Open/extract `NitroGrafx0_9_0.zip`, and locate `NitroGrafx.nds` inside. Copy this file to the `emulators` folder.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) these TurboGrafx association keys into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "pce": {
+              "appPath": "/_pico/emulators/NitroGrafx.nds"
+            },
+            "iso": {
+              "appPath": "/_pico/emulators/NitroGrafx.nds"
+            },
+            "cue": {
+              "appPath": "/_pico/emulators/NitroGrafx.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
     
     1. On your SD card root, create a `ROMs` folder, and then create a `TurboGrafx` folder inside it.
     
     1. Place your TurboGrafx/PC-Engine game ROMs inside the `TurboGrafx` folder.
 
-     1. On your SD card root, create a `NitroGrafx` folder. 
-     
-         - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
-
-    1. Place the SD card back into your cart, and boot into the menu.
+    1. On your SD card root, create a `NitroGrafx` folder.
+        - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
     
-    1. To play TurboGrafx games, navigate to the `Emulators` folder, launch `NitroGrafx.nds`, and select a ROM in the menu.
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
+    
+    1. To play TurboGrafx games, navigate to `/ROMs/TurboGrafx`, then select a ROM.

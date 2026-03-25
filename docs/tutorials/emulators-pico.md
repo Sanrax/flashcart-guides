@@ -480,7 +480,7 @@ title: Setting Up Emulators on Pico-Launcher
 
     === "jEnesisDS"
 
-        !!! warning
+        !!! warning "Not ARGV Compatible"
 
             Unlike other emulators on this page, jEnesisDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch jEnesisDS from Pico-Launcher's menu first before selecting a ROM file to play.
         
@@ -622,9 +622,9 @@ title: Setting Up Emulators on Pico-Launcher
 
 === "NeoGeo"
 
-    !!! warning
+    !!! warning "Not ARGV Compatible"
 
-            Unlike other emulators on this page, NeoDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch NeoDS from Pico-Launcher's menu first before selecting a ROM file to play.
+        Unlike other emulators on this page, NeoDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch NeoDS from Pico-Launcher's menu first before selecting a ROM file to play.
 
     1. Download the [NeoDS NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NeoDS.nds)
     
@@ -645,6 +645,46 @@ title: Setting Up Emulators on Pico-Launcher
     1. Place the SD card back into your cart, and boot into the menu.
     
     1. To play NeoGeo games, navigate to the `Emulators` folder, launch `NeoDS.nds`, and select a ROM in the menu.
+
+=== "NeoGeo Pocket"
+
+    1. Download the [NGPDS zip file.](https://github.com/FluBBaOfWard/NGPDS/releases/latest/download/NGPDS.zip)
+    
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+    
+    1. Open/extract `NGPDS.zip`, and locate `NGPDS.nds` inside. Copy this file to the `emulators` folder.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) these NeoGeo Pocket / Color association keys into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "ngp": {
+              "appPath": "/_pico/emulators/NGPDS.nds"
+            },
+            "ngc": {
+              "appPath": "/_pico/emulators/NGPDS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `NGPocket` and `BIOS`.
+    
+    1. Place your NeoGeo Pocket `.ngp` or `.ngc` game ROMs inside the `NGPocket` folder.
+
+    1. Obtain a NeoGeo Pocket (for monochrome games), and a NeoGeo Pocket Color BIOS. The following BIOS names are pre-configured, but you can change them later in the emulator settings:
+        - NGP Color BIOS: `ngp-color-bios.ngp`
+        - NGP Monochrome BIOS: `ngp-bnw-bios.ngp`
+
+    1. Place your NeoGeo Pocket BIOS files in `/ROMs/BIOS`. Rename them as needed to match the naming listed above, or change the BIOS paths in settings.
+
+    1. On your SD card root, create a `data` folder, then create a `NGPDS` folder inside.
+
+    1. Download this [`settings.cfg`](../assets/NGPDS/settings.cfg), and place it in `/data/NGPDS` on your SD.
+    
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
+    
+    1. To play NeoGeo Pocket games, navigate to `/ROMs/NGPocket`, then select a ROM.
 
 === "PC-Engine/TurboGrafx-16"
 
@@ -673,9 +713,12 @@ title: Setting Up Emulators on Pico-Launcher
     
     1. On your SD card root, create a `ROMs` folder, and then create a `TurboGrafx` folder inside it.
     
-    1. Place your TurboGrafx/PC-Engine game ROMs inside the `TurboGrafx` folder.
+    1. Place your TurboGrafx/PC-Engine `.pce` game ROMs inside the `TurboGrafx` folder. CD based games are also supported, in `.iso` format or `.bin`/`.cue` format.
 
-    1. On your SD card root, create a `NitroGrafx` folder.
+    1. [Optional] NitroGrafx needs a CD-ROM BIOS to play CD games. If you want to play those games, place a CD-ROM BIOS inside the `TurboGrafx` folder.
+        - You will need to set NitroGrafx to use the BIOS in the emulator settings: Options -> Machine -> Bios Settings -> Select Bios
+
+    1. On your SD card root, create a `data` folder, then create a `NitroGrafx` folder inside.
         - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
     
     1. Place the SD card back into your cart, and boot into Pico-Launcher.

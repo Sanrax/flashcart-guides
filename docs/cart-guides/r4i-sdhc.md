@@ -85,9 +85,9 @@ title: DSTTi DEMON-HW Carts
 
         Pico-Launcher is compatible with **ALL** DSTT hardware, including all DEMON carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
-    !!! warning "Cheats, Soft-Reset, and RTS"
+    !!! warning "Soft-Reset & RTS Not Supported"
 
-        Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using R4iMenu or YSMenu. Note that if cheats are a primary concern, YSMenu is the best choice. R4iMenu can have issues with some cheat codes.
+        Note that Pico-Launcher/Loader currently does not support soft-resetting to the game menu. If this is important to you, consider using R4iMenu or YSMenu.
         
         Real-Time-Save (save states), are only supported in R4iMenu. Follow the R4iMenu guide if this is a feature you'd like to use.
 
@@ -104,6 +104,10 @@ title: DSTTi DEMON-HW Carts
         - `_picoboot.nds`
 
         - `r4.dat`
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711){target="_blank"}
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file into the `_pico` folder on your SD card.
 
     1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
 

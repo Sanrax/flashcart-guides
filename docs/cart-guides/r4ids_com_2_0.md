@@ -46,9 +46,9 @@
 
         Pico-Launcher is the game menu for the DS-Pico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
-    !!! warning "Cheats, Soft-Reset, and RTS"
+    !!! warning "Soft-Reset Not Supported"
 
-        Note that Pico-Launcher/Loader currently does not support using cheats, and soft-reset to the game menu is also unsupported. If these features are important to you, consider using AKAIO.
+        Note that Pico-Launcher/Loader currently does not support soft-resetting to the game menu. If this is important to you, consider using AKAIO.
     
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
@@ -64,6 +64,10 @@
 
         - `_ds_menu.dat`
     
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711){target="_blank"}
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file into the `_pico` folder on your SD card.
+
     1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
     
     1. The files on your SD card should now look like this:

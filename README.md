@@ -11,7 +11,9 @@ This site uses Material-MKDocs as the base. The website is generated from all `.
 Syntax documentation can be found in the [Material-MKDocs reference pages.](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ## Building the Site
-1. Install Python and Material-MKDocs on your PC by following the "Installation" section of the [Material MKDocs wiki.](https://squidfunk.github.io/mkdocs-material/getting-started/)
-1. Install the macros plugin: `pip install mkdocs-macros-plugin`
-1. `git clone` the repository to your local PC.
-1. Change into the `flashcart-guides` directory, then run `mkdocs serve` to build and serve the site locally at localhost:8000.
+1. Install latest [Python 3.x.](https://www.python.org/downloads/)
+1. Install mkdocs-material by following the "Installation" section of the [mkdocs-material wiki.](https://squidfunk.github.io/mkdocs-material/getting-started/)
+1. Install the mkdocs macros plugin: `pip install mkdocs-macros-plugin`
+1. Downgrade `click` to version `8.2.1` for working live-reload: `pip install click==8.2.1`
+1. `git clone` the repository to your local PC: `git clone https://github.com/Sanrax/flashcart-guides.git`
+1. Change into the `flashcart-guides` directory (`cd flashcart-guides`), then run `mkdocs serve` to build and serve the site locally at `localhost:8000`.

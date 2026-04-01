@@ -439,11 +439,11 @@ title: Setting Up Emulators on Pico-Launcher
     
     1. To play Atari 800/400 games, navigate to `/ROMs/800`, then select a ROM.
 
-### Miscellaneous Consoles
+### Sega Consoles
 
 === "Sega Genesis/MegaDrive"
     
-    !!! info "PicoDriveTWL vs jEnssisDS"
+    !!! info "PicoDriveTWL vs jEnesisDS"
 
         PicoDriveTWL is a port of the PicoDrive emulator to DS hardware. It supports argv, so it can launch roms directly from the pico-launcher menu without having to launch the emulator directly first. PicoDrive is a more accurate emulator, but generally a bit slower than jEnesisDS. If you feel like a game is slightly choppy on PicoDriveTWL, you may want to fall back to using jEnesisDS instead.
 
@@ -500,31 +500,55 @@ title: Setting Up Emulators on Pico-Launcher
         
         1. To play Sega Genesis games, navigate to the `Emulators` folder, launch `jEnesisDS.nds`, and select a ROM in the menu.
 
-=== "NeoGeo"
+=== "Sega Master System & Sega Game Gear"
 
-    !!! warning "Not ARGV Compatible"
+    1. Download the [S8DS zip file.](https://github.com/FluBBaOfWard/S8DS/releases/latest/download/S8DS.zip)
+    
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+    
+    1. Open/extract `S8DS.zip`, and locate `S8DS.nds` inside. Copy this file to the `emulators` folder.
 
-        Unlike other emulators on this page, NeoDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch NeoDS from Pico-Launcher's menu first before selecting a ROM file to play.
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+    
+    1. Add (copy/paste) these Master System & Game Gear association keys into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "sms": {
+              "appPath": "/_pico/emulators/S8DS.nds"
+            },
+            "gg": {
+              "appPath": "/_pico/emulators/S8DS.nds"
+            },
+            "sg": {
+              "appPath": "/_pico/emulators/S8DS.nds"
+            },
+            "sc": {
+              "appPath": "/_pico/emulators/S8DS.nds"
+            }
+        ```
+        - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create three folders inside: `SMS`, `GG`, and `BIOS`.
+    
+    1. Place your Sega Master System or Game Gear `.sms` or `.gg` game ROMs inside the `SMS` and `GG` folders, respectively.
 
-    1. Download the [NeoDS NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NeoDS.nds)
+        !!! tip "More SEGA 8-Bit Consoles Supported"
     
-    1. Create an `Emulators` folder on your SD card root.
-    
-    1. Copy `NeoDS.nds` to the `Emulators` folder on your SD card.
-    
-    1. On your SD card root, create a `ROMs` folder, and then create a `NeoGeo` folder inside.
-    
-    1. Also on the SD card root, create a `data` folder, and then create a `NeoDS` folder inside.
+            S8DS also supports more consoles than just Master System and Game Gear. The pre-made assocations config provided above also adds support for SG and SC series consoles, using the `.sg` and `.sc` ROM extensions. Sega System-E / SG AC / MegaTech is also supported, using MAME format `.zip` ROMs. If you would like to make use of this, edit the associations config and associate `.zip` files with S8DS.
 
-    1. Download [this `_NeoDS.ini` file](../assets/_NeoDS.ini), and place it inside `/data/NeoDS`.
+            A list of supported consoles and arcade roms can be found in the [S8DS README](https://github.com/FluBBaOfWard/S8DS/blob/main/README.md).
 
-    1. NeoDS requires ROMs to be converted to `.neo` format before they can be used with the emulator. Follow the documentation [found here](https://github.com/flashcarts/AOS/blob/master/extras/NeoDS-ReadMe.md) to convert your ROMs.
+    1. [Optional] Place any BIOS files you'd like to use with S8DS in `/ROMs/BIOS`.
+        - You will need to set S8DS to use the BIOS in the emulator settings: Options -> Machine -> Bios Settings
+
+    1. On your SD card root, create a `data` folder, then create a `S8DS` folder inside.
+        - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
     
-    1. Once your ROMs are converted, place them in `/ROMs/NeoGeo` on your SD card. 
+    1. Place the SD card back into your cart, and boot into Pico-Launcher.
     
-    1. Place the SD card back into your cart, and boot into the menu.
-    
-    1. To play NeoGeo games, navigate to the `Emulators` folder, launch `NeoDS.nds`, and select a ROM in the menu.
+    1. To play Master System & Game Gear games, navigate to `/ROMs/SMS` or `/ROMs/GG`, then select a ROM.
+
+### Miscellaneous Consoles
 
 === "NeoGeo Pocket"
 
@@ -566,7 +590,33 @@ title: Setting Up Emulators on Pico-Launcher
     
     1. To play NeoGeo Pocket games, navigate to `/ROMs/NGPocket`, then select a ROM.
 
-=== "TurboGrafx-16"
+=== "NeoGeo"
+
+    !!! warning "Not ARGV Compatible"
+
+        Unlike other emulators on this page, NeoDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch NeoDS from Pico-Launcher's menu first before selecting a ROM file to play.
+
+    1. Download the [NeoDS NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NeoDS.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Copy `NeoDS.nds` to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create a `NeoGeo` folder inside.
+    
+    1. Also on the SD card root, create a `data` folder, and then create a `NeoDS` folder inside.
+
+    1. Download [this `_NeoDS.ini` file](../assets/_NeoDS.ini), and place it inside `/data/NeoDS`.
+
+    1. NeoDS requires ROMs to be converted to `.neo` format before they can be used with the emulator. Follow the documentation [found here](https://github.com/flashcarts/AOS/blob/master/extras/NeoDS-ReadMe.md) to convert your ROMs.
+    
+    1. Once your ROMs are converted, place them in `/ROMs/NeoGeo` on your SD card. 
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play NeoGeo games, navigate to the `Emulators` folder, launch `NeoDS.nds`, and select a ROM in the menu.
+
+=== "PC-Engine/TurboGrafx-16"
 
     1. Download the [NitroGrafx zip file.](https://github.com/FluBBaOfWard/NitroGrafx/releases/download/v0.9.0/NitroGrafx0_9_0.zip)
     

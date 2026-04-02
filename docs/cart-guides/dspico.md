@@ -145,6 +145,9 @@ Please see [this guide](/flashcart-guides/tutorials/dsiware/#__tabbed_1_3) for r
 
 - Check that a MicroSD card is inserted and that you have flashed the firmware to the DSpico if applicable. If it still does not show up, try using some compressed air to blow out your console's cartridge slot.
 
+!!! note "Phenom Mod DSPico USB-C users"
+    Special note for Phenom Mod DSPico USB-C users: A physical issue with the flashcart's shell has been identified. If you have properly configured your flashcart and it still doesn't load, carefully apply pressure on the flashcart with your finger while your console is running. If the flashcart's menu icon pops up, you may need to replace the shell. You may qualify for a replacement shell, free of charge. Please see [here](https://store.phenommod.com/product/dspico-pre-order/) for more info. A link to the replacement form can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfVeUiYKAfBDZi96PxnnWghlr17539KDZ9jGpLQjH2z6W5_UA/viewform?usp=publish-editor).
+
 #### *I get "Error: Failed to mount SD card.", or a blue screen after booting the DSpico with the WRFUxxed firmware.*
 
 - Mounting your microSD card failed. Try reformatting it or try a different micro SD card. Also confirm that it is a genuine. If all else fails, You may need to flash an updated firmware with MicroSD fixes as mentioned above.

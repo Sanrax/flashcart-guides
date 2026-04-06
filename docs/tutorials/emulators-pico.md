@@ -495,6 +495,8 @@ title: Setting Up Emulators on Pico-Launcher
             !!! warning "Supported File Types"
     
                 jEnesisDS **requires** ROMs to be in `.gen`, `.bin`, or `.smd` format to be recognized in the file browser. If you have `.md` ROMs, rename them to `.gen` or `.bin` before placing them on your SD card.
+
+                You can find a batch script [here](../assets/rename_md.bat) to rename all your `.md` files quickly. Place `rename_md.bat` in the same folder as your `.md` ROMs, then double click on it to run the script. It will ask whether to rename your files to `.gen` or `.bin`. After you make a choice, all `.md` files in the folder will be renamed to the target extension.
         
         1. Place the SD card back into your cart, and boot into the menu.
         

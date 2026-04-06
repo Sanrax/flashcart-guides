@@ -90,19 +90,43 @@ title: Setting Up Emulators
     
         SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
 
-    1. Download the [SNEmulDS zip file.](../assets/snemulds_0.6a.zip)
+    === "SNEmulDS 0.6a"
     
-    1. Create an `Emulators` folder on your SD card root.
+        1. Download the [SNEmulDS 0.6a zip file.](../assets/snemulds_0.6a.zip)
+        
+        1. Create an `Emulators` folder on your SD card root.
+        
+        1. Open/extract `snemulds_0.6a.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+        
+        1. Copy `snemul.cfg` to your SD card root, then open the file with Notepad. Change the `ROMPath = /SNES` line to `ROMPath = /ROMs/SNES`, and save the file.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into the menu.
+        
+        1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
+
+    === "SNEmulDS 0.6d"
+
+        !!! note
+
+            This is Coto's fork of SNEmulDS. It's more up to date and has some compatibility fixes for games and aims to fix bugs. However, it can also have some regressions in the overall user experience and just outright not work on some carts, so 0.6a is also available for download in the other tab. Try both and choose which one you like best.
+
+            See [Coto's README](https://github.com/cotodevel/snemulds/blob/master/README.md) for more info on this fork.
     
-    1. Open/extract `snemulds_0.6a.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
-    
-    1. Copy `snemul.cfg` to your SD card root, then open the file with Notepad. Change the `ROMPath = /SNES` line to `ROMPath = /ROMs/SNES`, and save the file.
-    
-    1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` game ROMs inside.
-    
-    1. Place the SD card back into your cart, and boot into the menu.
-    
-    1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
+        1. Download the [SNEmulDS 0.6d zip file.](../assets/SNEmulDS-0.6d-NTR-TGDS1.65.zip)
+        
+        1. Create an `Emulators` folder on your SD card root.
+        
+        1. Open/extract `SNEmulDS-0.6d-NTR-TGDS1.65.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+        
+        1. From the extracted files, copy `snemul.cfg` to your SD card root.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into the menu.
+        
+        1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
 
 === "NES"
 
@@ -218,49 +242,103 @@ title: Setting Up Emulators
     
     1. To play Atari 8-bit games, navigate to the `Emulators` folder, launch `A8DS.nds`, and select a ROM in the menu.
 
-### Miscellaneous Consoles
+### Sega Consoles
 
 === "Sega Genesis/MegaDrive"
 
-    1. Download the [jEnesisDS zip file.](../assets/jenesisds_0.7.4.zip)
+    !!! info "PicoDriveTWL vs jEnesisDS"
+
+        PicoDriveTWL is a port of the PicoDrive emulator to DS hardware. PicoDrive is a more accurate emulator, but generally a bit slower than jEnesisDS. jEnesisDS is generally recommended for a smooth experience, but if you run into issues with a game on jEnesisDS, you may want to give PicoDriveTWL a try and see if it works better.
+
+    === "jEnesisDS"
+
+        1. Download the [jEnesisDS zip file.](../assets/jenesisds_0.7.4.zip)
+        
+        1. Create an `Emulators` folder on your SD card root.
+        
+        1. Open/extract `jenesisds_0.7.4.zip`, and locate `jEnesisDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your Genesis game ROMs inside.
+    
+            !!! warning "Supported File Types"
+    
+                jEnesisDS **requires** ROMs to be in `.gen`, `.bin`, or `.smd` format to be recognized in the file browser. If you have `.md` ROMs, rename them to `.gen` or `.bin` before placing them on your SD card.
+
+                You can find a batch script [here](../assets/rename_md.bat) to rename all your `.md` files quickly. Place `rename_md.bat` in the same folder as your `.md` ROMs, then double click on it to run the script. It will ask whether to rename your files to `.gen` or `.bin`. After you make a choice, all `.md` files in the folder will be renamed to the target extension. 
+        
+        1. Place the SD card back into your cart, and boot into the menu.
+        
+        1. To play Sega Genesis games, navigate to the `Emulators` folder, launch `jEnesisDS.nds`, and select a ROM in the menu.
+
+    === "PicoDriveTWL"
+
+        1. Download the [PicoDriveTWL NDS file.](https://github.com/DS-Homebrew/PicoDriveTWL/releases/download/v2.0.2/PicoDriveTWL.nds)
+    
+        1. Create an `Emulators` folder on your SD card root.
+        
+        1. Copy `PicoDriveTWL.nds` to the `Emulators` folder on your SD card.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your `.md`, `.gen`, or `.smd` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into the menu.
+        
+        1. To play Sega Genesis games, navigate to the `Emulators` folder, launch `PicoDriveTWL.nds`, and select a ROM in the menu.
+
+=== "Sega Master System & Sega Game Gear"
+
+    1. Download the [S8DS zip file.](https://github.com/FluBBaOfWard/S8DS/releases/latest/download/S8DS.zip)
     
     1. Create an `Emulators` folder on your SD card root.
     
-    1. Open/extract `jenesisds_0.7.4.zip`, and locate `jEnesisDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+    1. Open/extract `S8DS.zip`, and locate `S8DS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
     
-    1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your Genesis game ROMs inside.
+    1. On your SD card root, create a `ROMs` folder, and then create three folders inside: `SMS`, `GG`, and `BIOS`.
+    
+    1. Place your Sega Master System or Game Gear `.sms` or `.gg` game ROMs inside the `SMS` and `GG` folders, respectively.
 
-        !!! warning "Supported File Types"
+        !!! tip "More SEGA 8-Bit Consoles Supported"
+    
+            S8DS also supports more consoles than just Master System and Game Gear. Sega System-E / SG AC / MegaTech is also supported, using MAME format `.zip` ROMs.
 
-            jEnesisDS **requires** ROMs to be in `.gen`, `.bin`, or `.smd` format to be recognized in the file browser. If you have `.md` ROMs, rename them to `.gen` or `.bin` before placing them on your SD card.
+            A list of supported consoles and arcade roms can be found in the [S8DS README](https://github.com/FluBBaOfWard/S8DS/blob/main/README.md).
+
+    1. [Optional] Place any BIOS files you'd like to use with S8DS in `/ROMs/BIOS`.
+        - You will need to set S8DS to use the BIOS in the emulator settings: Options -> Machine -> Bios Settings
+
+    1. On your SD card root, create a `data` folder, then create a `S8DS` folder inside.
+        - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
     
     1. Place the SD card back into your cart, and boot into the menu.
     
-    1. To play Sega Genesis games, navigate to the `Emulators` folder, launch `jEnesisDS.nds`, and select a ROM in the menu.
+    1. To play Master System & Game Gear games, navigate to the `Emulators` folder, launch `S8DS.nds`, and select a ROM in the menu.
 
-=== "ColecoVision"
+### Miscellaneous Consoles
 
-    1. Download the [ColecoDS NDS file.](https://github.com/wavemotion-dave/ColecoDS/releases/latest/download/ColecoDS.nds)
+=== "NeoGeo Pocket"
+
+    1. Download the [NGPDS zip file.](https://github.com/FluBBaOfWard/NGPDS/releases/latest/download/NGPDS.zip)
     
     1. Create an `Emulators` folder on your SD card root.
     
-    1. Copy `ColecoDS.nds` to the `Emulators` folder on your SD card.
+    1. Open/extract `NGPDS.zip`, and locate `NGPDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
+
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `NGPocket` and `BIOS`.
     
-    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `Coleco` and `BIOS`.
-    
-    1. Place your ColecoVision game ROMs inside the `Coleco` folder.
-            
-    1. Obtain a ColecoVision BIOS dump. Rename the file to `coleco.rom` if it isn't named that already.
-    
-    1. Place the `coleco.rom` file in `/ROMs/BIOS`.
+    1. Place your NeoGeo Pocket `.ngp` or `.ngc` game ROMs inside the `NGPocket` folder.
+
+    1. Obtain a NeoGeo Pocket (for monochrome games), and a NeoGeo Pocket Color BIOS. The following BIOS names are pre-configured, but you can change them later in the emulator settings:
+        - NGP Color BIOS: `ngp-color-bios.ngp`
+        - NGP Monochrome BIOS: `ngp-bnw-bios.ngp`
+
+    1. Place your NeoGeo Pocket BIOS files in `/ROMs/BIOS`. Rename them as needed to match the naming listed above, or change the BIOS paths in settings.
+
+    1. On your SD card root, create a `data` folder, then create a `NGPDS` folder inside.
+
+    1. Download this [`settings.cfg`](../assets/NGPDS/settings.cfg), and place it in `/data/NGPDS` on your SD.
     
     1. Place the SD card back into your cart, and boot into the menu.
     
-    1. To play ColecoVision games, navigate to the `Emulators` folder, launch `ColecoDS.nds`, and select a ROM in the menu.
-
-    !!! tip
-
-        More consoles than just ColecoVision are supported by ColecoDS - similar architecture devices are also emulated. See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for more information, and a full list of supported BIOSes.
+    1. To play NeoGeo Pocket games, navigate to the `Emulators` folder, launch `NGPDS.nds`, and select a ROM in the menu.
 
 === "NeoGeo"
 
@@ -286,20 +364,77 @@ title: Setting Up Emulators
 
 === "PC-Engine/TurboGrafx-16"
 
-    1. Download the [NitroGrafx NDS file.](https://github.com/flashcarts/AOS/raw/refs/heads/master/extras/APP/NitroGrafx.nds)
+    1. Download the [NitroGrafx zip file.](https://github.com/FluBBaOfWard/NitroGrafx/releases/download/v0.9.0/NitroGrafx0_9_0.zip)
     
     1. Create an `Emulators` folder on your SD card root.
     
-    1. Copy `NitroGrafx.nds` to the `Emulators` folder on your SD card.
+    1. Open/extract `NitroGrafx0_9_0.zip`, and locate `NitroGrafx.nds` inside. Copy this file to the `Emulators` folder.
     
     1. On your SD card root, create a `ROMs` folder, and then create a `TurboGrafx` folder inside it.
     
-    1. Place your TurboGrafx/PC-Engine game ROMs inside the `TurboGrafx` folder.
+    1. Place your TurboGrafx/PC-Engine `.pce` game ROMs inside the `TurboGrafx` folder. CD based games are also supported, in `.iso` format or `.bin`/`.cue` format.
 
-     1. On your SD card root, create a `NitroGrafx` folder. 
-     
-         - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
+    1. [Optional] NitroGrafx needs a CD-ROM BIOS to play CD games. If you want to play those games, place a CD-ROM BIOS inside the `TurboGrafx` folder.
+        - You will need to set NitroGrafx to use the BIOS in the emulator settings: Options -> Machine -> Bios Settings -> Select Bios
+
+    1. On your SD card root, create a `data` folder, then create a `NitroGrafx` folder inside.
+        - This folder is only used by the emulator for save files and configuration, so you don't need to place anything inside.
 
     1. Place the SD card back into your cart, and boot into the menu.
     
     1. To play TurboGrafx games, navigate to the `Emulators` folder, launch `NitroGrafx.nds`, and select a ROM in the menu.
+
+=== "ColecoVision"
+
+    1. Download the [ColecoDS NDS file.](https://github.com/wavemotion-dave/ColecoDS/releases/latest/download/ColecoDS.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+    
+    1. Copy `ColecoDS.nds` to the `Emulators` folder on your SD card.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `Coleco` and `BIOS`.
+    
+    1. Place your ColecoVision game ROMs inside the `Coleco` folder.
+            
+    1. Obtain a ColecoVision BIOS dump. Rename the file to `coleco.rom` if it isn't named that already.
+    
+    1. Place the `coleco.rom` file in `/ROMs/BIOS`.
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play ColecoVision games, navigate to the `Emulators` folder, launch `ColecoDS.nds`, and select a ROM in the menu.
+
+    !!! tip
+
+        More consoles than just ColecoVision are supported by ColecoDS - similar architecture devices are also emulated. See the [ColecoDS README](https://github.com/wavemotion-dave/ColecoDS/blob/main/README.md) for more information, and a full list of supported BIOSes.
+
+=== "IntelliVision"
+
+    1. Download the [NintelliVision NDS file.](https://github.com/wavemotion-dave/NINTV-DS/releases/latest/download/NINTV-DS.nds)
+    
+    1. Create an `Emulators` folder on your SD card root.
+        
+    1. Copy `NINTV-DS.nds` to the `Emulators` folder.
+    
+    1. On your SD card root, create a `ROMs` folder, and then create two folders inside: `INTV` and `BIOS`.
+    
+    1. Place your IntelliVision `.int` game ROMs inside the `INTV` folder.
+            
+    1. Obtain at minimum, the two required BIOS dumps for NintelliVision: `grom.bin` and `exec.bin`.
+
+        !!! note "Supported BIOS Files"
+        
+            NintelliVision supports extra BIOS files for maximum game compatibility, and the developer advises users to obtain copies of all supported BIOSes to get the best experience with NintelliVision. Below is a list of supported BIOSes and their hashes:
+
+            - `grom.bin` - **[REQUIRED]** 2KB, CRC32: `683A4158`
+            - `exec.bin` - **[REQUIRED]** 8KB, CRC32: `CBCE86F7`
+            - `ivoice.bin` - [Optional] For Intellivoice games - 2KB, CRC32: `0DE7579D`
+            - `ecs.bin` - [Optional] For ECS games - 24KB, CRC32: `EA790A06`
+            - `wbexec.bin` - [Optional] For full Tutorvision mode - 16KB, CRC32: `7558A4CF`
+            - `wbgrom.bin` - [Optional] For full Tutorvision mode - 2KB, CRC32 `82736456`
+    
+    1. Place your IntelliVision BIOS files in `/ROMs/BIOS`.
+    
+    1. Place the SD card back into your cart, and boot into the menu.
+    
+    1. To play IntelliVision games, navigate to the `Emulators` folder, launch `NINTV-DS.nds`, and select a ROM in the menu.

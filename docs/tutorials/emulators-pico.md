@@ -21,6 +21,60 @@ title: Setting Up Emulators on Pico-Launcher
         
         However, note that you cannot associate both GBARunners to the `.gba` file extension at the same time. Therefore if you'd like to have both available for use, it's recommended to setup GBARunner3 with a file association, and then launch GBARunner2 manually when you'd like to use it.
     
+    === "GBARunner3"
+        
+        1. Download the [GBARunner3 zip file.](https://files.deletecat.com/GBARunner3-hicode.zip)
+        
+        1. Open/extract `GBARunner3-hicode.zip`.
+
+        1. From the extracted files, copy the `_gba` folder to your SD card root.
+         
+        1. Obtain a GBA BIOS dump. Rename the file to `bios.bin` if it isn't named that already.
+            - This is *NOT* optional. GBARunner3 requires a bios file.
+        
+        1. Place the `bios.bin` file in the `_gba` folder.
+
+        1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+        
+        1. From the extracted files, copy `GBARunner3.nds` into the `emulators` folder.
+
+        1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+            - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+
+        1. Add (copy/paste) this GBA association key into the `fileAssociations` key in `settings.json`:
+            ``` json
+                "gba": {
+                  "appPath": "/_pico/emulators/GBARunner3.nds"
+                }
+            ```
+
+            !!! tip "Adding Keys to `fileAssociations`"
+
+                Here's a demonstration of how to add keys to the `fileAssociations` key:
+
+                ![settings.json](../images/Pico-Associations.gif)
+
+                !!! note
+
+                    If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
+                
+                    ``` json
+                    "abc": {
+                      "appPath": "/path/to/program.nds"
+                    },// (1)!
+                    "xyz": {
+                      "appPath": "/path/to/app.nds"
+                    }
+                    ```
+
+                    1. This comma separates the `abc` key from the `xyz` key in this example.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `GBA` folder inside it. Place your `.gba` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into Pico-Launcher.
+        
+        1. To play GBA games, navigate to `/ROMs/GBA`, then select a GBA ROM.
+
     === "GBARunner2"
 
         1. Download [DSL Enhanced GBARunner2.](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases/download/v20201019-DSL_97447fe/GBARunner2_arm9dldi_ds.nds)
@@ -69,60 +123,6 @@ title: Setting Up Emulators on Pico-Launcher
             !!! note
             
                 If you are unable to obtain a GBA BIOS .bin file, you may skip the two steps above. Keep in mind however, that GBARunner2 will fallback to the built in open-source BIOS, which will lead to worse game compatibility.
-        
-        1. On your SD card root, create a `ROMs` folder, and then create a `GBA` folder inside it. Place your `.gba` game ROMs inside.
-        
-        1. Place the SD card back into your cart, and boot into Pico-Launcher.
-        
-        1. To play GBA games, navigate to `/ROMs/GBA`, then select a GBA ROM.
-    
-    === "GBARunner3"
-        
-        1. Download the [GBARunner3 zip file.](https://files.deletecat.com/GBARunner3-hicode.zip)
-        
-        1. Open/extract `GBARunner3-hicode.zip`.
-
-        1. From the extracted files, copy the `_gba` folder to your SD card root.
-         
-        1. Obtain a GBA BIOS dump. Rename the file to `bios.bin` if it isn't named that already.
-            - This is *NOT* optional. GBARunner3 requires a bios file.
-        
-        1. Place the `bios.bin` file in the `_gba` folder.
-
-        1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
-        
-        1. From the extracted files, copy `GBARunner3.nds` into the `emulators` folder.
-
-        1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
-            - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
-
-        1. Add (copy/paste) this GBA association key into the `fileAssociations` key in `settings.json`:
-            ``` json
-                "gba": {
-                  "appPath": "/_pico/emulators/GBARunner3.nds"
-                }
-            ```
-
-            !!! tip "Adding Keys to `fileAssociations`"
-
-                Here's a demonstration of how to add keys to the `fileAssociations` key:
-
-                ![settings.json](../images/Pico-Associations.gif)
-
-                !!! note
-
-                    If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
-                
-                    ``` json
-                    "abc": {
-                      "appPath": "/path/to/program.nds"
-                    },// (1)!
-                    "xyz": {
-                      "appPath": "/path/to/app.nds"
-                    }
-                    ```
-
-                    1. This comma separates the `abc` key from the `xyz` key in this example.
         
         1. On your SD card root, create a `ROMs` folder, and then create a `GBA` folder inside it. Place your `.gba` game ROMs inside.
         

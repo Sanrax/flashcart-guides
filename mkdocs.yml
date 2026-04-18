@@ -44,7 +44,7 @@ copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/kaikun97)
 extra:
   pico_versions:
     loader: "v1.6.0"
-    launcher: "v1.2.0"
+    launcher: "v1.3.0"
     fcnetrev: "0"
   generator: false
   social:

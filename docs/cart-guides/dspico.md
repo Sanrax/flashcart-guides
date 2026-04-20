@@ -138,7 +138,11 @@ Pico-Launcher supports showing game covers in cover flow layout mode, and on the
 
 #### Themes
 
-Looking to customize your DSpico interface? Check out the Pico themes creator!
+Looking to customize your DSpico interface? Check out the Pico themes repository:
+
+[Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+
+To create your own custom themes for Pico-Launcher, check out the themes creator:
 
 [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
 

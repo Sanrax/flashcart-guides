@@ -6,7 +6,7 @@ title: M3 DS Real
 # M3 DS Real and M3i Zero (Not GMP-Z003)
 ## m3adapter.com
 
-!!! info
+!!! info "Cart Info"
 
     The M3 DS Real is the second Slot-1 flashcart from the M3 Adapter team. The M3 team disappeared around 2011, and the Sakura kernel hasn't been updated since then. That means some games released later on in the DS lifecycle don't actually boot in the Sakura/Touchpod kernel, due to missing compatibility patches. To fix this issue, it's recommended to either run Pico-Launcher/YSMenu as replacement kernel, or Sakura with YSMenu as fallback, if you choose to keep Sakura as the primary kernel.
 
@@ -14,43 +14,11 @@ title: M3 DS Real
 
 ### Setup Guide:
 
-=== "YSMenu"
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-    
-    1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
-    
-    1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `M3Real_M3iZero YSMenu` folder.
-    
-    1. From this folder, copy the following files/folders to your SD card root:
-    
-        - `Games` folder
-    
-        - `System` folder
-    
-        - `TTMenu` folder
-    
-        - `SRESET.DAT`
-    
-        - `YSMenu.nds`
-    
-    1. Place any .nds game ROMs you'd like to play into the `Games` folder.
-    
-    1. The files on your SD card should now look like this:
-    
-        - ![M3DS](../images/SD_Files/M3DS_Real/YSMenu.png){ align=left width="600"}
-
-    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-    !!! tip "Themes"
-
-        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
-
 === "Pico-Launcher"
 
     !!! info "Kernel Info"
 
-        Pico-Launcher is the game menu for the DS-Pico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+        Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
     !!! warning "Soft-Reset & RTS Not Supported"
 
@@ -83,6 +51,38 @@ title: M3 DS Real
         - ![M3DS](../images/SD_Files/M3DS_Real/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+=== "YSMenu"
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+    
+    1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
+    
+    1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `M3Real_M3iZero YSMenu` folder.
+    
+    1. From this folder, copy the following files/folders to your SD card root:
+    
+        - `Games` folder
+    
+        - `System` folder
+    
+        - `TTMenu` folder
+    
+        - `SRESET.DAT`
+    
+        - `YSMenu.nds`
+    
+    1. Place any .nds game ROMs you'd like to play into the `Games` folder.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![M3DS](../images/SD_Files/M3DS_Real/YSMenu.png){ align=left width="600"}
+
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Themes"
+
+        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
 
 === "Sakura + YSMenu"
 

@@ -6,37 +6,17 @@ title: R4i SDHC RTS
 # R4i SDHC RTS
 ## r4rts.com
 
-!!! info
+!!! info "Cart Info"
 
     These carts are clones of the M3 DS Real cart. They advertised RTS support in their stock kernel, similar to the M3's RTS support in its Sakura kernel. As the cart is M3 hardware at the end of the day, it's compatible with M3 loaders such as M3DS YSMenu and M3DS Pico-Launcher. Thanks to LifeHackerHansol's work on M3DS flashcart-bootstrap, the r4rts.com carts now have a way to autoboot both of these kernels.
 
 ### Setup Guide:
 
-=== "YSMenu"
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-    
-    1. Download the [r4rts.com YSMenu 7.06 package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4rts.com_YSMenu_7.06.zip)
-    
-    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
-    
-    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
-    
-    1. The files on your SD card should now look like this:
-    
-        - ![R4RTS YS](../images/SD_Files/R4RTS/YSMenu.png){ align=left width="600"}
-
-    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
-    
-    !!! tip "Themes"
-    
-        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
-
 === "Pico-Launcher"
 
     !!! info "Kernel Info"
 
-        Pico-Launcher is the game menu for the DS-Pico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+        Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
     !!! warning "Soft-Reset & RTS Not Supported"
 
@@ -71,6 +51,26 @@ title: R4i SDHC RTS
         - ![R4RTS Pico](../images/SD_Files/R4RTS/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+=== "YSMenu"
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+    
+    1. Download the [r4rts.com YSMenu 7.06 package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4rts.com_YSMenu_7.06.zip)
+    
+    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
+    
+    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4RTS YS](../images/SD_Files/R4RTS/YSMenu.png){ align=left width="600"}
+
+    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+    
+    !!! tip "Themes"
+    
+        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
 
 ---
 

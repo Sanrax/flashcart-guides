@@ -15,7 +15,7 @@ title: Running DSiWare On Flashcarts
 
 === "TWiLight Menu++"
 
-    1. First setup TWiLight as either [primary](twilight.md) or [secondary](twilight-dualboot.md) kernel on your flashcart.
+    1. First setup TWiLight as either [primary](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard) or [secondary](twilight-dualboot.md) kernel on your flashcart.
 
     1. After setting up TWiLight Menu++, you will need to place your DSiWare (with `.nds` extension) in `/roms/dsi` on your SD card.
 

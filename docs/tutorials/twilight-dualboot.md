@@ -20,6 +20,12 @@ title: Setting Up TWiLight Menu++ As Secondary Kernel
     - `roms` folder
     - `BOOT.NDS`
 
+    !!! danger "R4iMenu Users"
+        
+        R4iMenu is not able to boot TWiLight Menu++ directly from the Games menu, due to a bug in its homebrew loader. However, you can chainload TWiLight by launching an nds-miniboot binary from R4iMenu instead.
+
+        Download [this `Boot_TWiLight.nds`](../assets/Boot_TWiLight.nds) file and place it on your SD root as well. To launch TWiLight in R4iMenu, run `Boot_TWiLight.nds` in the Games menu, instead of `BOOT.NDS`. Keep in mind that you still need to have `BOOT.NDS` on the SD root, as that is the actual TWiLight binary launched by `Boot_TWiLight.nds`.
+
 1. Place roms you'd like to run with TWiLight Menu++ into `/roms/nds` on your SD card.
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and boot into your kernel.

@@ -26,6 +26,16 @@ title: R4SDHC Christmas
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
-!!! tip "Themes"
+!!! tip "Post-Setup Enhancements"
 
-    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+    **Emulators**
+    
+    To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+    
+    [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+    
+    **Themes**
+    
+    Looking to customize your menu? Check out the YSMenu themes repository:
+    
+    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }

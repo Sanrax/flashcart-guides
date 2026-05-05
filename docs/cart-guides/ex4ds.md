@@ -6,7 +6,7 @@ title: EX4DS
 # EX4DS
 ## ex4ds.com
 
-!!! info
+!!! info "Cart Info"
     
     The EX4DS is a cart based on R4iLS hardware, marketed as a SuperCard DSTWO competitor. Like the DSTWO, it contains extra hardware for running cart-specific plugins that can be launched from its menu. Currently, these include accelerated movie and music playback, and a GBA emulator. This cart's kernel is also the source of AceOS - the Ace3DS team used the EX4DS' start-up launch menu for the AOS launch menu.
 
@@ -30,12 +30,24 @@ title: EX4DS
 
 1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-!!! tip
-    
-    Some emulators shipped with AceOS require you to provide a BIOS binary before they can be used. See the [AOS README](https://github.com/flashcarts/AOS?tab=readme-ov-file#setup) for more info.
-
 !!! warning "Missing Anti-Piracy Patches"
 
     Since the EX4DS uses Ace WoodR4, it has issues with anti-piracy checks in a few newer games, notably with clean roms of Pokemon Black & White 2, where EXP gain gets disabled by AP detection.
     
     To fix this issue, tap the Y button in the WoodR4 menu with the game highlighted, open the cheats menu, and enable the `Bypass Anti-Piracy` cheat before starting the game.
+
+    Alternatively, you can AP-patch BW2 with NDS ROM Tool, after which you won't need to use any cheats to bypass AP. You can download it [here.](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+
+!!! tip "Post-Setup Enhancements"
+
+    **Emulators**
+    
+    To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+    
+    [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+    
+    **Themes**
+    
+    Looking to customize your menu? Check out the AKMenu themes repository:
+    
+    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }

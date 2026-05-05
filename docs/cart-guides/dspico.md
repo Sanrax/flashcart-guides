@@ -154,7 +154,9 @@ Since the DSpico is a DSi-mode cart, it supports running DSi software on DSi/3DS
 
 ---
 
-!!! failure "Troubleshooting"
+**Having issues? Check the troubleshooting box below:**
+
+??? failure "Troubleshooting"
 
     ***Games lag or randomly freeze on my DSpico, or the DSpico does not load reliably. I have confirmed my MicroSD card is a name-brand and is genuine.***
 

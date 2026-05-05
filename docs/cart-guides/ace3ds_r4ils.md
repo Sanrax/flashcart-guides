@@ -6,7 +6,9 @@ title: Ace3DS+/X & R4iLS
 # Ace3DS+/X & R4iLS Clones
 ## r4isdhc.hk 2020+, r4isdhc.com.cn, r4xmp.com, ace3ds.com, XXX in 1, Unlabeled carts with red PCB
 
----
+!!! info "Cart Info"
+
+    The R4iLS and later Ace3DS+ carts are derivatives of the Original R4 from r4ds.com. They added SDHC support to the hardware, and DSi/3DS support. Unfortunately, the stock kernel is not as compatible as official Wood 1.62, since AceWood is actually a fork of WoodR4 1.25 code, updated to add missing anti-piracy patches and improved game compatibility.
 
 ### Setup Guide:
 
@@ -35,10 +37,22 @@ title: Ace3DS+/X & R4iLS
         Ace WoodR4 1.62 is known to have issues with anti-piracy checks in a few newer games, notably with clean roms of Pokemon Black & White 2, where EXP gain gets disabled by AP detection.
         
         To fix this issue, tap the Y button in the WoodR4 menu with the game highlighted, open the cheats menu, and enable the `Bypass Anti-Piracy` cheat before starting the game.
-    
-    !!! tip "Themes"
 
-        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+        Alternatively, you can AP-patch BW2 with NDS ROM Tool, after which you won't need to use any cheats to bypass AP. You can download it [here.](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+    
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the AKMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
 === "Pico-Launcher"
 
@@ -67,6 +81,30 @@ title: Ace3DS+/X & R4iLS
         - ![R4iLS](../images/SD_Files/R4iLS/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+        
+        **Game Covers**
+        
+        Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+        
+        [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your DSpico interface? Check out the Pico themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+        
+        To create your own custom themes for Pico-Launcher, check out the themes creator:
+        
+        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
 
 === "AceOS 2.13"
 

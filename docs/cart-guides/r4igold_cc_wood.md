@@ -6,7 +6,7 @@ title: R4iGold.cc Wood
 # R4iGold.cc Wood
 ## r4igold.cc
 
-!!! info
+!!! info "Cart Info"
 
     The R4iGold.cc Wood cart is a clone of the Amaze3DS which itself is a clone of the R4iTT. This cart is not compatible with the Amaze3DS version of BL2CK, however it's stock kernel still has decent game compatibility.
 
@@ -31,3 +31,11 @@ title: R4iGold.cc Wood
         - ![R4iGold.cc v2.6](../images/SD_Files/R4iGold_cc/R4iGold_cc_wood.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }

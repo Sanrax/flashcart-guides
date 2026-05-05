@@ -6,11 +6,11 @@ title: R4i SDHC V1.4
 # R4i SDHC v1.4
 ## r4sdhc.com
 
-!!! warning
+!!! warning "SD Limitations"
 
     This cart is an R4SDHC clone, and like the R4SDHC, SD I/O implementation is wonky since its SDHC I/O code is closely based off of the original R4's I/O, meant for SD class cards rather than SDHC ones. This causes the cart to be unstable with SD cards bigger than 4GB. (It will work with larger cards, but they may cause issues if you use more than 4GB of the SD space. Consider yourself warned.)
 
-!!! note
+!!! note "Cart Info"
 
     This cart can behave as a DSTT in some scenarios when it detects DSi/3DS hardware. This is why the package below includes both the original kernel and YSMenu, because no solution to make YSMenu the default kernel is guaranteed to work, given that the cart can switch between hardware modes depending on its boot environment. You can choose to use either the stock kernel or YSMenu, whichever is more convenient. If a game fails to boot on the stock kernel, load `YSMENU.NDS` to launch YSMenu, then launch the game in YSMenu.
 
@@ -32,6 +32,16 @@ title: R4i SDHC V1.4
 
 1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
-!!! tip "Themes"
+!!! tip "Post-Setup Enhancements"
 
-    Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+    **Emulators**
+    
+    To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+    
+    [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+    
+    **Themes**
+    
+    Looking to customize your menu? Check out the YSMenu themes repository:
+    
+    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }

@@ -6,7 +6,7 @@ title: DSTTi DEMON-HW Carts
 # DSTTi DEMON-HW Carts (AKA Timebomb Carts)
 ## r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others
 
-!!! info
+!!! info "Cart Info"
 
     DEMON carts are DSTTi clones with a customized firmware. The most notable difference is that these carts expect a specially padded `R4.dat` boot file. This is why booting other kernels than R4iMenu requires a bootstrap binary like nds-miniboot. Real-Time-Save is another feature exclusive to the DEMON family and it's R4iMenu kernel, which isn't found in any other DSTT/DSTTi based hardware.
 
@@ -43,6 +43,14 @@ title: DSTTi DEMON-HW Carts
 
     1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
 
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+
 === "YSMenu"
 
     !!! info "Kernel Info"
@@ -75,9 +83,19 @@ title: DSTTi DEMON-HW Carts
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-    !!! tip "Themes"
+    !!! tip "Post-Setup Enhancements"
 
-        Looking to change the default theme? Check out the YSMenu themes repository at [themes.flashcarts.net](https://themes.flashcarts.net/ysmenu/)!
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the YSMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
 
 === "Pico-Launcher"
 
@@ -116,6 +134,30 @@ title: DSTTi DEMON-HW Carts
          - ![R4i-SDHC](../images/SD_Files/DEMON/Pico.png){ align=left width="600"}
 
     1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+        
+        **Game Covers**
+        
+        Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+        
+        [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your DSpico interface? Check out the Pico themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+        
+        To create your own custom themes for Pico-Launcher, check out the themes creator:
+        
+        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
 
 === "AKMenu-Next"
 
@@ -172,9 +214,15 @@ title: DSTTi DEMON-HW Carts
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-    !!! tip "Themes"
+    !!! tip "Post-Setup Enhancements"
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the AKMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
-        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+---
 
 !!! warning
 

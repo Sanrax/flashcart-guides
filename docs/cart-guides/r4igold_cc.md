@@ -6,7 +6,7 @@ title: Original R4iGold.cc
 # Original R4iGold.cc
 ## r4igold.cc
 
-!!! info
+!!! info "Cart Info"
 
     The original r4igold.cc cart is a clone of the Galaxy Eagle. Unfortunately, the Galaxy Eagle itself is a bad clone of the Acekard 2i, and neither AKAIO nor BL2CK work properly on it. While BL2CK boots, it will freeze on a white screen when attempting to load any commercial ROM file. Therefore, AKMenu-Next is the recommended primary kernel for Galaxy Eagle and related carts, so that nds-bootstrap can be used to load games. As an alternative option, the stock kernel is also provided, but it will likely be able to run less games than AKMenu-Next.
 
@@ -45,9 +45,13 @@ title: Original R4iGold.cc
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-    !!! tip "Themes"
-
-        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+    !!! tip "Post-Setup Enhancements"
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the AKMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
 === "R4iGold.cc v2.6"
 

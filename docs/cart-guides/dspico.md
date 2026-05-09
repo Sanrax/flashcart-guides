@@ -107,6 +107,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
     1. Download the latest [Pico Package for DSpico.](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_versions.loader}}&picolauncher={{pico_versions.launcher}}&fcnetrev={{pico_versions.fcnetrev}})
+        - *Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`*
 
     1. Extract the `pico_package_DSPICO.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app. Then, copy *the contents* into the root of your SD card.
     

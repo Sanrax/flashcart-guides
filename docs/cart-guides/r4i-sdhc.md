@@ -51,52 +51,6 @@ title: DSTTi DEMON-HW Carts
         
         [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
 
-=== "YSMenu"
-
-    !!! info "Kernel Info"
-
-        See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext#demon-dstti-clones) `DEMON DSTTi Clones` section for a full list of compatible carts.
-
-        YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. However, it does lack RTS (Real Time Save), so check out the R4iMenu tab if that is something you're interested in.
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-
-    1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
-
-    1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `DSTTi-Clone YSMenu` folder.
-
-    1. From this folder, copy the following files/folders to your SD card root:
-
-        - `Games` folder
-
-        - `TTMenu` folder
-
-        - `TTMenu.dat`
-
-    1. Download [this `R4.dat`](https://archive.flashcarts.net/YSMenu/DEMON_common/R4.dat), and place it in SD card root as well.
-
-    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
-
-    1. The files on your SD card should now look like this:
-    
-         - ![R4i-SDHC](../images/SD_Files/DEMON/YSMenu.png){ align=left width="600"}
-
-    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-    !!! tip "Post-Setup Enhancements"
-
-        **Emulators**
-        
-        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
-        
-        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
-        
-        **Themes**
-        
-        Looking to customize your menu? Check out the YSMenu themes repository:
-        
-        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
-
 === "Pico-Launcher"
 
     !!! info "Kernel Info"
@@ -159,6 +113,42 @@ title: DSTTi DEMON-HW Carts
         To create your own custom themes for Pico-Launcher, check out the themes creator:
         
         [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+
+=== "YSMenu"
+
+    !!! info "Kernel Info"
+
+        See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext#demon-dstti-clones) `DEMON DSTTi Clones` section for a full list of compatible carts.
+
+        YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. However, it does lack RTS (Real Time Save), so check out the R4iMenu tab if that is something you're interested in.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the [DEMON YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/DEMON_YSMenu_7.06.zip)
+
+    1. Next, extract *the contents* of `DEMON_YSMenu_7.06.zip` to your SD card.
+
+    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+
+    1. The files on your SD card should now look like this:
+    
+         - ![R4i-SDHC](../images/SD_Files/DEMON/YSMenu.png){ align=left width="600"}
+
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the YSMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
 
 === "AKMenu-Next"
 

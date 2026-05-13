@@ -123,6 +123,51 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+=== "AKMenu-Next"
+
+    !!! info "Kernel Info"
+
+        AKMenu-Next is an alternative frontend for pico-loader and nds-bootstrap, which uses the classic WoodR4/AKMenu UI. If you want to enjoy a traditional flashcart UI while loading games via pico-loader, AKMenu-Next is a great choice. All pico-loader features are supported, such as running DSiWare, applying game cheats, and calling emulators with argv to launch a ROM directly.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the latest release of [AKMenu-Next DSpico Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-pico.zip)
+
+    1. Extract the downloaded `akmenu-next-pico.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the akmenu-next files, copy the following files/folders to your SD card root:
+
+        - `_nds` folder
+        - `_pico` folder
+        - `BOOT.NDS`
+        - `_picoboot.nds`
+
+    1. Download the latest release of [Pico-Loader for DSpico](https://github.com/LNH-team/pico-loader/releases/latest/download/Pico_Loader_DSPICO.zip).
+
+    1. Extract the downloaded `Pico_Loader_DSPICO.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_DSPICO.zip` file into the `_pico` folder on your SD card.
+
+    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled `Game Loader` and changing the setting to `Pico Loader`.
+
+    **nds-bootstrap (Optional)**
+
+     Additionally, you may want to install nds-bootstrap if you wish to use soft reset or a game not compatible with Pico-Loader. Please note that you won't benefit from some of the features offered by the DSpico when running games with nds-bootstrap.
+
+    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+
+    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled `Game Loader` and changing the setting to `nds-bootstrap`.
+
+    **Cheats**
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+
 ### Post-Setup Enhancements
 
 #### Emulators

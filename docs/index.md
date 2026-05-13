@@ -11,6 +11,26 @@ This page contains guides for setting up various carts we commonly encounter ove
 
 If you'd like to improve this resource or add new carts, feel free to create a pull request in the GitHub repository!
 
+## Cart Search
+
+Don't know which page matches your cart? You can search for a matching cart by typing in the URL that appears on the label of your cart into the search box below (results will appear after typing in the entire URL).
+
+Note that some URLs may have many hardware variants. If multiple results are returned for your cart's URL, you will need to check each page to see which one accurately matches the cart you have. Results are sorted by most common to least common carts, so starting at the first result is a good bet.
+
+<div class="cart-search" data-cart-search data-index-url="assets/search/cart-search.json">
+
+  <input
+    id="cart-search-input"
+    class="cart-search__input"
+    type="search"
+    placeholder="Example: r4isdhc.com"
+    autocomplete="off"
+    data-cart-search-input
+  />
+
+  <div class="cart-search__results" data-cart-search-results hidden></div>
+</div>
+
 ## Cart Guides
 
 ---

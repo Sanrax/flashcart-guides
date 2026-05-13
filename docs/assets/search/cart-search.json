@@ -1,0 +1,444 @@
+{
+  "pages": {
+    "r4i-sdhc": {
+      "title": "DSTTi DEMON-HW Carts",
+      "subtitle": "r4isdhc.com 2014+, r4i-sdhc.com, r4i-gold.eu, and others",
+      "url": "cart-guides/r4i-sdhc/",
+      "rank": 1,
+      "matches": [
+        "r4isdhc.com",
+        "r4i-sdhc.com",
+        "r4i-gold.eu",
+        "m3iupgrade.com",
+        "r4-usas.com",
+        "r4ipocket.com",
+        "r4i-gold.cc",
+        "r4imax.com",
+        "r4i-gold.com",
+        "r4r4.be",
+        "r4ixl-sdhc.com"
+      ]
+    },
+    "bl2ck": {
+      "title": "BL2CK Carts",
+      "subtitle": "Acekard/R4iTT-New Clones",
+      "url": "cart-guides/bl2ck/",
+      "rank": 2,
+      "matches": [
+        "r4i3d.com",
+        "r4igold.cc",
+        "r4i-gold.me",
+        "r4isdhc.hk",
+        "r4isdhc.com",
+        "r4i-drive.com",
+        "r4ultra.com",
+        "acekard.com",
+        "r4itt.net",
+        "r4infinity.com",
+        "r4isdhc.in",
+        "r4ids.cn",
+        "r4ixds.com",
+        "r4i-gold.com",
+        "r4sdhc.com",
+        "r4i-u.com",
+        "r4ds-i.com.cn",
+        "super4i.com",
+        "amaze3ds.com",
+        "edgei-ds.cn"
+      ]
+    },
+    "dstti": {
+      "title": "DSTT/i & Clones",
+      "subtitle": "ndstt.com (and many clones)",
+      "url": "cart-guides/dstti/",
+      "rank": 3,
+      "matches": [
+        "ndstt.com",
+        "ndstt.net",
+        "ndstti.cn",
+        "nds-tti.com",
+        "dstt-adv.com",
+        "r4ill-net.com",
+        "r4top.com",
+        "pk3ds.com",
+        "r4i-best.com",
+        "r4ll-net.com",
+        "r4i-gold.com",
+        "r4itt.net",
+        "r4itt.info",
+        "ndsill.net",
+        "r4igold.cn",
+        "r4isdhc.cc",
+        "r4-gold.net",
+        "r4i-sdhc.hk",
+        "r4i-ndsill.com",
+        "r4i-yes.com",
+        "r4i-3ds.com",
+        "r4i3ds.com",
+        "r4isdxc.com",
+        "r4n3ds.com",
+        "r4ita.com",
+        "r4i-dshc.com",
+        "r4i-advance.com",
+        "r4i3d-multi.com",
+        "r4iiisdhc.com",
+        "ndsr4i.com",
+        "r4isdhc.com",
+        "r4ids.com",
+        "r4i3d.com",
+        "r4i-gold.cc",
+        "r4i-eu.com",
+        "ace3ds.com",
+        "r4dsixl3d.com",
+        "r4-king.com",
+        "r4i-redant.com",
+        "r4i-fifa.com",
+        "r4i-sdhc.com.au",
+        "r4i-blue.com",
+        "r4i-sdhc.com.hk",
+        "r4idsxl.com",
+        "u2ds.com",
+        "r4i-g.com",
+        "r4xds.com",
+        "r4ids.cc",
+        "r4issdhc.com",
+        "r4i-sdhc.com.tw",
+        "r4-v.com",
+        "r4iasdhc.com",
+        "r4i-gold.hk",
+        "r4i-kungfu.com",
+        "r4dsll.com"
+      ]
+    },
+    "dspico": {
+      "title": "DSpico",
+      "subtitle": "lnh-team.org",
+      "url": "cart-guides/dspico/",
+      "rank": 1,
+      "matches": [
+        "lnh-team.org"
+      ]
+    },
+    "v2_10T": {
+      "title": "R4i SDHC Renovation V2.10T & V2.20T",
+      "subtitle": "r4sdhc.com / R4i SDHC T on PCB",
+      "url": "cart-guides/v2_10T/",
+      "rank": 4,
+      "matches": [
+        "r4sdhc.com"
+      ]
+    },
+    "v2_0": {
+      "title": "R4i SDHC Brand New V2.0",
+      "subtitle": "r4isdhc.com / R4i SDHC 9 on PCB",
+      "url": "cart-guides/v2_0/",
+      "rank": 4,
+      "matches": [
+        "r4isdhc.com"
+      ]
+    },
+    "ace3ds_r4ils": {
+      "title": "Ace3DS+/X & R4iLS Clones",
+      "subtitle": "r4isdhc.hk 2020+, r4isdhc.com.cn, r4xmp.com, ace3ds.com, XXX in 1, Unlabeled carts with red PCB",
+      "url": "cart-guides/ace3ds_r4ils/",
+      "rank": 1,
+      "matches": [
+        "ace3ds.com",
+        "r4azure.com",
+        "r4inp.com",
+        "r4xmp.com",
+        "r4isdhc.com.cn",
+        "r4iwood.cn",
+        "r4isdhc.hk",
+        "r4li.com",
+        "r4infinity.com",
+        "r4ixds.com",
+        "woodr4isdhc.com",
+        "ge.ndsi.in"
+      ]
+    },
+    "gwblue": {
+      "title": "Gateway Blue",
+      "subtitle": "gateway-3ds.com",
+      "url": "cart-guides/gwblue/",
+      "rank": 1,
+      "matches": [
+        "gateway-3ds.com"
+      ]
+    },
+    "ex4ds": {
+      "title": "EX4DS",
+      "subtitle": "ex4ds.com",
+      "url": "cart-guides/ex4ds/",
+      "rank": 1,
+      "matches": [
+        "ex4ds.com"
+      ]
+    },
+    "r4ds": {
+      "title": "Original R4 & M3 Simply",
+      "subtitle": "r4ds.com / m3adapter.com",
+      "url": "cart-guides/r4ds/",
+      "rank": 2,
+      "matches": [
+        "r4ds.com",
+        "m3adapter.com"
+      ]
+    },
+    "r4sdhc": {
+      "title": "Original R4SDHC",
+      "subtitle": "r4sdhc.com, ndslr4.com",
+      "url": "cart-guides/r4sdhc/",
+      "rank": 1,
+      "matches": [
+        "r4sdhc.com",
+        "ndslr4.com"
+      ]
+    },
+    "r4christmas": {
+      "title": "R4SDHC Christmas / R4 SDHC HappyBox",
+      "subtitle": "r4isdhc.com",
+      "url": "cart-guides/r4christmas/",
+      "rank": 5,
+      "matches": [
+        "r4isdhc.com"
+      ]
+    },
+    "r4i_christmas": {
+      "title": "R4i SDHC Christmas / DS HappyBox v1.4",
+      "subtitle": "r4isdhc.com",
+      "url": "cart-guides/r4i_christmas/",
+      "rank": 6,
+      "matches": [
+        "r4isdhc.com"
+      ]
+    },
+    "r4i_sdhc_v1.4": {
+      "title": "R4i SDHC v1.4",
+      "subtitle": "r4sdhc.com",
+      "url": "cart-guides/r4i_sdhc_v1.4/",
+      "rank": 5,
+      "matches": [
+        "r4sdhc.com"
+      ]
+    },
+    "r4upgrade": {
+      "title": "R4-III / R4 Upgrade",
+      "subtitle": "r4dsl.net, r4-dsl.net, r4iiinew.com, r4iii.com",
+      "url": "cart-guides/r4upgrade/",
+      "rank": 2,
+      "matches": [
+        "r4dsl.net",
+        "r4-dsl.net",
+        "r4iiinew.com",
+        "r4iii.com"
+      ]
+    },
+    "n5": {
+      "title": "N5",
+      "subtitle": "dsn5.com",
+      "url": "cart-guides/n5/",
+      "rank": 1,
+      "matches": [
+        "dsn5.com"
+      ]
+    },
+    "r4deluxe": {
+      "title": "R4 Deluxe",
+      "subtitle": "r4deluxe.com",
+      "url": "cart-guides/r4deluxe/",
+      "rank": 2,
+      "matches": [
+        "r4deluxe.com"
+      ]
+    },
+    "r4dspro": {
+      "title": "R4DS Pro",
+      "subtitle": "r4dspro.com",
+      "url": "cart-guides/r4dspro/",
+      "rank": 2,
+      "matches": [
+        "r4dspro.com",
+        "r4-pro.com",
+        "r4iplat.com",
+        "r4i-d.com",
+        "r4i-3dsnew.com"
+      ]
+    },
+    "r4igold_cc_wood": {
+      "title": "R4iGold.cc Wood",
+      "subtitle": "r4igold.cc",
+      "url": "cart-guides/r4igold_cc_wood/",
+      "rank": 3,
+      "matches": [
+        "r4igold.cc"
+      ]
+    },
+    "acekard": {
+      "title": "Acekard 2/2.1/2i",
+      "subtitle": "acekard.com",
+      "url": "cart-guides/acekard/",
+      "rank": 1,
+      "matches": [
+        "acekard.com"
+      ]
+    },
+    "r4ultra": {
+      "title": "R4 Ultra/R4i Ultra",
+      "subtitle": "r4ultra.com",
+      "url": "cart-guides/r4ultra/",
+      "rank": 1,
+      "matches": [
+        "r4ultra.com"
+      ]
+    },
+    "r4ids_cn": {
+      "title": "R4i+ 3DS/DS Gold & R4i 3DS RTS",
+      "subtitle": "r4ids.cn",
+      "url": "cart-guides/r4ids_cn/",
+      "rank": 1,
+      "matches": [
+        "r4ids.cn"
+      ]
+    },
+    "r4ids_cn_non_3ds": {
+      "title": "R4i Gold (Non-3DS Version)",
+      "subtitle": "r4ids.cn",
+      "url": "cart-guides/r4ids_cn_non_3ds/",
+      "rank": 1,
+      "matches": [
+        "r4ids.cn"
+      ]
+    },
+    "r4ids_com": {
+      "title": "R4iDS.com Original",
+      "subtitle": "r4ids.com",
+      "url": "cart-guides/r4ids_com/",
+      "rank": 1,
+      "matches": [
+        "r4ids.com"
+      ]
+    },
+    "r4ids_com_2_0": {
+      "title": "R4i Gold 2.0",
+      "subtitle": "r4ids.com",
+      "url": "cart-guides/r4ids_com_2_0/",
+      "rank": 1,
+      "matches": [
+        "r4ids.com"
+      ]
+    },
+    "galaxy_eagle": {
+      "title": "Galaxy Eagle",
+      "subtitle": "ge.ndsi.in",
+      "url": "cart-guides/galaxy_eagle/",
+      "rank": 1,
+      "matches": [
+        "ge.ndsi.in"
+      ]
+    },
+    "galaxy_eagle_pro": {
+      "title": "Galaxy Eagle Pro",
+      "subtitle": "ge.ndsi.in",
+      "url": "cart-guides/galaxy_eagle_pro/",
+      "rank": 1,
+      "matches": [
+        "ge.ndsi.in"
+      ]
+    },
+    "r4igold_cc": {
+      "title": "Original R4iGold.cc",
+      "subtitle": "r4igold.cc",
+      "url": "cart-guides/r4igold_cc/",
+      "rank": 3,
+      "matches": [
+        "r4igold.cc"
+      ]
+    },
+    "dsone": {
+      "title": "DSOne SDHC",
+      "subtitle": "supercard.sc",
+      "url": "cart-guides/dsone/",
+      "rank": 1,
+      "matches": [
+        "supercard.sc"
+      ]
+    },
+    "m3dsreal": {
+      "title": "M3 DS Real and M3i Zero (Not GMP-Z003)",
+      "subtitle": "m3adapter.com",
+      "url": "cart-guides/m3dsreal/",
+      "rank": 1,
+      "matches": [
+        "m3adapter.com"
+      ]
+    },
+    "itouchds": {
+      "title": "iTouchDS",
+      "subtitle": "itouchds.com",
+      "url": "cart-guides/itouchds/",
+      "rank": 1,
+      "matches": [
+        "itouchds.com",
+        "simplepluseasy.net"
+      ]
+    },
+    "rts_black": {
+      "title": "R4iSDHC RTS Black",
+      "subtitle": "r4isdhc.com",
+      "url": "cart-guides/rts_black/",
+      "rank": 5,
+      "matches": [
+        "r4isdhc.com"
+      ]
+    },
+    "r4rts": {
+      "title": "R4i SDHC RTS",
+      "subtitle": "r4rts.com",
+      "url": "cart-guides/r4rts/",
+      "rank": 1,
+      "matches": [
+        "r4rts.com"
+      ]
+    },
+    "stargate": {
+      "title": "Stargate 3DS",
+      "subtitle": "stargate-3ds.com",
+      "url": "cart-guides/stargate/",
+      "rank": 1,
+      "matches": [
+        "stargate-3ds.com"
+      ]
+    },
+    "parallel": {
+      "title": "EZ Flash Parallel",
+      "subtitle": "ezflash.cn",
+      "url": "cart-guides/parallel/",
+      "rank": 1,
+      "matches": [
+        "ezflash.cn"
+      ]
+    },
+    "ncard": {
+      "title": "N-Card & Clones",
+      "subtitle": "N-Card, DS Linker, DS Fire Link, Ultra FlashPass EX, NeoFlash MK5, Ultra N-Card, ASNAND & ASIC Carts",
+      "url": "cart-guides/ncard/",
+      "rank": 1,
+      "matches": [
+        "dsgba.com",
+        "superdslink.com",
+        "ncardhk.com",
+        "ncard.com.tw",
+        "dslinker.com",
+        "dslinker.cn",
+        "dsfirelink.com",
+        "dsfirelink.nl",
+        "dsfirelink.net",
+        "ndsgba.net",
+        "neoflash.com",
+        "ultracard.cn",
+        "xpcard.com.cn"
+      ]
+    }
+  }
+}

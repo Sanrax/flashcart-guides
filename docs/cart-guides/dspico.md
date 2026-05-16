@@ -192,9 +192,9 @@ To create your own custom themes for Pico-Launcher, check out the themes creator
 
 [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
 
-#### DSiWare
+#### DSiWare & Encrypted ROMs
 
-Since the DSpico is a DSi-mode cart, it supports running DSi software on DSi/3DS consoles, such as DSiWare and DSi-enhanced games. While DSi-enhanced games work out of the box, DSiWare requires extra configuration.
+Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
 
 [DSiWare Tutorial :octicons-arrow-right-16:](../tutorials/dsiware.md#__tabbed_1_3){ .md-button }
 

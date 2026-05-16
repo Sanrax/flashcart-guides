@@ -12,43 +12,110 @@ title: Original R4SDHC
 
 ### Setup Guide:
 
-1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+=== "YSMenu"
 
-1. Download the [R4SDHC YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/R4SDHC_YSMenu_7.06.zip)
-
-1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
-
-1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
-
-1. The files on your SD card should now look like this:
-
-    - ![R4SDHC](../images/SD_Files/R4SDHC/R4SDHC.png){ align=left width="600"}
-
-1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
-
-!!! tip "Post-Setup Enhancements"
-
-    **Emulators**
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
-    To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+    1. Download the [R4SDHC YSMenu package.](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/R4SDHC_YSMenu_7.06.zip)
     
-    [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
     
-    **Themes**
+    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
     
-    Looking to customize your menu? Check out the YSMenu themes repository:
+    1. The files on your SD card should now look like this:
     
-    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
+        - ![R4SDHC](../images/SD_Files/R4SDHC/R4SDHC.png){ align=left width="600"}
+    
+    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+    
+    !!! tip "Post-Setup Enhancements"
+    
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the YSMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
+    
+    !!! info "Info and Credits"
+    
+        This YSMenu package contains quite a few fixes and improvements. In the past, YSMenu needed to be chainloaded via the stock kernel. However thanks to Deletecat at DSi Mode Hacking Discord, a new way to load YSMenu on these carts was found, by hex-editing a flashcard-bootstrap binary into the original kernel's `_ds_menu.dat` file.
+        
+        A full list of improvements in this package:
+        
+        - R4SDHC Bootstrap to load TTMenu.dat - Deletecat & Lifehackerhansol
+        - Fixed r4dldi.dat for homebrew - Lifehackerhansol
+        - Fixed ttreset.dat soft-reset - twiztidsinz on GBATemp
+        - YSMenu theme - ShaolinAssassin on DeviantArt
 
----
+=== "Pico-Launcher"
 
-!!! info "Info and Credits"
+    !!! info "Kernel Info"
 
-    This YSMenu package contains quite a few fixes and improvements. In the past, YSMenu needed to be chainloaded via the stock kernel. However thanks to Deletecat at DSi Mode Hacking Discord, a new way to load YSMenu on these carts was found, by hex-editing a flashcard-bootstrap binary into the original kernel's `_ds_menu.dat` file.
+        Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+
+    !!! warning "Soft-Reset Not Supported"
+
+        Note that Pico-Launcher/Loader currently does not support soft-resetting to the game menu. If this is important to you, consider using WoodR4.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the latest [Pico Package for Original R4.](https://picoarchive.cdn.blobfrii.com/pico_package_R4.zip?picoloader={{pico_versions.loader}}&picolauncher={{pico_versions.launcher}}&fcnetrev={{pico_versions.fcnetrev}})
+        - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
+
+    1. Extract the `pico_package_R4.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.
+
+    1. From within the extracted files, copy the following files/folders to your SD card root:
+
+        - `_pico` folder
+
+        - `_picoboot.nds`
+
+    1. Download the [R4SDHC Miniboot package](../assets/R4SDHC_pico_miniboot.zip).
+
+    1. Extract the `R4SDHC_pico_miniboot.zip` file, then copy both files (`_DS_MENU.DAT` and `_DS_MENU.INI`) into the root of your SD card.
     
-    A full list of improvements in this package:
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711){target="_blank"}
     
-    - R4SDHC Bootstrap to load TTMenu.dat - Deletecat & Lifehackerhansol
-    - Fixed r4dldi.dat for homebrew - Lifehackerhansol
-    - Fixed ttreset.dat soft-reset - twiztidsinz on GBATemp
-    - YSMenu theme - ShaolinAssassin on DeviantArt
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file into the `_pico` folder on your SD card.
+
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4SDHC](../images/SD_Files/R4SDHC/R4SDHC_pico.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+        
+        **Game Covers**
+        
+        Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+        
+        [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your DSpico interface? Check out the Pico themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+        
+        To create your own custom themes for Pico-Launcher, check out the themes creator:
+        
+        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+
+!!! tip "Saving SD Space"
+
+    Since this cart is fairly size-constrained with the 2GB limitation, you may want to consider trimming your NDS roms with [NDSTokyoTrim](https://www.gamebrew.org/wiki/NDSTokyoTrim). This will trim off the extra unused data from your NDS ROMs, saving you SD card space at no cost!

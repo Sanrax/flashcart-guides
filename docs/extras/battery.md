@@ -47,7 +47,7 @@ Please select the tab relevant for your DS console below:
 
     #### Original DS Batteries
 
-    - OSTENT Nintendo DS Battery 850mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it is **fake**!)
+    - OSTENT Nintendo DS Battery 850mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it may be **fake**!)
 
         ![OSTENT Original DS Battery](../images/battery/ostentntr.png){width="215"}
 
@@ -91,7 +91,7 @@ Please select the tab relevant for your DS console below:
 
     These batteries have been recommended by the community and can typically be found on online shopping marketplaces such as Amazon and Ebay, The battery manufacturer's website or a Reseller. As their capacity is similar to the OEM battery, they should have a similar battery life.
 
-    - OSTENT Nintendo DS Lite Battery 1000mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it is **fake**!)
+    - OSTENT Nintendo DS Lite Battery 1000mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it may be **fake**!)
 
         ![OSTENT DS Lite Battery](../images/battery/ostentdsl.png){width="215"}
 
@@ -120,7 +120,7 @@ Please select the tab relevant for your DS console below:
 
     These batteries have been recommended by the community and can typically be found on online shopping marketplaces such as Amazon and Ebay, The battery manufacturer's website or a Reseller. As their capacity is similar to the OEM battery, they should have a similar battery life.
 
-    - OSTENT Nintendo DSi Battery 840mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it is **fake**!)
+    - OSTENT Nintendo DSi Battery 840mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it may be **fake**!)
 
         ![OSTENT DSI Battery](../images/battery/ostentdsi.png){width="215"}
 

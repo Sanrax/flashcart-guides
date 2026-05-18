@@ -47,7 +47,7 @@ Please select the tab relevant for your DS console below:
 
     #### Original DS Batteries
 
-    - OSTENT Nintendo DS Battery 850mAh (It **must** say "OSTENT" on the battery wrapper itself, otherwise it is **fake**!)
+    - OSTENT Nintendo DS Battery 850mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it is **fake**!)
 
         ![OSTENT Original DS Battery](../images/battery/ostentntr.png){width="215"}
 
@@ -81,7 +81,7 @@ Please select the tab relevant for your DS console below:
     - Any battery claiming to be original or OEM. New OEM batteries have not been sold on the market for years, and any that are will already be past their usable life.
     - Any battery claiming an outrageous capacity such as 2000mAh.
     - Batteries sold by iFixit - They sell the same generic/bootleg batteries at a steep markup, the same seen on online marketplaces.
-    - Any batteries that looks like these or similar:
+    - Any batteries that look like these or similar:
     
         ![Fake DS Lite Battery 1](../images/battery/fakelite1.png){ align=left width="215"} ![Fake DS Lite Battery 2](../images/battery/fakelite2.png){ align=left width="215"}
 
@@ -91,7 +91,7 @@ Please select the tab relevant for your DS console below:
 
     These batteries have been recommended by the community and can typically be found on online shopping marketplaces such as Amazon and Ebay, The battery manufacturer's website or a Reseller. As their capacity is similar to the OEM battery, they should have a similar battery life.
 
-    - OSTENT Nintendo DS Lite Battery 1000mAh (It **must** say "OSTENT" on the battery wrapper itself, otherwise it is **fake**!)
+    - OSTENT Nintendo DS Lite Battery 1000mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it is **fake**!)
 
         ![OSTENT DS Lite Battery](../images/battery/ostentdsl.png){width="215"}
 
@@ -110,7 +110,7 @@ Please select the tab relevant for your DS console below:
     - Any battery claiming to be original or OEM. New OEM batteries have not been sold on the market for years, and any that are will already be past their usable life.
     - Any battery claiming an outrageous capacity such as 2000mAh.
     - Batteries sold by iFixit - They sell the same generic/bootleg batteries at a steep markup, the same seen on online marketplaces.
-    - Any batteries that looks like these or similar:
+    - Any batteries that look like these or similar:
     
         ![Fake DSi Battery 1](../images/battery/fakedsi1.png){ align=left width="215"} ![Fake DSi Battery 2](../images/battery/fakedsi2.png){ align=left width="215"}
 
@@ -120,7 +120,7 @@ Please select the tab relevant for your DS console below:
 
     These batteries have been recommended by the community and can typically be found on online shopping marketplaces such as Amazon and Ebay, The battery manufacturer's website or a Reseller. As their capacity is similar to the OEM battery, they should have a similar battery life.
 
-    - OSTENT Nintendo DSi Battery 840mAh (It **must** say "OSTENT" on the battery wrapper itself, otherwise it is **fake**!)
+    - OSTENT Nintendo DSi Battery 840mAh (It **must** say "OSTENT" on the battery wrapper itself, and must be this exact capacity, otherwise it is **fake**!)
 
         ![OSTENT DSI Battery](../images/battery/ostentdsi.png){width="215"}
 

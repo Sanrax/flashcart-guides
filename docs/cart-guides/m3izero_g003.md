@@ -1,0 +1,109 @@
+---
+title: M3i Zero [GMP-Z003]
+---
+
+![M3i Zero](../images/M3i_G003.png){ align=right width="115"}
+# M3i Zero [GMP-Z003]
+## m3adapter.com
+
+!!! info "Cart Info"
+
+    The M3i Zero is the last slot-1 flashcart from the M3 Adapter team. The M3 team disappeared around 2011, and the Sakura kernel hasn't been updated since then. That means some games released later on in the DS lifecycle don't actually boot in the Sakura/Touchpod kernel, due to missing compatibility patches. To fix this issue, it's recommended to run Pico-Launcher as a replacement kernel, or at least keep it around as a secondary kernel.
+
+    While this cart does support SDHC SD cards, Sakura/TouchPod has issues with cards that are 64GB or larger. The nds loader will simply refuse to load games, or load the game but crash/freeze soon after. However, Pico-Launcher handles 64GB and larger cards just fine when configured as the primary kernel.
+
+### Setup Guide:
+
+=== "Pico-Launcher"
+
+    !!! info "Kernel Info"
+
+        Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
+
+    !!! warning "Soft-Reset & RTS Not Supported"
+
+        Note that Pico-Launcher/Loader currently does not support soft-reset or RTS. If this is important to you, consider using Sakura.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the latest [Pico Package for M3i Zero GMP-Z003.](https://picoarchive.cdn.blobfrii.com/pico_package_G003.zip?picoloader={{pico_versions.loader}}&picolauncher={{pico_versions.launcher}}&fcnetrev={{pico_versions.fcnetrev}})
+        - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
+
+    1. Extract the `pico_package_G003.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app. Then, copy *the contents* into the root of your SD card.
+    
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711){target="_blank"}
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file into the `_pico` folder on your SD card.
+
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![M3DS](../images/SD_Files/M3iZero/SakuraPico.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+        
+        **Game Covers**
+        
+        Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+        
+        [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your DSpico interface? Check out the Pico themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+        
+        To create your own custom themes for Pico-Launcher, check out the themes creator:
+        
+        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+
+=== "Sakura + Pico-Launcher"
+
+    !!! info "Sakura Kernel"
+    
+        Sakura is the official kernel of the M3 DS Real and M3i Zero. It's based on Moonshell 2, with a custom NDS loader. It also offers a couple unique features like RTS (Real-Time-Save), not found in YSMenu. Because it's based on Moonshell2, it also provides media playback directly in the kernel menu, which can be pretty convenient. This tab will help you setup Sakura with Pico-Launcher, so that you can use Sakura as primary and fallback to Pico-Launcher when necessary, for games that don't load in Sakura.
+    
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+    
+    1. Download the [Sakura 1.49a kernel.](https://archive.flashcarts.net/m3adapter.com/m3adapter.com_GMP-Z003_Sakura_1.49a.zip)
+    
+    1. Extract *the contents* of the Sakura zip to your SD card's root. (It should just be a single `SYSTEM` folder)
+    
+    1. If you'd like to be able to use cheats on your games in Sakura, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711/)
+
+    1. You will need the `cheat_EN.db` file from the download link in the post. Copy it into the `SYSTEM` folder on your SD card.
+
+    1. Also grab `usrcheat.dat` from the same source, which will be used by Pico-Launcher for game cheats.
+    
+    1. Next, we'll be adding Pico-Launcher to the setup.
+    
+    1. Download the latest [Pico Package for M3i Zero GMP-Z003.](https://picoarchive.cdn.blobfrii.com/pico_package_G003.zip?picoloader={{pico_versions.loader}}&picolauncher={{pico_versions.launcher}}&fcnetrev={{pico_versions.fcnetrev}})
+        - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
+
+    1. Extract the `pico_package_G003.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.
+
+    1. From within the extracted files, copy the following files/folders to your SD card root:
+
+        - `_pico` folder
+
+        - `_picoboot.nds`
+
+    1. Copy the `usrcheat.dat` file you downloaded earlier into the `_pico` folder on your SD card.
+
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+
+    1. The files on your SD card should now look like this:
+    
+        - ![M3DS](../images/SD_Files/M3iZero/SakuraPico.png){ align=left width="600"}
+    
+    1. Place the SD card back into the cartridge, and boot it up. You'll be asked to select between TouchPod or Sakura, choose whichever you prefer. You can change this later. When you want to use Pico-Launcher, simply launch `_picoboot.nds` in Sakura/Touchpod.

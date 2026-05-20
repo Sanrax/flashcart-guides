@@ -45,7 +45,7 @@ extra:
   pico_versions:
     loader: "v1.6.0"
     launcher: "v1.3.0"
-    fcnetrev: "0"
+    fcnetrev: "1"
   generator: false
   social:
     - icon: fontawesome/brands/reddit

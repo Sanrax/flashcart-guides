@@ -146,6 +146,7 @@ Note that some URLs may have many hardware variants. If multiple results are ret
 ### M3 Family
 
 - [**M3 DS Real**](cart-guides/m3dsreal.md "<img src="images/m3dsreal.png" alt="M3 DS Real" width="100">") - m3adapter.com
+- [**M3i Zero [GMP-Z003]**](cart-guides/m3izero_g003.md "<img src="images/M3i_G003.png" alt="M3i Zero" width="100">") - m3adapter.com
 - [**iTouchDS**](cart-guides/itouchds.md "<img src="images/itouchds.png" alt="M3 DS Real" width="100">") - itouchds.com
 - [**R4iSDHC RTS Black**](cart-guides/rts_black.md "<img src="images/rts_black.jpg" alt="M3 DS Real" width="100">") - r4isdhc.com
 - [**R4i SDHC RTS**](cart-guides/r4rts.md "<img src="images/r4rts.jpg" alt="M3 DS Real" width="100">") - r4rts.com

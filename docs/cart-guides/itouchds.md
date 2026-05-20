@@ -4,7 +4,7 @@ title: iTouchDS
 
 ![iTouchDS](../images/itouchds.png){ align=right width="115"}
 # iTouchDS
-## M3-Adapter Team
+## itouchds.com
 
 !!! info "Cart Info"
 

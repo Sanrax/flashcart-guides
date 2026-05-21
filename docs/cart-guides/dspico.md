@@ -42,7 +42,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
     !!! warning "DSpico Hybrid Firmware Limitations"
 
-         The DSpico hybrid firmware only supports the original DS, DS Lite, and modded DSi/3DS consoles. It does not function on stock, unmodified DSi or 3DS systems - firmware with the WRFUxxed exploit enabled is required for these consoles.
+        The DSpico hybrid firmware only supports the original DS, DS Lite, and modded DSi/3DS consoles. It does not function on stock, unmodified DSi or 3DS systems - firmware with the WRFUxxed exploit enabled is required for these consoles.
 
     !!! info "Unofficial Build"
     
@@ -62,7 +62,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
     !!! warning "DSpico WRFUxxed firmware"
 
-         The WRFUxxed firmware supports all DS, DSi & 3DS consoles, on any version. However, it must be built with user-provided components due to the WRFUxxed exploit requiring a copy of WRFU Tester v0.60. This firmware also autoboots on a Nintendo DSi due to WRFU Tester having the autoboot flag set (Does not apply to the 3DS or NDS/DS Lite). You might want to consider using the Hybrid firmware instead if your DSi or 3DS console has CFW installed.
+        The WRFUxxed firmware supports all DS, DSi & 3DS consoles, on any version. However, it must be built with user-provided components due to the WRFUxxed exploit requiring a copy of WRFU Tester v0.60. This firmware also autoboots on a Nintendo DSi due to WRFU Tester having the autoboot flag set (Does not apply to the 3DS or NDS/DS Lite). You might want to consider using the Hybrid firmware instead if your DSi or 3DS console has CFW installed.
 
     === "Patch a Precompiled UF2"
 
@@ -93,6 +93,24 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
         - Follow the [LNH-Team DSpico setup guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md) which contains all the steps needed to build the WRFUxxed firmware.
     
         - If you would prefer a video guide, you may follow [this YouTube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e). This video guide should result in an up to date firmware due to building it from the latest source.
+    
+=== "NTRBoot Firmware"
+
+!!! warning "DSpico NTRBoot firmware"
+
+    This version of the DSpico firmware is intended for users looking to use ntrboot to unbrick a DSi or 3DS system. **If you don't know what ntrboot is, you are probably looking for Hybrid or WRFUxxed firmware.**
+
+    This build works for both DSi and 3DS users - a separate uf2 is not necessary as it will automatically detect the console and use the appropriate ntrboot version. On a DSi, triggering ntrboot will launch `ntrboot.nds` located on the console's SD card root. On 3DS, `boot.firm` will be loaded from the console SD when ntrboot is triggered.
+
+1. Download the [DSpico NTRBoot Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/dspico-hybrid-b9s1.4-gcd.1.uf2) UF2 file.
+
+1. Remove the DSpico from your console, and remove any MicroSD card in the cart.
+
+1. Connect a USB cable to your DSpico and plug it into your computer, then open your file manager.
+
+1. A drive called `RPI-RP2` will appear. Drag & drop the `dspico-hybrid-b9s1.4-gcd.1.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
+
+1. Your DSpico is now flashed! You can now proceed to running [DSi ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot#running-ntrboot) or [3DS ntrboot](https://3ds.hacks.guide/installing-boot9strap-(ntrboot).html).
 
 ### Setup Guide:
 

@@ -39,7 +39,7 @@ title: M3i Zero [GMP-Z003]
     
     1. The files on your SD card should now look like this:
     
-        - ![M3DS](../images/SD_Files/M3iZero/SakuraPico.png){ align=left width="600"}
+        - ![M3iZero](../images/SD_Files/M3iZero/Pico.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
@@ -98,12 +98,14 @@ title: M3i Zero [GMP-Z003]
 
         - `_picoboot.nds`
 
+    1. Download [this `Boot_Pico.nds`](../assets/Boot_Pico.nds) nds-miniboot binary and also place it on the SD card root. (Sakura will refuse to boot `_picoboot.nds` directly, since it doesn't have a passme header.)
+
     1. Copy the `usrcheat.dat` file you downloaded earlier into the `_pico` folder on your SD card.
 
     1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
 
     1. The files on your SD card should now look like this:
     
-        - ![M3DS](../images/SD_Files/M3iZero/SakuraPico.png){ align=left width="600"}
+        - ![M3iZero](../images/SD_Files/M3iZero/SakuraPico.png){ align=left width="600"}
     
-    1. Place the SD card back into the cartridge, and boot it up. You'll be asked to select between TouchPod or Sakura, choose whichever you prefer. You can change this later. When you want to use Pico-Launcher, simply launch `_picoboot.nds` in Sakura/Touchpod.
+    1. Place the SD card back into the cartridge, and boot it up. You'll be asked to select between TouchPod or Sakura, choose whichever you prefer. You can change this later. When you want to use Pico-Launcher, simply launch `Boot_Pico.nds` in Sakura/Touchpod.

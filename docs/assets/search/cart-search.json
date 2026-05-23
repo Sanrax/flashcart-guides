@@ -448,6 +448,15 @@
         "ultracard.cn",
         "xpcard.com.cn"
       ]
+    },
+    "dstwo": {
+      "title": "SuperCard DSTWO",
+      "subtitle": "supercard.sc",
+      "url": "cart-guides/dstwo/",
+      "rank": 1,
+      "matches": [
+        "supercard.sc"
+      ]
     }
   }
 }

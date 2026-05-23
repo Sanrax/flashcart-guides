@@ -142,6 +142,7 @@ Note that some URLs may have many hardware variants. If multiple results are ret
 ### SuperCard Family
 
 - [**DSOne SDHC**](cart-guides/dsone.md "<img src="images/dsone.png" alt="DSOne" width="100">") - supercard.sc
+- [**DSTWO**](cart-guides/dstwo.md "<img src="images/DSTWO.png" alt="DTWO" width="100">") - supercard.sc
 
 ### M3 Family
 

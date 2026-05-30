@@ -42,7 +42,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
     !!! danger "DSpico Hybrid Firmware Limitations"
 
-        The DSpico hybrid firmware only supports the original DS, DS Lite, and modded DSi/3DS consoles. It does not function on stock, unmodified DSi or 3DS systems - firmware with the WRFUxxed exploit enabled is required for these consoles.
+        The DSpico hybrid firmware only supports the original DS, DS Lite, and modded DSi/3DS consoles. It does not function on stock, unmodified DSi or 3DS systems - [firmware with the WRFUxxed exploit](#__tabbed_1_2) enabled is required for these consoles.
 
     !!! info "Unofficial Build"
     
@@ -94,7 +94,27 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     
         - Follow the [LNH-Team DSpico setup guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md) which contains all the steps needed to build the WRFUxxed firmware.
     
-        - If you would prefer a video guide, you may follow [this YouTube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e). This video guide should result in an up to date firmware due to building it from the latest source.
+        - If you would prefer a video guide, you may follow [this YouTube video](https://www.youtube.com/watch?v=o7IuaewHNTQ) to build the WRFUxxed firmware with Docker, using [this dockerfile.](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e) This video guide should result in an up to date firmware due to building it from the latest source.
+
+=== "Devkit (Panda) Firmware"
+
+    !!! danger "For Devkit Units ONLY!"
+
+        This version of the DSpico firmware WILL NOT boot on any retail DS consoles, modded or not. This firmware is intended to be used with devkits, which can only run cartridges signed with a development key. As such, the normal hybrid firmware will not work on Panda units, since they will not accept retail-signed software.
+
+    !!! info "Build Info"
+    
+        This UF2 is built from commit `913185e` of [profi200's DSpico firmware](https://github.com/profi200/dspico-firmware/tree/develop), with patches from [this PR](https://github.com/LNH-team/dspico-bootloader/pull/3) applied, and then devsigned.
+
+    1. Download the [DSpico Dev Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico-profi200-dev.uf2) UF2 file.
+
+    1. Remove the DSpico from your console, and remove any MicroSD card in the cart.
+    
+    1. Connect a USB cable to your DSpico and plug it into your computer, then open your file manager.
+
+    1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico-profi200-dev.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
+
+    1. Your DSpico is now flashed! Follow the Pico-Launcher setup guide below to prepare the SD card.
 
 ### Setup Guide:
 

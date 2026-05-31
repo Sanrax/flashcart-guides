@@ -12,7 +12,7 @@ title: DS Family Battery Guide
 
 !!! warning
 
-    We do not guarantee the information here is correct or accurate, this information is collected from the DS & 3DS community from various sources & forums.
+    While the best effort has been taken to ensure this information is correct and accurate, We cannot guarantee that it is, as this information is collected from the DS & 3DS community from various sources, forums and user testing.
 
 As the DS family of consoles ages, many original batteries for these consoles are becoming worn out with poor battery life or becoming swollen and failing (if swollen, read the warning above before handling).
 

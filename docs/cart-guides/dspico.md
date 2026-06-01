@@ -50,13 +50,13 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
         This version of the hybrid firmware also contains ntrboot for DSi and 3DS consoles. After flashing hybrid FW on your DSpico, you can run [DSi ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot#running-ntrboot) or [3DS ntrboot](https://3ds.hacks.guide/installing-boot9strap-(ntrboot).html).
 
-    1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/dspico-hybrid-b9s1.4-gcd.1.uf2) UF2 file.
+    1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2) UF2 file.
 
     1. Remove the DSpico from your console, and remove any MicroSD card in the cart.
     
     1. Connect a USB cable to your DSpico and plug it into your computer, then open your file manager.
 
-    1. A drive called `RPI-RP2` will appear. Drag & drop the `dspico-hybrid-b9s1.4-gcd.1.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
+    1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_Hybrid_B9S-1.3_GCD.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
 
     1. Your DSpico is now flashed! Follow the Pico-Launcher setup guide below to prepare the SD card.
 

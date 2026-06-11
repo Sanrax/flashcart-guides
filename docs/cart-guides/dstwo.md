@@ -10,7 +10,7 @@ title: SuperCard DSTWO
     
     The DSTWO is the last DS flashcart from the SuperCard team. It boasts uncommon features like RTS (Real Time Save), Real Time Cheats, and an in-game menu. EvolutionOS, the flashcart's stock kernel, is compatible with nearly all DS games and romhacks, so it is fairly reliable.
 
-    It is also well-known for its onboard ARM CPU, being the only DS flashcart to provide an extra CPU to run homebrew applications on. Apps like TempGBA and CATSFC can utilize the DSTWO's onboard processor to emulate GBA and SNES. Other apps like video players can use the CPU for accelerated video playback. Unfortunately, the DSTWO's CPU also comes with heavier battery usage, even when playing retail games that don't utilize the onboard CPU.
+    It is also well-known for its onboard MIPS Ingenic JZ4732 CPU, being the only DS flashcart to provide an extra CPU to run homebrew applications on. Apps like TempGBA and CATSFC can utilize the DSTWO's onboard processor to emulate GBA and SNES. Other apps like video players can use the CPU for accelerated video playback. Unfortunately, the DSTWO's CPU also comes with heavier battery usage, even when playing retail games that don't utilize the onboard CPU.
 
 ### Setup Guide:
 

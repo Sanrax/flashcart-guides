@@ -40,7 +40,7 @@ theme:
         name: Switch to system preference
 plugins:
   - macros
-copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/kaikun97)
+copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/KaiChanBunny)
 extra:
   pico_versions:
     loader: "v1.6.0"

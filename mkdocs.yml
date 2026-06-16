@@ -46,7 +46,7 @@ plugins:
         logo: docs/images/card-icon.png
         background_color: "#B23456"
         description: A repository of set-up tutorials and downloads for DS flashcarts
-copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/kaikun97)
+copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/KaiChanBunny)
 extra:
   pico_versions:
     loader: "v1.6.0"

@@ -13,7 +13,7 @@ Syntax documentation can be found in the [Material-MKDocs reference pages.](http
 ## Building the Site
 1. Install latest [Python 3.x.](https://www.python.org/downloads/)
 1. Install mkdocs-material by following the "Installation" section of the [mkdocs-material wiki.](https://squidfunk.github.io/mkdocs-material/getting-started/)
-1. Install the mkdocs macros plugin: `pip install mkdocs-macros-plugin`
+1. Install the mkdocs macros and imaging plugins: `pip install mkdocs-macros-plugin "mkdocs-material[imaging]"`
 1. Downgrade `click` to version `8.2.1` for working live-reload: `pip install click==8.2.1`
 1. `git clone` the repository to your local PC: `git clone https://github.com/Sanrax/flashcart-guides.git`
 1. Change into the `flashcart-guides` directory (`cd flashcart-guides`), then run `mkdocs serve` to build and serve the site locally at `localhost:8000`.

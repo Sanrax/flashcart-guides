@@ -18,11 +18,14 @@ title: DSTTi DEMON-HW Carts
 
     !!! info "Kernel Info"
 
-        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts should use YSMenu or Pico-Loader instead.***
+        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts should use Pico-Loader or YSMenu instead.***
 
         Since the timebomb previously found in R4iMenu has been removed, it has become a good option for users that own supported carts, as it has better game compatibility than YSMenu, and supports Real-Time-Save. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
 
-        YSMenu runs on all DEMON-HW carts. If you prefer the look and feel of YSMenu, you can choose to use it over R4iMenu, even if you have an R4iMenu-supported cart.
+        Note that R4iMenu also has the following limitations:
+            - Filenames cannot be longer than 80 characters (including the extension)
+            - R4iMenu can only display a maximum of 300 games total, regardless of folder sorting.
+            - Homebrew compiled with calico libnds does not work.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 

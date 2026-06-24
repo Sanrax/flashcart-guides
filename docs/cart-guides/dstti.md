@@ -16,7 +16,9 @@ title: DSTT/i & Clones
 
     !!! info "Kernel Info"
 
-        YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. It can have some issues with running romhacks, but it has near-perfect compatibility with unmodified retail DS roms.
+        YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users, and has near-perfect compatibility with unmodified retail DS roms.
+
+        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     

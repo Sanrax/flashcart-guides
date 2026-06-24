@@ -14,7 +14,7 @@ title: Acekard 2/2.1/2i
 
 === "AKAIO 1.9.0"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         AKAIO is a kernel developed by Normmatt, forked from the Acekard team's AKMenu4 kernel. It's up to date to the very last DS games, and has a high game compatibility.
 
@@ -52,7 +52,7 @@ title: Acekard 2/2.1/2i
     
 === "Pico-Launcher"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 

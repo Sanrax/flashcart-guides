@@ -14,7 +14,7 @@ title: R4 Ultra/R4i Ultra
 
 === "AKAIO 1.8.6a"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         AKAIO 1.8.6a is a few versions behind the last release of AKAIO for official AK2i carts, 1.9.0. Therefore, a few of the very last DS games are not fully compatible with this build of AKAIO. Games such as Pokemon Black 2 and White 2 may require AP patching before they can be used. Alternatively, you may opt to use Pico-Launcher instead.
 
@@ -52,7 +52,7 @@ title: R4 Ultra/R4i Ultra
 
 === "Pico-Launcher"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 

@@ -16,7 +16,7 @@ title: DSTTi DEMON-HW Carts
 
 === "R4iMenu"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts should use Pico-Loader or YSMenu instead.***
 
@@ -57,7 +57,7 @@ title: DSTTi DEMON-HW Carts
 
 === "Pico-Launcher"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         Pico-Launcher is compatible with **ALL** DSTT hardware, including all DEMON carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
@@ -120,7 +120,7 @@ title: DSTTi DEMON-HW Carts
 
 === "YSMenu"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext#demon-dstti-clones) `DEMON DSTTi Clones` section for a full list of compatible carts.
 
@@ -158,7 +158,7 @@ title: DSTTi DEMON-HW Carts
 
 === "AKMenu-Next"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         AKMenu-Next is an alternative kernel based on akmenu4 (used in Wood R4 and AKAIO) and uses nds-bootstrap (and optionally Pico-Loader) to load games. This is an option if you have games, ROM hacks or fan translations that do not work on YSMenu or R4iMenu, and is also an option if you want a Wood R4 style interface.
 

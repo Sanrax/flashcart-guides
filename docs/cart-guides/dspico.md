@@ -147,7 +147,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
 === "AKMenu-Next"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         AKMenu-Next is an alternative frontend for pico-loader and nds-bootstrap, which uses the classic WoodR4/AKMenu UI. If you want to enjoy a traditional flashcart UI while loading games via pico-loader, AKMenu-Next is a great choice. All pico-loader features are supported, such as running DSiWare, applying game cheats, and calling emulators with argv to launch a ROM directly.
 

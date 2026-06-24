@@ -18,7 +18,7 @@ title: DSTT/i & Clones
 
 === "Pico-Launcher"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
@@ -83,7 +83,7 @@ title: DSTT/i & Clones
 
 === "YSMenu"
 
-    !!! info "Kernel Info"
+    !!! note "Kernel Info"
 
         YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users, and has near-perfect compatibility with unmodified retail DS roms.
 

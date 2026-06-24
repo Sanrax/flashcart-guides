@@ -6,11 +6,15 @@ title: DSTT/i & Clones
 # DSTT/i & Clones
 ## ndstt.com (and many clones)
 
+!!! info "Cart Info"
+
+    The DSTT and DSTTi appear to be a cut-down version of SuperCard's [DSOne](./dsone.md), with no PSRAM or RTS support, meant to be a cheaper entry in the flashcart market.
+    
+    This cart is one of the most widely cloned flashcarts ever, with dozens or even hundreds of various "R4" clone carts using DSTT based hardware. The well-known r4isdhc.com Gold Pro carts are just one example of such a clone. Luckily, the clones work nearly identical to real DSTT's, so kernels can be shared between all of them.
+
+    See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext) `DSTTi-Clone YSMenu` section for a full list of DSTT/i based carts.
+
 ### Setup Guide:
-
-!!! info "Compatibility Info"
-
-    See [YSMenu Compatibility List's](https://www.flashcarts.net/ysmenu-compat-ext) `DSTTi-Clone YSMenu` section for a full list of compatible carts with YSMenu and DSTTi Pico-Launcher
 
 === "YSMenu"
 

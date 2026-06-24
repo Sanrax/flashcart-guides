@@ -16,56 +16,6 @@ title: DSTT/i & Clones
 
 ### Setup Guide:
 
-=== "YSMenu"
-
-    !!! info "Kernel Info"
-
-        YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users, and has near-perfect compatibility with unmodified retail DS roms.
-
-        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it.
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-    
-    1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
-    
-    1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `DSTTi-Clone YSMenu` folder.
-    
-    1. From this folder, copy the following files/folders to your SD card root:
-    
-        - `Games` folder
-    
-        - `TTMenu` folder
-    
-        - `TTMenu.dat`
-    
-    1. Some DSTTi clones load from a boot file other than `TTMenu.dat`. Find your flashcart in the [YSMenu compatibility list](https://www.flashcarts.net/ysmenu-compat-ext){target="_blank"} by searching the page (`CTRL`+`F`) for the URL listed on your cart's label.
-    
-        - If your cart is listed as needing an extra boot file, make copies of the `TTMenu.dat` file on your SD card root, then rename the copy appropriately.
-    
-        - Note that in all cases, `TTMenu.dat` still needs to be on your SD for soft-reset to function. Do not remove it.
-    
-    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
-    
-    1. The files on your SD card should now look like this:
-    
-        - ![DSTTi](../images/SD_Files/DSTTi/DSTTi.png){ align=left width="600"}
-    
-    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-    
-    !!! tip "Post-Setup Enhancements"
-
-        **Emulators**
-        
-        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
-        
-        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
-        
-        **Themes**
-        
-        Looking to customize your menu? Check out the YSMenu themes repository:
-        
-        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
-
 === "Pico-Launcher"
 
     !!! info "Kernel Info"
@@ -130,3 +80,53 @@ title: DSTT/i & Clones
         To create your own custom themes for Pico-Launcher, check out the themes creator:
         
         [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+
+=== "YSMenu"
+
+    !!! info "Kernel Info"
+
+        YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users, and has near-perfect compatibility with unmodified retail DS roms.
+
+        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+    
+    1. Download the [RetroGameFan YSMenu 7.06 kernel.](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/download)
+    
+    1. Extract the YSMenu .7z file you downloaded using [7-Zip](https://www.7-zip.org/), then go into the `DSTTi-Clone YSMenu` folder.
+    
+    1. From this folder, copy the following files/folders to your SD card root:
+    
+        - `Games` folder
+    
+        - `TTMenu` folder
+    
+        - `TTMenu.dat`
+    
+    1. Some DSTTi clones load from a boot file other than `TTMenu.dat`. Find your flashcart in the [YSMenu compatibility list](https://www.flashcarts.net/ysmenu-compat-ext){target="_blank"} by searching the page (`CTRL`+`F`) for the URL listed on your cart's label.
+    
+        - If your cart is listed as needing an extra boot file, make copies of the `TTMenu.dat` file on your SD card root, then rename the copy appropriately.
+    
+        - Note that in all cases, `TTMenu.dat` still needs to be on your SD for soft-reset to function. Do not remove it.
+    
+    1. Place any `.nds` game ROMs you'd like to play into the `Games` folder.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![DSTTi](../images/SD_Files/DSTTi/DSTTi.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+    
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the YSMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }

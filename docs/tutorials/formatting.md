@@ -15,98 +15,123 @@ title: Formatting a microSD Card
 === "Windows"
 
     !!! warning
-        
-        Make sure to use the correct tab for your SD card size. This is important, or you may end up formatting to the wrong filesystem by choosing the wrong tab!
 
-        Formatting an SD card will WIPE ALL FILES on it. If you have any data on the SD card that you would like to keep, back it up your PC before formatting.
-    
-    === "32GB or Smaller"
+        Formatting an SD card will WIPE ALL FILES on it. If you have any data on the SD card that you would like to keep, back it up to your PC before formatting.
 
-        1. Download the latest version of [SD Memory Card Formatter.](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/){target="_blank"}
-            - Accept the End User License Agreement to start the download
+    === "sdFormatWindows"
+
+        1. Download the latest version of [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe)
 
         1. Insert your SD card into your computer.
-        
-        1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Administrator privileges, then install the program.
-        
-        1. Run `SD Card Formatter` from the Start Menu.
-        
-        1. Select your SD card’s drive letter for `Select Card`.
+
+        1. Double-click on `sdFormatWindows.exe` to launch.
+            - You may encounter a Windows Defender SmartScreen warning. Click on the underlined `More Info` text at the top of the warning, then select `Run Anyway`.
+
+        1. A User Account Control (UAC) prompt should show up next. Click `Yes` to launch the program as administrator.
+
+        1. Select your SD card’s drive letter in the `Select Drive` drop-down.
             - Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
         
-        1. Ensure that `Quick Format` is selected.
-        
-        1. Click `Format`.
-        
-        1. Click `OK`.
-        
-        1. Wait for the format to finish.
-        
-        1. Click `OK`.
+        1. **If your SD card is 64GB or larger**, check `Format as FAT32` and `Force 32KiB cluster size`.
 
-        1. Close the SD Card Formatter program.
+        1. Click `Format`, then select `Yes` to acknowledge that all data on the SD will be erased.
+
+        1. A console window will open showing the formatting status. Wait until it completes.
+
+        1. Once you see "Format Successful", click `OK`, then close sdFormatWindows.
+
+    === "SDMC Formatter + GUIFormat"
+
+        !!! warning
+            
+            Make sure to use the correct tab for your SD card size. This is important, or you may end up formatting to the wrong filesystem by choosing the wrong tab!
+        
+        === "32GB or Smaller"
     
-    === "64GB or Larger"
-
-        1. Download the latest version of [SD Memory Card Formatter.](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/){target="_blank"}
-            - Accept the End User License Agreement to start the download
-
-        1. Insert your SD card into your computer.
-        
-        1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Administrator privileges, then install the program.
-        
-        1. Run `SD Card Formatter` from the Start Menu.
-        
-        1. Select your SD card’s drive letter for `Select card`.
-            - Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
-        
-        1. Ensure that `Quick Format` is selected.
-        
-        1. Click `Format`.
-        
-        1. Click `OK`.
-        
-        1. Wait for the format to finish.
-        
-        1. Click `OK`.
-
-        1. Close the SD Card Formatter program.
-
-            !!! warning "Note"
+            1. Download the latest version of [SD Memory Card Formatter.](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/){target="_blank"}
+                - Accept the End User License Agreement to start the download
     
-                **You're not done yet!** Your SD card will be formatted to exFAT at this point. The following steps will format it to FAT32.
-
-        1. Download [GUIFormat.](http://ridgecrop.co.uk/index.htm?guiformat.htm){target="_blank"}
-
-        1. Run `guiformat.exe`.
-
-        1. Select your SD card’s drive letter for `Drive`.
-            - Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
-        
-        1. Set `Allocation unit size` to `32768`.
-
-        1. Ensure that `Quick Format` is selected.
-        
-        1. Click `Start`.
-        
-        1. Click `OK`.
-
-            !!! note "Errors in GUIFormat"
-
-                You may encounter an error while using GUIFormat. See below for possible codes and solutions:
-
-                **Failed to open device: GetLastError()=32**
-
-                - Close everything that may be using the SD card, such as any File Explorer windows.
-
-                **GetLastError()=1117**
-
-                - Your SD card write-protection switch may be enabled. The lock switch must be flipped upwards to allow writing to the SD card. (including formatting)
-        
-        1. Wait for the format to finish.
-        
-        1. Click `Close`.
+            1. Insert your SD card into your computer.
+            
+            1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Administrator privileges, then install the program.
+            
+            1. Run `SD Card Formatter` from the Start Menu.
+            
+            1. Select your SD card’s drive letter for `Select Card`.
+                - Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
+            
+            1. Ensure that `Quick Format` is selected.
+            
+            1. Click `Format`.
+            
+            1. Click `OK`.
+            
+            1. Wait for the format to finish.
+            
+            1. Click `OK`.
     
+            1. Close the SD Card Formatter program.
+        
+        === "64GB or Larger"
+    
+            1. Download the latest version of [SD Memory Card Formatter.](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/){target="_blank"}
+                - Accept the End User License Agreement to start the download
+    
+            1. Insert your SD card into your computer.
+            
+            1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Administrator privileges, then install the program.
+            
+            1. Run `SD Card Formatter` from the Start Menu.
+            
+            1. Select your SD card’s drive letter for `Select card`.
+                - Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
+            
+            1. Ensure that `Quick Format` is selected.
+            
+            1. Click `Format`.
+            
+            1. Click `OK`.
+            
+            1. Wait for the format to finish.
+            
+            1. Click `OK`.
+    
+            1. Close the SD Card Formatter program.
+    
+                !!! warning "Note"
+        
+                    **You're not done yet!** Your SD card will be formatted to exFAT at this point. The following steps will format it to FAT32.
+    
+            1. Download [GUIFormat.](http://ridgecrop.co.uk/index.htm?guiformat.htm){target="_blank"}
+    
+            1. Run `guiformat.exe`.
+    
+            1. Select your SD card’s drive letter for `Drive`.
+                - Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
+            
+            1. Set `Allocation unit size` to `32768`.
+    
+            1. Ensure that `Quick Format` is selected.
+            
+            1. Click `Start`.
+            
+            1. Click `OK`.
+    
+                !!! note "Errors in GUIFormat"
+    
+                    You may encounter an error while using GUIFormat. See below for possible codes and solutions:
+    
+                    **Failed to open device: GetLastError()=32**
+    
+                    - Close everything that may be using the SD card, such as any File Explorer windows.
+    
+                    **GetLastError()=1117**
+    
+                    - Your SD card write-protection switch may be enabled. The lock switch must be flipped upwards to allow writing to the SD card. (including formatting)
+            
+            1. Wait for the format to finish.
+            
+            1. Click `Close`.
 
 === "Linux"
 
@@ -114,7 +139,7 @@ title: Formatting a microSD Card
         
         The commands in this guide are case-sensitive. Enter them exactly as written, or there may be unintended consequences.
 
-        Formatting an SD card will WIPE ALL FILES on it. If you have any data on the SD card that you would like to keep, back it up your PC before formatting.
+        Formatting an SD card will WIPE ALL FILES on it. If you have any data on the SD card that you would like to keep, back it up to your PC before formatting.
         
     === "sdFormatLinux"
 
@@ -315,7 +340,7 @@ title: Formatting a microSD Card
         
         Make sure to use the correct tab for your SD card size. This is important, or you may end up formatting to the wrong filesystem by choosing the wrong tab!
 
-        Formatting an SD card will WIPE ALL FILES on it. If you have any data on the SD card that you would like to keep, back it up your PC before formatting.
+        Formatting an SD card will WIPE ALL FILES on it. If you have any data on the SD card that you would like to keep, back it up to your PC before formatting.
 
     === "32GB or Smaller"
 

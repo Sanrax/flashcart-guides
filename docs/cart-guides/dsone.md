@@ -43,7 +43,7 @@ title: DSOne SDHC
 
         Pico-Launcher is the game menu for the DSpico (an open source DS flashcart by the LNH team) and other supported carts. Combined with Pico-Loader, it can be used as a full kernel, and supports almost all retail DS games. It features a material-inspired user interface, and an extremely fast loader.
 
-    !!! warning "Soft-Reset & RTS Not Supported"
+    ??? warning "Soft-Reset & RTS Not Supported"
 
         Note that Pico-Launcher/Loader currently does not support soft-resetting to the game menu. If this is important to you, consider using EvolutionOS or YSMenu.
 

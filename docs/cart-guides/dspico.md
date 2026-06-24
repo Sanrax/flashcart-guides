@@ -120,7 +120,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
 === "Pico-Launcher"
 
-    !!! warning "Soft-Reset Not Supported"
+    ??? warning "Soft-Reset Not Supported"
 
         Note that Pico-Launcher/Loader currently does not support soft-resetting to the game menu. If this is important to you, consider using TWiLightMenu++ or AKMenu-Next instead with nds-bootstrap.
         

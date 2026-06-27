@@ -49,9 +49,9 @@ plugins:
 copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/KaiChanBunny)
 extra:
   pico_versions:
-    loader: "v1.6.0"
+    loader: "v1.7.0"
     launcher: "v1.3.0"
-    fcnetrev: "1"
+    fcnetrev: "0"
   generator: false
   social:
     - icon: fontawesome/brands/reddit

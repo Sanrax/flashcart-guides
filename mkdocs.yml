@@ -49,7 +49,7 @@ plugins:
 copyright: Created and maintained by Sanras (u/Arnas_Z), and Kai (u/KaiChanBunny)
 extra:
   pico_versions:
-    loader: "v1.7.0"
+    loader: "v1.7.1"
     launcher: "v1.3.0"
     fcnetrev: "0"
   generator: false

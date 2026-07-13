@@ -190,7 +190,7 @@ title: DSTTi DEMON-HW Carts
 
         YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. However, it does lack RTS (Real Time Save), so check out the R4iMenu tab if that is something you're interested in.
         
-        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it. Please Pico-Launcher, AKMenu-Next or R4iMenu for romhacks.
+        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it. Please use Pico-Launcher, AKMenu-Next or R4iMenu for romhacks.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 

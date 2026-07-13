@@ -14,47 +14,6 @@ title: DSTTi DEMON-HW Carts
 
 ### Setup Guide:
 
-=== "R4iMenu"
-
-    !!! note "Kernel Info"
-
-        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts should use Pico-Loader or YSMenu instead.***
-
-        Since the timebomb previously found in R4iMenu has been removed, it has become a good option for users that own supported carts, as it has better game compatibility than YSMenu, and supports Real-Time-Save. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
-
-        Note that R4iMenu also has the following limitations:
-        
-        - Filenames cannot be longer than 80 characters (including the extension)
-        - R4iMenu can only display a maximum of 300 games total, regardless of folder sorting.
-        - Homebrew compiled with calico libnds does not work.
-
-    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
-
-    1. Download the appropriate kernel for your cart below, by checking the URL listed at the bottom of your cart's label:
-
-        - [**r4isdhc.com** v4.3 kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_DEMON_4.3.zip)
-
-        - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
-            - *Please note that if your R4i-SDHC.COM cart has an "(i)" but no "Wi-Fi" or "V1.4" or "3DS" mark, it must use YSMenu instead!*
-
-    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
-
-    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
-
-    1. The files on your SD card should now look like this:
-    
-         - ![R4i-SDHC](../images/SD_Files/DEMON/R4iMenu.png){ align=left width="600"}
-
-    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
-
-    !!! tip "Post-Setup Enhancements"
-
-        **Emulators**
-        
-        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
-        
-        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
-
 === "Pico-Launcher"
 
     !!! note "Kernel Info"
@@ -118,6 +77,111 @@ title: DSTTi DEMON-HW Carts
         
         [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
 
+=== "AKMenu-Next"
+
+    !!! note "Kernel Info"
+
+        AKMenu-Next is an alternative kernel based on akmenu4 (used in Wood R4 and AKAIO) and uses Pico-Loader (and optionally nds-bootstrap) to load games. This is an option if you prefer the Wood UI and it's themes over Pico-Launcher.
+    
+    ??? warning "Soft-Reset Not Supported for Pico-Loader"
+
+        Note that Pico-Loader inside AKMenu-Next currently does not support soft-resetting to the game menu. If this is important to you, consider using YSMenu, R4iMenu or using the nds-bootstrap loader within AKMenu-Next.
+
+    1. Download the latest release of [AKMenu-Next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
+
+    1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the akmenu-next files, copy the following files/folders to your SD card root:
+
+        - `_nds` folder
+        - `_pico` folder
+        - `BOOT.NDS`
+
+    1. Go into the `Autoboot` folder and then go into the `R4i-SDHC` folder. Copy `R4.dat` to your SD card root.
+
+    1. Download the latest release of [Pico-Loader for DSTT](https://github.com/LNH-team/pico-loader/releases/latest/download/Pico_Loader_DSTT.zip).
+
+    1. Extract the downloaded `Pico_Loader_DSTT.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_DSTT.zip` file to the `_pico` folder on your SD card.
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+
+    1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4i-SDHC AKMenu-Next](../images/SD_Files/DEMON/AKMenu.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    ??? info "nds-bootstrap installation (Optional)"
+
+        1. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip).
+
+        1. Extract the downloaded nds-bootstrap.zip file with [7-Zip](https://www.7-zip.org/).
+
+        1. Copy the contents of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `nds-bootstrap settings` tab and change the `Game Loader` to `nds-bootstrap`.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Plugins**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others or to play media such as videos, you will need to add plugins to AKMenu-Next:
+        
+        [Plugins Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/plugins/#__tabbed_1_1){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your DSpico interface? Check out the AKMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
+
+=== "R4iMenu"
+
+    !!! note "Kernel Info"
+
+        R4iMenu is compatible with **r4i-sdhc.com** and **r4isdhc.com (2014+)** carts. ***All other DEMON-HW based carts should use Pico-Loader, AKMenu-Next or YSMenu instead.***
+
+        Since the timebomb previously found in R4iMenu has been removed, it has become a good option for users that own supported carts, as it has better game compatibility than YSMenu, and supports Real-Time-Save. R4iMenu is also a decent kernel for playing romhacks and translation-patched games, as YSMenu can struggle to run those.
+
+        Note that R4iMenu also has the following limitations:
+        
+        - Filenames cannot be longer than 80 characters (including the extension)
+        - R4iMenu can only display a maximum of 300 games total, regardless of folder sorting.
+        - Homebrew compiled with calico libnds does not work.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
+    1. Download the appropriate kernel for your cart below, by checking the URL listed at the bottom of your cart's label:
+
+        - [**r4isdhc.com** v4.3 kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4isdhc.com_DEMON_4.3.zip)
+
+        - [**r4i-sdhc.com** v1.87b kernel](https://github.com/Sanrax/YSMenu-Custom-Packages/releases/download/v7.06/r4i-sdhc.com_DEMON_1.87b.zip)
+            - *Please note that if your R4i-SDHC.COM cart has an "(i)" but no "Wi-Fi" or "V1.4" or "3DS" mark, it must use YSMenu instead!*
+
+    1. Next, extract *the contents* of the downloaded kernel zip to your SD card.
+
+    1. Create a `Games` folder in your SD card root, and place any `.nds` game ROMs you'd like to play inside.
+
+    1. The files on your SD card should now look like this:
+    
+         - ![R4i-SDHC](../images/SD_Files/DEMON/R4iMenu.png){ align=left width="600"}
+
+    1. Insert the SD back into the cart, plug the cart into the DS, and see if it boots into the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+
 === "YSMenu"
 
     !!! note "Kernel Info"
@@ -126,7 +190,7 @@ title: DSTTi DEMON-HW Carts
 
         YSMenu is a simple, fast, and stable kernel, featuring a menu UI resembling the original R4. It's a great choice for most DSTT-based flashcart users. However, it does lack RTS (Real Time Save), so check out the R4iMenu tab if that is something you're interested in.
         
-        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it.
+        Note that YSMenu has issues with some romhacks - the loader will not recognize the romhack in its patch database, causing it to throw `errcode -4` when attempting to load it. Please Pico-Launcher, AKMenu-Next or R4iMenu for romhacks.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
@@ -155,69 +219,6 @@ title: DSTTi DEMON-HW Carts
         Looking to customize your menu? Check out the YSMenu themes repository:
         
         [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/ysmenu/){ .md-button }
-
-=== "AKMenu-Next"
-
-    !!! note "Kernel Info"
-
-        AKMenu-Next is an alternative kernel based on akmenu4 (used in Wood R4 and AKAIO) and uses nds-bootstrap (and optionally Pico-Loader) to load games. This is an option if you have games, ROM hacks or fan translations that do not work on YSMenu or R4iMenu, and is also an option if you want a Wood R4 style interface.
-
-    1. Download the latest release of [AKMenu-Next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
-
-    1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
-
-    1. From within the akmenu-next files, copy the following files/folders to your SD card root:
-
-        - `_nds` folder
-        - `_pico` folder
-        - `BOOT.NDS`
-
-    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
-
-    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
-
-    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
-
-    #### Pico-Loader (Experimental)
-
-    If you would like to also use the experimental [Pico-Loader](https://github.com/LNH-team/pico-loader/) please follow the below steps, otherwise skip this section.
-    Please bear in mind that Pico-Loader is still experimental and lacks soft-reset and cheat support. Any bugs should be reported on the [Pico-Loader Issues Page](https://github.com/LNH-team/pico-loader/issues).
-
-    1. Download the latest release of [Pico-Loader for DSTT](https://github.com/LNH-team/pico-loader/releases/latest/download/Pico_Loader_DSTT.zip).
-
-    1. Extract the downloaded `Pico_Loader_DSTT.zip` file with [7-Zip](https://www.7-zip.org/).
-
-    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_DSTT.zip` file to the `_pico` folder on your SD card.
-
-    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled "Game Loader".
-
-    #### Cheats
-
-    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
-    
-    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
-
-    #### Autobooting
-
-    1. Open the `Autoboot` folder within the AKMenu-Next files.
-    
-    1. Copy the contents of the `R4i-SDHC` folder (do not copy the folder itself) to the root of your SD card.
-
-    1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
-    
-    1. The files on your SD card should now look like this:
-    
-        - ![R4i-SDHC AKMenu-Next](../images/SD_Files/DEMON/AKMenu.png){ align=left width="600"}
-    
-    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
-
-    !!! tip "Post-Setup Enhancements"
-        
-        **Themes**
-        
-        Looking to customize your menu? Check out the AKMenu themes repository:
-        
-        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
 ---
 

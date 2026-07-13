@@ -145,11 +145,47 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+    ### Post-Setup Enhancements
+
+    **Emulators**
+
+    To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
+
+    [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+
+    **Game Covers**
+
+    Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+
+    [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+
+    **Themes**
+
+    Looking to customize your DSpico interface? Check out the Pico themes repository:
+
+    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+
+    To create your own custom themes for Pico-Launcher, check out the themes creator:
+
+    [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+
+    **DSiWare & Encrypted ROMs**
+
+    Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
+
+    [DSiWare Tutorial :octicons-arrow-right-16:](../tutorials/dsiware.md#__tabbed_1_3){ .md-button }
+
 === "AKMenu-Next"
 
     !!! note "Kernel Info"
 
         AKMenu-Next is an alternative frontend for pico-loader and nds-bootstrap, which uses the classic WoodR4/AKMenu UI. If you want to enjoy a traditional flashcart UI while loading games via pico-loader, AKMenu-Next is a great choice. All pico-loader features are supported, such as running DSiWare, applying game cheats, and calling emulators with argv to launch a ROM directly.
+
+    ??? warning "Soft-Reset Not Supported for Pico-Loader"
+
+        Note that Pico-Launcher/Loader currently does not support soft-resetting to the game menu. If this is important to you, consider using TWiLightMenu++ or AKMenu-Next instead with nds-bootstrap.
+        
+        Please note that you won't benefit from some of the features offered by the DSpico if you choose to use nds-bootstrap as the loader.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
@@ -170,55 +206,45 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
     1. Copy the *contents* of the files from the extracted `Pico_Loader_DSPICO.zip` file into the `_pico` folder on your SD card.
 
-    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled `Game Loader` and changing the setting to `Pico Loader`.
-
-    **nds-bootstrap (Optional)**
-
-     Additionally, you may want to install nds-bootstrap if you wish to use soft reset or a game not compatible with Pico-Loader. Please note that you won't benefit from some of the features offered by the DSpico when running games with nds-bootstrap.
-
-    1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
-
-    1. Extract the downloaded `nds-bootstrap.zip` file with [7-Zip](https://www.7-zip.org/).
-
-    1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
-
-    1. This loader can be selected by going to the settings in AKMenu-Next and finding the option labeled `Game Loader` and changing the setting to `nds-bootstrap`.
-
-    **Cheats**
-
     1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
     
     1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
 
-### Post-Setup Enhancements
+    1. The files on your SD card should now look like this:
+    
+        - ![DSpico](../images/SD_Files/DSPico/AKMenu.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-#### Emulators
+    ??? info "nds-bootstrap installation (Optional)"
 
-To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
+        1. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip).
 
-[Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+        1. Extract the downloaded nds-bootstrap.zip file with [7-Zip](https://www.7-zip.org/).
 
-#### Game Covers
+        1. Copy the contents of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
-Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `nds-bootstrap settings` tab and change the `Game Loader` to `nds-bootstrap`.    
 
-[PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+    ### Post-Setup Enhancements
 
-#### Themes
+    **Plugins**
+        
+    To emulate retro consoles like GBA, GB/C, NES, and others or to play media such as videos, you will need to add plugins to AKMenu-Next:
+        
+    [Plugins Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/plugins/#__tabbed_1_1){ .md-button }
+        
+    **Themes**
+        
+    Looking to customize your DSpico interface? Check out the AKMenu themes repository:
+        
+    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
-Looking to customize your DSpico interface? Check out the Pico themes repository:
+    **DSiWare & Encrypted ROMs**
 
-[Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+    Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
 
-To create your own custom themes for Pico-Launcher, check out the themes creator:
-
-[Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
-
-#### DSiWare & Encrypted ROMs
-
-Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
-
-[DSiWare Tutorial :octicons-arrow-right-16:](../tutorials/dsiware.md#__tabbed_1_3){ .md-button }
+    [DSiWare Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/dsiware/){ .md-button }
 
 ---
 

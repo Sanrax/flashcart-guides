@@ -81,6 +81,74 @@ title: DSTT/i & Clones
         
         [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
 
+=== "AKMenu-Next"
+
+    !!! note "Kernel Info"
+
+        AKMenu-Next is an alternative kernel based on akmenu4 (used in Wood R4 and AKAIO) and uses Pico-Loader (and optionally nds-bootstrap) to load games. This is an option if you prefer the Wood UI and it's themes over Pico-Launcher.
+    
+    ??? warning "Soft-Reset Not Supported for Pico-Loader"
+
+        Note that Pico-Loader inside AKMenu-Next currently does not support soft-resetting to the game menu. If this is important to you, consider using YSMenu or using the nds-bootstrap loader within AKMenu-Next.
+
+    1. Download the latest release of [AKMenu-Next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
+
+    1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the akmenu-next files, copy the following files/folders to your SD card root:
+
+        - `_nds` folder
+        - `_pico` folder
+        - `BOOT.NDS`
+
+    1. Go into the `Autoboot` folder and then go into the `DSTT` folder. Copy `TTMenu.dat` to your SD card root.
+
+    1. Some DSTTi clones load from a boot file other than `ttmenu.dat`. Find your flashcart in the [YSMenu compatibility list](https://www.flashcarts.net/ysmenu-compat-ext){target="_blank"} by searching the page (`CTRL`+`F`) for the URL listed on your cart's label.
+    
+        - If your cart is listed as needing an extra boot file, make copies of the `ttmenu.dat` file on your SD card root, then rename the copy appropriately.
+
+    1. Download the latest release of [Pico-Loader for DSTT](https://github.com/LNH-team/pico-loader/releases/latest/download/Pico_Loader_DSTT.zip).
+
+    1. Extract the downloaded `Pico_Loader_DSTT.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Copy the *contents* of the files from the extracted `Pico_Loader_for_DSTT.zip` file to the `_pico` folder on your SD card.
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+    
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/akmenunext/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+
+    1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4i-SDHC AKMenu-Next](../images/SD_Files/DSTTi/AKMenu.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+
+    ??? info "nds-bootstrap installation (Optional)"
+
+        1. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip).
+
+        1. Extract the downloaded nds-bootstrap.zip file with [7-Zip](https://www.7-zip.org/).
+
+        1. Copy the contents of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
+
+        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `nds-bootstrap settings` tab and change the `Game Loader` to `nds-bootstrap`.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Plugins**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others or to play media such as videos, you will need to add plugins to AKMenu-Next:
+        
+        [Plugins Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/plugins/#__tabbed_1_1){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your DSpico interface? Check out the AKMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
+
 === "YSMenu"
 
     !!! note "Kernel Info"

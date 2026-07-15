@@ -45,6 +45,8 @@ title: Galaxy Eagle Pro
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+    1. Press `Start` and go to `Settings`. Find `nds-bootstrap Settings` by press the R shoulder button to cycle through the settings and change `Game Loader` to `nds-bootstrap` and Save.
+
     !!! tip "Themes"
 
         Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!

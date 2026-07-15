@@ -114,7 +114,6 @@ Note that some URLs may have many hardware variants. If multiple results are ret
         - r4ultra.com carts that can't boot R4 Ultra AKAIO 1.8.6a
         - r4i-u.com carts
         - r4ds-i.com.cn carts
-        - r4-pro.com carts
         - super4i.com R4i Super
     - *Amaze3DS Version:*
         - Amaze3DS carts
@@ -122,6 +121,7 @@ Note that some URLs may have many hardware variants. If multiple results are ret
 2.  **Compatibility List**
     - AliExpress R4DS Pro carts
     - r4iplat.com carts
+    - r4-pro.com carts
     - r4i-d.com carts
     - r4i-3dsnew.com carts
 

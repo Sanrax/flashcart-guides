@@ -45,6 +45,8 @@ title: Original R4iGold.cc
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+    1. Press `Start` and go to `Settings`. Find `nds-bootstrap Settings` by press the R shoulder button to cycle through the settings and change `Game Loader` to `nds-bootstrap` and Save.
+
     !!! tip "Post-Setup Enhancements"
         
         **Themes**

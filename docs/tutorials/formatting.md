@@ -48,8 +48,7 @@ title: Formatting a microSD Card
         
         === "32GB or Smaller"
     
-            1. Download the latest version of [SD Memory Card Formatter.](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/){target="_blank"}
-                - Accept the End User License Agreement to start the download
+            1. Download the latest version of [SD Memory Card Formatter.](https://web.archive.org/web/20260523143020/https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip){target="_blank"}
     
             1. Insert your SD card into your computer.
             

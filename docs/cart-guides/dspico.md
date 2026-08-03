@@ -40,15 +40,15 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
 === "Hybrid Firmware"
 
-    !!! danger "DSpico Hybrid Firmware Limitations"
-
-        The DSpico hybrid firmware only supports the original DS, DS Lite, and modded DSi/3DS consoles. It does not function on stock, unmodified DSi or 3DS systems - [firmware with the WRFUxxed exploit](#__tabbed_1_2) enabled is required for these consoles.
-
     !!! info "Unofficial Build"
     
         This precompiled firmware ("hybrid bootloader") is built by the authors of this page and is not hosted, maintained, or officially endorsed by the LNH Team. The LNH Team only provides the open-source tools and source code, any files containing additional binaries are distributed independently by the community.
 
         This version of the hybrid firmware also contains ntrboot for DSi and 3DS consoles. After flashing hybrid FW on your DSpico, you can run [DSi ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot#running-ntrboot) or [3DS ntrboot](https://3ds.hacks.guide/installing-boot9strap-(ntrboot).html).
+
+    !!! danger "DSpico Hybrid Firmware Limitations"
+
+        The DSpico hybrid firmware only works on the original DS, DS Lite, and modded DSi/3DS consoles. It **does not function on stock, unmodified DSi or 3DS systems** - [firmware with the WRFUxxed exploit](#__tabbed_1_2) enabled is required for stock consoles.
 
     1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2) UF2 file.
 

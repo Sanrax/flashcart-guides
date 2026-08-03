@@ -172,6 +172,7 @@ The custom banner now needs to be written onto the cart. To do this, we will nee
     1. Power off your system, then insert the SD card into your PC.
     
     1. Navigate to `cart-backups` on the SD card, and copy `Ace3DSPlus-backup.bin` to your PC.
+        - Keep an unmodified version of this file in a safe location so you can restore your cart if anything goes wrong.
     
     1. Download and install [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){target="_blank"} (or any other hex editor for your operating system) on your PC.
     
@@ -227,6 +228,7 @@ The custom banner now needs to be written onto the cart. To do this, we will nee
     1. Power off your system, then insert the SD card into your PC.
     
     1. Navigate to `cart-backups` on the SD card, and copy `r4isdhc-backup.bin` to your PC.
+        - Keep an unmodified version of this file in a safe location so you can restore your cart if anything goes wrong.
     
     1. Download and install [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){target="_blank"} (or any other hex editor for your operating system) on your PC.
     
@@ -288,3 +290,115 @@ The custom banner now needs to be written onto the cart. To do this, we will nee
     1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_custom.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
 
     1. Insert the DSpico into your console, and boot it up. You should now see your new custom banner displayed in the console's menu!
+
+### Reverting Changes
+
+If you would like to restore your original banner and make the cart function on stock systems again, or your cart was bricked because of a mistake during the flashrom editing, you can restore the original flashrom to the cart using cart-flasher.
+
+You will need a modded DSi or 3DS console to restore a bricked cart that does not boot anymore. If your cart boots but you want to revert the banner, any console will work.
+
+=== "Restore a Working Cart"
+
+    === "Ace3DS+ & R4iLS"
+    
+        1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your flashcart's SD card.
+        
+        1. Create a `cart-backups` folder on your SD root if one does not exist already.
+
+        1. Place your unmodified `Ace3DSPlus-backup.bin` file in `cart-backups` on your SD.
+
+        1. Boot into your flashcart menu, and launch Cart-Flasher.
+        
+        1. Accept the warning by pressing `A`.
+
+        1. Select `Ace3DS+` in the cart list, then select `Write flash`.
+        
+        1. Select the `Ace3DSPlus-backup.bin` file to write, then input the key combo to proceed.
+        
+        1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
+        
+        1. Your cart should now be reverted to the factory flashrom!
+    
+    === "DEMON-HW"
+    
+        1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your flashcart's SD card.
+        
+        1. Create a `cart-backups` folder on your SD root if one does not exist already.
+
+        1. Place your unmodified `r4isdhc-backup.bin` file in `cart-backups` on your SD.
+
+        1. Boot into your flashcart menu, and launch Cart-Flasher.
+        
+        1. Accept the warning by pressing `A`.
+
+        1. Select `R4iSDHC` in the cart list, then select `Write flash`.
+        
+        1. Select the `r4isdhc-backup.bin` file to write, then input the key combo to proceed.
+        
+        1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
+        
+        1. Your cart should now be reverted to the factory flashrom!
+    
+    === "DSpico"
+    
+        Reverting the DSpico banner to stock is as simple as reflashing the regular `.uf2` firmware.
+
+        Follow the [DSPico setup guide](../cart-guides/dspico.md) to get a fresh copy of the firmware.
+
+=== "Restore a Bricked Cart"
+
+    === "Ace3DS+ & R4iLS"
+    
+        1. Ensure that you have [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/) installed on a modded DSi or 3DS console.
+            - DSi CFW guide can be found [here](https://dsi.cfw.guide). 3DS CFW guide is [here](https://3ds.hacks.guide).
+
+        1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your console's SD card.
+        
+        1. Create a `cart-backups` folder on your SD root if one does not exist already.
+
+        1. Place your unmodified `Ace3DSPlus-backup.bin` file in `cart-backups` on your console's SD.
+
+        1. Insert your cart into the console.
+
+        1. Boot into TWiLight Menu++, and launch Cart-Flasher.
+        
+        1. Accept the warning by pressing `A`.
+
+        1. Select `Ace3DS+` in the cart list, then select `Write flash`.
+        
+        1. Select the `Ace3DSPlus-backup.bin` file to write, then input the key combo to proceed.
+        
+        1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
+        
+        1. Your cart should now be reverted to the factory flashrom!
+    
+    === "DEMON-HW"
+    
+        1. Ensure that you have [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/) installed on a modded DSi or 3DS console.
+            - DSi CFW guide can be found [here](https://dsi.cfw.guide). 3DS CFW guide is [here](https://3ds.hacks.guide).
+
+        1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your console's SD card.
+        
+        1. Create a `cart-backups` folder on your SD root if one does not exist already.
+
+        1. Place your unmodified `r4isdhc-backup.bin` file in `cart-backups` on your console's SD.
+
+        1. Insert your cart into the console.
+
+        1. Boot into TWiLight Menu++, and launch Cart-Flasher.
+        
+        1. Accept the warning by pressing `A`.
+
+        1. Select `R4iSDHC` in the cart list, then select `Write flash`.
+        
+        1. Select the `r4isdhc-backup.bin` file to write, then input the key combo to proceed.
+        
+        1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
+        
+        1. Your cart should now be reverted to the factory flashrom!
+    
+    === "DSpico"
+    
+        Reverting the DSpico banner to stock is as simple as reflashing the regular `.uf2` firmware.
+
+        Follow the [DSPico setup guide](../cart-guides/dspico.md) to get a fresh copy of the firmware.

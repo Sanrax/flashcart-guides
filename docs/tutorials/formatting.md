@@ -26,6 +26,7 @@ title: Formatting a microSD Card
 
         1. Double-click on `sdFormatWindows.exe` to launch.
             - You may encounter a Windows Defender SmartScreen warning. Click on the underlined `More Info` text at the top of the warning, then select `Run Anyway`.
+            - Sometimes, sdFormatWindows can be detected as malicious by some antivirus software due to requiring Admin privileges and not being signed. You can add an exception for sdFormatWindows.exe to your AV if this occurs.
 
         1. A User Account Control (UAC) prompt should show up next. Click `Yes` to launch the program as administrator.
 

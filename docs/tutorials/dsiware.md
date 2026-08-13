@@ -118,27 +118,47 @@ title: Running DSiWare On Flashcarts
 
     If you don't like the folder clutter caused by copying all the NAND files to the DSpico SD card, you can hide them from the menu by setting the hidden attribute on any files or folders you want hidden.
     
-    !!! note "Windows-only"
+    Choose the tab for your operating system below. Linux instructions will be added later, but it is possible to hide files and folders on Linux as well, with different steps.
 
-        The following instructions assume Windows is used. Linux/Mac instructions will be added later, but it is possible to hide files and folders on those operating systems as well, with different steps.
+    === "Windows"
 
-    1. Navigate to the SD card root on your PC's file explorer.
+        1. Navigate to the SD card root on your PC's file explorer.
 
-    1. While holding the CTRL (Control) key, click on any folders you would like to hide from Pico-Launcher's file list. The following files and folders are recommended to be hidden:
-        - `photo` folder
-        - `shared1` folder
-        - `shared2` folder
-        - `sys` folder
-        - `_picoboot.nds`
+        1. While holding the CTRL (Control) key, click on any folders you would like to hide from Pico-Launcher's file list. The following files and folders are recommended to be hidden:
+            - `photo` folder
+            - `shared1` folder
+            - `shared2` folder
+            - `sys` folder
+            - `_picoboot.nds`
 
-    1. After selecting the last file, release the CTRL key, then right click on one of the selected files. In the right click menu, select `Properties`.
+        1. After selecting the last file, release the CTRL key, then right click on one of the selected files. In the right click menu, select `Properties`.
 
-    1. A properties window will open. Under the `Attributes` section, check the `Hidden` box, then press `OK`.
+        1. A properties window will open. Under the `Attributes` section, check the `Hidden` box, then press `OK`.
 
-    1. A pop-up window will appear asking to confirm changes. Choose "Apply changes to the selected items, subfolders, and files", then press `OK`.
+        1. A pop-up window will appear asking to confirm changes. Choose "Apply changes to the selected items, subfolders, and files", then press `OK`.
 
-    1. The selected files should disappear from the file manager. This is normal. You can view them again by enabling "Show hidden files" in File Explorer's "Folder Options" menu.
-        - ![Folder Options](../images/folder_options.png){align=left width="300"}
+        1. The selected files should disappear from the file manager. This is normal. You can view them again by enabling "Show hidden files" in File Explorer's "Folder Options" menu.
+            - ![Folder Options](../images/folder_options.png){align=left width="300"}
+
+    === "MacOS"
+
+        Finder cannot set the hidden attribute, but the built-in `chflags` command can. On the FAT32 cards the DS uses, it sets the same hidden attribute Windows sets, and it does not rename or move anything.
+
+        1. Insert the SD card into your Mac. It will mount under `/Volumes/`, named after the card's label. `/Volumes/PICO` is used as an example below.
+
+        1. Open the Terminal app (press Cmd+Space, type `Terminal`, press Return).
+
+        1. Run `chflags hidden` with the files and folders you would like to hide from Pico-Launcher's file list:
+            ```
+            chflags hidden /Volumes/PICO/photo /Volumes/PICO/shared1 /Volumes/PICO/shared2 /Volumes/PICO/sys /Volumes/PICO/_picoboot.nds
+            ```
+            - Tip: you can type `chflags hidden ` (with a trailing space) and drag files or folders from Finder into the Terminal window to fill in their paths.
+
+        1. The command prints nothing when it works. To check, run `ls -lO /Volumes/PICO` and look for the word `hidden` next to each file or folder you selected.
+
+        1. Finder may keep showing the files until the card is ejected and reinserted. The attribute is already set.
+
+        1. To make a file or folder visible again later, use `chflags nohidden` with the same path.
     
     1. Since the BIOS and NAND files have already been dumped, `pico_file_dump.nds` is no longer necessary and can be deleted from the SD card root.
 
@@ -174,29 +194,49 @@ title: Running DSiWare On Flashcarts
 
     If you don't like the folder clutter caused by copying all the NAND files to the DSpico SD card, you can hide them from the menu by setting the hidden attribute on any files or folders you want hidden.
     
-    !!! note "Windows-only"
+    Choose the tab for your operating system below. Linux instructions will be added later, but it is possible to hide files and folders on Linux as well, with different steps.
 
-        The following instructions assume Windows is used. Linux/Mac instructions will be added later, but it is possible to hide files and folders on those operating systems as well, with different steps.
+    === "Windows"
 
-    1. Navigate to the SD card root on your PC's file explorer.
+        1. Navigate to the SD card root on your PC's file explorer.
 
-    1. While holding the CTRL (Control) key, click on any folders you would like to hide from AKMenu-Next's file list. The following files and folders are recommended to be hidden:
-        - `_pico` folder
-        - `photo` folder
-        - `shared1` folder
-        - `shared2` folder
-        - `sys` folder
-        - `_picoboot.nds`
-        - `boot.nds`
+        1. While holding the CTRL (Control) key, click on any folders you would like to hide from AKMenu-Next's file list. The following files and folders are recommended to be hidden:
+            - `_pico` folder
+            - `photo` folder
+            - `shared1` folder
+            - `shared2` folder
+            - `sys` folder
+            - `_picoboot.nds`
+            - `boot.nds`
 
-    1. After selecting the last file, release the CTRL key, then right click on one of the selected files. In the right click menu, select `Properties`.
+        1. After selecting the last file, release the CTRL key, then right click on one of the selected files. In the right click menu, select `Properties`.
 
-    1. A properties window will open. Under the `Attributes` section, check the `Hidden` box, then press `OK`.
+        1. A properties window will open. Under the `Attributes` section, check the `Hidden` box, then press `OK`.
 
-    1. A pop-up window will appear asking to confirm changes. Choose "Apply changes to the selected items, subfolders, and files", then press `OK`.
+        1. A pop-up window will appear asking to confirm changes. Choose "Apply changes to the selected items, subfolders, and files", then press `OK`.
 
-    1. The selected files should disappear from the file manager. This is normal. You can view them again by enabling "Show hidden files" in File Explorer's "Folder Options" menu.
-        - ![Folder Options](../images/folder_options.png){align=left width="300"}
+        1. The selected files should disappear from the file manager. This is normal. You can view them again by enabling "Show hidden files" in File Explorer's "Folder Options" menu.
+            - ![Folder Options](../images/folder_options.png){align=left width="300"}
+
+    === "MacOS"
+
+        Finder cannot set the hidden attribute, but the built-in `chflags` command can. On the FAT32 cards the DS uses, it sets the same hidden attribute Windows sets, and it does not rename or move anything.
+
+        1. Insert the SD card into your Mac. It will mount under `/Volumes/`, named after the card's label. `/Volumes/PICO` is used as an example below.
+
+        1. Open the Terminal app (press Cmd+Space, type `Terminal`, press Return).
+
+        1. Run `chflags hidden` with the files and folders you would like to hide from AKMenu-Next's file list:
+            ```
+            chflags hidden /Volumes/PICO/_pico /Volumes/PICO/photo /Volumes/PICO/shared1 /Volumes/PICO/shared2 /Volumes/PICO/sys /Volumes/PICO/_picoboot.nds /Volumes/PICO/boot.nds
+            ```
+            - Tip: you can type `chflags hidden ` (with a trailing space) and drag files or folders from Finder into the Terminal window to fill in their paths.
+
+        1. The command prints nothing when it works. To check, run `ls -lO /Volumes/PICO` and look for the word `hidden` next to each file or folder you selected.
+
+        1. Finder may keep showing the files until the card is ejected and reinserted. The attribute is already set.
+
+        1. To make a file or folder visible again later, use `chflags nohidden` with the same path.
     
     1. Since the BIOS and NAND files have already been dumped, `pico_file_dump.nds` is no longer necessary and can be deleted from the SD card root.
 

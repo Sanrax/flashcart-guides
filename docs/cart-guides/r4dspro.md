@@ -72,7 +72,7 @@ title: R4DS Pro
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-    1. Download the latest [Pico Package for R4DS Pro.](https://files.deletecat.com/pico-builds/pico_package_R4DSPRO.zip)
+    1. Download the latest [Pico Package for R4DS Pro.](https://mirrors.flashcarts.net/pico-builds/pico_package_R4DSPRO.zip)
         - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
 
     1. Extract the `pico_package_R4DSPRO.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app. Then, copy *the contents* into the root of your SD card.

@@ -60,7 +60,7 @@ title: Original R4 & M3 Simply
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-    1. Download the latest [Pico Package for Original R4.](https://files.deletecat.com/pico-builds/pico_package_R4.zip)
+    1. Download the latest [Pico Package for Original R4.](https://mirrors.flashcarts.net/pico-builds/pico_package_R4.zip)
         - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
 
     1. Extract the `pico_package_R4.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app. Then, copy *the contents* into the root of your SD card.

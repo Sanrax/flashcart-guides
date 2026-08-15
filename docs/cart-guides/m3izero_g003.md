@@ -26,7 +26,7 @@ title: M3i Zero [GMP-Z003]
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-    1. Download the latest [Pico Package for M3i Zero GMP-Z003.](https://files.deletecat.com/pico-builds/pico_package_G003.zip)
+    1. Download the latest [Pico Package for M3i Zero GMP-Z003.](https://mirrors.flashcarts.net/pico-builds/pico_package_G003.zip)
         - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
 
     1. Extract the `pico_package_G003.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app. Then, copy *the contents* into the root of your SD card.
@@ -88,7 +88,7 @@ title: M3i Zero [GMP-Z003]
     
     1. Next, we'll be adding Pico-Launcher to the setup.
     
-    1. Download the latest [Pico Package for M3i Zero GMP-Z003.](https://files.deletecat.com/pico-builds/pico_package_G003.zip)
+    1. Download the latest [Pico Package for M3i Zero GMP-Z003.](https://mirrors.flashcarts.net/pico-builds/pico_package_G003.zip)
         - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
 
     1. Extract the `pico_package_G003.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.

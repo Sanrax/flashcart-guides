@@ -64,7 +64,7 @@ title: R4i+ Gold & R4i 3DS RTS
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
-    1. Download the latest [Pico Package for AK2.](https://files.deletecat.com/pico-builds/pico_package_AK2.zip)
+    1. Download the latest [Pico Package for AK2.](https://mirrors.flashcarts.net/pico-builds/pico_package_AK2.zip)
         - <small>Currently updated to Pico-Launcher `{{pico_versions.launcher}}` and Pico-Loader `{{pico_versions.loader}}`</small>
 
     1. Extract the `pico_package_AK2.zip` file with [7-Zip](https://www.7-zip.org/), or your native file manager app.

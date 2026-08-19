@@ -50,7 +50,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
         The DSpico hybrid firmware only works on the original DS, DS Lite, and modded DSi/3DS consoles. It **does not function on stock, unmodified DSi or 3DS systems** - [firmware with the WRFUxxed exploit](#__tabbed_1_2) enabled is required for stock consoles.
 
-    1. Download the [DSpico Hybrid Firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2) UF2 file.
+    1. Download the <a href="https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2" onclick="document.getElementById('hybrid-firmware-warning').showModal(); return false;">DSpico Hybrid Firmware</a> UF2 file.
 
     1. Remove the DSpico from your console, and remove any MicroSD card in the cart.
     
@@ -59,6 +59,20 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     1. A drive called `RPI-RP2` will appear. Drag & drop the `DSpico_Hybrid_B9S-1.3_GCD.uf2` file into this drive. The drive should then automatically eject and disappear from your computer, indicating the DSpico has processed and installed the firmware. This can sometimes take a few seconds.
 
     1. Your DSpico is now flashed! Follow the Pico-Launcher setup guide below to prepare the SD card.
+
+    <dialog class="hybrid-firmware-warning" id="hybrid-firmware-warning" role="alertdialog" aria-labelledby="hybrid-firmware-warning-title" aria-describedby="hybrid-firmware-warning-description">
+      <header class="hybrid-firmware-warning__header">
+        <h2 id="hybrid-firmware-warning-title">This firmware doesn't work on stock DSi and 3DS systems!</h2>
+      </header>
+      <div class="hybrid-firmware-warning__body" id="hybrid-firmware-warning-description">
+        <p>Hybrid firmware will work on Original DS and DS Lite systems. It will not work on DSi or 3DS consoles unless they have custom firmware installed.</p>
+        <p>Please use the WRFUxxed tab for stock consoles, or skip flashing if your DSpico already has WRFUxxed firmware installed.</p>
+      </div>
+      <form method="dialog" class="hybrid-firmware-warning__actions">
+        <button type="submit" class="md-button hybrid-firmware-warning__back" autofocus>Back</button>
+        <a class="md-button md-button--primary" href="https://github.com/coderkei/dspico-hybrid-fw/releases/download/1.4/DSpico_Hybrid_B9S-1.3_GCD.uf2" download onclick="this.closest('dialog').close()">Understood, Continue</a>
+      </form>
+    </dialog>
 
 === "WRFUxxed Firmware"
 

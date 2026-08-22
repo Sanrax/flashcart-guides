@@ -328,7 +328,7 @@ title: Formatting a microSD Card
 
         </div>
 
-        1.  ![Partition Table Settings](../images/KDE-PartMan-1.png){ width="400"}
+        1. ![Partition Table Settings](../images/KDE-PartMan-1.png){ width="400"}
 
         2. ![Filesystem Settings](../images/KDE_PartMan-2.png){ width="400"}
 
@@ -433,3 +433,7 @@ title: Formatting a microSD Card
             1. Click `OK`, then `Apply`, and then `Partition`.
 
             1. Eject your SD card, and then you're done!
+
+    !!! tip "MacOS Dotfiles"
+
+        MacOS leaves behind metadata dotfiles when it writes files to FAT32 devices. After using MacOS to add files to your flashcart's SD (such as game ROMs or the kernel), it's a good idea to clear them so that they don't show up as duplicate files in your flashcart menu. See the [clearing MacOS dotfiles tutorial](./dotclean.md) for more info.

@@ -18,6 +18,8 @@ title: Changing Flashcart Banners
 
     While this guide should work for nearly all supported carts, not all of them have been tested. If you run into issues during the process, such as not being able to dump the flashrom for your cart, or the resulting dump being nonsense, STOP and do not proceed any further. Open an issue in the guide's GitHub repository and provide information about your cart and setup.
 
+    DO NOT modify sections of the ROM other than banner area as shown in this guide. Modifying other parts of the ROM may brick your cart or stop it from booting into the kernel.
+
     And as always, flashing carts and modifying firmware carries a risk. We are not responsible for any damage that may occur, such as bricked carts.
 
 <div class="compact-table" markdown>

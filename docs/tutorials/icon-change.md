@@ -16,9 +16,9 @@ title: Changing Flashcart Banners
 
 !!! warning
 
-    While this guide should work for nearly all supported carts, not all of them have been tested. If you run into issues during the process, such as not being able to dump the flashrom for your cart, or the resulting dump being nonsense, STOP and do not proceed any further. Open an issue in the guide's GitHub repository and provide information about your cart and setup.
+    While this guide should work for nearly all supported carts, not all of them have been tested. If `Back up DS banner` is unavailable for your cart, or the saved banner fails validation, STOP and do not proceed any further. Open an issue in the guide's GitHub repository and provide information about your cart and setup.
 
-    DO NOT modify sections of the ROM other than banner area as shown in this guide. Modifying other parts of the ROM may brick your cart or stop it from booting into the kernel.
+    Cart-Flasher only enables DS banner operations after confirming that the cart uses a supported banner layout. Do not use `Write flash` to change a banner.
 
     And as always, flashing carts and modifying firmware carries a risk. We are not responsible for any damage that may occur, such as bricked carts.
 
@@ -159,118 +159,56 @@ Below are a couple pre-made banner `.bin` files you can download and edit, or us
 
 ### Flashing the Custom Banner
 
-The custom banner now needs to be written onto the cart. To do this, we will need to modify the cart's flashrom by writing our new banner data into the binary. Choose a tab below depending on your cart hardware.
+The custom banner can be written directly to supported carts with Cart-Flasher. The program can back up the current banner, checks the new banner before writing, and only changes the banner area of the flashrom. Choose a tab below depending on your cart hardware.
+
+!!! note "Banner Operation Unavailable"
+
+    `Back up DS banner` and `Write DS banner` only appear after Cart-Flasher confirms that the cart uses a supported banner layout. If they are unavailable, do not use `Write flash` to change the banner.
 
 === "Ace3DS+ & R4iLS"
 
     1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your flashcart's SD card.
-    
+
+    1. Create a `cart-backups/banners` folder on the SD card if it does not already exist, then place the custom banner `.bin` file you made earlier in that folder.
+
     1. Boot into your flashcart menu, and launch Cart-Flasher.
-    
+
     1. Accept the warning by pressing `A`.
-    
-    1. Select `Ace3DS+` in the cart list, then select `Back up flash`.
-    
-    1. Power off your system, then insert the SD card into your PC.
-    
-    1. Navigate to `cart-backups` on the SD card, and copy `Ace3DSPlus-backup.bin` to your PC.
-        - Keep an unmodified version of this file in a safe location so you can restore your cart if anything goes wrong.
-    
-    1. Download and install [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){target="_blank"} (or any other hex editor for your operating system) on your PC.
-    
-    1. Launch HxD, and open `Ace3DSPlus-backup.bin`. Also open your banner `.bin` file you saved from earlier. It should open in another tab in HxD.
-    
-    1. We now need to find the start address of the banner data in your cart's flashrom, as we will be overwriting the data at this address with your custom banner.
-    
-    1. Select the `Ace3DSPlus-backup.bin` tab, and then press ++ctrl+f++ to open the find window. Select `Unicode (UTF-16 little endian)` in the "Text encoding:" drop-down.
-    
-    1. In the search field, type a section of text from the current banner. For R4iLS carts, the spoofed game is usually *Deep Labyrinth*. For Ace3DS+ and X carts, it's usually *SpongeBob's Atlantis Squarepantis*.
-    
-    1. The search result should take you to the banner data area of the ROM. If you look right above the first occurrence of the title text in the ROM, you should see a block of unreadable data. This is the icon section of the banner data. The start of the banner data is marked by a pattern of two lines right above the icon section. The start of these two lines can have non-zero data in the first eight bytes, and then the rest is zero-filled.
-    
-        :   ![Banner Sections](../assets/Banner_Change/Banner_Sections.png){width="400"}
-    
-    1. Identify the start address for your flashrom. In the example above using an R4iLS with Deep Labyrinth, the start address is `00120200`. We will need to write our new banner data here at this address.
-        - For Ace3DS+ hardware using the Spongebob game banner, the banner start address should be `000F5E00`, but always verify the address yourself for your cart.
-    
-    1. In HxD, click on the tab for your custom banner. Press ++ctrl+a++ to select all data, then press ++ctrl+c++ to copy all data to the clipboard.
-        - If you get a warning from HxD that some data was not identically copied, that is fine. As the warning says, HxD uses its own clipboard for copying data and will copy data between HxD tabs correctly.
-    
-    1. Place your cursor at the start address, right-click, and select `Paste write`. The banner data will overwrite the old data at the address.
-    
-        :   ![Paste Write](../assets/Banner_Change/Paste_Banner.png)
-    
-    1. Press the Save (:floppy_disk:) icon in HxD to save changes to `Ace3DSPlus-backup.bin`.
-    
-    1. Rename the edited `Ace3DSPlus-backup.bin` to `Custom-Ace3DSPlus.bin`, and place it in the `cart-backups` folder on your SD.
-        - You can use any name you'd like for the customized `.bin`, this is only a suggestion.
-    
-    1. Boot into your flashcart menu, and launch Cart-Flasher.
-    
-    1. Accept the warning by pressing `A`.
-    
-    1. Select `Ace3DS+` in the cart list, then select `Write flash`.
-    
-    1. Select your customized `.bin` file to write, then input the key combo to proceed.
-    
-    1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
-    
+
+    1. Select `Ace3DS+` in the cart list, then select `Back up DS banner`.
+
+    1. Press `A` to save a copy of the current banner.
+        - Cart-Flasher saves it in `cart-backups/banners`. Keep this original banner file in a safe location so you can restore it later.
+
+    1. Select `Ace3DS+` again in the cart list, then select `Write DS banner`.
+
+    1. Select your custom banner `.bin` file, then input the key combo to proceed.
+
+    1. Wait until the progress bar finishes, then press `A` to return to the cart list.
+
     1. You should now see your new custom banner displayed in the console's menu!
 
 === "DEMON-HW"
 
     1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your flashcart's SD card.
-    
+
+    1. Create a `cart-backups/banners` folder on the SD card if it does not already exist, then place the custom banner `.bin` file you made earlier in that folder.
+
     1. Boot into your flashcart menu, and launch Cart-Flasher.
-    
+
     1. Accept the warning by pressing `A`.
-    
-    1. Select `R4iSDHC` in the cart list, then select `Back up flash`.
-    
-    1. Power off your system, then insert the SD card into your PC.
-    
-    1. Navigate to `cart-backups` on the SD card, and copy `r4isdhc-backup.bin` to your PC.
-        - Keep an unmodified version of this file in a safe location so you can restore your cart if anything goes wrong.
-    
-    1. Download and install [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){target="_blank"} (or any other hex editor for your operating system) on your PC.
-    
-    1. Launch HxD, and open `r4isdhc-backup.bin`. Also open your banner `.bin` file you saved from earlier. It should open in another tab in HxD.
-    
-    1. We now need to find the start address of the banner data in your cart's flashrom, as we will be overwriting the data at this address with your custom banner.
-    
-    1. Select the `r4isdhc-backup.bin` tab, and then press ++ctrl+f++ to open the find window. Select `Unicode (UTF-16 little endian)` in the "Text encoding:" drop-down.
-    
-    1. In the search field, type a section of text from the current banner. For DEMON-HW carts like r4isdhc.com 2014+ and modern r4i-sdhc.com carts, this is usually *Touch! Bomberman Land*. However, some older DEMON carts may use a different game banner.
-    
-    1. The search result should take you to the banner data area of the ROM. If you look right above the first occurrence of the title text in the ROM, you should see a block of unreadable data. This is the icon section of the banner data. The start of the banner data is marked by a pattern of two lines right above the icon section. The start of these two lines can have non-zero data in the first eight bytes, and then the rest is zero-filled.
-    
-        :   ![Banner Sections](../assets/Banner_Change/DEMON_Banner_Sections.png){width="400"}
-    
-    1. Identify the start address for your flashrom. In the example above using an r4isdhc.com Gold Pro, the start address is `001A6600`. We will need to write our new banner data here at this address.
-        - Always verify the address yourself, to make sure you have the correct start address for your cart.
-    
-    1. In HxD, click on the tab for your custom banner. Press ++ctrl+a++ to select all data, then press ++ctrl+c++ to copy all data to the clipboard.
-        - If you get a warning from HxD that some data was not identically copied, that is fine. As the warning says, HxD uses its own clipboard for copying data and will copy data between HxD tabs correctly.
-    
-    1. Place your cursor at the start address, right-click, and select `Paste write`. The banner data will overwrite the old data at the address.
-    
-        :   ![Paste Write](../assets/Banner_Change/DEMON_Paste.png)
-    
-    1. Press the Save (:floppy_disk:) icon in HxD to save changes to `r4isdhc-backup.bin`.
-    
-    1. Rename the edited `r4isdhc-backup.bin` to `custom-r4isdhc.bin`, and place it in the `cart-backups` folder on your SD.
-        - You can use any name you'd like for the customized `.bin`, this is only a suggestion.
-    
-    1. Boot into your flashcart menu, and launch Cart-Flasher.
-    
-    1. Accept the warning by pressing `A`.
-    
-    1. Select `R4iSDHC` in the cart list, then select `Write flash`.
-    
-    1. Select your customized `.bin` file to write, then input the key combo to proceed.
-    
-    1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
-    
+
+    1. Select `R4iSDHC` in the cart list, then select `Back up DS banner`.
+
+    1. Press `A` to save a copy of the current banner.
+        - Cart-Flasher saves it in `cart-backups/banners`. Keep this original banner file in a safe location so you can restore it later.
+
+    1. Select `R4iSDHC` again in the cart list, then select `Write DS banner`.
+
+    1. Select your custom banner `.bin` file, then input the key combo to proceed.
+
+    1. Wait until the progress bar finishes, then press `A` to return to the cart list.
+
     1. You should now see your new custom banner displayed in the console's menu!
 
 === "DSpico"
@@ -295,7 +233,9 @@ The custom banner now needs to be written onto the cart. To do this, we will nee
 
 ### Reverting Changes
 
-If you would like to restore your original banner and make the cart function on stock systems again, or your cart was bricked because of a mistake during the flashrom editing, you can restore the original flashrom to the cart using cart-flasher.
+If you would like to restore your original banner and make the cart function on stock systems again, use the DS banner backup you created with Cart-Flasher. This restores only the banner area.
+
+If your cart was already bricked by a previous full flashrom write, restore a known-good flashrom backup instead.
 
 You will need a modded DSi or 3DS console to restore a bricked cart that does not boot anymore. If your cart boots but you want to revert the banner, any console will work.
 
@@ -304,42 +244,38 @@ You will need a modded DSi or 3DS console to restore a bricked cart that does no
     === "Ace3DS+ & R4iLS"
     
         1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your flashcart's SD card.
-        
-        1. Create a `cart-backups` folder on your SD root if one does not exist already.
 
-        1. Place your unmodified `Ace3DSPlus-backup.bin` file in `cart-backups` on your SD.
+        1. Place the original DS banner backup in `cart-backups/banners` on your SD.
 
         1. Boot into your flashcart menu, and launch Cart-Flasher.
         
         1. Accept the warning by pressing `A`.
 
-        1. Select `Ace3DS+` in the cart list, then select `Write flash`.
+        1. Select `Ace3DS+` in the cart list, then select `Write DS banner`.
         
-        1. Select the `Ace3DSPlus-backup.bin` file to write, then input the key combo to proceed.
+        1. Select the original banner backup, then input the key combo to proceed.
         
-        1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
+        1. Wait until the progress bar finishes, then press `A` to return to the cart list.
         
-        1. Your cart should now be reverted to the factory flashrom!
+        1. Your cart should now display its original banner again!
     
     === "DEMON-HW"
     
         1. Download the latest release of [Cart-Flasher](https://github.com/tasken/Cart-Flasher/releases/latest/download/cart_flasher.nds) and place it on your flashcart's SD card.
-        
-        1. Create a `cart-backups` folder on your SD root if one does not exist already.
 
-        1. Place your unmodified `r4isdhc-backup.bin` file in `cart-backups` on your SD.
+        1. Place the original DS banner backup in `cart-backups/banners` on your SD.
 
         1. Boot into your flashcart menu, and launch Cart-Flasher.
         
         1. Accept the warning by pressing `A`.
 
-        1. Select `R4iSDHC` in the cart list, then select `Write flash`.
+        1. Select `R4iSDHC` in the cart list, then select `Write DS banner`.
         
-        1. Select the `r4isdhc-backup.bin` file to write, then input the key combo to proceed.
+        1. Select the original banner backup, then input the key combo to proceed.
         
-        1. Wait until the progress bar finishes, then press `A` to exit and reboot your console.
+        1. Wait until the progress bar finishes, then press `A` to return to the cart list.
         
-        1. Your cart should now be reverted to the factory flashrom!
+        1. Your cart should now display its original banner again!
     
     === "DSpico"
     

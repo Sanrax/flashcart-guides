@@ -12,15 +12,15 @@ title: R4 Ultra/R4i Ultra
 
 ### Setup Guide:
 
-=== "AKAIO 1.8.6a"
+=== "AKAIO 1.9.0"
 
     !!! note "Kernel Info"
 
-        AKAIO 1.8.6a is a few versions behind the last release of AKAIO for official AK2i carts, 1.9.0. Therefore, a few of the very last DS games are not fully compatible with this build of AKAIO. Games such as Pokemon Black 2 and White 2 may require AP patching before they can be used. Alternatively, you may opt to use Pico-Launcher instead.
+        AKAIO is a kernel developed by Normmatt, forked from the Acekard team's AKMenu4 kernel. It's up to date to the very last DS games, and has a high game compatibility. This particular version has the clone checks changed to work on R4 Ultra carts, thanks to KirillProtFan on the DSiMH! Discord.
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
-    1. Download the [R4 Ultra AKAIO 1.8.6a kernel.](https://archive.flashcarts.net/r4ultra.com/R4_Ultra_AKAIO_1.8.6a.zip)
+    1. Download the [R4 Ultra AKAIO 1.9.0 kernel.](https://archive.flashcarts.net/r4ultra.com/R4_Ultra_AKAIO_1.9.0.zip)
     
     1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
     
@@ -32,7 +32,7 @@ title: R4 Ultra/R4i Ultra
     
     1. The files on your SD card should now look like this:
     
-        - ![R4 Ultra](../images/SD_Files/R4_Ultra/AKAIO.png){ align=left width="600"}
+        - ![R4 Ultra](../images/SD_Files/R4_Ultra/AKAIO_1.9.0.png){ align=left width="600"}
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
     
@@ -111,3 +111,41 @@ title: R4 Ultra/R4i Ultra
         To create your own custom themes for Pico-Launcher, check out the themes creator:
         
         [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+
+=== "AKAIO 1.8.6a"
+
+    !!! note "Kernel Info"
+
+        AKAIO 1.8.6a is a few versions behind the last release of AKAIO for official AK2i carts, 1.9.0. Therefore, a few of the very last DS games are not fully compatible with this build of AKAIO. Games such as Pokemon Black 2 and White 2 may require AP patching before they can be used. Alternatively, you may opt to use Pico-Launcher instead.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+    
+    1. Download the [R4 Ultra AKAIO 1.8.6a kernel.](https://archive.flashcarts.net/r4ultra.com/R4_Ultra_AKAIO_1.8.6a.zip)
+    
+    1. Open/extract the zip file, and copy *the contents* into the root of your SD card.
+    
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+        
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `__aio/cheats/` on your SD card. (Create the `cheats` folder if it doesn't exist)
+    
+    1. Create a `Games` folder in your SD card root, and place your `.nds` game ROMs inside. You can also create additional folders to help with organizing/categorizing your ROMs.
+    
+    1. The files on your SD card should now look like this:
+    
+        - ![R4 Ultra](../images/SD_Files/R4_Ultra/AKAIO.png){ align=left width="600"}
+    
+    1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
+    
+    !!! tip "Post-Setup Enhancements"
+
+        **Emulators**
+        
+        To emulate retro consoles on your DS like GBA, GB/C, NES, and others, you will need to download emulators.
+        
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators.md){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your menu? Check out the AKMenu themes repository:
+        
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }

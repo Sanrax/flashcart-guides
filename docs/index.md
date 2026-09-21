@@ -142,6 +142,7 @@ Note that some manufacturers can have many hardware variants. If multiple result
 ### SuperCard Family
 
 - [**DSOne SDHC**](cart-guides/dsone.md "<img src="images/dsone.png" alt="DSOne" width="100">") - supercard.sc
+- [**DSOnei**](cart-guides/dsone.md "<img src="images/dsonei.jpg" alt="DSOne" width="100">") - supercard.sc
 - [**DSTWO**](cart-guides/dstwo.md "<img src="images/DSTWO.png" alt="DSTWO" width="100">") - supercard.sc
 
 ### M3 Family

@@ -1,2 +1,4 @@
 # MkDocs-Material social card cache
 /.cache/
+# Cart-Search Editor Backup File
+/docs/assets/search/cart-search.json.bak

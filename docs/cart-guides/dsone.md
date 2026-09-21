@@ -3,7 +3,7 @@ title: DSOne SDHC
 ---
 
 ![DSOne SDHC](../images/dsone.png){ align=right width="115"}
-# DSOne SDHC
+# DSOne SDHC / DSOnei
 ## supercard.sc
 
 !!! info "Cart Info"

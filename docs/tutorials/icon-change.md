@@ -121,7 +121,16 @@ Next, we need to convert the custom icon into a full NDS game banner with text t
     1. Upload your 32px, 16-colors game icon to the website.
         - If you didn't manually convert your image to meet these specifications, the website will automatically do so.
 
-    1. Fill out the game title/subtitle boxes.
+    1. Set `Layout mode` to `Fit`.
+        - If you made your icon with GIMP, the website will show a note saying it is using your image's own palette. This keeps your icon's colors and transparency exactly as you made them.
+
+        ??? note "Layout Modes"
+
+            `Crop` lets you choose a square area of the image to use, `Fit` uses the whole image with transparent padding, and `Fill` uses the largest centered square of the image.
+
+            If your image wasn't made with the GIMP steps above, you can use any of the three modes. Note that `Crop` mode always generates a new palette for the icon, so avoid it for icons made with GIMP.
+
+    1. Fill out the `Game title` box. The `Subtitle` and `Author / Publisher` boxes are optional.
 
         ??? tip "Text Layouts"
 
@@ -140,6 +149,11 @@ Next, we need to convert the custom icon into a full NDS game banner with text t
             Nintendo
             ```
 
+            For a two-line layout, leave the `Subtitle` box empty and put the second line in `Author / Publisher`.
+
+    1. If you're using a photo or a detailed image, set `Pixel enhance` to `On` to boost contrast and dither colors, making the icon look closer to pixel art.
+        - Leave `Pixel enhance` set to `Off` for icons made with GIMP, as it will change your icon's colors.
+
     1. Underneath the preview, click the `Download banner.bin` button to download the resulting banner after you are done editing.
 
     1. Save the `banner.bin` to a folder on your PC. This is your NDS banner data.
@@ -147,6 +161,8 @@ Next, we need to convert the custom icon into a full NDS game banner with text t
 #### Pre-made Banner Files
 
 Below are a couple pre-made banner `.bin` files you can download and edit, or use as-is, if you'd like to skip making your own banner.
+
+To edit one of these banners, upload the `.bin` file to [Banner Maker](https://tasken.github.io/banner-maker/){target="_blank"}. It will load the banner's icon and text, which you can then change before downloading the new `banner.bin`.
 
 <div class="grid cards" markdown>
 

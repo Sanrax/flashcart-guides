@@ -173,6 +173,10 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
     [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
     [TwilightBoxart :octicons-arrow-right-16:](https://twilightboxart.com/){ .md-button }
+    
+    To create your own custom covers for Pico-Launcher, check out the cover creator. Save each cover in the `_pico/covers/user` folder on your SD card, named after its ROM file plus `.bmp` (for example, `MyGame.nds.bmp`).
+    
+    [Cover Creator :octicons-arrow-right-16:](https://tasken.github.io/banner-maker/#cover){ .md-button }
 
     **Themes**
 

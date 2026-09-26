@@ -31,7 +31,7 @@ title: N-Card & Clones
     1. Insert the N-Card into your DSi/3DS and power it on. Format your N-Card by holding Start + Select while booting the card on your DS. If available, perform a "Full Format". If this option is not available, perform a "Quick Format". Then power off your DSi/3DS.
     1. Download the [N-Card uDisk v1.45 package](https://archive.flashcarts.net/N-Card/N-Card_FW_2.55_v27.zip)
     1. Make a folder called `NCard` on your DSi/3DS SD card, then open/extract the zip file, and copy *the contents* into the the `NCard` folder on your DSi/3DS SD card.
-    1. Boot up your DSi/3DS and go into GodMode9i from your chosen menu.
+    1. Boot up your DSi/3DS and go into GodMode9i from your chosen menu and go to the `[sd:]` option.
     1. Go into the `NCard` folder and press the L Shoulder button on `xmenu.dat` and `autorun1.nds` to select them.
     1. Press the Y button to add them to the clipboard.
     1. Press B twice to go back to the main menu, and go to the `[fat:]` option.

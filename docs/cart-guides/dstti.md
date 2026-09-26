@@ -146,9 +146,13 @@ title: DSTT/i & Clones
         
         **Themes**
         
-        Looking to customize your DSpico interface? Check out the AKMenu themes repository:
-        
-        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu themes repository:
+    
+        [AKMenu-Next Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
+
+        AKMenu-Next is also backwards compatible with Acekard/Wood R4 themes, you can find them here:
+
+        [Acekard/Wood R4 Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
 === "YSMenu"
 

@@ -47,9 +47,23 @@ title: Galaxy Eagle Pro
 
     1. Press `Start` and go to `Settings`. Find `Other Settings` by pressing the R shoulder button to cycle through the settings and change `Game Loader` to `nds-bootstrap` and Save.
 
-    !!! tip "Themes"
+    !!! tip "Post-Setup Enhancements"
 
-        Looking to change the default theme? Check out the themes repository at [themes.flashcarts.net](https://themes.flashcarts.net)!
+        **Plugins**
+        
+        To emulate retro consoles like GBA, GB/C, NES, and others or to play media such as videos, you will need to add plugins to AKMenu-Next:
+        
+        [Plugins Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/plugins/#__tabbed_1_1){ .md-button }
+        
+        **Themes**
+        
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu themes repository:
+    
+        [AKMenu-Next Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
+
+        AKMenu-Next is also backwards compatible with Acekard/Wood R4 themes, you can find them here:
+
+        [Acekard/Wood R4 Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
 === "GEi Pro v5.1"
 

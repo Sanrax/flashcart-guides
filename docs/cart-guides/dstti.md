@@ -71,6 +71,7 @@ title: DSTT/i & Clones
         
         [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
         [TwilightBoxart :octicons-arrow-right-16:](https://twilightboxart.com/){ .md-button }
+        [PicoDex :octicons-arrow-right-16:](https://rasalopa.github.io/picodex/){ .md-button }
         
         To create your own custom covers for Pico-Launcher, check out the cover creator. Save each cover in the `_pico/covers/user` folder on your SD card, named after its ROM file plus `.bmp` (for example, `MyGame.nds.bmp`).
         
@@ -150,9 +151,13 @@ title: DSTT/i & Clones
         
         **Themes**
         
-        Looking to customize your DSpico interface? Check out the AKMenu themes repository:
-        
-        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu themes repository:
+    
+        [AKMenu-Next Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
+
+        AKMenu-Next is also backwards compatible with Acekard/Wood R4 themes, you can find them here:
+
+        [Acekard/Wood R4 Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
 === "YSMenu"
 

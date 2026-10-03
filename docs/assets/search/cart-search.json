@@ -459,6 +459,15 @@
       "matches": [
         "supercard.sc"
       ]
+    },
+    "edge": {
+      "title": "EDGE",
+      "subtitle": "edge-ds.cn",
+      "url": "cart-guides/edge",
+      "rank": 1,
+      "matches": [
+        "edge-ds.cn"
+      ]
     }
   }
 }

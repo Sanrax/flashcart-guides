@@ -111,4 +111,4 @@
         
         To create your own custom themes for Pico-Launcher, check out the themes creator:
         
-        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }s
+        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }

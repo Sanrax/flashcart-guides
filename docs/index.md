@@ -154,6 +154,10 @@ Note that some manufacturers can have many hardware variants. If multiple result
 - [**R4iSDHC RTS Black**](cart-guides/rts_black.md "<img src="images/rts_black.jpg" alt="M3 DS Real" width="100">") - r4isdhc.com
 - [**R4i SDHC RTS**](cart-guides/r4rts.md "<img src="images/r4rts.jpg" alt="M3 DS Real" width="100">") - r4rts.com
 
+### CycloDS Family
+
+- [**EDGE**](cart-guides/edge.md "<img src="images/EDGE.png" alt="EDGE" width="100">") - edge-ds.cn
+
 ### Other Flashcarts
 
 - [**Stargate 3DS**](cart-guides/stargate.md "<img src="images/stargate.jpg" alt="Stargate 3DS" width="100">") - stargate-3ds.com

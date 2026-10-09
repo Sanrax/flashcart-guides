@@ -153,7 +153,7 @@ title: DSTTi DEMON-HW Carts
 
         **Themes**
         
-        Looking to customize your DSpico interface? Check out the AKMenu themes repository:
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu themes repository:
         
         [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 

@@ -188,55 +188,68 @@ title: Setting Up Emulators on Pico-Launcher
 
 === "SNES"
 
-    !!! warning "Not ARGV Compatible"
+    !!! note
 
-        Unlike other emulators on this page, SNEmulDS is currently not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch SNEmulDS from Pico-Launcher's menu first before selecting a ROM file to play.
+        Coto's 0.6d fork of SNEmulDS supports argv, but it's a non-standard version of it specific to Coto's toolchain, TGDS. A shim is therefore required to translate Pico-Launcher's argv calls to TGDS format argv calls. The shim also patches issues that occur when running the DSi mode binary on a DSpico in DSi mode, by forcing DSpico DLDI to be used instead of console SD.
 
-    === "SNEmulDS 0.6a"
+        0.6d includes some extra fixes for games like Mega Man, but can also introduce regressions, so the shim supports loading original 0.6a SNEmulDS as a fallback. See [Coto's README](https://github.com/cotodevel/snemulds/blob/master/README.md) for more info on the 0.6d fork and its features.
 
-        !!! warning
+    !!! warning
         
-            SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
-    
-        1. Download the [SNEmulDS 0.6a zip file.](../assets/snemulds_0.6a.zip)
-        
-        1. Create an `Emulators` folder on your SD card root.
-        
-        1. Open/extract `snemulds_0.6a.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
-        
-        1. Copy `snemul.cfg` to your SD card root, then open the file with Notepad. Change the `ROMPath = /SNES` line to `ROMPath = /ROMs/SNES`, and save the file.
-        
-        1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
-        
-        1. Place the SD card back into your cart, and boot into the menu.
-        
-        1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
-    
-    === "SNEmulDS 0.6d"
+        SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
 
-        !!! note
+    1. Download the [SNEmulDS 0.6d & 0.6a package](../assets/SNEmulDS%200.6d%200.6a%20TWL-NTR.zip).
 
-            This is Coto's fork of SNEmulDS. It's more up to date and has some compatibility fixes for games and aims to fix bugs. However, it can also have some regressions in the overall user experience, so 0.6a is also available for download in the other tab. Try both and choose which one you like best.
+    1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
 
-            See [Coto's README](https://github.com/cotodevel/snemulds/blob/master/README.md) for more info on this fork.
-        
-        !!! warning
-        
-            SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
-    
-        1. Download the [SNEmulDS 0.6d zip file.](../assets/SNEmulDS-0.6d-NTR-TGDS1.65.zip)
-        
-        1. Create an `Emulators` folder on your SD card root.
-        
-        1. Open/extract `SNEmulDS-0.6d-NTR-TGDS1.65.zip`, and locate `SNEmulDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
-        
-        1. From the extracted files, copy `snemul.cfg` to your SD card root.
-        
-        1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
-        
-        1. Place the SD card back into your cart, and boot into the menu.
-        
-        1. To play SNES games, navigate to the `Emulators` folder, launch `SNEmulDS.nds`, and select a SNES ROM in the menu.
+    1. Open/extract `SNEmulDS 0.6d 0.6a TWL-NTR.zip`, then copy all three files inside it to the `emulators` folder.
+
+    1. Download the latest release of [SNEmulDS-Shim](https://github.com/Sanrax/snemulds-shim/releases/latest/download/snemulds-shim.nds), then place it in the `emulators` folder.
+
+    1. Download the [shim configuration file](https://github.com/Sanrax/snemulds-shim/releases/latest/download/snemulds-shim.ini) and place it in the `emulators` folder as well.
+
+    1. SNEmulDS 0.6d generates a default `snemul.cfg` when it is launched, so no CFG is needed on initial setup.
+
+    1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+        - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+
+    1. Add (copy/paste) these SFC and SMC association keys into the `fileAssociations` key in `settings.json`:
+        ``` json
+            "sfc": {
+              "appPath": "/_pico/emulators/snemulds-shim.nds"
+            },
+            "smc": {
+              "appPath": "/_pico/emulators/snemulds-shim.nds"
+            }
+        ```
+
+        !!! tip "Adding Keys to `fileAssociations`"
+
+            Here's a demonstration of how to add keys to the `fileAssociations` key:
+
+            ![settings.json](../images/Pico-Associations.gif)
+
+            !!! note
+
+                If you choose to use multiple emulators in this guide, you will need to separate your file association keys using a comma:
+            
+                ``` json
+                "abc": {
+                  "appPath": "/path/to/program.nds"
+                },// (1)!
+                "xyz": {
+                  "appPath": "/path/to/app.nds"
+                }
+                ```
+
+                1. This comma separates the `abc` key from the `xyz` key in this example.
+
+    1. On your SD card root, create a `ROMs` folder, and then create a `SNES` folder inside it. Place your `.sfc` or `.smc` game ROMs inside.
+
+    1. Place the SD card back into your cart, and boot into the menu.
+
+    1. To play SNES games, navigate to the `SNES` folder in `ROMs`, then select a SNES ROM to play.
+        - The shim will be launched. The default top option in the list is usually a good choice, but you can also force DS mode on DSi mode, or use the legacy 0.6a emulator. You can also turn on autoboot in Auto mode to automatically launch 0.6d SRL/NDS and skip the shim menu in the future.
 
 === "NES"
 

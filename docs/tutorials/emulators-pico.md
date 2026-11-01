@@ -482,14 +482,17 @@ title: Setting Up Emulators on Pico-Launcher
                 },
                 "smd": {
                   "appPath": "/_pico/emulators/jEnesisDSPlus.nds"
-                },
-                "md": {
-                  "appPath": "/_pico/emulators/jEnesisDSPlus.nds"
                 }
             ```
             - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
         
-        1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your `.md`, `.gen`, or `.smd` game ROMs inside.
+        1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your `.gen` or `.smd` game ROMs inside.
+
+            !!! warning "Supported File Types"
+    
+                jEnesisDS **requires** ROMs to be in `.gen` or `.smd` format to be recognized in the file browser. If you have `.md` ROMs, rename them to `.gen` or `.smd` before placing them on your SD card.
+
+                You can find a batch script <a href="../../assets/rename_md.bat" download>here</a> to rename all your `.md` files quickly. Place `rename_md.bat` in the same folder as your `.md` ROMs, then double click on it to run the script. It will ask whether to rename your files to `.gen` or `.bin`. After you make a choice, all `.md` files in the folder will be renamed to the target extension.
         
         1. Place the SD card back into your cart, and boot into Pico-Launcher.
         

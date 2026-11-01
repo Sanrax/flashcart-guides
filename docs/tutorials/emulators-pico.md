@@ -253,6 +253,10 @@ title: Setting Up Emulators on Pico-Launcher
 
 === "NES"
 
+    !!! warning
+
+        Due to a bug, when ruuning in DSi mode, NesDS requires an SD card to be inserted into the DSi or 3DS console being used. It does not need to have any specific files on it, it just needs to exist in the console. Otherwise, NesDS will crash since it expects a console SD to be present in DSi mode.
+
     1. Download the [NesDS NDS file.](https://github.com/DS-Homebrew/NesDS/releases/latest/download/nesDS.nds)
     
     1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.

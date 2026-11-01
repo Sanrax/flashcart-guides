@@ -459,10 +459,41 @@ title: Setting Up Emulators on Pico-Launcher
 ### Sega Consoles
 
 === "Sega Genesis/MegaDrive"
-    
-    !!! info "PicoDriveTWL vs jEnesisDS"
 
-        PicoDriveTWL is a port of the PicoDrive emulator to DS hardware. It supports argv, so it can launch roms directly from the pico-launcher menu without having to launch the emulator directly first. PicoDrive is a more accurate emulator, but generally a bit slower than jEnesisDS. If you feel like a game is slightly choppy on PicoDriveTWL, you may want to fall back to using jEnesisDS instead.
+    !!! info "jEnesisDSPlus vs PicoDriveTWL"
+
+        PicoDriveTWL is a port of the PicoDrive emulator to DS hardware. PicoDriveTWL is a more accurate emulator, but generally a bit slower than jEnesisDS. If you feel like a game is choppy on PicoDriveTWL, you may want to switch to using jEnesisDSPlus instead.
+
+    === "jEnesisDSPlus"
+
+        1. Download the [jEnesisDSPlus NDS file.](https://github.com/DS-Homebrew/jEnesisDSPlus/releases/latest/download/jEnesisDSPlus.nds)
+    
+        1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
+        
+        1. Copy `jEnesisDSPlus.nds` to the `emulators` folder.
+    
+        1. A `settings.json` file should be present in the `_pico` folder. Open it with a text editor such as Notepad.
+            - If you can't find a `settings.json` inside `_pico`, you have not started up pico-launcher before, and will need to do so first.
+        
+        1. Add (copy/paste) these MegaDrive/Genesis association keys into the `fileAssociations` key in `settings.json`:
+            ``` json
+                "gen": {
+                  "appPath": "/_pico/emulators/jEnesisDSPlus.nds"
+                },
+                "smd": {
+                  "appPath": "/_pico/emulators/jEnesisDSPlus.nds"
+                },
+                "md": {
+                  "appPath": "/_pico/emulators/jEnesisDSPlus.nds"
+                }
+            ```
+            - See the [GBA section](./emulators-pico.md/#__tabbed_2_1) for a demonstration of how to add keys if you are confused.
+        
+        1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your `.md`, `.gen`, or `.smd` game ROMs inside.
+        
+        1. Place the SD card back into your cart, and boot into Pico-Launcher.
+        
+        1. To play Sega Genesis games, navigate to `/ROMs/Genesis`, then select a ROM.
 
     === "PicoDriveTWL"
 
@@ -494,30 +525,6 @@ title: Setting Up Emulators on Pico-Launcher
         1. Place the SD card back into your cart, and boot into Pico-Launcher.
         
         1. To play Sega Genesis games, navigate to `/ROMs/Genesis`, then select a ROM.
-
-    === "jEnesisDS"
-
-        !!! warning "Not ARGV Compatible"
-
-            Unlike other emulators on this page, jEnesisDS is not able to be launched with argv from Pico-Launcher. Therefore, you will have to manually launch jEnesisDS from Pico-Launcher's menu first before selecting a ROM file to play.
-        
-        1. Download the [jEnesisDS zip file.](../assets/jenesisds_0.7.4.zip)
-        
-        1. Create an `Emulators` folder on your SD card root.
-        
-        1. Open/extract `jenesisds_0.7.4.zip`, and locate `jEnesisDS.nds` inside. Copy this file to the `Emulators` folder on your SD card.
-        
-        1. On your SD card root, create a `ROMs` folder, and then create a `Genesis` folder inside it. Place your Genesis game ROMs inside.
-    
-            !!! warning "Supported File Types"
-    
-                jEnesisDS **requires** ROMs to be in `.gen`, `.bin`, or `.smd` format to be recognized in the file browser. If you have `.md` ROMs, rename them to `.gen` or `.bin` before placing them on your SD card.
-
-                You can find a batch script <a href="../../assets/rename_md.bat" download>here</a> to rename all your `.md` files quickly. Place `rename_md.bat` in the same folder as your `.md` ROMs, then double click on it to run the script. It will ask whether to rename your files to `.gen` or `.bin`. After you make a choice, all `.md` files in the folder will be renamed to the target extension.
-        
-        1. Place the SD card back into your cart, and boot into the menu.
-        
-        1. To play Sega Genesis games, navigate to the `Emulators` folder, launch `jEnesisDS.nds`, and select a ROM in the menu.
 
 === "Sega Master System & Sega Game Gear"
 

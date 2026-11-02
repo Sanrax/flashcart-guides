@@ -8,7 +8,7 @@ title: Galaxy Eagle
 
 !!! info
 
-    The Galaxy Eagle is a clone of the Acekard 2i. Unfortunately, it's not a very good clone, and neither AKAIO nor BL2CK work properly on it. While BL2CK boots, it will freeze on a white screen when attempting to load any commercial ROM file. Therefore, AKMenu-Next is the recommended primary kernel for it, so that nds-bootstrap can be used to load games. As an alternative option, the stock kernel is also provided, but it will likely be able to run less games than AKMenu-Next.
+    The Galaxy Eagle is a clone of the Acekard 2i. Unfortunately, it's not a very good clone, and neither AKAIO nor BL2CK work properly on it. While BL2CK boots, it will freeze on a white screen when attempting to load any commercial ROM file. Therefore, AKMenu-Next or TWiLight Menu++ is the recommended primary kernel for it, so that nds-bootstrap can be used to load games. As an alternative option, the stock kernel is also provided, but it will likely be able to run less games than AKMenu-Next or TWiLight Menu++.
 
 ### Setup Guide:
 
@@ -74,6 +74,54 @@ title: Galaxy Eagle
         AKMenu-Next is also backwards compatible with Acekard/Wood R4 themes, you can find them here:
 
         [Acekard/Wood R4 Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
+
+=== "TWiLight Menu++"
+
+    !!! note "Kernel Info"
+
+        TWiLight Menu++ is an alternative kernel that uses its built-in nds-bootstrap to load games. It features a Nintendo DSi style interface and it has rich customisation features. It does however take longer to start up compared to other menus such as AKMenu-Next.
+
+    1. Download the latest release of [TWiLight Menu++ Flashcard Edition](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z).
+
+    1. Extract the downloaded `TWiLightMenu-Flashcard.7z` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the TWiLight files, copy the following files/folders to your SD card root:
+
+        - `_nds` folder
+        - `roms` folder
+        - `BOOT.NDS`
+
+    1. Open the `Autoboot` folder, then open the `Galaxy Eagle` folder and copy its contents to your SD card root.
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/TWiLightmenu/extras/` on your SD card.
+
+    1. Place any `.nds` game ROMs you'd like to play into `/roms/nds` on your SD card.
+
+    1. Insert the SD card back into your cart, plug the cart into your DS, and boot into TWiLight Menu++.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Plugins**
+
+        While GBA game support is already included in TWiLight Menu++, To emulate retro consoles like GB/C, NES, and others or to play media such as videos, you will need to install addons to TWiLight Menu++:
+
+        [Addons Tutorial :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/installing-addons?tab=manual){ .md-button }
+
+        **Game Covers**
+
+        TWiLight Menu++ supports showing game box art. DS-Homebrew details multiple options to download and install covers for your games.
+
+        [TWiLight Menu++ box art :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/how-to-get-box-art){ .md-button }
+
+        **Themes**
+
+        Looking to customize your TWiLight Menu++ interface? Check out the DS-Homebrew themes repository:
+
+        [Themes Repository :octicons-arrow-right-16:](https://skins.ds-homebrew.com/){ .md-button }
+
+        [Theme installation instructions :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-install-custom-themes-for-twilight-menu){ .md-button }
 
 === "Stock GEi v4.2"
 

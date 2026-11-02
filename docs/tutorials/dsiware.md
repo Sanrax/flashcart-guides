@@ -282,3 +282,98 @@ title: Running DSiWare On Flashcarts
         !!! tip "Unhiding Files"
 
             You can later unhide files and folder you've previously hidden by using the `chflags nohidden` command. Simply follow this guide again, but use `chflags nohidden` instead of `chflags hidden`.
+
+=== "DSpico with TWiLight Menu++"
+
+    !!! info "Console Compatibility"
+
+        This only works if your DSpico is running on a DSi or 3DS system. It will not load DSiWare on the Original NDS or DS Lite, since those consoles are missing the upgraded DSi hardware for running DSi-mode apps.
+
+    1. Download the [DSpico BIOS and NAND dumper utility.](https://files.deletecat.com/projects/pico_file_dump/current/pico_file_dump.nds)
+
+    1. Place `pico_file_dump.nds` on your DSpico's SD card root.
+
+    1. Create a `DSiWare` folder on your SD card root, and place any DSiWare ROMs you'd like to play inside.
+
+        !!! note "DSiWare File Types"
+
+            If your DSiWare dump is a file with no file extension, you can change the filename and add `.nds` to the end to get TWiLight Menu++ to pick it up.
+
+    1. Eject the SD card, insert it back into your DSpico, then boot into the cart.
+
+    1. In TWiLight Menu++, navigate to and launch `pico_file_dump.nds`. Dumping will begin.
+
+    1. Once all files have been dumped, press the power button to turn off the system.
+
+    1. DSiWare and encrypted DS ROMs can now be played! Navigate to the `DSiWare` folder and launch a game to play.
+
+    **Optional Filesystem Cleanup**
+
+    If you don't like the folder clutter caused by copying all the NAND files to the DSpico SD card, you can hide them from the menu by setting the hidden attribute on any files or folders you want hidden.
+
+    Choose the tab for your operating system below. Linux instructions will be added later, but it is possible to hide files and folders on Linux as well, with different steps.
+
+    === "Windows"
+
+        1. Navigate to the SD card root on your PC's file explorer.
+
+        1. While holding the ++ctrl++ key, click on any folders you would like to hide from TWiLight Menu++'s file list. The following files and folders are recommended to be hidden:
+            - `_pico` folder
+            - `photo` folder
+            - `shared1` folder
+            - `shared2` folder
+            - `sys` folder
+            - `_picoboot.nds`
+            - `boot.nds`
+
+        1. After selecting the last file, release the ++ctrl++ key, then right click on one of the selected files. In the right click menu, select `Properties`.
+
+        1. A properties window will open. Under the `Attributes` section, check the `Hidden` box, then press `OK`.
+
+        1. A pop-up window will appear asking to confirm changes. Choose "Apply changes to the selected items, subfolders, and files", then press `OK`.
+
+        1. The selected files should disappear from the file manager. This is normal. You can view them again by enabling "Show hidden files" in File Explorer's "Folder Options" menu.
+
+            :   ![Folder Options](../images/folder_options.png){width="300"}
+
+        1. Since the BIOS and NAND files have already been dumped, `pico_file_dump.nds` is no longer necessary and can be deleted from the SD card root.
+
+        1. Insert the SD card back into your DSpico and boot into TWiLight Menu++. The hidden files should no longer show up in the menu list, but DSiWare will still work!
+
+    === "MacOS"
+
+        The `chflags` command-line tool can be used to set the FAT32 hidden attribute on files and folders.
+
+        1. Insert the SD card into your Mac. It will mount under `/Volumes/`, named after the card's label. `/Volumes/PICO` is the SD card's label in the example below.
+
+        1. Open Finder, and navigate to your SD card.
+
+        1. Open the Terminal app (press ++cmd+space++, type `Terminal`, then press ++return++).
+
+        1. Type `chflags hidden⠀` (with the trailing space) in Terminal, but do not press ++return++ yet.
+
+        1. Go back to your Finder window. While holding the ++cmd++ key, click on any folders you would like to hide from TWiLight Menu++'s file list. The following files and folders are recommended to be hidden:
+            - `_pico` folder
+            - `photo` folder
+            - `shared1` folder
+            - `shared2` folder
+            - `sys` folder
+            - `_picoboot.nds`
+            - `boot.nds`
+
+        1. After you've selected all files and folders you'd like to hide, release ++cmd++, and then drag the selected folders into the Terminal window. Filepaths for each folder you selected will be automatically filled into the terminal.
+
+        1. Press ++return++ in Terminal to run the command and apply the hidden attribute to your selected files and folders.
+
+        1. To confirm your changes applied, run `ls -lO /Volumes/PICO` and look for the word `hidden` next to each file or folder you selected.
+            - If you're not sure what path your SD card is mounted at, look at the paths in the earlier `chflags` command in your terminal. The part after `/Volumes/` is your SD card's label.
+
+            :   ![MacOS Hidden Files](../images/MacOS_Hidden_Files.png)
+
+        1. Since the BIOS and NAND files have already been dumped, `pico_file_dump.nds` is no longer necessary and can be deleted from the SD card root.
+
+        1. Insert the SD card back into your DSpico and boot into TWiLight Menu++. The hidden files should no longer show up in the menu list, but DSiWare will still work!
+
+        !!! tip "Unhiding Files"
+
+            You can later unhide files and folder you've previously hidden by using the `chflags nohidden` command. Simply follow this guide again, but use `chflags nohidden` instead of `chflags hidden`.

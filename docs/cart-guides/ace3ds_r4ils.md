@@ -151,6 +151,74 @@ title: Ace3DS+/X & R4iLS
 
         [Acekard/Wood R4 Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
 
+=== "TWiLight Menu++"
+
+    !!! note "Kernel Info"
+
+        TWiLight Menu++ is an alternative kernel that can load DS games with Pico-Loader or nds-bootstrap. It features a Nintendo DSi style interface and it has rich customisation features. It does however take longer to start up compared to other menus such as AKMenu-Next or Pico-Launcher.
+
+    ??? warning "Soft-Reset Not Supported for Pico-Loader"
+
+        Note that Pico-Loader inside TWiLight Menu++ currently does not support soft-resetting to the game menu. If this is important to you, consider using WoodR4 or AceOS, or using the nds-bootstrap loader within TWiLight Menu++.
+
+    1. Download the latest release of [TWiLight Menu++ Flashcard Edition](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z).
+
+    1. Extract the downloaded `TWiLightMenu-Flashcard.7z` file with [7-Zip](https://www.7-zip.org/).
+
+    1. From within the TWiLight files, copy the following files/folders to your SD card root:
+
+        - `_nds` folder
+        - `roms` folder
+        - `BOOT.NDS`
+
+    1. Open the `Autoboot` folder, then open the `Ace3DS+` folder and copy its contents to your SD card root.
+
+    1. Download the latest release of [Pico-Loader for Ace3DS](https://github.com/LNH-team/pico-loader/releases/latest/download/Pico_Loader_ACE3DS.zip).
+
+    1. Extract the downloaded `Pico_Loader_ACE3DS.zip` file with [7-Zip](https://www.7-zip.org/).
+
+    1. Create a folder on the SD card root called `_pico` if it does not already exist. Copy the `.bin` files from the extracted Pico-Loader files into the `_pico` folder on your SD card root.
+
+    1. If you'd like to be able to use cheats on your games, download a [cheat database.](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711)
+
+    1. You will need the `usrcheat.dat` file from the download link in the post. Copy this file to `_nds/TWiLightmenu/extras/` on your SD card.
+
+    1. Place any `.nds` game ROMs you'd like to play into `/roms/nds` on your SD card.
+
+    1. Insert the SD card back into your cart, plug the cart into your DS, and boot into TWiLight Menu++.
+
+    1. Open TWiLight Menu++ DS Classic Menu by pressing `SELECT` and then pressing the settings icon on the bottom to enter TWiLight Menu++ settings, go to the `Games and Apps settings` page, and set `Game Loader` to `pico`.
+
+    ??? info "nds-bootstrap (Alternative Game Loader)"
+
+        If you would prefer to use nds-bootstrap, TWiLight Menu++ includes nds-bootstrap, so no additional files are needed to use it.
+
+        1. Open TWiLight Menu++ DS Classic Menu by pressing `SELECT` and then pressing the settings icon on the bottom to enter TWiLight Menu++ settings.
+
+        1. Set `Game Loader` to `nds-bootstrap` to use it for all games. You can also press `Y` on a selected game and change its `Game Loader` setting to use nds-bootstrap only for that game.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Plugins**
+
+        While GBA game support is already included in TWiLight Menu++, To emulate retro consoles like GB/C, NES, and others or to play media such as videos, you will need to install addons to TWiLight Menu++:
+
+        [Addons Tutorial :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/installing-addons?tab=manual){ .md-button }
+
+        **Game Covers**
+
+        TWiLight Menu++ supports showing game box art. DS-Homebrew details multiple options to download and install covers for your games.
+
+        [TWiLight Menu++ box art :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/how-to-get-box-art){ .md-button }
+
+        **Themes**
+
+        Looking to customize your TWiLight Menu++ interface? Check out the DS-Homebrew themes repository:
+
+        [Themes Repository :octicons-arrow-right-16:](https://skins.ds-homebrew.com/){ .md-button }
+
+        [Theme installation instructions :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-install-custom-themes-for-twilight-menu){ .md-button }
+
 === "Ace WoodR4 1.62"
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}

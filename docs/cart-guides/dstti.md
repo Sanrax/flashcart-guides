@@ -97,6 +97,8 @@ title: DSTT/i & Clones
 
         Note that Pico-Loader inside AKMenu-Next currently does not support soft-resetting to the game menu. If this is important to you, consider using YSMenu or using the nds-bootstrap loader within AKMenu-Next.
 
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
     1. Download the latest release of [AKMenu-Next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
 
     1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
@@ -178,6 +180,8 @@ title: DSTT/i & Clones
     ??? warning "Soft-Reset Not Supported for Pico-Loader"
 
         Note that Pico-Loader inside TWiLight Menu++ currently does not support soft-resetting to the game menu. If this is important to you, consider using YSMenu or using the nds-bootstrap loader within TWiLight Menu++.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
     1. Download the latest release of [TWiLight Menu++ Flashcard Edition](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z).
 

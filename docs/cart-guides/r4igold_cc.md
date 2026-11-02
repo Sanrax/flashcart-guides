@@ -14,6 +14,8 @@ title: Original R4iGold.cc
 
 === "AKMenu-Next"
 
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
+
     1. Download the latest release of [AKMenu-Next Flashcart Edition.](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-flashcart.zip)
 
     1. Extract the downloaded `akmenu-next-flashcart.zip` file with [7-Zip](https://www.7-zip.org/).
@@ -70,6 +72,8 @@ title: Original R4iGold.cc
     !!! note "Kernel Info"
 
         TWiLight Menu++ is an alternative kernel that uses its built-in nds-bootstrap to load games. It features a Nintendo DSi style interface and it has rich customisation features. It does however take longer to start up compared to other menus such as AKMenu-Next.
+
+    1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
 
     1. Download the latest release of [TWiLight Menu++ Flashcard Edition](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z).
 

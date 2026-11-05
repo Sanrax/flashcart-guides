@@ -159,41 +159,41 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
-    ### Post-Setup Enhancements
+    !!! tip "Post-Setup Enhancements"
 
-    **Emulators**
-
-    To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
-
-    [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
-
-    **Game Covers**
-
-    Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
-
-    [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
-    [TwilightBoxart :octicons-arrow-right-16:](https://twilightboxart.com/){ .md-button }
-    [PicoDex :octicons-arrow-right-16:](https://rasalopa.github.io/picodex/){ .md-button }
+        **Emulators**
     
-    To create your own custom covers for Pico-Launcher, check out the cover creator. Save each cover in the `_pico/covers/user` folder on your SD card, named after its ROM file plus `.bmp` (for example, `MyGame.nds.bmp`).
+        To emulate retro consoles like GBA, GB/C, NES, and others, you will need to add emulators and configure their file associations for Pico-Launcher to display retro ROMs in the menu.
     
-    [Cover Creator :octicons-arrow-right-16:](https://tasken.github.io/banner-maker/#cover){ .md-button }
-
-    **Themes**
-
-    Looking to customize your DSpico interface? Check out the Pico themes repository:
-
-    [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
-
-    To create your own custom themes for Pico-Launcher, check out the themes creator:
-
-    [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
-
-    **DSiWare & Encrypted ROMs**
-
-    Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
-
-    [DSiWare Tutorial :octicons-arrow-right-16:](../tutorials/dsiware.md#__tabbed_1_3){ .md-button }
+        [Emulators Tutorial :octicons-arrow-right-16:](../tutorials/emulators-pico.md){ .md-button }
+    
+        **Game Covers**
+    
+        Pico-Launcher supports showing game covers in cover flow layout mode, and on the top screen in icons mode. You will need to add cover images to your SD card to use this feature.
+    
+        [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+        [TwilightBoxart :octicons-arrow-right-16:](https://twilightboxart.com/){ .md-button }
+        [PicoDex :octicons-arrow-right-16:](https://rasalopa.github.io/picodex/){ .md-button }
+        
+        To create your own custom covers for Pico-Launcher, check out the cover creator. Save each cover in the `_pico/covers/user` folder on your SD card, named after its ROM file plus `.bmp` (for example, `MyGame.nds.bmp`).
+        
+        [Cover Creator :octicons-arrow-right-16:](https://tasken.github.io/banner-maker/#cover){ .md-button }
+    
+        **Themes**
+    
+        Looking to customize your DSpico interface? Check out the Pico themes repository:
+    
+        [Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/pico/){ .md-button }
+    
+        To create your own custom themes for Pico-Launcher, check out the themes creator:
+    
+        [Themes Creator :octicons-arrow-right-16:](https://santiagovalencia109.github.io/pl-Theme-Creator/){ .md-button }
+    
+        **DSiWare & Encrypted ROMs**
+    
+        Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
+    
+        [DSiWare Tutorial :octicons-arrow-right-16:](../tutorials/dsiware.md#__tabbed_1_3){ .md-button }
 
 === "AKMenu-Next"
 
@@ -246,39 +246,39 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
         1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `Other Settings` tab and change the `Game Loader` to `nds-bootstrap`.    
 
-    ### Post-Setup Enhancements
+    !!! tip "Post-Setup Enhancements"
 
-    **Plugins**
-        
-    To emulate retro consoles like GBA, GB/C, NES, and others or to play media such as videos, you will need to add plugins to AKMenu-Next:
-        
-    [Plugins Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/plugins/#__tabbed_1_1){ .md-button }
-        
-    **Game Covers**
-
-    AKMenu-Next can show game covers on the top screen. To use them, select one of the included cover themes: `Blue Skies Game Covers`, `DSpico Game Covers` or `Starlight Covers`. Then add cover images to your SD card. Covers made for Pico-Launcher work too.
-
-    [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
-
-    To create your own custom covers, check out the cover creator. Save each cover in the `_nds/covers_name` folder on your SD card, named after its ROM file without `.nds` (for example, `MyGame.bmp`).
-
-    [Cover Creator :octicons-arrow-right-16:](https://tasken.github.io/banner-maker/#cover-akmenu){ .md-button }
-
-    **Themes**
-        
-    Looking to customize your AKMenu-Next interface? Check out the AKMenu themes repository:
+        **Plugins**
+            
+        To emulate retro consoles like GBA, GB/C, NES, and others or to play media such as videos, you will need to add plugins to AKMenu-Next:
+            
+        [Plugins Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/plugins/#__tabbed_1_1){ .md-button }
+            
+        **Game Covers**
     
-    [AKMenu-Next Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
-
-    AKMenu-Next is also backwards compatible with Acekard/Wood R4 themes, you can find them here:
-
-    [Acekard/Wood R4 Themes Repository :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
-
-    **DSiWare & Encrypted ROMs**
-
-    Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
-
-    [DSiWare Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/dsiware/){ .md-button }
+        AKMenu-Next can show game covers on the top screen. To use them, select one of the included cover themes: `Blue Skies Game Covers`, `DSpico Game Covers` or `Starlight Covers`. Then add cover images to your SD card. Covers made for Pico-Launcher work too.
+    
+        [PicoCover :octicons-arrow-right-16:](https://scaletta.github.io/PicoCover/){ .md-button }
+    
+        To create your own custom covers, check out the cover creator. Save each cover in the `_nds/covers_name` folder on your SD card, named after its ROM file without `.nds` (for example, `MyGame.bmp`).
+    
+        [Cover Creator :octicons-arrow-right-16:](https://tasken.github.io/banner-maker/#cover-akmenu){ .md-button }
+    
+        **Themes**
+            
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu-Next theme repository:
+        
+        [AKMenu-Next Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
+    
+        AKMenu-Next is also backwards compatible with legacy AKMenu themes:
+    
+        [AKMenu/WoodR4 Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
+    
+        **DSiWare & Encrypted ROMs**
+    
+        Since the DSpico is a DSi-mode cart, it supports running DSiWare and DSi-enhanced games on DSi/3DS consoles. To play DSiWare and encrypted ROMs, extra BIOS and NAND files are required.
+    
+        [DSiWare Tutorial :octicons-arrow-right-16:](https://coderkei.github.io/akmenu-next-docs/guides/dsiware/){ .md-button }
 
 === "TWiLight Menu++"
 
@@ -350,7 +350,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
         [Themes Repository :octicons-arrow-right-16:](https://skins.ds-homebrew.com/){ .md-button }
 
-        [Theme installation instructions :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-install-custom-themes-for-twilight-menu){ .md-button }
+        [Theme Installation Instructions :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-install-custom-themes-for-twilight-menu){ .md-button }
 
         **DSiWare & Encrypted ROMs**
 

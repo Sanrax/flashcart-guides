@@ -143,7 +143,7 @@ title: DSTT/i & Clones
 
         1. Copy the contents of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
-        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `Other Settings` tab and change the `Game Loader` to `nds-bootstrap`.
+        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `Game Loader` tab and change the `Game Loader` to `nds-bootstrap`.
 
     !!! tip "Post-Setup Enhancements"
 

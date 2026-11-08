@@ -111,6 +111,8 @@ title: Gateway Blue
 
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+    1. Boot AKMenu-Next, press `START` and go to `Settings`. In the `Game loader settings` tab, change `Game Loader` to `Pico-Loader`, then press `A` and confirm to save.
+
     ??? info "nds-bootstrap installation (Optional)"
 
         1. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip).

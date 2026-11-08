@@ -468,6 +468,15 @@
       "matches": [
         "edge-ds.cn"
       ]
+    },
+    "cyclods": {
+      "title": "CycloDS Evolution",
+      "subtitle": "cyclopsds.com",
+      "url": "cart-guides/cyclods",
+      "rank": 1,
+      "matches": [
+        "cyclopsds.com"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
 title: EDGE
 ---
 
-![N5](../images/EDGE.png){ align=right width="115"}
+![EDGE](../images/EDGE.png){ align=right width="115"}
 # EDGE
 ## edge-ds.cn
 
@@ -46,7 +46,7 @@ title: EDGE
     
     1. Download the latest release of [nds-bootstrap.](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
 
-    1. Extract the `nds-bootstrap.zip`, and copy *the contents* into the `_nds` folder on your SD card.
+    1. Extract `nds-bootstrap.zip`, and copy *the contents* into the `_nds` folder on your SD card.
 
     1. AKMenu-Next/nds-bootstrap also supports cheats. Open the [cheats database thread](https://gbatemp.net/threads/deadskullzjrs-nds-i-cheat-databases.488711){target="_blank"} again.
     
@@ -84,12 +84,12 @@ title: EDGE
 
         **Themes**
         
-        Looking to customize AKMenu-Next? Check out the AKMenu and AKNext themes repositories:
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu and AKNext themes repositories:
         
         [AKMenu Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
         [AKMenu-Next Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
 
-=== "EDGE OS + TWiLightMenu++"
+=== "EDGE OS + TWiLight Menu++"
 
     1. Format the SD card you are using by following the [formatting tutorial.](../tutorials/formatting.md){target="_blank"}
     
@@ -122,3 +122,25 @@ title: EDGE
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into EDGE OS menu.
     
     1. To use TWiLight Menu++, launch `BOOT.NDS` in the menu.
+
+    !!! tip "Post-Setup Enhancements"
+
+        **Plugins**
+
+        While GBA game support is already included in TWiLight Menu++, to emulate retro consoles like GB/C, NES, and others or to play media such as videos, you will need to install addons to TWiLight Menu++:
+
+        [Addons Tutorial :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/installing-addons?tab=manual){ .md-button }
+
+        **Game Covers**
+
+        TWiLight Menu++ supports showing game box art. DS-Homebrew details multiple options to download and install covers for your games.
+
+        [TWiLight Menu++ Box Art :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/how-to-get-box-art){ .md-button }
+
+        **Themes**
+
+        Looking to customize your TWiLight Menu++ interface? Check out the DS-Homebrew themes repository:
+
+        [Themes Repository :octicons-arrow-right-16:](https://skins.ds-homebrew.com/){ .md-button }
+
+        [Theme Installation Instructions :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-install-custom-themes-for-twilight-menu){ .md-button }

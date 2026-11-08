@@ -266,13 +266,10 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
     
         **Themes**
             
-        Looking to customize your AKMenu-Next interface? Check out the AKMenu-Next theme repository:
+        Looking to customize your AKMenu-Next interface? Check out the AKMenu and AKNext themes repositories:
         
+        [AKMenu Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
         [AKMenu-Next Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/aknext/){ .md-button }
-    
-        AKMenu-Next is also backwards compatible with legacy AKMenu themes:
-    
-        [AKMenu/WoodR4 Themes :octicons-arrow-right-16:](https://themes.flashcarts.net/akmenu/){ .md-button }
     
         **DSiWare & Encrypted ROMs**
     
@@ -342,7 +339,7 @@ If you do not want to, or are unable to, reflash the firmware (no PC, missing US
 
         TWiLight Menu++ supports showing game box art. DS-Homebrew details multiple options to download and install covers for your games.
 
-        [TWiLight Menu++ box art :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/how-to-get-box-art){ .md-button }
+        [TWiLight Menu++ Box Art :octicons-arrow-right-16:](https://wiki.ds-homebrew.com/twilightmenu/how-to-get-box-art){ .md-button }
 
         **Themes**
 

@@ -156,6 +156,7 @@ Note that some manufacturers can have many hardware variants. If multiple result
 
 ### CycloDS Family
 
+- [**CycloDS Evolution**](cart-guides/cyclods.md "<img src="images/CycloDS.png" alt="CycloDS" width="100">") - cyclopsds.com
 - [**EDGE**](cart-guides/edge.md "<img src="images/EDGE.png" alt="EDGE" width="100">") - edge-ds.cn
 
 ### Other Flashcarts

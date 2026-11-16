@@ -198,11 +198,11 @@ title: Setting Up Emulators on Pico-Launcher
         
         SNEmulDS has fairly low game compatibility, so expect results to be hit or miss. Some games may run flawlessly, some may be buggy, and some may be completely unplayable. You can get an idea of what will work and what settings to use by checking the [compatibility list](https://wiki.gbatemp.net/wiki/SNEmulDS_Compatibility_List).
 
-    1. Download the [SNEmulDS 0.6d & 0.6a package](../assets/SNEmulDS%200.6d%200.6a%20TWL-NTR.zip).
+    1. Download the [SNEmulDS 0.6d & 0.6a package](../assets/SNEmulDS_0.6a_0.6d_Stable_DSP1_SDD1.zip).
 
     1. Navigate to the `_pico` folder on your SD card. Inside it, create an `emulators` folder.
 
-    1. Open/extract `SNEmulDS 0.6d 0.6a TWL-NTR.zip`, then copy all three files inside it to the `emulators` folder.
+    1. Open/extract `SNEmulDS_0.6a_0.6d_Stable_DSP1_SDD1.zip`, then copy all seven files inside it to the `emulators` folder.
 
     1. Download the latest release of [SNEmulDS-Shim](https://github.com/Sanrax/snemulds-shim/releases/latest/download/snemulds-shim.nds), then place it in the `emulators` folder.
 

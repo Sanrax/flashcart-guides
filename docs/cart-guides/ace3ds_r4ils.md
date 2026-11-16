@@ -113,6 +113,8 @@ title: Ace3DS+/X & R4iLS
     
     1. Insert the SD card back into your cart, plug the cart into your DS, and see if it boots into the menu.
 
+    1. Boot AKMenu-Next, press `START` and go to `Settings`. In the `Game loader settings` tab, change `Game Loader` to `Pico-Loader`, then press `A` and confirm to save.
+
     ??? info "nds-bootstrap installation (Optional)"
 
         1. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip).
@@ -121,7 +123,7 @@ title: Ace3DS+/X & R4iLS
 
         1. Copy the contents of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card.
 
-        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `Other Settings` tab and change the `Game Loader` to `nds-bootstrap`.
+        1. In AKMenu-Next, press `Start` and go to `Settings`. Go to the `Game Loader` tab and change the `Game Loader` to `nds-bootstrap`.
 
     !!! tip "Post-Setup Enhancements"
 
